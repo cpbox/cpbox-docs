@@ -29,7 +29,6 @@
 ## 实用工具
 
 * [交易所批量提币](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
-* [实时GAS查询](shi-yong-gong-ju/shi-shi-gas-cha-xun.md)
 * [Twitter监控](shi-yong-gong-ju/twitter-jian-kong.md)
 * [余额监控](shi-yong-gong-ju/yuejian-kong.md)
 * [BSC批量交易](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
@@ -43,8 +42,6 @@
 * [助记词生成私钥](qian-bao-guan-li/zhu-ji-ci-sheng-cheng-si-yao.md)
 
 ## 一键发币
-
-* [Solana 一键发币](https://app.gitbook.com/o/sRf2ntczH3OAa8bioQrA/s/DbtbXN3OqkEJ4ZUj0ujn/~/changes/38/solana-gong-ju/solana-yi-jian-fa-bi)
 
 ## 实用信息
 
