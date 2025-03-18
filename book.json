@@ -1,4 +1,8 @@
 {
-    "plugins": ["expandable-chapters"],
-    "title": "CPBox.io"
+    "plugins": ["expandable-chapters", "custom-favicon"],
+    "title": "CPBox.io",
+    "pluginsConfig": {
+        "shortcut": "./favicon.ico",
+        "favicon": "./favicon.ico"
+    }
 }
