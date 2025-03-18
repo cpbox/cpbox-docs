@@ -2,7 +2,7 @@
     "plugins": ["expandable-chapters", "custom-favicon"],
     "title": "CPBox.io",
     "pluginsConfig": {
-        "shortcut": "./favicon.ico",
-        "favicon": "./favicon.ico"
+        "favicon": "./favicon.ico",
+        "appleTouchIconPrecomposed152": "./favicon.ico"
     }
 }
