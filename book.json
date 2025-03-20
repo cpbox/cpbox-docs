@@ -1,8 +1,11 @@
 {
-    "plugins": ["expandable-chapters", "custom-favicon"],
+    "plugins": ["expandable-chapters", "custom-favicon", "sitemap"],
     "title": "CPBox.io",
     "pluginsConfig": {
         "favicon": "./favicon.ico",
-        "appleTouchIconPrecomposed152": "./favicon.ico"
+        "appleTouchIconPrecomposed152": "./favicon.ico",
+        "sitemap": {
+            "hostname": "https://docs.cpbox.io"
+        }
     }
 }
