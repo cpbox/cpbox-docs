@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🏠 CPBOX介绍](README.md)
-* [✉️ 联系我们](readme-1/README.md)
+* [✉️ 联系我们](contactus/README.md)
   * [twitter/X](https://x.com/web3cryptobox)
   * [官网](https://www.cpbox.io/)
   * [Telegram](https://t.me/cpbox)
@@ -40,8 +40,6 @@
 * [MetaMask小狐狸助手](qian-bao-guan-li/metamask-xiao-hu-li-zhu-shou.md)
 * [批量地址生成](qian-bao-guan-li/pi-liang-di-zhi-sheng-cheng.md)
 * [助记词生成私钥](qian-bao-guan-li/zhu-ji-ci-sheng-cheng-si-yao.md)
-
-## 一键发币
 
 ## 实用信息
 
