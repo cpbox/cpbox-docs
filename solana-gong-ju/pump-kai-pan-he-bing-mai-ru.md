@@ -1,5 +1,5 @@
 ---
-description: 便捷创建和管理您的Solana代币Pump交易策略
+description: 便捷创建和管理您的Solana代币Pump交易策略，消除pump狙击烦恼
 ---
 
 # Pump开盘合并买入
