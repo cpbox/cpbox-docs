@@ -1,5 +1,5 @@
 ---
-description: 便捷创建和管理您的Solana代币Pump交易策略
+description: 便捷创建和管理您的Solana代币Pump交易策略，消除pump狙击烦恼
 ---
 
 # Pump开盘合并买入
@@ -11,7 +11,7 @@ CPBOX.io的Pump开盘并买入功能是一项创新服务，专为希望在Solan
 ### 功能操作流程
 
 1. **连接钱包**：
-   * 用户需要连接Solana钱包到CPBOX.io平台
+   * 用户需要连接Solana钱包到CPBOX.io平台（建议使用Phantom钱包）
    * 确保钱包余额大于0.13SOL，用于支付开盘费用
    * 连接的钱包将作为代币创建者和费用支付方
 2. **创建代币**：
