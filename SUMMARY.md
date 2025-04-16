@@ -44,3 +44,8 @@
 ## 实用信息
 
 * [实用信息](shi-yong-xin-xi/shi-yong-xin-xi.md)
+
+## 发币工具
+
+* [Sui一键发币](fa-bi-gong-ju/sui-yi-jian-fa-bi.md)
+* [Sui代币权限修改](fa-bi-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
