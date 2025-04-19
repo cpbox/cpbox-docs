@@ -1,5 +1,5 @@
 {
-    "plugins": ["expandable-chapters", "custom-favicon", "sitemap", "video-embed"],
+    "plugins": ["expandable-chapters", "custom-favicon", "sitemap", "video-embed", "chapter-fold"],
     "title": "CPBox.io",
     "pluginsConfig": {
         "favicon": "./favicon.ico",
