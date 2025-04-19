@@ -1,6 +1,7 @@
 {
     "plugins": ["expandable-chapters", "custom-favicon", "sitemap", "video-embed", "chapter-fold"],
     "title": "CPBox.io",
+    "root": ".",
     "pluginsConfig": {
         "favicon": "./favicon.ico",
         "appleTouchIconPrecomposed152": "./favicon.ico",
