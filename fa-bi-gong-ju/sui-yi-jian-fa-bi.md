@@ -39,7 +39,8 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 * Suiwallet钱包
 * Suiet钱包
 
-\
+
+
 钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间“连接钱包”\
 
 
@@ -47,7 +48,8 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 ### 代币信息
 
-\
+
+
 按照图片信息依次把相关信息填入这边代币初始供应量为：1000000，你也可以根据自己的需求输入想要的代币数量**参数都要填**
 
 <figure><img src="../.gitbook/assets/1280X1280——2.PNG" alt=""><figcaption></figcaption></figure>
@@ -73,15 +75,22 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 到此，整个发币工作就算是完成了。
 
-\
+
+
 当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：
 
-\
+{% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
+[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
+{% endcontent-ref %}
+
+
+
 如果想要更多的了解并了解Cryptobox这个产品的其他用途和功能
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
 
-\
+
+
 如果在产品功能使用中遇到了问题
 
 或者你有一些好的建议或者想要帮助开发的需求
