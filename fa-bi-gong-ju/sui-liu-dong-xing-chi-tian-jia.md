@@ -138,5 +138,3 @@ description: Sui链发币后如何交易，流动性资金池创建教程
 或者你有一些好的建议或者想要帮助开发的需求
 
 可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-\

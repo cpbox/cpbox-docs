@@ -72,9 +72,13 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 到此，整个发币工作就算是完成了。
 
-
+***
 
 当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：[https://docs.cpbox.io/fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.html](https://docs.cpbox.io/fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.html)
+
+{% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
+[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
+{% endcontent-ref %}
 
 如果想要更多的了解并了解Cryptobox这个产品的其他用途和功能
 
