@@ -39,7 +39,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 
 
-钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间“连接钱包”
+钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间"连接钱包"
 
 <figure><img src="../.gitbook/assets/1280X1280——1.PNG" alt=""><figcaption></figcaption></figure>
 

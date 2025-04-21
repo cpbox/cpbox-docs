@@ -1,12 +1,26 @@
 {
-    "plugins": ["expandable-chapters", "custom-favicon", "sitemap", "video-embed", "chapter-fold"],
+    "plugins": ["expandable-chapters", "custom-favicon", "sitemap", "video-embed", "reflinks"],
     "title": "CPBox.io",
-    "root": ".",
+    "links": {
+        "sidebar": {
+            "Home": "https://www.cpbox.io"
+        }
+    },
     "pluginsConfig": {
         "favicon": "./favicon.ico",
         "appleTouchIconPrecomposed152": "./favicon.ico",
         "sitemap": {
             "hostname": "https://docs.cpbox.io"
+        },
+        "theme-default": {
+            "showLevel": true
         }
-    }
+    },
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "js": [
+        "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+    ]
 }
