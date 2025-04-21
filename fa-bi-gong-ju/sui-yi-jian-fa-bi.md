@@ -10,8 +10,7 @@ description: 0代码sui公链发币，小白也可以。Sui一键发币教程
 
 ## 前言
 
-随着区块链技术的快速发展，Sui作为新一代高性能Layer1公链，凭借其基于Move语言的高安全性和水平可扩展性，成为数字资产发行的理想平台。但也是因为基于Move语言的开发，很多人对其代码结构不是很了解，想要参与却不知道如何进行。为降低用户门槛并提升开发效率，我们推出「一键发Token」功能，帮助开发者、项目方及普通用户快速在Sui网络上创建和管理自定义Token。\
-
+随着区块链技术的快速发展，Sui作为新一代高性能Layer1公链，凭借其基于Move语言的高安全性和水平可扩展性，成为数字资产发行的理想平台。但也是因为基于Move语言的开发，很多人对其代码结构不是很了解，想要参与却不知道如何进行。为降低用户门槛并提升开发效率，我们推出「一键发Token」功能，帮助开发者、项目方及普通用户快速在Sui网络上创建和管理自定义Token。
 
 ## Sui公链优势
 
@@ -25,8 +24,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 如果你的目标是 **长期价值** 或 **复杂经济模型**，Sui 是更好的选择。
 
-同时不同公链给人的第一印象不同，如果提到sol链，大家的第一反应可能是meme，来割韭菜的sui链因为背后有a16z、Coinbase这些顶级投资机构做背书，再加上经常开展一些黑客松活动。如果你的项目是在sui链上，会显得更高大上一点，更加的有技术向。\
-
+同时不同公链给人的第一印象不同，如果提到sol链，大家的第一反应可能是meme，来割韭菜的sui链因为背后有a16z、Coinbase这些顶级投资机构做背书，再加上经常开展一些黑客松活动。如果你的项目是在sui链上，会显得更高大上一点，更加的有技术向。
 
 ## Sui发币教程
 
@@ -41,8 +39,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 
 
-钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间“连接钱包”\
-
+钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间“连接钱包”
 
 <figure><img src="../.gitbook/assets/1280X1280——1.PNG" alt=""><figcaption></figcaption></figure>
 
@@ -79,13 +76,9 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：[https://docs.cpbox.io/fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.html](https://docs.cpbox.io/fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.html)
 
-
-
 如果想要更多的了解并了解Cryptobox这个产品的其他用途和功能
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
-
-
 
 如果在产品功能使用中遇到了问题
 
