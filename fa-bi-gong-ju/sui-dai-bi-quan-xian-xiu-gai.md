@@ -13,8 +13,7 @@ Sui链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 具体该怎么使用呢？首先，我们打开控制台链接： [https://www.cpbox.io/cn/sui/token/manage#permission](https://www.cpbox.io/cn/sui/token/manage#permission)，连接钱包（这一步之大家应该很熟悉了）
 
-再点击代币地址选择，会自动匹配到你钱包中的代币地址，你可以点击进行选择\
-
+再点击代币地址选择，会自动匹配到你钱包中的代币地址，你可以点击进行选择
 
 <figure><img src="../.gitbook/assets/1744796516116.jpg" alt=""><figcaption></figcaption></figure>
 
