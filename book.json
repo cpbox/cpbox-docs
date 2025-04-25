@@ -1,10 +1,13 @@
 {
-    "plugins": ["expandable-chapters", "custom-favicon", "sitemap", "video-embed", "chapter-fold", "reflinks"],
+    "plugins": ["expandable-chapters","favicon-absolute", "sitemap", "video-embed", "chapter-fold", "reflinks"],
     "title": "CPBox.io",
     "root": ".",
     "pluginsConfig": {
-        "favicon": "./favicon.ico",
-        "appleTouchIconPrecomposed152": "./favicon.ico",
+        "favicon-absolute":{
+            "favicon": "/favicon.ico",
+            "appleTouchIconPrecomposed152": "./favicon.ico"
+
+        },
         "sitemap": {
             "hostname": "https://docs.cpbox.io"
         }

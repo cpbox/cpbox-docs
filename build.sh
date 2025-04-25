@@ -27,7 +27,8 @@ if ! git checkout gh-pages; then
     echo "错误：无法切换到 gh-pages 分支"
     exit 1
 fi
-
+git reset --hard
+git pull origin gh-pages
 # 合并 main 分支
 echo "合并 main 分支..."
 if ! git merge main; then
