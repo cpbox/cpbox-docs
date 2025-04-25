@@ -43,7 +43,7 @@
 
 ## 实用信息
 
-* [实用信息](shi-yong-xin-xi/shi-yong-xin-xi.md)
+* [Sui 区块链介绍及钱包使用指南](shi-yong-xin-xi/shi-yong-xin-xi.md)
 
 ## 发币工具
 
