@@ -1,120 +1,86 @@
-# Sui 区块链介绍及钱包使用指南
+# 实用信息
 
-随着区块链技术不断演进，Web3 世界迎来了新的技术浪潮。其中，**Sui** 区块链凭借其高性能、可扩展性和独特的编程模型，正逐渐成为开发者和用户关注的焦点。
-
-### 什么是 Sui 区块链？
-
-**Sui** 是一个基于 Move 语言的一级 Layer 1 公链，由 Mysten Labs 团队开发，致力于为数字资产、游戏、NFT、DeFi 和日常应用场景提供高吞吐量、低延迟的基础设施。Sui官网: https://sui.io/\
-
-
-**1. 理论 TPS**
-
-* 在官方测试和文档中，Sui 号称支持超过 **120,000 TPS**。
-* 这个数字基于并行交易执行（如转账类的“简单交易”），并依赖强大的节点硬件和优化配置。
-
-**2. 主网实际 TPS**
-
-* 主网上的实际 TPS 会远低于理论值，因为包含：
-  * 不同复杂度的交易（转账 vs 合约交互）
-  * 网络延迟
-  * 验证者之间的共识成本
-  * 链上资源争用
-* **主网稳定运行时的实际 TPS**：大致在 **300 - 2,000 TPS** 之间浮动（根据社区和节点观察数据）。
-
-**3. 压力测试中的峰值**
-
-* 社区或第三方团队的压力测试中，曾达到 **5,000 - 20,000 TPS** 的峰值，前提是大批量的“简单交易”（例如平行地址之间的转账）。
-
-**4. Sui 的独特优势**
-
-Sui 不强调“全链统一 TPS”，而是通过并行执行让**多个账户之间的交易可以同时进行**。所以它的设计不是追求平均 TPS 极大化，而是追求高吞吐下的**低延迟和可扩展性**
-
-#### Sui 的核心特点：
-
-* **基于 Move 的安全智能合约**：使用 Move 语言开发，具备资源导向模型，防止资产丢失和未授权访问。
-* **并行交易处理架构**：大幅提升 TPS（每秒处理交易数），特别适合高频微交易场景。
-* **对象驱动的状态模型**：将链上资产抽象为对象，开发体验更直观。
-* **可扩展性强**：无需复杂分片即可横向扩展，适应 Web3 应用增长。
-
-### Sui 的应用场景
-
-* NFT 与数字藏品平台（如 Suiet、Clutchy）
-* DeFi 项目（如 Aftermath Finance）
-* 游戏与链游平台（如 Abyss World）
-* DAO 与身份系统
-* 企业级 Web3 服务
+这里是一份区块链实用信息的分类清单，涵盖从入门到进阶、从技术到实操的内容，方便根据需要查阅或整合到自己的项目中。
 
 ***
 
-### Sui 钱包使用指南（以 Suiet 和 Sui Wallet 为例）
+1. ### 基础知识
 
-#### 常用 Sui 钱包简介：
+* 区块链工作原理（区块、链、共识机制等）
+* 常见共识机制（PoW, PoS, DPoS, PBFT 等）
+* 链的分类：公链、私链、联盟链
+* 典型区块链项目对比：比特币、以太坊、Solana、Sui、BSC 等
 
-**Suiet Wallet**
+2. ### 钱包与资产管理
 
-* 用户友好的浏览器扩展钱包。
-* 支持 NFT 显示、多个账户、网络切换。
+* 钱包种类：助记词钱包、硬件钱包、多签钱包
+* 主流钱包：MetaMask、Phantom、Keplr、OKX Wallet 等
+* 地址、私钥、公钥的区别与安全建议
 
-&#x20; **✅ 步骤一：访问官网**
+3. ### Token 与资产
 
-&#x20; 打开浏览器，前往 Suiet 官方网站：  👉 [https://suiet.app](https://suiet.app)  点击主页上的 “**Add to Chrome**” 或 “**Download Wallet**” 按钮，跳转到扩展市场。
+* ERC-20、SPL、Move coin 标准
+* Token 部署、Mint、Burn、转账、冻结等操作
+* 代币经济模型设计（总量、通胀、锁仓等）
 
-&#x20; **✅ 步骤二：安装插件**
+4. ### 链上数据与工具
 
-* 如果你使用的是 Chrome 或兼容的浏览器（Brave / Edge），点击 “添加到浏览器”。
-* 安装完成后，你将在浏览器右上角看到 Suiet 的图标。
+* 区块链浏览器：Etherscan、BscScan、Solscan、Suiscan
+* 价格 & DEX 工具：DEX Screener、Birdeye、CoinGecko API
+* 链上分析平台：Nansen、Dune Analytics、Arkham
 
-**Sui Wallet（官方钱包）**
+5. ### 跨链与桥
 
-* 由 Mysten Labs 官方推出。
-* 适合开发测试和普通用户使用。
-* GitHub：[https://github.com/MystenLabs/sui](https://github.com/MystenLabs/sui)
+* 跨链桥的原理和风险
+* 常见跨链桥：Wormhole、LayerZero、Celer、Multichain
+* 原生资产 vs 链上映射资产（例如 Solana-USDC vs Ethereum-USDC）
 
-***
+6. ### DeFi 基础
 
-#### 创建钱包 以suiet为例
+* 去中心化交易所：AMM、Orderbook（如 Uniswap, Raydium, Jupiter）
+* 借贷协议：Aave、Compound、Solend
+* 流动性挖矿、收益聚合器（如 Yearn、Beefy）
 
-打开 Suiet，点击「创建新钱包」。
+7. ### 开发者项
 
-1. 设定密码（建议使用强密码），确认。
-2. 系统将生成一个**12 个助记词单词** —— **务必妥善保存**，这相当于你的链上账户钥匙，不能丢失。
-3. 确认助记词顺序后，点击完成，你的钱包就创建好了！
+* 合约语言：Solidity（EVM）、Rust（Solana）、Move（Sui, Aptos）
+* 主流框架和工具：
+  * Hardhat / Foundry（EVM）
+  * Anchor（Solana）
+  * Sui CLI / Move CLI
+* Testnet 使用和 Faucet 获取
 
-> 💡 **安全提醒**：不要将助记词截图、发送给他人，推荐抄写在纸上并离线保管。
+8. ### 安全相关
 
-4. 钱包创建成功，进入首页。
+* 常见攻击类型：重入、闪电贷、权限控制不当等
+* 审计工具：MythX、Slither、Move Analyzer
+* 多签和权限管理方案（如 Gnosis Safe）
 
-***
+9. ### 合规与法规
 
-#### 收款与转账
+* 不同国家的监管情况（如美国 SEC、香港 Web3 政策）
+* KYC / AML 的常见要求
+* 合规 Token（如 Reg A+, Reg D）
 
-**收款：**
+10. ### 社区与信息来源
 
-钱包首页点击地址旁的复制图标或「Receive」按钮。分享你的钱包地址给付款方即可。
+* 社区平台：X（推特）、Telegram、Discord、Reddit
+* 资讯网站：The Block、Decrypt、CoinDesk、链捕手
+* GitHub、Mirror、Notion、GitBook 文档
 
-**转账：**
+11. ### 主流交易所一览
 
-点击「Send」按钮。输入对方钱包地址、选择 Token 类型（如 SUI）与数量。点击确认发送，等待链上确认。\
+中心化交易所
 
+| 名称                 | 成立时间 | 注册地/总部    | 主要特色              | 支持链               | 日均现货交易量（估）    |
+| ------------------ | ---- | --------- | ----------------- | ----------------- | ------------- |
+| <p>Binance<br></p> | 2017 | 全球化（原马耳他） | 交易量第一、产品丰富、链支持广   | 100+              | $10B+         |
+| OKX                | 2017 | 塞舌尔       | 衍生品强、链上产品丰富（OKTC） | EVM, BSC, Solana等 | $2-3B         |
+| Coinbase           | 2012 | 美国        | 合规标杆、美股上市公司       | 主流链为主             | $1-2B         |
+| Bybit              | 2018 | 阿联酋       | 衍生品起家，增长快，活动多     | EVM为主             | $1-2B         |
+| KuCoin             | 2017 | 塞舌尔       | 上币多样，用户量大         | 多链                | \$$500M-\$$1B |
+| MEXC               | 2018 | 新加坡 / 塞舌尔 | 上币速度快，新项目友好       | 多链                | \$$500M\$$1B  |
+| Gate.io            | 2013 | 开曼群岛      | 历史悠久，上币广、内测活跃     | 多链                | \$$500M\$$1B  |
+| Bitget             | 2018 | 新加坡       | 衍生品+现货，合约流动性强     | 主流链               | \$$500M\$$1B  |
 
-如果有批量发的需求可以参考这里： [https://www.cpbox.io/cn/sui/batch-send-token](https://www.cpbox.io/cn/sui/batch-send-token)
-
-***
-
-#### 连接 DApp
-
-打开支持 Sui 的 DApp 网站（如 Clutchy NFT 平台、Keepsake）。点击「Connect Wallet」，选择 Suiet。钱包弹出连接请求，确认即可完成连接。
-
-***
-
-#### 五、切换网络（测试网 / 主网）
-
-在钱包设置中选择网络（Mainnet / Testnet / Devnet）。开发者可在测试网中领取水龙头 Token 测试合约。  开发者水龙头地址示例：
-
-* Testnet Faucet: https://faucet.testnet.sui.io
-
-***
-
-### 结语
-
-Sui 区块链为 Web3 世界注入了新的活力，不论你是开发者还是普通用户，都可以通过使用 Sui 钱包轻松参与到这一生态中。随着越来越多项目部署到 Sui，未来可期！
+\
