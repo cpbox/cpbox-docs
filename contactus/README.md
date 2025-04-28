@@ -26,6 +26,6 @@ CPBOX-web3工具集
 
 * 官网：[https://www.cpbox.io/](https://www.cpbox.io/)
 * Twitter：[https://x.com/web3cryptobox](https://x.com/web3cryptobox)
-* Telegram：[https://t.me/cpbox](https://t.me/cpbox)
+* Telegram：[https://t.me/cpboxio](https://t.me/cpboxio)
 * Github：[https://github.com/cpbox](https://github.com/cpbox)
 * 邮箱：[we@cpbox.io](mailto:we@cpbox.io)
