@@ -45,6 +45,7 @@
 
 * [实用信息](shi-yong-xin-xi/shi-yong-xin-xi.md)
 * [Sui 区块链介绍及钱包使用指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
+* [标准ERC20代币部署](shi-yong-xin-xi/biao-zhun-erc20-dai-bi-bu-shu.md)
 
 ## 发币工具
 
