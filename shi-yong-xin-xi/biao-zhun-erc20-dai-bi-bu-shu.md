@@ -29,7 +29,7 @@ Metamask
 
 #### 部署流程
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MjQ2ODE1ZmEzNDRmN2Y4OTRmYjczOWYwN2VlZmM1MzFfWm1la2lyck9iSXNkYmYyNVJ3SlFtOHAwZWtmajJHa05fVG9rZW46UkxobWJ1aEFUb2xib2R4Nm9sM2xBc2lqZ0VjXzE3NDU4NTA3OTQ6MTc0NTg1NDM5NF9WNA" alt=""><figcaption><p>remix 导入代码</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Remix 导入代码</p></figcaption></figure>
 
 这里我们之间从URL链接中导入合约代码
 
@@ -41,11 +41,11 @@ cpbox已经在github中提供了可以直接部署的代码，填入对应的url
 
 有的时候网络不是很好，可能会导入不了，我现在就没导入
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWVmNDRkMWQ4MDZiNjU2YzA0ZTM2NmRjMGVmYmY0NjFfaWJEWmdGTVFCb0RWT0I0dmR4STFIY0Rvam9SRTlTMjRfVG9rZW46Q29peWJMQ09Pb0pSbnB4SXBEamxKUzNOZ3dmXzE3NDU4NTA3OTQ6MTc0NTg1NDM5NF9WNA" alt=""><figcaption><p>导入出错</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>导入出错</p></figcaption></figure>
 
 这个时候，索性打开github.com的文件，然后新建一个erc20.sol的文件，然后把文件里面的内容拷贝进去Remix 会弹出一个安全提示
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ZmM5MzVhYTM1ZWY5NDc4MzQ0NjcyNzhhZjU3ZGI1ZGFfOXV3VjdZRDR5bnRHZUloRmV0ZVNQQnBuRVZ0c05zQnRfVG9rZW46UE1qYmI3WWZyb2VmYk54MTVWUGxqNDVEZ2VlXzE3NDU4NTA3OTQ6MTc0NTg1NDM5NF9WNA" alt=""><figcaption><p>Remix 安全提示</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>安全提示</p></figcaption></figure>
 
 意思是要注意安全，别拷贝了有木马的代码，拷贝完事以后和github.com上面的源码比较一下， 一样的话就放心了。成功导入后，找到erc20.sol这个文件，保存一下即可编译
 
@@ -53,7 +53,7 @@ cpbox已经在github中提供了可以直接部署的代码，填入对应的url
 
 编译的时候把参数选一下
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MGE0MjdiYTJlY2VhMGRjZmUyYWM2NjVkNTljZTY5ZTZfS1l2b3RTYUdjUTJuOFB1ZDhuT2l3RnZ6eDk3ekxyRVhfVG9rZW46RHRXdWJZc1lvb21MbXZ4SWJuUGx4WllvZ2pmXzE3NDU4NTA3OTQ6MTc0NTg1NDM5NF9WNA" alt=""><figcaption><p>Solidity 编译参数</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>编译参数</p></figcaption></figure>
 
 EVM version 不一样的版本设计到一些EVM 更新，一般选默认就行了，这里选默认的 cancun， Optimization，一般可以勾选一下，这个会对编译的代码做一些优化，大多数情况下都会在部署的时候省不少gas费。
 
@@ -81,15 +81,15 @@ EVM version 不一样的版本设计到一些EVM 更新，一般选默认就行�
 
 控制面板中可以看到交易的状态，交易确认后即部署成功
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>查看交易结果</p></figcaption></figure>
 
 这里便是刚刚部署的合约地址，可通过区块浏览器进行查看。[https://sepolia.etherscan.io/address/0x5afd0dbcd0cc417c754ac71380e0124ba1db3562#code](https://sepolia.etherscan.io/address/0x5afd0dbcd0cc417c754ac71380e0124ba1db3562#code)
 
 打开钱包的代币面板，点击添加代币，将刚刚的代币合约地址添加进去，即可看到刚刚的代币信息和当前地址代币的余额
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NzllMWRmMDA1MTFjZjNiOTA5NzU1MzY2OWY4Y2JjMGJfQjlZeExUN3prMXRjdU9iQjRoVVhmTVR4eVQ2a0tqU0FfVG9rZW46Sm5xa2J0Q01Ob1JxRFd4QllUbWxxTXQyZ0JlXzE3NDU4NTA3OTQ6MTc0NTg1NDM5NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>添加代币</p></figcaption></figure>
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=M2MxN2QyODM5NGE2MzhhMGJiNzM5ODdhMzExYWE5OGRfSXdaMWQ2dFpUdDFveHd4ZjlmeExDM09XNXBUV2JMVXNfVG9rZW46Q0tGNWI4RGdRb0VqMWR4cFVXc2xQMEhhZ2tjXzE3NDU4NTA3OTQ6MTc0NTg1NDM5NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>查看余额</p></figcaption></figure>
 
 #### 附录：
 
