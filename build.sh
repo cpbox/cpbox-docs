@@ -119,4 +119,12 @@ if [ -d "docs" ]; then
     find docs -type f -name "*.html" -exec sed -i '' 's/www\.gitbook\.com/www.gitbook.com/g' {} \;
 fi
 
+# 2.1 处理HTML文件中的换行标签
+echo "处理HTML文件中的换行标签..."
+if [ -d "docs" ]; then
+    find docs -type f -name "*.html" -exec sed -i '' 's/<p>\\<\/p>/<br\/>/g' {} \;
+    echo "已处理HTML文件中的换行标签"
+fi
+
+
 echo "所有操作完成！" 
