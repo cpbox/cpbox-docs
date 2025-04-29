@@ -6,6 +6,7 @@
   * [官网](https://www.cpbox.io/)
   * [Telegram](https://t.me/cpbox)
   * [Github](https://github.com/cpbox)
+* [CPBOX导航](cpbox-dao-hang.md)
 
 ## Solana工具
 
@@ -47,8 +48,12 @@
 * [Sui 区块链介绍及钱包使用指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
 * [标准ERC20代币部署](shi-yong-xin-xi/biao-zhun-erc20-dai-bi-bu-shu.md)
 
-## 发币工具
+## Sui链工具
 
-* [Sui一键发币](fa-bi-gong-ju/sui-yi-jian-fa-bi.md)
-* [Sui代币权限修改](fa-bi-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
-* [Sui流动性池添加](fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
+* [Sui一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
+* [Sui代币权限修改](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
+* [Sui流动性池添加](sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
+
+## Ton链工具
+
+* [Ton链一键发币，0代码发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
