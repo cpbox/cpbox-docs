@@ -79,7 +79,7 @@ description: 一键创建Ton链token
 
 ***
 
-### 【其他社媒】
+### 其他社媒
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
