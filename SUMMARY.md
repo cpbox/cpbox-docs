@@ -57,3 +57,4 @@
 ## Ton链工具
 
 * [Ton链一键发币，0代码发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
+* [Ton代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
