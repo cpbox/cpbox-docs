@@ -8,14 +8,12 @@
   * [Github](https://github.com/cpbox)
 * [CPBOX导航](cpbox-dao-hang.md)
 
-## Solana工具
+## 小白必看系列
 
-* [Solana 一键发币](solana-gong-ju/solana-yi-jian-fa-bi.md)
-* [Solana 关闭地址(租金回收)](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
-* [Solana批量买卖代币](solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md)
-* [Pump开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
-* [Pump市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
-* [Solana代币管理](solana-gong-ju/solana-dai-bi-guan-li.md)
+* [靓号地址生成](xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.md)
+* [MetaMask小白快速配置](xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
+* [批量地址生成](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
+* [助记词生成私钥](xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md)
 
 ## 批量工具
 
@@ -35,12 +33,14 @@
 * [BSC批量交易](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
 * [Ethereum交易加速取消](shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.md)
 
-## 钱包管理
+## Solana工具
 
-* [靓号地址生成](qian-bao-guan-li/liang-hao-di-zhi-sheng-cheng.md)
-* [MetaMask小狐狸助手](qian-bao-guan-li/metamask-xiao-hu-li-zhu-shou.md)
-* [批量地址生成](qian-bao-guan-li/pi-liang-di-zhi-sheng-cheng.md)
-* [助记词生成私钥](qian-bao-guan-li/zhu-ji-ci-sheng-cheng-si-yao.md)
+* [Solana 一键发币](solana-gong-ju/solana-yi-jian-fa-bi.md)
+* [Solana 关闭地址(租金回收)](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
+* [Solana批量买卖代币](solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md)
+* [Pump开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
+* [Pump市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
+* [Solana代币管理](solana-gong-ju/solana-dai-bi-guan-li.md)
 
 ## Sui链工具
 

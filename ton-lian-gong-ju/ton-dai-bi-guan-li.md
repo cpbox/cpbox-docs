@@ -15,7 +15,7 @@ Ton链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 下面我来演示一下如何对对我们的代币进行管理
 
-三首先心如我们的CPBOX官网，菜单点击使用工具，Ton链中的代币管理
+首先进入我们的CPBOX官网，菜单点击使用工具，Ton链中的代币管理
 
 <figure><img src="../.gitbook/assets/743c63eb-2c72-4a4f-85d5-40007d0842f8.png" alt=""><figcaption></figcaption></figure>
 
