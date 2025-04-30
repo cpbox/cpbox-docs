@@ -38,7 +38,7 @@ CPBOX目前支持以下五大交易所的批量提币功能：
 4. 设置API名称和权限（确保包含提币权限）
 5. 添加IP白名单（从CPBOX获取）
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>你的IP</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>你的IP</p></figcaption></figure>
 
 6. 完成验证并保存API Key与Secret Key
 
