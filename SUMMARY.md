@@ -42,12 +42,6 @@
 * [批量地址生成](qian-bao-guan-li/pi-liang-di-zhi-sheng-cheng.md)
 * [助记词生成私钥](qian-bao-guan-li/zhu-ji-ci-sheng-cheng-si-yao.md)
 
-## 实用信息
-
-* [实用信息](shi-yong-xin-xi/shi-yong-xin-xi.md)
-* [Sui 区块链介绍及钱包使用指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
-* [标准ERC20代币部署](shi-yong-xin-xi/biao-zhun-erc20-dai-bi-bu-shu.md)
-
 ## Sui链工具
 
 * [Sui一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
@@ -58,3 +52,13 @@
 
 * [Ton链一键发币，0代码发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
 * [Ton代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
+
+***
+
+* [Ton流动性池创建-DeDust教程](ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
+
+## 实用信息
+
+* [实用信息](shi-yong-xin-xi/shi-yong-xin-xi.md)
+* [Sui 区块链介绍及钱包使用指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
+* [标准ERC20代币部署](shi-yong-xin-xi/biao-zhun-erc20-dai-bi-bu-shu.md)
