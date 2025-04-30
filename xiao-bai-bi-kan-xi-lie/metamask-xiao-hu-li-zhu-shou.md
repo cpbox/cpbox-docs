@@ -10,9 +10,11 @@ description: 一站式连接MetaMask钱包，轻松添加热门公链网络。
 
 #### 产品信息
 
-🦊产品名称｜MetaMask🔗支持的区块链｜默认以太坊，其余链自定义添加主网信息即可支持🖥支持的客户端｜IOS、安卓、谷歌插件MetaMask官网（请认准域名，谨防假冒）：[https://metamask.io](https://metamask.io/)MetaMask推特：[https://twitter.com/metamask](https://twitter.com/metamask)\
-一个知识点：使用小狐狸钱包需要科学上网，这里不展开介绍，请大家自行解决，这个是探索web3世界的必备技能\
+🦊产品名称｜MetaMask🔗支持的区块链｜默认以太坊，其余链自定义添加主网信息即可支持🖥支持的客户端｜IOS、安卓、谷歌插件MetaMask官网（请认准域名，谨防假冒）：[https://metamask.io](https://metamask.io/)
 
+MetaMask推特：[https://twitter.com/metamask](https://twitter.com/metamask)
+
+一个知识点：使用小狐狸钱包需要科学上网，这里不展开介绍，请大家自行解决，这个是探索web3世界的必备技能
 
 ## 安装步骤
 
@@ -25,9 +27,9 @@ description: 一站式连接MetaMask钱包，轻松添加热门公链网络。
 * 如果已经有ERC20地址的钱包，可以选择【导入钱包】按步骤操作。
 * 如果没有钱包的话，选择【创建钱包】按步骤设置密码后创建即可。（温馨提示：第一次创建钱包时建议使用纸质方式抄写并保存好助记词，不要向任何人提供你的助记词，一旦助记词丢失或被盗，是无法追回钱包内资产的哦！）
 
-小狐狸钱包安装好打开之后默认以太坊网络，如果项目是在不同的区块链上，我们需要添加其主网信息才可以使用，下面以 BSC 网络为例。\
-**第二步：添加网络节点**使用cryptobox的工具，自动添加想要的网络节点进入https://www.cpbox.io/cn/metamask/helper?\_\_t\_\_=1742881783332\
+小狐狸钱包安装好打开之后默认以太坊网络，如果项目是在不同的区块链上，我们需要添加其主网信息才可以使用，下面以 BSC 网络为例。
 
+**第二步：添加网络节点**使用cryptobox的工具，自动添加想要的网络节点进入https://www.cpbox.io/cn/metamask/helper?\_\_t\_\_=1742881783332
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
