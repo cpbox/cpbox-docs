@@ -35,7 +35,7 @@
 * [Ton链一键发币，0代码发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
 * [Ton代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
 * [Ton流动性池创建-DeDust教程](ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
-* [Ton钱包创建教程](ton-qian-bao-chuang-jian-jiao-cheng.md)
+* [Ton钱包创建教程](ton-lian-gong-ju/ton-qian-bao-chuang-jian-jiao-cheng.md)
 
 ## 批量工具
 
