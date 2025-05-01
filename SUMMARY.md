@@ -57,3 +57,4 @@
 * [实用信息](shi-yong-xin-xi/shi-yong-xin-xi.md)
 * [Sui 区块链介绍及钱包使用指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
 * [标准ERC20代币部署](shi-yong-xin-xi/biao-zhun-erc20-dai-bi-bu-shu.md)
+* [MEME社区建设活动，如何发送空投福利｜批量发送工具](shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
