@@ -54,6 +54,7 @@
   * [Meme 社区空投案例](shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
   * [EVM代币案例](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-dai-bi-an-li/README.md)
     * [LP挖矿推荐奖励的营销代币部署](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-dai-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
+    * [创建可以Mint,以及燃烧LP的代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-dai-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md)
 
 ## 📞 联系我们
 

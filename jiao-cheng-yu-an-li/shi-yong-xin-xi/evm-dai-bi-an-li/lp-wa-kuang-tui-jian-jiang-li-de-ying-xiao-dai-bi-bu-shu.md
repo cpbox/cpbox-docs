@@ -30,7 +30,7 @@ description: 适用于 DeFi 项目冷启动、社群裂变和用户增长等营�
 
 合约的设计比较灵活，管理员可以通过各种参数来调整代币的经济模型，包括费率、奖励机制等。同时也包含了必要的安全机制来防止滥用。我们可以使用CPBox提供合约,直接导入remix 进行部署: 源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpmine.sol
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>流动性挖矿代码</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>流动性挖矿代码</p></figcaption></figure>
 
 我这里给出一份参数，并解释如何修改适合自己的参数
 

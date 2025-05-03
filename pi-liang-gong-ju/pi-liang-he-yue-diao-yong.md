@@ -30,7 +30,7 @@ description: 区块链多地址高级操作，高效批量调用相同或不同�
 
     * 从浏览器复制十六进制的Input Data数据
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>示例：十六进制的Input Data</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>示例：十六进制的Input Data</p></figcaption></figure>
 
     * 设置适当的执行间隔以避免网络拥堵
     * 根据当前网络状况和交易优先级配置Gas设置
