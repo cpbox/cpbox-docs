@@ -10,6 +10,7 @@
   * [MetaMask小白快速配置](xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
   * [批量地址生成](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
   * [助记词生成私钥](xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md)
+  * [多号撸毛有哪些好用的批量工具](qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
 
 ## 🔗 链工具
 
