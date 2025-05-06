@@ -18,7 +18,9 @@ description: 教你创建分红代币，让你的代币价格不停的往上涨
 
 **参数说明**
 
-![](https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWJjZjY1N2EwNDk3NjgzMjQ3ODcwNmRkZDQxYzI5MzVfOFRsV3lEWDN0WjgxcUZ0SFF3UDhSdTE5Z0NoMFBpeXlfVG9rZW46TE42WmJyVkJLb2xLWDN4eVFqZGxieHRHZ2pnXzE3NDY1NDEwMjg6MTc0NjU0NDYyOF9WNA)这里给出一份示例参数，并解释如何修改适合自己的参数
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>创建分红代币</p></figcaption></figure>
+
+这里给出一份示例参数，并解释如何修改适合自己的参数
 
 * 第一个 stringParams 的参数: `["CPBoxTestToken", "CPBLP"]`
 * 第二个addressParams 的参数:
