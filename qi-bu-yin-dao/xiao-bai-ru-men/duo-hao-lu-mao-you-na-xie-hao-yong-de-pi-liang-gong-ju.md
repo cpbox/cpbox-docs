@@ -97,10 +97,8 @@ CPBOX还有其他许多的批量工具，满足撸毛玩家，或者其他用户
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
 
-\
 如果在产品功能使用中遇到了问题
 
 或者你有一些好的建议或者想要帮助开发的需求
 
 可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们\
-\

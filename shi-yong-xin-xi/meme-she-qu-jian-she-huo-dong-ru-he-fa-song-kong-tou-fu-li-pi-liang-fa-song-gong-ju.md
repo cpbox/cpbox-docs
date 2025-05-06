@@ -72,7 +72,6 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 可以通过主页 [https://www.cpbox.io](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
 
-\
 如果想要更多的了解并了解CPBOX这个产品的其他用途和功能
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
