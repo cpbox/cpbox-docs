@@ -2,17 +2,18 @@
 
 * [🏠 CPBOX介绍](README.md)
 
-## 🏁 起步引导
+## 起步引导
 
-* [🚀 快速开始](cpbox-dao-hang.md)
-* [👶 小白入门](qi-bu-yin-dao/xiao-bai-ru-men/README.md)
+* [快速开始](cpbox-dao-hang.md)
+* [小白入门](qi-bu-yin-dao/xiao-bai-ru-men/README.md)
   * [靓号地址生成](xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.md)
   * [MetaMask小白快速配置](xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
   * [批量地址生成](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
   * [助记词生成私钥](xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md)
   * [多号撸毛有哪些好用的批量工具](qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
+  * [什么是流动性资金池、AMM、流动性挖矿](qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
 
-## 🔗 链工具
+## 链工具
 
 * [Solana 工具](lian-gong-ju/solana-gong-ju/README.md)
   * [Solana 一键发币](solana-gong-ju/solana-yi-jian-fa-bi.md)
@@ -31,7 +32,7 @@
   * [Ton 流动性池创建](ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
   * [Ton 钱包创建教程](ton-lian-gong-ju/ton-qian-bao-chuang-jian-jiao-cheng.md)
 
-## 🧰 批量与监控工具
+## 批量与监控工具
 
 * [工具总览](pi-liang-yu-jian-kong-gong-ju/gong-ju-zong-lan/README.md)
   * [批量发送](pi-liang-gong-ju/pi-liang-fa-song.md)
@@ -47,7 +48,7 @@
   * [BSC 批量交易](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
   * [Ethereum 交易加速取消](shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.md)
 
-## 📘 教程与案例
+## 教程与案例
 
 * [实用信息](jiao-cheng-yu-an-li/shi-yong-xin-xi/README.md)
   * [Sui 区块链 & 钱包指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)

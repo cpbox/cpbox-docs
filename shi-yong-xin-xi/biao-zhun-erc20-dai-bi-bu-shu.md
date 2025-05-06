@@ -2,7 +2,7 @@
 description: 手把手教你使用remix部署一个纯净的ERC20代币
 ---
 
-# 标准ERC20代币部署
+# ERC20 代币部署教程
 
 ### 不求别人，手把手教你自己通过remix部署EVM合约代码
 
@@ -33,7 +33,7 @@ Metamask
 
 这里我们之间从URL链接中导入合约代码
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>通过链接导入代码</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>通过链接导入代码</p></figcaption></figure>
 
 链接在这https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol
 
