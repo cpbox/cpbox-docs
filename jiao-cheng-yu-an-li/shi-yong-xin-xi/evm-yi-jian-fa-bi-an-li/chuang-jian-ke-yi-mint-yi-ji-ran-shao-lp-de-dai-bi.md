@@ -152,9 +152,9 @@ bool[] memory boolParams = [
 
 【其他社媒】&#x20;
 
-TG交流群：https://t.me/cpboxio
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：https://twitter.com/Web3CryptoBox
+Twitter：[https://twitter.com/Web3CryptoBox](chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md#he-xin-gong-neng)
 
-Youtube：youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA\
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)\
 \

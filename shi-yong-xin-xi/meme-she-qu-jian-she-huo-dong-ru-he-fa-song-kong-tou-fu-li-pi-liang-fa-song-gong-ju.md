@@ -66,12 +66,20 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 ### 联系我们
 
-如果在产品功能使用中遇到了问题
+如果想要更多的了解CPBOX这个产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
 
 或者你有一些好的建议或者想要帮助开发的需求
 
-可以通过主页 [https://www.cpbox.io](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
 
-如果想要更多的了解并了解CPBOX这个产品的其他用途和功能
+***
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+【其他社媒】
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
