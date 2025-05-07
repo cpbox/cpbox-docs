@@ -4,13 +4,15 @@ description: Solana玩法须知
 
 # Solana 工具
 
-本篇写给那些想给那些勇闯Solana链的各位玩家
+本篇涵盖Sol链的多个批量工具和发币工具教程
+
+如果你还没有发过Token代币，可以先阅读这边文章&#x20;
 
 {% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
 [fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
 {% endcontent-ref %}
 
-**如果你发币后不知道要做什么，那建议先你先阅读本篇**
+**发币后应该要做什么**
 
 Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么有真本事（比如能写合约、懂运营），要么有钞能力（比如舍得砸钱做流动性）。别一上来就“梭哈”，不然很可能币发了，钱包空了，社区跑了，最后只剩你一个人在TG群里自言自语。如果你已经做好准备，想在Sol链上发币，大展身手的话。那我讲一下发币三板斧
 
@@ -56,12 +58,8 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 
 ***
 
-如果想要更多的了解并了解Cryptobox这个产品的其他用途和功能
+本团队正在持续开发中
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
-
-如果在产品功能使用中遇到了问题
-
-或者你有一些好的建议或者想要帮助开发的需求
+如果你有一些好的建议或者想要帮助开发的需求
 
 可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
