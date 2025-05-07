@@ -18,6 +18,7 @@
 * [Solana 工具](lian-gong-ju/solana-gong-ju/README.md)
   * [Solana 一键发币](solana-gong-ju/solana-yi-jian-fa-bi.md)
   * [Solana 关闭地址(租金回收)](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
+  * [Solana钱包批量创建](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
   * [Solana 批量买卖代币](solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md)
   * [Pump 开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
