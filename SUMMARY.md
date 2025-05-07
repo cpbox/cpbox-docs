@@ -11,6 +11,7 @@
   * [批量地址生成](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
   * [助记词生成私钥](xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md)
   * [多号撸毛有哪些好用的批量工具](qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
+  * [发币从入门到跑路——全网最真诚的区块链发币指南](qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
   * [什么是流动性资金池、AMM、流动性挖矿](qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
 
 ## 链工具
