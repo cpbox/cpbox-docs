@@ -4,7 +4,7 @@
 
 Sol链在过去的一段时间里面表现的非常强势啊。因为MEME的原因，导致市场极度的火热。这也促使了Sol链会出现许许多多的新项目。随着项目的出现，必然会出现很多一下小的空投。那么如果想要多号撸Sol链上的毛，就必然会有Sol链地址批量生成的需求。拿最近的项目PumpDao投票举，账户持有0.1个Sol投票，就有机会领到空投。那么如果你贪心一点，就需要多个地址来进行投票。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NWMxNTNkNWYwMTRjYTQ0NTNhMjZkZThhZmQzZjMyZTZfWlV2dUZqQm1BZ21GM095RHpDMkJia2hwSkdxZXdJTjhfVG9rZW46T1dkamJNSnZsb2gzeGh4ZTA2a2xEMUQ4Z2RiXzE3NDY1ODgyMTQ6MTc0NjU5MTgxNF9WNA" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ODgxMTFmYTY1MWZhMTMyM2JhNDI0ZmVhYjBhMjkxNWZfdlhidFV0dE5HVG9YOXJMRGlvZWc5ejlpbnNjWGVwUDBfVG9rZW46T1dkamJNSnZsb2gzeGh4ZTA2a2xEMUQ4Z2RiXzE3NDY1OTg2OTI6MTc0NjYwMjI5Ml9WNA" alt="" width="375"><figcaption></figcaption></figure>
 
 回归正题，教大家如何使用CPBOX来进行Sol链的钱包地址批量创建。
 
@@ -12,7 +12,7 @@ Sol链在过去的一段时间里面表现的非常强势啊。因为MEME的原�
 
 首先我们进入CPBOX官网，点击上方菜单栏实用工具，第二列的批量生成钱包地
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NmZlNjM5ZmM2NGEwNDg2NDVlZDQ4M2U2ODkzNTgwZDJfZURKUlBubnVXc2JROHNDUjZYN0p0SzFVU2hvTUliaW5fVG9rZW46Vk1tSmJGTDlNbzhYTXF4Q2NpRGxiUDVsZ2pHXzE3NDY1ODgzMDY6MTc0NjU5MTkwNl9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NGIwMGIxOWI3NDkzODg0OTViODJjZGMyZmRjZmU4YzRfT0F3bEY5dTRnU0VYR2d6TGxRbnRnN0hseGVtdHg4elNfVG9rZW46Vk1tSmJGTDlNbzhYTXF4Q2NpRGxiUDVsZ2pHXzE3NDY1OTg3Mjc6MTc0NjYwMjMyN19WNA" alt=""><figcaption></figcaption></figure>
 
 址进入页面后选择Sol链
 
@@ -20,11 +20,11 @@ Sol链在过去的一段时间里面表现的非常强势啊。因为MEME的原�
 
 点击生成就会自动生成所需要的钱包了
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=Yjk1YTVlY2Q2ZGQ1NjQ1ZTcxMGI4OGVjOTU2ZjNlOWZfRkdHb2JReGtsazhIc2RUcExNMGJoNTd0VWdleFdHM01fVG9rZW46RDNIWmJySE5Kb1JqckZ4Tm95bGxqYTVtZ1VoXzE3NDY1ODgzMjk6MTc0NjU5MTkyOV9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ZmY4NTNhMGI3ZDE2ZTM1MGMyNDk2ZjdlZDgwZmU1ZTRfdm9COENpbFc4NjF2V3ZYMVhpWEpLeEdHeGdnNlJFR2lfVG9rZW46RDNIWmJySE5Kb1JqckZ4Tm95bGxqYTVtZ1VoXzE3NDY1OTg3NTE6MTc0NjYwMjM1MV9WNA" alt=""><figcaption></figcaption></figure>
 
 生成完毕后，可以点击下载，直接下载成表格文档
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MWZmODg4OTcyOWNjZmFmZGIzYTIyMzk3ZjA3MjdmMTRfeTA0YU9hQzdiNGpCbjU4U0xCT1BBWW1NbTJoSEV5NEtfVG9rZW46Vk1tSmJGTDlNbzhYTXF4Q2NpRGxiUDVsZ2pHXzE3NDY1ODgyMTQ6MTc0NjU5MTgxNF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MDhmZGNkNDBkM2U2MWRmZWZjMDRmOTA0N2MzMmMyNDBfMlBQOG9XUkNxVjczamowZWtYTHhISkJOV2VFSnBFVU1fVG9rZW46VGhtT2JrcG04b292cFZ4WWdGcWxPdjd6Z01mXzE3NDY1OTg3NjY6MTc0NjYwMjM2Nl9WNA" alt=""><figcaption></figcaption></figure>
 
 ### 注意：
 

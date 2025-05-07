@@ -16,7 +16,7 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 ### Solana链
 
-进入cpbox官网https://www.cpbox.io点击实用工具右侧 solana链中的 批量发送进入页面
+进入cpbox官网[https://www.cpbox.io](https://www.cpbox.io)点击实用工具右侧 solana链中的 批量发送进入页面
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
 
