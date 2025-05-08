@@ -29,6 +29,8 @@ Metamask
 
 #### 部署流程
 
+我们使用[remix](https://remix.ethereum.org/)进行合约部署
+
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Remix 导入代码</p></figcaption></figure>
 
 这里我们之间从URL链接中导入合约代码

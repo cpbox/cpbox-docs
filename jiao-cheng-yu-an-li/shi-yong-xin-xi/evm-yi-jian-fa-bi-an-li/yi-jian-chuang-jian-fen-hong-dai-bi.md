@@ -14,7 +14,9 @@ description: 教你创建分红代币，让你的代币价格不停的往上涨
 
 #### 合约部署
 
-打开remix，新建文件并粘贴合约源码，或者直接关联合约源码地址，操作流程参考：合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol)
+打开[remix](https://remix.ethereum.org/)，新建文件并粘贴合约源码，或者直接关联合约源码地址，操作流程参考：
+
+合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol)
 
 **参数说明**
 

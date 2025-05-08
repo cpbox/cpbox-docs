@@ -70,7 +70,7 @@ description: CPBOXLPBurnToken 是一款集自动销毁、流动性管理与灵�
 
 合约的设计比较灵活，管理员可以通过各种参数来调整代币的经济模型，包括费率、销毁参数等。同时也包含了必要的安全机制来防止滥用。
 
-我们可以使用CPBox提供合约,直接导入remix 进行部署: 源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol我这里给出一份参数，并解释如何修改适合自己的参数
+我们可以使用CPBox提供合约,直接导入[remix](https://remix.ethereum.org/) 进行部署: 源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol我这里给出一份参数，并解释如何修改适合自己的参数
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>lpburn 合约</p></figcaption></figure>
 

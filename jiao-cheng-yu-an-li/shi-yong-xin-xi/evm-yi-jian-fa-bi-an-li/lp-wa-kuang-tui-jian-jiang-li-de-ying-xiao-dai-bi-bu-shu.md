@@ -28,7 +28,9 @@ description: 适用于 DeFi 项目冷启动、社群裂变和用户增长等营�
 * 需要复杂费用结构的项目
 * 需要空投功能的项目
 
-合约的设计比较灵活，管理员可以通过各种参数来调整代币的经济模型，包括费率、奖励机制等。同时也包含了必要的安全机制来防止滥用。我们可以使用CPBox提供合约,直接导入remix 进行部署: 源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpmine.sol
+合约的设计比较灵活，管理员可以通过各种参数来调整代币的经济模型，包括费率、奖励机制等。同时也包含了必要的安全机制来防止滥用。我们可以使用CPBox提供合约,直接导入[remix](https://remix.ethereum.org/) 进行部署:&#x20;
+
+源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpmine.sol
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>流动性挖矿代码</p></figcaption></figure>
 
