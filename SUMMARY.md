@@ -56,6 +56,7 @@
 * [实用信息](jiao-cheng-yu-an-li/shi-yong-xin-xi/README.md)
   * [Sui 区块链 & 钱包指南](shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
   * [Meme 社区空投案例](shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
+  * [合约代码开源](jiao-cheng-yu-an-li/shi-yong-xin-xi/he-yue-dai-ma-kai-yuan.md)
   * [EVM一键发币案例](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/README.md)
     * [ERC20 代币部署教程](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md)
     * [LP挖矿推荐奖励的营销代币部署](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
