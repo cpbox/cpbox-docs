@@ -123,6 +123,7 @@ fi
 echo "处理HTML文件中的换行标签..."
 if [ -d "docs" ]; then
     find docs -type f -name "*.html" -exec sed -i '' 's/<p>\\<\/p>/<br\/>/g' {} \;
+    find docs -type f -name "*.html" -exec sed -i '' 's/<p>\\/<br\/>/g' {} \;
     find docs -type f -name "*.html" -exec sed -i '' 's/\\<\/p>/<\/p>/g' {} \;
     echo "已处理HTML文件中的换行标签"
 fi
