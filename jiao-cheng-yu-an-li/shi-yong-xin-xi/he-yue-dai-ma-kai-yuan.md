@@ -119,18 +119,14 @@ forge verify-contract 0x123...abc MyContract \
 --compiler-version        Solidity 编译器版本        v0.8.23+commit.f704f362
 --optimizer-runs        优化器运行次数（默认 200）        200
 --constructor-args        构造函数参数（ABI 编码）        0x000...123
-```
-
-\
 上面介绍了几种合约代码开源的方式，
+```
 
 如果想要了解更多web3的知识，可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/) 查看
 
 或者你有一些好的建议或者想要帮助开发的需求
 
 可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-***
 
 ***
 
