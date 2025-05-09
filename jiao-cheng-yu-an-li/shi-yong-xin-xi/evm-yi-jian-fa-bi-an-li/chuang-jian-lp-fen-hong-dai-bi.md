@@ -16,7 +16,7 @@ LP分红指的是，用户在去中心化交易所（如Pancake）添加流动�
 
 **参数说明**
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption><p>LP 分红代币</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption><p>LP 分红代币</p></figcaption></figure>
 
 这里给出一份示例参数，并解释如何修改适合自己的参数
 

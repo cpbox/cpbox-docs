@@ -16,7 +16,7 @@ description: 一篇文章，让你知道流动性资金池、AMM、流动性挖�
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 示例
 
