@@ -6,6 +6,10 @@ description: cpbox工具大全导航
 
 ## CPBOX工具网页导航
 
+本篇为CPBOX工具教程的目录导航，你可以从这里快速找到你需要的教程
+
+快速进入CPBOX官网：[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+
 ### 多号批量工具（撸毛工具）
 
 批量钱包创建：快速建立多账号，实现多号撸毛
@@ -42,7 +46,7 @@ Solana批量归集教程：支持多个钱包内的代币批量归集
 
 [Solana租金回收教程](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)：地址单个或批量回收租金，隐藏收入
 
-Solana创建钱包教程：批量生成Solana钱包，1分钟生成几千个
+[Solana创建钱包教程](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)：批量生成Solana钱包，1分钟生成几千个
 
 [PUMP绑定买入教程](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)：发币上pump.fun，支持多地址捆绑买入
 
