@@ -61,8 +61,9 @@
     * [ERC20 代币部署教程](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md)
     * [LP挖矿推荐奖励的营销代币部署](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
     * [创建可以Mint,以及燃烧LP的代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md)
-    * [一键创建分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/yi-jian-chuang-jian-fen-hong-dai-bi.md)
+    * [创建分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md)
     * [创建LP分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.md)
+    * [创建持币分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.md)
 
 ## 📞 联系我们
 

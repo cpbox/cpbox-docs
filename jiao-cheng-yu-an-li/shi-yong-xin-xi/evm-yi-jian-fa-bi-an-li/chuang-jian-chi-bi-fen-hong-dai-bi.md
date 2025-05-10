@@ -1,27 +1,34 @@
 ---
-description: 教你创建分红代币，让你的代币价格不停的往上涨
+description: 持币分红，每笔交易自动分红主流币，持仓越多奖励越多，轻松享被动收益！        4o
 ---
 
-# 一键创建分红代币
+# 创建持币分红代币
 
-#### 什么是分红代币？
+## 什么是持币分红？
 
-分红本币，指的是持币分本币（所谓本币，就是**你发行的代币**）。用户从每一笔交易中，按照分红税率扣除一定的代币给到所有持币人。每个持币人所能分到的奖励，和它所拥有的代币数额有关系。持仓越大，分到的奖励越多。
+持币分红，指的是你发行代币之后，持有你发行的代币的用户可以从每一笔交易中，按照分红税率扣除一定的分红代币给到所有持币人。每个持币人所能分到的奖励，和它所拥有的代币数额有关系。持仓越大，分到的奖励越多。具体分红哪种币，可以在创建合约时选择，一般为主流币，如wBNB、USDT、USDC、Doge等等。\
 
-#### 使用场景
 
-通过定期分红（如协议收入、交易手续费等），鼓励用户长期持有代币而非短期抛售，稳定代币价格。结合代币燃烧和提供流动性奖励等机制，实现灵活的代币运营。
+## 合约功能描述
 
-#### 合约部署
+* 有黑名单、白名单 、销毁、营销钱包等功能
+* 持币分其他币（USDT、USDC等），不支持分本币
+* 持币分红可以设置门槛
+* 发币之后，可以调整买卖税率
+* 发布之后，可以丢弃代币权限
 
-打开[remix](https://remix.ethereum.org/)，新建文件并粘贴合约源码，或者直接关联合约源码地址，操作流程参考：
+\
 
-合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol)
+
+## 合约部署
+
+打开[remix](https://remix.ethereum.org/)，新建文件并粘贴合约源码，或者直接关联合约源码地址
+
+合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividendPayingToken.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividendPayingToken.sol)
 
 **参数说明**
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption><p>创建分红代币</p></figcaption></figure>
-
+\
 这里给出一份示例参数，并解释如何修改适合自己的参数
 
 * 第一个 stringParams 的参数: `["CPBoxTestToken", "CPBLP"]`
@@ -78,8 +85,8 @@ bool[] memory boolParams = [
 
 **注意事项**
 
-* 总的买入税率不能超过25%（ 买入营销税 + 买入税 + 分红税 + 买入销毁 < 2500）
-* 总的卖出税率不能超过25%（卖出营销税 + 卖出税 + 卖出分红 + 卖出销毁 <2500）
+* 总的买入税率不能超过25%（ buyFundFee + buyLPFee + buyReflectFee + buyBurnFee < 2500）
+* 总的卖出税率不能超过25%（sellFundFee + sellLPFee + sellReflectFee + sellBurnFee <2500）
 * 在Pancake第一次添加流动性的时候，必须做V2的池子，不能做V3的池子。V3不支持任何机制，所以只能在V2做，请注意
 * 合约创建完成后默认丢弃权限，也没有白名单、黑名单、杀机器人、交易开关等功能
 * 黑洞地址如果持有代币，同样会参与分红
@@ -96,7 +103,7 @@ bool[] memory boolParams = [
 
 【其他社媒】&#x20;
 
-TG交流群：[https://t.me/cpboxio](yi-jian-chuang-jian-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
+TG交流群：[https://t.me/cpboxio](chuang-jian-chi-bi-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
