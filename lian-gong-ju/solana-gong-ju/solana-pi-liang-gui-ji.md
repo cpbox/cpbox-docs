@@ -35,6 +35,10 @@ CPBOX为了解决这一问题，开发了批量归集这个功能。
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2goylfc1hr5npap6a.png)
 
+***
+
+联系我们
+
 如果想要深入了解CPBOX产品的其他用途和功能
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
@@ -51,6 +55,6 @@ CPBOX为了解决这一问题，开发了批量归集这个功能。
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
 Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\

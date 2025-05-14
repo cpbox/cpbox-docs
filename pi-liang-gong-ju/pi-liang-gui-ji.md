@@ -56,3 +56,27 @@ description: 一键将分散在多个钱包的代币和资产安全归集到主�
 ### 安全提示
 
 CPBox不会存储用户的私钥信息，请务必妥善保管您的私钥，谨慎进行复制粘贴操作。
+
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

@@ -79,7 +79,7 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 
 ***
 
-PumpSwap的教程就到这里了
+### 联系我们
 
 如果想要深入了解CPBOX产品的其他用途和功能
 
@@ -97,9 +97,8 @@ PumpSwap的教程就到这里了
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)
 

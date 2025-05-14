@@ -70,6 +70,8 @@ Ton因为有着Telegram作为绑定，未来的生态有着很多潜在的用户
 
 ***
 
+### 联系我们
+
 如果想要深入了解CPBOX产品的其他用途和功能
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
@@ -86,8 +88,6 @@ Ton因为有着Telegram作为绑定，未来的生态有着很多潜在的用户
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
-
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
