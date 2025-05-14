@@ -23,6 +23,7 @@
   * [Solana 批量买卖代币](solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md)
   * [Solana 代币管理](solana-gong-ju/solana-dai-bi-guan-li.md)
   * [Solana批量转账（空投发送）](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+  * [Solana批量归集](lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md)
   * [Pump 开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
@@ -36,6 +37,7 @@
   * [Ton 代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
   * [Ton 流动性池创建](ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
   * [Ton 钱包创建教程](ton-lian-gong-ju/ton-qian-bao-chuang-jian-jiao-cheng.md)
+  * [Ton批量转账（空投发送）](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
 ## 批量与监控工具
 
