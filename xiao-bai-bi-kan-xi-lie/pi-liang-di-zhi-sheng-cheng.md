@@ -65,3 +65,25 @@ CPBOX 支持生成多种加密货币钱包地址格式：
    * 建立恢复流程文档
 
 批量生成加密钱包地址是一项需要谨慎对待的操作，安全性始终应放在首位。CPBOX 提供的断网操作和专用脚本选项能满足不同级别的安全需求。
+
+***
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)

@@ -40,3 +40,25 @@ description: 通过助记词安全生成、验证和恢复加密钱包私钥
 答：开始索引决定了从哪个索引位置开始生成地址，通常从 0 开始。
 
 如需更多帮助，请随时联系我们的客服团队。
+
+***
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)

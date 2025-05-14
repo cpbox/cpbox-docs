@@ -2,7 +2,7 @@
 description: 一键将多个NFT资产同时发送给不同的接收地址。支持ERC721和ERC1155标准
 ---
 
-# NFT批量发送
+# NFT 批量发送
 
 ### 功能概述
 
@@ -65,3 +65,27 @@ A3: 单次操作可支持最多上万个目标钱包地址，无NFT数量限制�
 CPBox的NFT批量发送功能为用户提供了便捷高效的NFT分发解决方案，无论是NFT项目空投、社区奖励分发还是团队资产分配，都能轻松应对。通过简单几步操作，即可完成大量NFT的精准分发，为NFT管理带来全新体验。
 
 立即登录CPBox，体验NFT批量发送功能，让您的NFT分发工作变得简单高效！
+
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

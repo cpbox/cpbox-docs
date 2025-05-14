@@ -82,3 +82,27 @@ CPBox的余额监控功能是专为数字资产管理者设计的高效工具，
 ### 联系定制
 
 如需定制监控方案或SDK调用服务，请联系我们的客户支持团队。我们提供专业的技术支持和培训服务，确保您能充分利用CPBox余额监控功能的全部潜力。
+
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

@@ -2,7 +2,7 @@
 description: 管理你创建的代币信息及权限
 ---
 
-# Ton代币管理
+# Ton 代币管理
 
 ### 前言
 
@@ -51,6 +51,8 @@ Ton链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 ***
 
+### 联系我们
+
 如果想要深入了解CPBOX产品的其他用途和功能
 
 可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
@@ -67,8 +69,6 @@ Ton链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
-
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

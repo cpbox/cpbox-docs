@@ -2,7 +2,7 @@
 description: 一键创建Ton链token
 ---
 
-# Ton链一键发币，0代码发币
+# Ton 一键发币
 
 {% embed url="https://youtu.be/uH7jV9jCcD8" %}
 
@@ -65,7 +65,13 @@ description: 一键创建Ton链token
 
 后续想要为代币添加流动性池，并希望dex上交易可以参考这篇文章：
 
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
+[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+{% endcontent-ref %}
+
 ***
+
+### 联系我们
 
 如果想要深入了解CPBOX产品的其他用途和功能
 
@@ -83,9 +89,8 @@ description: 一键创建Ton链token
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
 
