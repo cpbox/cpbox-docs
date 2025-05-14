@@ -30,9 +30,9 @@ description: cpbox工具大全导航
 
 [EVM链批量发送教程](https://www.cpbox.io/cn/batch/send-token)：批量发送，快速实现多钱包买入卖出｜[查看教程](https://docs.cpbox.io/pi-liang-gong-ju/pi-liang-fa-song.html)
 
-[Solana链批量发送教程](https://www.cpbox.io/cn/solana/batch/send)：实现Sol链快速转账或发送MEME空投｜查看教程
+[Solana链批量发送教程](https://www.cpbox.io/cn/solana/batch/send)：实现Sol链快速转账或发送MEME空投｜[查看教程](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[Ton链批量发送教程](https://www.cpbox.io/cn/ton/batch-send-token)：实现Tonl链快速转账或发送代币空投｜查看教程
+[Ton链批量发送教程](https://www.cpbox.io/cn/ton/batch-send-token)：实现Tonl链快速转账或发送代币空投｜[查看教程](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
 [Sui链批量发送教程](https://www.cpbox.io/cn/sui/batch-send-token)：实现Sui链快速转账或发送代币空投｜[查看教程](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
 
@@ -40,9 +40,9 @@ description: cpbox工具大全导航
 
 [Solana一键发币](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html)：全网最丝滑的Solana一键发币平台｜[查看教程](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html)
 
-[Solana批量转账](https://www.cpbox.io/cn/solana/batch/send)：Solana批量转账/空投代币、以及Sol本币｜查看教程
+[Solana批量转账](https://www.cpbox.io/cn/solana/batch/send)：Solana批量转账/空投代币、以及Sol本币｜[查看教程](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[Solana批量归集](https://www.cpbox.io/cn/solana/batch/collection)：支持多个钱包内的代币批量归集｜查看教程
+[Solana批量归集](https://www.cpbox.io/cn/solana/batch/collection)：支持多个钱包内的代币批量归集｜[查看教程](lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md)
 
 [Solana租金回收](https://www.cpbox.io/cn/solana/close-account)：地址单个或批量回收租金，隐藏收入｜[查看教程](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
 
