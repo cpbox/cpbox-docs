@@ -29,6 +29,7 @@
   * [Sui 一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
   * [Sui 代币权限修改](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
   * [Sui 流动性池添加](sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
+  * [Sui批量发送（空投发送）](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
 * [Ton 工具](lian-gong-ju/ton-gong-ju/README.md)
   * [Ton 一键发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
   * [Ton 代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)

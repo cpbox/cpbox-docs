@@ -34,7 +34,7 @@ description: cpbox工具大全导航
 
 [Ton链批量发送教程](https://www.cpbox.io/cn/ton/batch-send-token)：实现Tonl链快速转账或发送代币空投｜查看教程
 
-[Sui链批量发送教程](https://www.cpbox.io/cn/sui/batch-send-token)：实现Sui链快速转账或发送代币空投｜查看教程
+[Sui链批量发送教程](https://www.cpbox.io/cn/sui/batch-send-token)：实现Sui链快速转账或发送代币空投｜[查看教程](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
 
 ### SOLANA一键发币
 
