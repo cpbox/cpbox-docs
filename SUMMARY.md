@@ -22,6 +22,7 @@
   * [Solana钱包批量创建](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
   * [Solana 批量买卖代币](solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md)
   * [Solana 代币管理](solana-gong-ju/solana-dai-bi-guan-li.md)
+  * [Solana批量转账（空投发送）](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
   * [Pump 开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
