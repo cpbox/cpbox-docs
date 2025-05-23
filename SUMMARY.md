@@ -13,6 +13,7 @@
   * [多号撸毛有哪些好用的批量工具](qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
   * [发币从入门到跑路——全网最真诚的区块链发币指南](qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
   * [什么是流动性资金池、AMM、流动性挖矿](qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+  * [如何将代币价格控制在一定范围，稳定池CLMM介绍](qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
 
 ## 链工具
 
