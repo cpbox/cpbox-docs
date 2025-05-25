@@ -52,7 +52,9 @@ description: cpbox工具大全导航
 
 [PUMP市值管理](https://www.cpbox.io/cn/solana/bmm?id=3)：pump.fun内盘代币批量交易，市值管理机器人｜[查看教程](solana-gong-ju/pump-shi-zhi-guan-li.md)
 
-[PUMPSWAP加池子](https://swap.pump.fun/?input=So11111111111111111111111111111111111111112)：pumpfun最新上线dex，无需繁琐操作交易｜[查看教程](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
+[PUMPSWAP加池子](https://swap.pump.fun/?input=So11111111111111111111111111111111111111112)：pumpfun最新上线DEX，无需繁琐操作交易｜[查看教程](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
+
+[Raydium加池子](https://raydium.io/liquidity-pools/)：Raydium，Sol链最老牌的DEX，CLMM稳定池添加｜[查看教程](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
 
 ### Ton一键发币
 
