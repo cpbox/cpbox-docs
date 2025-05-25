@@ -28,6 +28,7 @@
   * [Pump 开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
+  * [Raydium添加流动性——稳定池创建](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
 * [Sui 工具](lian-gong-ju/sui-gong-ju/README.md)
   * [Sui 一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
   * [Sui 代币权限修改](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
