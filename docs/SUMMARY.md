@@ -1,0 +1,12 @@
+- zh:
+    - title: 中文文档
+    - path: zh/
+        - 首页
+        - 功能1
+        - 功能2
+- en:
+    - title: English Documentation
+    - path: en/
+        - Home
+        - Feature 1
+        - Feature 2

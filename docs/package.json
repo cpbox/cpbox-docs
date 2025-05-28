@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-language-selector": "^1.1.1",
     "gitbook-plugin-reflinks": "^1.0.1",
     "gitbook-plugin-sitemap": "^1.2.0",
     "gitbook-plugin-toggle-chapters": "^0.0.3",
