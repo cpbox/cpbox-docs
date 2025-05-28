@@ -1,6 +1,4 @@
 # Table of contents
-
-* [README](README.md)
 * [zh:](<zh/README (1).md>)
   * [🏠 CPBOX介绍](zh/README.md)
   * [起步引导:](zh/path-zh/qi-bu-yin-dao/README.md)
