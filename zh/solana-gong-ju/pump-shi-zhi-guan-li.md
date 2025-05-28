@@ -2,7 +2,7 @@
 description: 专业优化您的DEX流动性池和BMM做市策略
 ---
 
-# Pump市值管理
+# Pump 市值管理
 
 ### 选择功能概述
 
@@ -150,4 +150,28 @@ CPBox.io 现阶段提供了4中交易策略，分别是一键砸盘，目标价�
 我们深知每个项目都有其独特的需求和挑战，CPBox.io提供全方位的定制化Solana上市值管理服务。无论您是希望针对特定DEX进行市值管理，还是需要为项目重大事件提供短期市值支持，或是寻求长期的代币价值增长策略，我们的专业团队都能为您量身定制最适合的解决方案。
 
 如有任何特殊需求或疑问，欢迎随时联系我们的客户服务团队。CPBox.io的专业顾问将在24小时内与您取得联系，深入了解您的项目情况，并提供个性化的市值管理方案和报价。我们承诺，为每一个项目提供最专业、最高效的服务，助力您的项目在激烈的市场竞争中脱颖而出。
+
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](solana-yi-jian-fa-bi.md)\
 

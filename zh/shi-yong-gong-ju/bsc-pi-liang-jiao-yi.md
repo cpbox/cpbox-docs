@@ -2,7 +2,7 @@
 description: 支持FourMeme平台，支持上千钱包一键拉盘砸盘
 ---
 
-# BSC批量交易
+# BSC 批量交易
 
 ### 固定功能概述
 
@@ -66,4 +66,29 @@ VIP   27.9u/7天  99u/30天  999u/365天
 ### 定制服务
 
 我们深知每位用户的需求各不相同，若您需要更加个性化的BSC批量交易解决方案，诚挚欢迎您与我们专业团队联系。我们将竭诚为您提供一对一的咨询服务，根据您的具体业务场景量身定制最佳方案。您的满意是我们不懈追求的目标，期待能有机会为您创造更大的价值。
+
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+
 

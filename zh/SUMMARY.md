@@ -13,6 +13,7 @@
   * [多号撸毛有哪些好用的批量工具](qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
   * [发币从入门到跑路——全网最真诚的区块链发币指南](qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
   * [什么是流动性资金池、AMM、流动性挖矿](qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+  * [如何将代币价格控制在一定范围，稳定池CLMM介绍](qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
 
 ## 链工具
 
@@ -22,18 +23,23 @@
   * [Solana钱包批量创建](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
   * [Solana 批量买卖代币](solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md)
   * [Solana 代币管理](solana-gong-ju/solana-dai-bi-guan-li.md)
+  * [Solana批量转账（空投发送）](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+  * [Solana批量归集](lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md)
   * [Pump 开盘合并买入](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
+  * [Raydium添加流动性——稳定池创建](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
 * [Sui 工具](lian-gong-ju/sui-gong-ju/README.md)
   * [Sui 一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
   * [Sui 代币权限修改](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
   * [Sui 流动性池添加](sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
+  * [Sui批量发送（空投发送）](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
 * [Ton 工具](lian-gong-ju/ton-gong-ju/README.md)
   * [Ton 一键发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
   * [Ton 代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
   * [Ton 流动性池创建](ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
   * [Ton 钱包创建教程](ton-lian-gong-ju/ton-qian-bao-chuang-jian-jiao-cheng.md)
+  * [Ton批量转账（空投发送）](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
 ## 批量与监控工具
 

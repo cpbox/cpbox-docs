@@ -2,7 +2,7 @@
 description: 0代码sui公链发币，小白也可以。Sui一键发币教程
 ---
 
-# Sui一键发币
+# Sui 一键发币
 
 
 
@@ -80,12 +80,26 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 [sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
 {% endcontent-ref %}
 
-如果想要更多的了解并了解Cryptobox这个产品的其他用途和功能
+***
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+### 联系我们
 
-如果在产品功能使用中遇到了问题
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
 
 或者你有一些好的建议或者想要帮助开发的需求
 
 可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

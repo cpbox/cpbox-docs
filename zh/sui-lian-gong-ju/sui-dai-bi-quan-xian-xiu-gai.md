@@ -1,4 +1,4 @@
-# Sui代币权限修改
+# Sui 代币权限修改
 
 Sui链的代币创建出来后，会有3个权限：增发权限（铸币权）、更新资料权限，代币燃烧权限 以及**权限丢弃**功能
 
@@ -66,10 +66,24 @@ Sui链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 ***
 
-如果想要更多的了解并了解Cryptobox这个产品的其他用途和功能可
+### 联系我们
 
-以点击 [https://docs.cpbox.io/](https://docs.cpbox.io/)
+如果想要深入了解CPBOX产品的其他用途和功能
 
-如果在产品功能使用中遇到了问题或者你有一些好的建议或者想要帮助开发的需求
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
 
-可以通过主页[ https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

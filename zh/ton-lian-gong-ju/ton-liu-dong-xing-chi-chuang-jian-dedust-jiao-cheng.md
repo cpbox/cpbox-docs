@@ -2,7 +2,7 @@
 description: Ton流动性池创建-DeDust教程
 ---
 
-# Ton流动性池创建-DeDust教程
+# Ton 流动性池创建
 
 {% embed url="https://youtu.be/MsOaA0YJmW4" %}
 
@@ -95,7 +95,13 @@ ok，DeDust的教程到这里就结束了，大家也可以通过LP来进行一�
 
 如果大家不清楚流动性池的原理可以查看这篇文章
 
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
+[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+{% endcontent-ref %}
+
 ***
+
+### 联系我们
 
 如果想要深入了解CPBOX产品的其他用途和功能
 
@@ -113,6 +119,6 @@ ok，DeDust的教程到这里就结束了，大家也可以通过LP来进行一�
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

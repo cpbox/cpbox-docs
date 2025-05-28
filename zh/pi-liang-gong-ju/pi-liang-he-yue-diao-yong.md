@@ -30,7 +30,11 @@ description: 区块链多地址高级操作，高效批量调用相同或不同�
 
     * 从浏览器复制十六进制的Input Data数据
 
+<<<<<<< HEAD:zh/pi-liang-gong-ju/pi-liang-he-yue-diao-yong.md
     <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>示例：十六进制的Input Data</p></figcaption></figure>
+=======
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>示例：十六进制的Input Data</p></figcaption></figure>
+>>>>>>> ba2e8bf306ac3a48056e16d118061bc843b97ef5:pi-liang-gong-ju/pi-liang-he-yue-diao-yong.md
 
     * 设置适当的执行间隔以避免网络拥堵
     * 根据当前网络状况和交易优先级配置Gas设置
@@ -53,4 +57,27 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 > **注意**：执行前务必验证合约地址和交易参数。处理私钥时请遵循适当的安全措施。
 
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
 \

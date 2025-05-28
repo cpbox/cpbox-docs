@@ -91,14 +91,24 @@ cpbox支持多个主网，涵盖大部分需求
 
 <figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Token 批量归集</p></figcaption></figure>
 
-CPBOX还有其他许多的批量工具，满足撸毛玩家，或者其他用户的使用需求
+***
 
-如果想要更多的了解并了解CPBOX这个产品的其他用途和功能
+如果想要深入了解CPBOX产品的其他用途和功能
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
-
-如果在产品功能使用中遇到了问题
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
 
 或者你有一些好的建议或者想要帮助开发的需求
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们\
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\

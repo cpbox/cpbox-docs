@@ -2,7 +2,7 @@
 description: 一键将分散在多个钱包地址的NFT资产安全转移到您的主钱包
 ---
 
-# NFT批量归集
+# NFT 批量归集
 
 ### 功能概述
 
@@ -45,3 +45,27 @@ CPBox 平台承诺不会存储用户的钱包私钥。为确保资产安全，�
 * 操作完成后及时清除相关记录
 
 通过 CPBox NFT 批量归集工具，您可以便捷地管理分散在多个钱包中的 NFT 资产，提高资产管理效率。
+
+***
+
+### 联系我们
+
+如果想要深入了解CPBOX产品的其他用途和功能
+
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+
+或者你有一些好的建议或者想要帮助开发的需求
+
+可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+
+也可以通过下方社媒来联系我们
+
+***
+
+### 其他社媒
+
+TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\

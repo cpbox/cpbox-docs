@@ -104,12 +104,10 @@ AMM运行的核心逻辑就是用户将加密资产存入智能合约组成的�
 
 ***
 
-#### 其他社媒
+### 其他社媒
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
-
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://www.youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)
