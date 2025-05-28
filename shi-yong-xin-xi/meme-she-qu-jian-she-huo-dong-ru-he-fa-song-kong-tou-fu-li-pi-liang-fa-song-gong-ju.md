@@ -18,23 +18,23 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 进入cpbox官网[https://www.cpbox.io](https://www.cpbox.io)点击实用工具右侧 solana链中的 批量发送进入页面
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
 
 进入页面后点击链接钱包(这里的钱包是要存在你要发送的token代币)
 
 下方再输入meme代币的合约地址，下方就可以自显示钱包中的代币数量
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
 
 再在下方导入收集到需要发送空投的代币地址
 
 导入完毕后再点击修改数量按钮，这边我们只导入了一个钱包地址，如果数量多可以通过文件上传实现导入
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>钱包导入</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包导入</p></figcaption></figure>
 
 这边可以选择随机金额发送后者是固定金额发送填入你需要随机发送的数量范围即可
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -46,17 +46,17 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 进入页面后还是老样子，链接钱包后输入代币的合约地址
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>批量发送SUI</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption><p>批量发送SUI</p></figcaption></figure>
 
 **这里需要注意一一下**，sui链的合约地址是要输入type的地址
 
 如果不知道怎么查看，可以去**Suiscan上，**&#x8F93;入相应的代币地址，就可以查看到这个type
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>查看SUI 代币type</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>查看SUI 代币type</p></figcaption></figure>
 
 剩下的发送空投就和上方上方Sol链一样
 

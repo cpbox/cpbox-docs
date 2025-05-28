@@ -35,7 +35,7 @@ Metamask
 
 这里我们之间从URL链接中导入合约代码
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过链接导入代码</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过链接导入代码</p></figcaption></figure>
 
 链接在这https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol
 
@@ -51,7 +51,7 @@ cpbox已经在github中提供了可以直接部署的代码，填入对应的url
 
 意思是要注意安全，别拷贝了有木马的代码，拷贝完事以后和github.com上面的源码比较一下， 一样的话就放心了。成功导入后，找到erc20.sol这个文件，保存一下即可编译
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>编译</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>编译</p></figcaption></figure>
 
 编译的时候把参数选一下
 
@@ -61,15 +61,15 @@ EVM version 不一样的版本设计到一些EVM 更新，一般选默认就行�
 
 编译成功的话可以看到左侧第三个按钮有个绿色的勾，下一步准备连接钱包进行合约的部署
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>链接钱包</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>链接钱包</p></figcaption></figure>
 
 通过红色框的按钮切到部署合约的面板，在下拉中选择连接MetaMask，此时会唤起钱包的弹框，点击连接即可连接上钱包
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>部署合约</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>部署合约</p></figcaption></figure>
 
 成功连接之后，可以看到当前所在的链已经连接的钱包地址和钱包余额
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>查看钱包地址余额</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>查看钱包地址余额</p></figcaption></figure>
 
 下面开始部署合约，首先根据要部署的代币信息填写对应的参
 

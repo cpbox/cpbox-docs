@@ -37,29 +37,29 @@ description: 学会开源合约代码，Web3合约开源促进安全审计、建
 
 前面我们已经看到，针对未开源的合约，区块浏览器会有相应的引导入口引导用户去进行合约的开源，这种方式相对比较简单，比较适合一些小白的用户。通过下面的流程一步一步操作，即可快速实现合约的开源。
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>开源代码</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>开源代码</p></figcaption></figure>
 
 进入合约开源页面之后，自动带入合约地址，因为我们示例的只有有个单独的合约文件，因为我们选择单文件，然后根据合约代码填写对应的合约编译器版本和开源协议
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>选择编译器版本</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>选择编译器版本</p></figcaption></figure>
 
 这两个参数我们在部署的时候可以看到
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>编译版本</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>编译版本</p></figcaption></figure>
 
 点击继续进入下一个页面
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>合约开源</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>合约开源</p></figcaption></figure>
 
 首先我们把合约代码拷贝进去，然后因为合约比较简单，注意 optimization 和 Runs 这两个参数在remix 上是自己选的
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>remix 编译优化选项</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>合约配置</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>合约配置</p></figcaption></figure>
 
 点击验证和部署，会看到这个提示
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>合约开源提示</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>合约开源提示</p></figcaption></figure>
 
 这个是再在区块浏览器中输入合约地址，发现合约已经是验证过的了，并且可以看到合约的源码
 
