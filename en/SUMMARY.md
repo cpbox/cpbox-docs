@@ -4,16 +4,16 @@
 
 ## Getting Started
 
-* [Quick Start Guide](cpbox-dao-hang.md)
-* [Beginner's Guide](qi-bu-yin-dao/xiao-bai-ru-men/README.md)
-  * [Generate Vanity Addresses](xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.md)
-  * [MetaMask Setup Guide for Beginners](xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
-  * [Generate Addresses in Bulk](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
-  * [Derive Private Keys from Mnemonics](xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md)
-  * [Essential Batch Tools for Multi-Account Airdrop Farming](qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
-  * [The Complete Guide to Token Creation: From Launch to Exit](qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
-  * [Understanding Liquidity Pools, AMMs, and Liquidity Mining](qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
-  * [Price Control Strategies: A Guide to Stable Pool CLMM](qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
+* [Quick Start](start/cpbox-dao-hang.md)
+* [Beginner's Guide](beginner/README.md)
+  * [Generate Vanity Addresses](beginner/liang-hao-di-zhi-sheng-cheng.md)
+  * [MetaMask Setup Guide for Beginners](beginner/metamask-xiao-hu-li-zhu-shou.md)
+  * [Generate Addresses in Bulk](beginner/pi-liang-di-zhi-sheng-cheng.md)
+  * [Derive Private Keys from Mnemonics](beginner/zhu-ji-ci-sheng-cheng-si-yao.md)
+  * [Essential Batch Tools for Multi-Account Airdrop Farming](beginner/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
+  * [The Complete Guide to Token Creation: From Launch to Exit](beginner/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+  * [Understanding Liquidity Pools, AMMs, and Liquidity Mining](beginner/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+  * [Price Control Strategies: A Guide to Stable Pool CLMM](beginner/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
 
 ## Blockchain Tools
 

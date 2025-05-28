@@ -1,5 +1,5 @@
 ---
-description: 专业web3批量工具、发币平台
+description: Professional Web3 batch tools and token launch platform
 cover: https://gitbookio.github.io/onboarding-template-images/header.png
 coverY: 0
 layout:
@@ -18,83 +18,81 @@ layout:
     visible: true
 ---
 
-# 🏠 CPBOX介绍
+# 🏠 CPBOX Introduction
 
-### 平台概述
+### Platform Overview
 
-CPBOX是业内领先的Web3.0多链工具平台，致力于通过全可视化界面简化区块链操作，让用户无需编程即可安全、轻松地完成发币、流动性管理等复杂过程。我们目前已支持Ethereum、BSC、Solana、TRON、BASE、SUI、TON等数十个主流区块链网络，为Web3生态用户提供全方位的实用工具。
+CPBOX is the industry's leading Web3.0 multi-chain tool platform, dedicated to simplifying blockchain operations through a fully visual interface, enabling users to safely and easily complete complex processes such as token creation and liquidity management without programming. We currently support dozens of mainstream blockchain networks including Ethereum, BSC, Solana, TRON, BASE, SUI, TON, providing comprehensive practical tools for Web3 ecosystem users.
 
+### Core Features
 
+* **Token Creation & Management**: One-click token creation, token updates, burning and recovery, supporting multiple token standards
+* **Batch Operation Tools**: Batch transfers, batch collection, batch queries, improving asset management efficiency
+* **Market Cap Management**: DEX-based liquidity management and trading optimization, intelligent monitoring and automated trading strategies
+* **Chain-Specific Features**: Professional functions such as Solana's unique rent recovery, Ethereum's ERC series token management, BSC's BEP series token operations
 
-### 核心功能
+### Technical Advantages
 
-* **代币创建与管理**：一键发币、代币更新、燃烧与回收，支持多种token标准
-* **批量操作工具**：批量转账、批量归集、批量查询，提升资产管理效率
-* **市值管理**：基于DEX的流动性管理与交易优化，智能监控与自动化交易策略
-* **链特定功能**：如Solana链特有的租金回收、Ethereum的ERC系列代币管理、BSC的BEP系列代币操作等专业功能
+CPBOX is built by a technology-focused team, dedicated to developing stable, secure, and user-friendly blockchain tools. By simplifying complex on-chain operations, we make Web3 asset management intuitive and efficient while maintaining operational security and transparency.
 
-### 技术优势
+#### Security Assurance
 
-CPBOX由一支以技术为核心的团队打造，我们专注于开发稳定、安全且用户友好的区块链工具。通过简化复杂的链上操作，我们让Web3资产管理变得直观高效，同时保持操作的安全性与透明度。
+* Full-process security auditing
+* Operation methods without private key custody
+* Multi-signature support
+* Real-time transaction monitoring and risk alerts
 
-#### 安全保障
+#### User Experience
 
-* 全流程安全审计
-* 无需私钥托管的操作方式
-* 多重签名支持
-* 实时交易监控与风险预警
+* Intuitive and easy-to-use interface design
+* Unified cross-chain asset management
+* Rich data visualization
 
-#### 用户体验
+### Application Scenarios
 
-* 直观易用的界面设计
-* 跨链资产统一管理
-* 丰富的数据可视化
+#### Project Teams & Entrepreneurs
 
-### 应用场景
+* Easily issue and manage their own tokens
+* Efficiently manage project liquidity and market cap
+* Batch process community airdrops and rewards
 
-#### 项目方与创业者
+#### Investors & Traders
 
-* 轻松发行和管理自己的代币
-* 高效管理项目流动性和市值
-* 批量处理社区空投和奖励
+* Unified cross-chain asset management
+* Batch operations to improve efficiency
+* Market data analysis and decision support
 
-#### 投资者与交易者
+#### Community Managers
 
-* 跨链资产统一管理
-* 批量操作提升效率
-* 市场数据分析与决策支持
+* Simplify token distribution and incentive mechanisms
+* Efficiently manage community treasury
+* Transparent on-chain governance tools
 
-#### 社区管理者
+### Development Roadmap
 
-* 简化代币分发与激励机制
-* 高效管理社区财库
-* 透明的链上治理工具
+As a firm supporter of Web3, CPBOX will continue to innovate and optimize our services:
 
-### 发展路线
+1. **Deep Development of Batch Tools**: Provide the industry's highest quality batch operation tools, making it more convenient for users to manage on-chain assets
+   * More chain support and cross-chain operations
+   * Advanced batch processing and automation features
+   * Customized batch operation templates
+2. **Full Lifecycle Token Management**: Complete process support from one-click token creation to token updates, management, burning and recovery
+   * Multiple token standard support
+   * Smart contract advanced feature customization
+   * Token economic model analysis and optimization
+3. **Market Cap Management Tools**: Develop secure and reliable token market cap management and trading systems to enhance users' on-chain asset appreciation capabilities
+   * DEX liquidity optimization strategies
+   * Automated market cap management tools
+   * Advanced trading analysis and prediction
+4. **Ecosystem Integration & Expansion**:
+   * Deep integration with mainstream DeFi protocols
+   * Developer API and plugin system
+   * DAO governance tool support
 
-作为Web3的坚定支持者，CPBOX将持续创新并优化我们的服务：
+### Vision & Mission
 
-1. **批量工具深耕**：提供业内最优质的批量操作工具，让用户更便捷地管理链上资产
-   * 更多链支持与跨链操作
-   * 高级批处理与自动化功能
-   * 定制化批量操作模板
-2. **代币全生命周期管理**：从一键发币到代币更新、管理、燃烧和回收的全流程支持
-   * 多种代币标准支持
-   * 智能合约高级功能定制
-   * 代币经济模型分析与优化
-3. **市值管理工具**：开发安全可靠的Token市值管理与交易系统，增强用户资产的链上增值能力
-   * DEX流动性优化策略
-   * 自动化市值管理工具
-   * 高级交易分析与预测
-4. **生态整合与扩展**：
-   * 与主流DeFi协议的深度整合
-   * 开发者API与插件系统
-   * DAO治理工具支持
+CPBOX's vision is to become the most reliable and user-friendly blockchain tool platform in the Web3 world. We are committed to lowering the barriers to Web3 adoption through technological innovation, enabling more users to participate safely and conveniently in the blockchain economy.
 
-### 愿景与使命
+We believe blockchain technology will reshape the future of the global digital economy. CPBOX will continue to stand at the forefront of technology, providing users with the most practical and secure blockchain tools, working together to promote the prosperity of the Web3 ecosystem.
 
-CPBOX的愿景是成为Web3世界中最可靠、最易用的区块链工具平台，我们致力于通过技术创新降低Web3的使用门槛，让更多用户能够安全、便捷地参与区块链经济。
-
-我们相信区块链技术将重塑全球数字经济的未来，CPBOX将继续站在技术前沿，为用户提供最实用、最安全的区块链工具，共同推动Web3生态系统的繁荣发展。
-
-立即体验CPBOX，开启您的Web3之旅：[www.cpbox.io](https://www.cpbox.io)
+Experience CPBOX now and start your Web3 journey: [www.cpbox.io](https://www.cpbox.io)

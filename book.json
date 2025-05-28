@@ -9,15 +9,19 @@
     "expandable-chapters",
     "toggle-chapters",
     "chapter-fold",
-    "theme-comscore"],
-    "title": "CPBox.io",
-
+    "theme-comscore",
+    "theme-default",
+    "highlight",
+    "search",
+    "sharing",
+    "fontsettings",
+    "language-selector"],
+    "title": "CPBOX Documentation",
     "root": ".",
     "pluginsConfig": {
         "favicon-absolute":{
             "favicon": "/favicon.ico",
             "appleTouchIconPrecomposed152": "./favicon.ico"
-
         },
         "sitemap": {
             "hostname": "https://docs.cpbox.io"
@@ -25,9 +29,27 @@
         "anchor-navigation-ex": {
             "showLevel": false,
             "showGoTop": true
-          },
-          "github": {
+        },
+        "github": {
             "url": "https://gitub.com/cpbox"
-          }
+        },
+        "theme-default": {
+            "showSummary": true
+        },
+        "language-selector": {
+            "languages": [
+                {"code": "en", "name": "English"},
+                {"code": "zh", "name": "中文"}
+            ],
+            "defaultLanguage": "en",
+            "label": {
+                "en": "Language",
+                "zh": "语言"
+            }
+        }
+    },
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
     }
 }
