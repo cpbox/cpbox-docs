@@ -1,8 +1,6 @@
----
-description: Ray diu m
----
-
 # Raydium添加流动性——稳定池创建
+
+{% embed url="https://youtu.be/F-kLQHTfQkQ" %}
 
 ### **前言：为什么选择Raydium？**
 
@@ -18,17 +16,17 @@ description: Ray diu m
 
 当你在CPBOX完成[SOL一键发币](https://www.cpbox.io/cn/solana/token/publish)后进入[raydium官网](https://raydium.io/swap/?inputMint=HtCqD3o5aF1RXcyGi6AW11PoB3bZmFdA8kvVyhJrpump\&outputMint=sol)后。连接您的钱包后，单击页面左上角的“liquidity” 。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=Yzg4MDdlMmI1YjJjNDgzMTUwOWZlMDhiNWFjZGRjZjlfaFQ1UWp0VkVBRVY2ejR0eUNwUWFDeW91VWVJVTZ5QWJfVG9rZW46SThmRmJBMkRzb0Q1MWN4OHFCbWxUUkg0Z1doXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 进入页面后单击右侧 create 创建按钮
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ZDcyMzViYWRjNWNkZDY1YWI3OTRkNjlmYjFhNzJjM2NfY0JuZzNtT0VvcVBuR0thaWd5Z2R0TzBVNkNGZmJ4TURfVG9rZW46RFo0cmI1SlhBb3p2dkV4NmxZSmxoUTF6Z3lkXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 跳出弹窗后，pool type这里，我们默认选择Concentrated liquidity（集中性流动池）
 
 下方点击continue 继续
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWFkYzIwZTNkNjI2OGEzZjZkOTRlNzQwODQ0OTE1YTBfQ085VlpraW1jVUxzVlEzckhXT2tJcGQ0bWJxUDlWOVpfVG9rZW46VE1tQWJ0Ym4yb1l1bER4STlBUmw2UXdKZ0doXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 选择基础和报价代币
 
@@ -38,25 +36,25 @@ description: Ray diu m
 
 常见的报价代币（Quote token）包括SOL，USDC或其他稳定币。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWY3NDA1YmFhOWYzODQ5ZmZhZDQyNDkzYWI5NTRiMGVfQ2gxM3hZclNqdThtSDV0dHJEeUJMWm16cHo1Y2NDckRfVG9rZW46U0dtT2I3TWVab2cyY0t4TXJ3cGxsTVlJZ25oXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 注意：如果你选择的代币并没有显示头像等信息，大概率是solscan上并没有进行验证，导致信息不显示。
 
 如果你需要相关信息能够显示完全，[更新信息](https://solscan.io/token-update)页面上传相关信息。并完成审核验证
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MGViOGFhMDM1YjRlNDBiZjY5Mjk0OTdjNGI4OWIwZTNfRktWY0p2dkk2ekZFTzZ1UkdkcEVVek4zU1RoSUF1UGhfVG9rZW46V1c0VWJOd2Zsb3pXc1l4bEFacGxZa3RzZ0JoXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 点击下一步后进入价格设定界面
 
 在下方选择价格的波动范围，我这里是设定代币价格范围稳定在1刀左右，所以价格范围设置的很小。如果池子的深度不够的话，基本是没办法成交的。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NmQ1MGFhNTRjMDg5ZGIxN2I3N2VhNTlmNGE5MTUxMDNfTVpJSXVmdXlhODRCZmVmWlFQdk1WcjE1TVBpNlRiaFBfVG9rZW46R21pc2JvMkh0b1NHU2d4Umx4aGxTWGN2Z0RoXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 点击下一步后，进入到最后创建池子确认环节。选择初始要多少质押的代币，进入流动性池子。
 
 我们这里因为没有没足够的usdcoin所以没法点击确认。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MTliZTRlNzE5N2VjZTFkOGFlZDI3NTUxZGEwZDVmZTVfTjVmTWhGN0htc3YyQ2RaMGZ0M3kwY1A2U0VKTUNUY2pfVG9rZW46VEZyMWJyOUIxb2xWeWp4bnJnSGxHYVRuZ0xoXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 点击确认后池子就创建成功。
 
@@ -66,11 +64,11 @@ description: Ray diu m
 
 点击deposit进入如果你创建池子成功了，可以直接在搜索栏中搜索找到自己的池子。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MjZmMjFiZmFiYzE2OTQ0M2VmZDEzZDYyYzFjYzU2ODVfVjNVdnZFdmxFdGE0VEZDQmt2VkxYTmNHMVdQaWRJSnhfVG9rZW46THJqZ2JPWGV6b0NNR0h4ZzhOeGxxbVY4Z1JkXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 进入页面后。因为是集中性流动池，所以可以在特定的价格范围提供不同的流动性深度。
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ZjcxMDFmZGJkZWRhNDQyN2EyNTk0YzcyZmE1Yjg1ZTlfV2lGSUlYVGpOM1RUYnZNaDNDcmd1TUxwaW5NUUVkMmxfVG9rZW46WkYzaWJub1JXb1pIbWd4TXc0RmxqalB5Z0xKXzE3NDgxNDg3NzQ6MTc0ODE1MjM3NF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 对于lp们（liquidity provider）来说，可以选择固定的价格范围来提供流动性，可以避免一些不必要的亏损。这也是CLMM的优势所在。
 
