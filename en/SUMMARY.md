@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [Quick Start](start/cpbox-dao-hang.md)
+* [Quick Start](cpbox-dao-hang.md)
 * [Beginner's Guide](beginner/README.md)
   * [Generate Vanity Addresses](beginner/liang-hao-di-zhi-sheng-cheng.md)
   * [MetaMask Setup Guide for Beginners](beginner/metamask-xiao-hu-li-zhu-shou.md)

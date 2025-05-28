@@ -70,7 +70,7 @@
     - path: en/
         - [🏠 Welcome to CPBOX](en/README.md)
         - Getting Started:
-            - [Quick Start](en/start/cpbox-dao-hang.md)
+            - [Quick Start](en/cpbox-dao-hang.md)
             - [Beginner's Guide](en/beginner/README.md)
                 - [Generate Vanity Addresses](en/beginner/liang-hao-di-zhi-sheng-cheng.md)
                 - [MetaMask Setup Guide for Beginners](en/beginner/metamask-xiao-hu-li-zhu-shou.md)
