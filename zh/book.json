@@ -1,0 +1,33 @@
+{
+    "plugins": ["flexible-alerts","favicon-absolute", "sitemap", "video-embed", "reflinks","github",
+    "chart",
+    "todo",
+    "graph",
+    "puml",
+    "katex",
+    "mermaid-gb3",
+    "expandable-chapters",
+    "toggle-chapters",
+    "chapter-fold",
+    "theme-comscore"],
+    "title": "CPBox.io",
+
+    "root": ".",
+    "pluginsConfig": {
+        "favicon-absolute":{
+            "favicon": "/favicon.ico",
+            "appleTouchIconPrecomposed152": "./favicon.ico"
+
+        },
+        "sitemap": {
+            "hostname": "https://docs.cpbox.io"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true
+          },
+          "github": {
+            "url": "https://gitub.com/cpbox"
+          }
+    }
+}
