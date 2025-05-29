@@ -72,7 +72,7 @@ description: CPBOXLPBurnToken 是一款集自动销毁、流动性管理与灵�
 
 我们可以使用CPBox提供合约,直接导入[remix](https://remix.ethereum.org/) 进行部署: 源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol我这里给出一份参数，并解释如何修改适合自己的参数
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>lpburn 合约</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>lpburn 合约</p></figcaption></figure>
 
 * 第一个 stringParams 的参数: `["CPBoxLPTestToken", "CPBLP"]`
 * 第二个addressParams 的参数:
@@ -129,8 +129,6 @@ bool[] memory boolParams = [
 ]
 ```
 
-
-
 ***
 
 ### 总结
@@ -138,7 +136,6 @@ bool[] memory boolParams = [
 **CPBOXLPBurnToken** 代表了现代 DeFi 项目在合约设计上的一种新方式。
 
 通过集成自动销毁机制、灵活的费用系统以及多重安全保障，它为需要维护长期价值和健康流动性的区块链项目提供了强大的支持。该合约将是任何追求可持续增长与生态健康的项目的理想选择。
-
 
 如果想要更多的了解CPBOX这个产品的其他用途和功能
 
@@ -150,7 +147,7 @@ bool[] memory boolParams = [
 
 ***
 
-【其他社媒】&#x20;
+【其他社媒】
 
 TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
