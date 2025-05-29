@@ -18,7 +18,7 @@
 
 ## 链工具
 
-* [Solana 工具](lian-gong-ju/solana-gong-ju/README.md)
+* [Solana 工具](solana-gong-ju/README.md)
   * [Solana 一键发币](solana-gong-ju/solana-yi-jian-fa-bi.md)
   * [Solana 关闭地址(租金回收)](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
   * [Solana钱包批量创建](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
@@ -30,12 +30,12 @@
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
   * [Raydium添加流动性——稳定池创建](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
-* [Sui 工具](lian-gong-ju/sui-gong-ju/README.md)
+* [Sui 工具](sui-lian-gong-ju/README.md)
   * [Sui 一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
   * [Sui 代币权限修改](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
   * [Sui 流动性池添加](sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
   * [Sui批量发送（空投发送）](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
-* [Ton 工具](lian-gong-ju/ton-gong-ju/README.md)
+* [Ton 工具](ton-lian-gong-ju/README.md)
   * [Ton 一键发币](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
   * [Ton 代币管理](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
   * [Ton 流动性池创建](ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
