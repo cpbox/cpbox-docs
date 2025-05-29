@@ -1,5 +1,5 @@
 ---
-description: 发币必读文章
+description: Essential Reading for Issuing Crypto Tokens
 ---
 
 # The Complete Guide to Token Creation: From Launch to Exit

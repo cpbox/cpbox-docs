@@ -1,10 +1,10 @@
 ---
-description: 一站式连接MetaMask钱包，轻松添加热门公链网络。
+description: One-stop MetaMask integration with easy setup for major blockchain networks.
 ---
 
 # MetaMask Setup Guide for Beginners
 
-今天带web3小白创建属于自己的区块链钱包，首先介绍一下我们要使用的小狐狸钱包
+Today, I'll guide Web3 beginners in creating their own blockchain wallet. First, let me introduce the MetaMask wallet we'll be using.
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
