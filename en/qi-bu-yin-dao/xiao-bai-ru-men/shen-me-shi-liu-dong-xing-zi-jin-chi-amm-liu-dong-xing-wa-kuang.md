@@ -16,9 +16,12 @@ Market makers (**MMs**) originated in traditional stock and commodity exchanges.
 
 Since pricing was done manually, spreads (the difference between buy and sell prices) were huge, and MMs profited from this gap.
 
-With the rise of **computerized trading**, manual market-making faded, but the core concept remains:\
-✅ **Provide liquidity** (ensure assets can be bought/sold easily)\
-✅ **Reduce price spreads** (narrow the gap between buy/sell orders)\
+With the rise of **computerized trading**, manual market-making faded, but the core concept remains:
+
+✅ **Provide liquidity** (ensure assets can be bought/sold easily)
+
+✅ **Reduce price spreads** (narrow the gap between buy/sell orders)
+
 ✅ **Stabilize markets** (especially in low-liquidity or volatile conditions)
 
 ***
@@ -32,7 +35,8 @@ Let’s say **gold futures** are trading at **$2,600 per contract**.
 
 This happens **millions of times per day** across markets.
 
-**Bonus Insight:**\
+**Bonus Insight:**
+
 In low-volatility markets, MMs sometimes **manipulate prices slightly** to trigger stop-losses and create liquidity. If you’ve ever been "hunted" by sudden price spikes/drops, that’s likely an MM bot at work.
 
 ***
@@ -54,7 +58,8 @@ In **centralized exchanges (CEX)** like Binance or OKX, market makers ensure smo
 
 Users **deposit crypto into a shared pool (LP)**. Traders then swap tokens directly with the pool, **not other users**.
 
-**Example:**\
+**Example:**
+
 Imagine a **DEX as a farmers’ market with a shared shelf (LP)**.
 
 * To list your token, you must **lock equal-value assets** (e.g., 100ofyourtoken+100ofyourtoken+100 of USDT).
@@ -110,22 +115,30 @@ To stabilize prices, **projects incentivize users to add liquidity**:
 
 ### **Final Thoughts**
 
-Now you understand:\
-🔹 **Market Makers (MMs)** = Traditional liquidity providers.\
-🔹 **Liquidity Pools (LPs)** = Smart contract-based AMM systems.\
+Now you understand:
+
+🔹 **Market Makers (MMs)** = Traditional liquidity providers.
+
+🔹 **Liquidity Pools (LPs)** = Smart contract-based AMM systems.
+
 🔹 **Liquidity Mining** = Earning rewards for staking in LPs.
 
 With this knowledge, you’ll **navigate DeFi like a pro**—whether you're trading or launching your own token!
 
 ***
 
-#### **Want to Dive Deeper?**
+### **Learn More About CPBOX**
 
-📖 **CPBOX Docs:** [https://docs.cpbox.io](https://docs.cpbox.io/)\
-📩 **Contact Us:** [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-#### **Join Our Community**
+Suggestions or custom needs?&#x20;
 
-💬 **Telegram:** [https://t.me/cpboxio](https://t.me/cpboxio)\
-🐦 **Twitter:** [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)\
-📺 **YouTube:** [https://youtube.com/@cpboxio](https://youtube.com/@cpboxio)
+Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+
+### **Join Our Community**
+
+**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

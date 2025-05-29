@@ -74,34 +74,32 @@ if (currentPrice > TARGET_MAX) {
 }
 ```
 
-*
+**Best for**: Mid-to-small-cap tokens with sufficient capital.
 
-    **Best for**: Mid-to-small-cap tokens with sufficient capital.
+**(2) Dynamic Market Making (DMM)**
 
-    **(2) Dynamic Market Making (DMM)**
+**Logic**:
 
-    **Logic**:
+* Acts like a traditional market maker, placing limit orders to earn fees while stabilizing price.
+* Uses **TWAP (Time-Weighted Average Price)** or **VWAP (Volume-Weighted)** for smoother adjustments.\
+  **Advantage**:
+* Reduces market impact compared to simple limit orders.\
+  **Tools**:
+* Bonfida or Serum API (Solana).
 
-    * Acts like a traditional market maker, placing limit orders to earn fees while stabilizing price.
-    * Uses **TWAP (Time-Weighted Average Price)** or **VWAP (Volume-Weighted)** for smoother adjustments.\
-      **Advantage**:
-    * Reduces market impact compared to simple limit orders.\
-      **Tools**:
-    * Bonfida or Serum API (Solana).
+#### 3. Hybrid Approach: CLMM + Bot Coordination
 
-    #### 3. Hybrid Approach: CLMM + Bot Coordination
+* **CLMM provides baseline liquidity** (deep liquidity in the target range, e.g., 1.0–1.2 USDC).
+*   **Bot handles edge cases**:
 
-    * **CLMM provides baseline liquidity** (deep liquidity in the target range, e.g., 1.0–1.2 USDC).
-    *   **Bot handles edge cases**:
-
-        * **Buys near the lower bound (1.0 USDC)** for support.
-        * **Sells near the upper bound (1.2 USDC)** for resistance.
+    * **Buys near the lower bound (1.0 USDC)** for support.
+    * **Sells near the upper bound (1.2 USDC)** for resistance.
 
 
 
 
 
-    **Example Architecture:**
+**Example Architecture:**
 
 ```javascript
 Price Monitoring Service (e.g., Pyth Network)
@@ -123,15 +121,18 @@ Update CLMM Liquidity (如果需要调整区间)
 
 ***
 
-#### **Want to Dive Deeper?**
+### **Learn More About CPBOX**
 
-📖 **CPBOX Docs:** [https://docs.cpbox.io](https://docs.cpbox.io/)\
-📩 **Contact Us:** [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-***
+Suggestions or custom needs?&#x20;
 
-#### **Join Our Community**
+Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
-💬 **Telegram:** [https://t.me/cpboxio](https://t.me/cpboxio)\
-🐦 **Twitter:** [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)\
-📺 **YouTube:** [https://youtube.com/@cpboxio](https://youtube.com/@cpboxio)
+### **Join Our Community**
+
+**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
