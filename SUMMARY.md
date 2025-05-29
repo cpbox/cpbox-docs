@@ -76,7 +76,7 @@
     * [The Complete Guide to Token Creation: From Launch to Exit](en/qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
     * [Understanding Liquidity Pools, AMMs, and Liquidity Mining](en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
     * [Price Control Strategies: A Guide to Stable Pool CLMM](en/qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
-  * [Solana Tools](en/lian-gong-ju/solana-gong-ju/README.md)
+  * [Solana Tools](en/solana-gong-ju/README.md)
     * [Create Tokens with One Click](en/solana-gong-ju/solana-yi-jian-fa-bi.md)
     * [Close Solana Accounts (Rent Recovery)](en/solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
     * [Create Wallets in Bulk](en/lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
