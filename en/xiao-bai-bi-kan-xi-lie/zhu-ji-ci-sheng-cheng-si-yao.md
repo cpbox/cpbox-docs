@@ -1,5 +1,7 @@
 ---
-description: 通过助记词安全生成、验证和恢复加密钱包私钥
+description: >-
+  Securely generate, validate, and recover encrypted wallet private keys using
+  mnemonic phrases
 ---
 
 # Derive Private Keys from Mnemonics

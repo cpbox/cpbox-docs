@@ -1,5 +1,5 @@
 ---
-description: 一篇文章，让你知道流动性资金池、AMM、流动性挖矿到底是什么
+description: 'One Article to Master: Liquidity Pools, AMMs & Yield Farming Explained'
 ---
 
 # Understanding Liquidity Pools, AMMs, and Liquidity Mining

@@ -1,5 +1,7 @@
 ---
-description: 一次性创建多个安全的以太坊兼容钱包地址和私钥
+description: >-
+  Create multiple secure wallet addresses & private keys with Ethereum
+  compatibility simultaneously.
 ---
 
 # Generate Addresses in Bulk
