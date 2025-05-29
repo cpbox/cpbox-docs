@@ -1,5 +1,7 @@
 ---
-description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
+description: >-
+  Multi-account farming? Find the best tools here — CPBOX empowers your Web3
+  farming journey.
 ---
 
 # Essential Batch Tools for Multi-Account Airdrop Farming
