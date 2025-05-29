@@ -28,7 +28,7 @@ Ton因为有着Telegram作为绑定，未来的生态有着很多潜在的用户
 
 需要注意的是：这个**wallet并不是一个web3钱包**，他只是类似于微信的支付钱包，他是没有**助记词和私钥的**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 如果我们是想要获取TG上领取一下空投奖励或者游戏奖励上面的钱包是不行的，还需要再创建一个TonSpace。这恶搞TonSpace是有助记词和私钥的。
 
@@ -90,4 +90,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\\

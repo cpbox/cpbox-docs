@@ -2,88 +2,88 @@
 description: 一次性创建多个安全的以太坊兼容钱包地址和私钥
 ---
 
-# 批量地址生成
+# Generate Addresses in Bulk
 
-### 功能概述
+CPBOX supports generating multiple cryptocurrency wallet address formats:
 
-CPBOX 支持生成多种加密货币钱包地址格式：
+* **BTC Address**: Starts with `1`, `3`, or `bc1`
+* **ETH Address**: Starts with `0x`, 42 characters long
+* **TRX Address**: Starts with `T`
+* **Solana Address**: Base58 encoded
+* **BNB Address**: Starts with `bnb` or follows ETH format (`0x` prefix)
 
-* **BTC 地址**：以 1、3 或 bc1 开头
-* **ETH 地址**：以 0x 开头，长度为 42 个字符
-* **TRX 地址**：以 T 开头
-* **Solana 地址**：Base58 编码格式
-* **BNB 地址**：以 bnb 开头或与 ETH 地址相同 (0x 开头)
+#### **Use Cases for Batch Address Generation**
 
-### 批量生成地址的场景
+* **Portfolio Management**: Create isolated wallets for different investment strategies
+* **Corporate Finance**: Generate dedicated wallets for internal departments
+* **Exchange Operations**: Provide deposit addresses for users
+* **NFT Projects**: Assign receiving addresses to multiple participants
+* **Airdrop Campaigns**: Distribute tokens across multiple addresses
 
-1. **投资组合管理**：为不同投资策略创建多个隔离钱包
-2. **企业财务管理**：为企业内部不同部门创建专用钱包
-3. **交易所运营**：为用户提供存款地址
-4. **NFT 项目**：为大量参与者分配接收地址
-5. **空投活动**：需要多个地址接收空投
+#### **Batch Generation Steps**
 
-### 批量生成步骤
+1. Open the **CPBOX application**
+2. Select the **"Batch Generate Wallets"** feature
+3. Configure parameters:
+   * Choose **cryptocurrency type**
+   * Set **quantity** to generate
+4. Click the **"Generate"** button
+5. **Export** the generated wallet data
 
-1. **打开 CPBOX 应用**
-2. **选择"批量生成钱包"功能**
-3. **设置参数**：
-   * 选择币种类型
-   * 指定生成数量
-4. **点击"生成"按钮**
-5. **导出生成的钱包信息**
+#### **Essential Data to Save**
 
-### 必须保留的数据
+For each generated wallet, securely store:
 
-每个生成的钱包应保存以下信息：
+* **Private Key**: The most critical asset control key
+* **Seed Phrase**: A word list for private key recovery
+* **Public Key**: Cryptographic key derived from the private key
+* **Address**: The public receiving address
+* **Password/PIN (if set)**: Additional security layer
 
-* **私钥**：最重要的信息，控制钱包资产的密钥
-* **助记词**：用于恢复私钥的一组单词
-* **公钥**：由私钥派生的加密密钥
-* **地址**：由公钥生成的收款地址
-* **密码/PIN**（如设置）：额外的安全保护层
+#### **Important Considerations**
 
-### 注意事项
+**Security First**
 
-1. **安全第一**：
-   * CPBOX 不会记录任何用户信息和生成的钱包数据
-   * 高安全性需求用户可以断网使用，防止数据泄露
-   * 更高安全性要求可联系 CPBOX 提供独立生成脚本
-2. **数据备份**：
-   * 将生成的钱包信息备份到安全离线设备
-   * 考虑使用多重加密和分散存储重要数据
-   * 避免单点故障风险
-3. **验证正确性**：
-   * 生成后测试少量地址确认可用性
-   * 使用小额资金测试转账功能
-4. **防止遗失**：
-   * 使用明确的命名规则便于管理
-   * 建立地址索引系统记录用途
-   * 定期检查备份完整性
-5. **长期存储考虑**：
-   * 使用防火、防水容器存储物理备份
-   * 考虑使用金属材质记录关键信息
-   * 建立恢复流程文档
+* CPBOX **does not store** any user data or generated wallet information
+* For high-security needs, use **offline mode** to prevent leaks
+* For maximum security, contact CPBOX for **custom standalone scripts**
 
-批量生成加密钱包地址是一项需要谨慎对待的操作，安全性始终应放在首位。CPBOX 提供的断网操作和专用脚本选项能满足不同级别的安全需求。
+**Data Backup**
 
-***
+* Store wallet data on **secure offline devices**
+* Use **multi-layer encryption** and distributed storage
+* Avoid **single points of failure**
 
-如果想要深入了解CPBOX产品的其他用途和功能
+**Verification**
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+* Test a few addresses after generation
+* Perform **small test transactions** to confirm functionality
 
-或者你有一些好的建议或者想要帮助开发的需求
+**Preventing Loss**
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+* Use **clear naming conventions** for easy management
+* Maintain an **address index system** to track usage
+* **Regularly verify backup integrity**
 
-也可以通过下方社媒来联系我们
+**Long-Term Storage**
+
+* Use **fireproof & waterproof containers** for physical backups
+* Consider **metal backups** for critical data (e.g., seed phrases)
+* Document **recovery procedures**
+
+⚠ **Batch wallet generation requires extreme caution—security must always come first!**\
+CPBOX offers **offline mode** and **custom scripts** to meet varying security needs.
 
 ***
 
-### 其他社媒
+### **Learn More About CPBOX**
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+📖 Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)\
+💡 Suggestions or custom needs? Contact us:\
+👉 [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+### **Join Our Community**
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
+💬 **Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)\
+🐦 **Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)\
+📺 **YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

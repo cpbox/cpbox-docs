@@ -2,13 +2,13 @@
 description: 学会开源合约代码，Web3合约开源促进安全审计、建立透明信任、推动协作创新并加强社区问责制。
 ---
 
-# 合约代码开源
+# Open Source Contract Code
 
 ## 为什么要进行合约代码开源
 
 在[EVM 一键发币案例](evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md) 中介绍了很多种类型的token合约的部署，默认通过[remix](https://remix.ethereum.org/)部署的代币合约都是未开源的，打开对应链的区块浏览器，输入合约地址，点击Contract，可以看到合约是否开源
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>scan上的合约代码</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>scan上的合约代码</p></figcaption></figure>
 
 如上图所示是一个未开源的合约，合约内容都是16进制的数据，同时有个【Verify and Publish】的按钮会引导你进行合约的开源，具体的流程我们后面会进行说明。
 
@@ -37,7 +37,7 @@ description: 学会开源合约代码，Web3合约开源促进安全审计、建
 
 前面我们已经看到，针对未开源的合约，区块浏览器会有相应的引导入口引导用户去进行合约的开源，这种方式相对比较简单，比较适合一些小白的用户。通过下面的流程一步一步操作，即可快速实现合约的开源。
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>开源代码</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>开源代码</p></figcaption></figure>
 
 进入合约开源页面之后，自动带入合约地址，因为我们示例的只有有个单独的合约文件，因为我们选择单文件，然后根据合约代码填写对应的合约编译器版本和开源协议
 

@@ -10,7 +10,7 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 点击首页菜单实用工具- 批量生成钱包地址
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>CPBOX 生成钱包地址</p></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(44).png" alt=""><figcaption><p>CPBOX 生成钱包地址</p></figcaption></figure>
 
 进入主页后，选择需要创建的主网链路
 
@@ -111,4 +111,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../../en/solana-gong-ju/solana-yi-jian-fa-bi.md)\\

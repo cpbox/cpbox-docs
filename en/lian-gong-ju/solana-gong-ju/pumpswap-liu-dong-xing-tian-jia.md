@@ -2,7 +2,7 @@
 description: 教你如何使用pumpswap
 ---
 
-# PumpSwap流动性添加
+# Add Liquidity to PumpSwap
 
 {% embed url="https://youtu.be/GB7DUiNocWY" %}
 
@@ -18,7 +18,7 @@ description: 教你如何使用pumpswap
 
 进入CPBOX官网后，点击上方菜单实用工具，中的solana一键发币
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../zh/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 进入页面后链接钱包
 
@@ -26,13 +26,13 @@ description: 教你如何使用pumpswap
 
 这边我们默认代币精度为9。我这里供应量选择了一个亿
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../zh/.gitbook/assets/image%20(1).png" alt=""><figcaption></figcaption></figure>
 
 下方还有一个相关信息可以选填，这边不过多做演示了
 
 点击创建代币后会弹出一个弹窗，信息二次确认
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../zh/.gitbook/assets/image%20(2).png" alt=""><figcaption></figcaption></figure>
 
 注意这边CPBOX会收取**0.1个sol作为服务费用**
 
@@ -44,7 +44,7 @@ description: 教你如何使用pumpswap
 
 我们进入[pumpswap](https://swap.pump.fun/)的页面，点击进入中间的Deposit/create 按钮
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../zh/.gitbook/assets/image%20(3).png" alt=""><figcaption></figcaption></figure>
 
 deposit就是质押的意思，进来后我们能看到中间有三个选项
 
@@ -54,13 +54,13 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 
 我们现在要创建流动性池，所以先点击create按钮下面把自己创建代币的合约地址输入进去。
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../zh/.gitbook/assets/image%20(4).png" alt=""><figcaption></figcaption></figure>
 
 这边选择相应质押的代币数量和Sol数量。
 
 成功创建流动性池后，我们可以点回左上方的swap 进行交易测试了
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../zh/.gitbook/assets/image%20(5).png" alt=""><figcaption></figcaption></figure>
 
 回到中间的deposit页面。我们就可以根据当前的价格来同比例进行加池子，或者是撤池子了
 
@@ -69,7 +69,6 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 {% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
 [shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
 {% endcontent-ref %}
-
 
 如果你觉的本篇的加池子不是很清楚，可以参考Sui链或者Ton链的加池子教程。
 
@@ -99,6 +98,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
-
-
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\\

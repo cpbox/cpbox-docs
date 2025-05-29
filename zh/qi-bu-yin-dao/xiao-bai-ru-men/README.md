@@ -22,8 +22,8 @@
 
 小狐狸钱包速通指南：
 
-{% content-ref url="../../xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md" %}
-[metamask-xiao-hu-li-zhu-shou.md](../../xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
+{% content-ref url="../../../en/xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md" %}
+[metamask-xiao-hu-li-zhu-shou.md](../../../en/xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
 {% endcontent-ref %}
 
 多号撸毛必学：

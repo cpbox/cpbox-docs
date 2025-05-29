@@ -2,127 +2,119 @@
 description: 发币必读文章
 ---
 
-# 发币从入门到跑路——全网最真诚的区块链发币指南
+# The Complete Guide to Token Creation: From Launch to Exit
 
-## **前言：**
+**Preface:**\
+So you want to launch a token? Congrats! You've taken the first step toward becoming a "blockchain entrepreneur"—which is either:\
+A) Revolutionizing finance, or\
+B) Preparing to rug pull (let's be real, it's probably B).
 
-你想发币？恭喜！你已经成功迈出了成为“区块链创业者”的第一步——想割韭菜（想改变世界）！但别急，发币不是改个ERC-20代币名字就完事了，今天我们就用最通俗的语言，带你走完从“我有一个伟大想法”到“币价归零”的全流程。
-
-***
-
-#### **第一步：选链——哪条链最适合你跑路？**
-
-发币前，你得先选个“家”。目前主流选择有：
-
-* **以太坊（ETH）**：老牌贵族，手续费贵得让你怀疑人生，适合“高端项目”
-* **Solana（SOL）**：发币如发微博，速度快成本低，但竞争激烈到你的币可能活不过24小时。
-* **TON**：Telegram亲儿子，自带流量，但小心被官方当成土狗一脚踢飞。
-* **BSC**：低成本首选，但名声已经和“跑路链”深度绑定，发币前记得先买好公关稿。
-
-**建议**：如果你连Gas费都心疼，建议直接发在Twitter上。但是有多少效果就不知道
+But hold on! Token launches aren't just about copy-pasting an ERC-20 contract. Here’s your step-by-step guide from **"I have a genius idea"** to **"token price → zero"**—explained in plain English.
 
 ***
 
-#### **第二步：代币合约——Ctrl+C & Ctrl+V 的艺术**
+#### **Step 1: Pick a Chain – Which One Helps You Rug Best?**
 
-50%的发币玩家（总感觉这个50%还有点高了），技术实力仅限于：
+You need a blockchain "home" for your masterpiece. Top contenders:
 
-1. 在GitHub上搜“代币合约代码”
-2. 把“MyShitCoin”替换成自己的项目名
-3. 点“部署”
+* **Ethereum (ETH):** The OG. Gas fees will make you weep, but it’s perfect for "prestige" scams.
+* **Solana (SOL):** Launch tokens like tweets—fast and cheap. Just know your coin might die before lunch.
+* **TON:** Telegram’s golden child. Built-in traffic, but you might get flagged as a shitcoin.
+* **BSC:** The rug-puller’s paradise. Low cost, but your project will instantly smell like a honeypot.
 
-**常见翻车现场：**
-
-* 忘了改代币总量，直接发了个1万亿枚的“通胀型货币”
-* 没锁流动性，刚开盘就被科学家秒空
-* 合约留后门，结果黑客比你还会玩
-
-**专业建议**：如果你连代码都看不懂，还不如用CPBox的发币工具，直接是一条龙服务，费用都没有多少，总比自己瞎折腾
+**Pro Tip:** If gas fees scare you, just announce your token on Twitter. (Spoiler: No one will care.)
 
 ***
 
-#### **第三步：流动性——没有池子，你的币就是个笑话**
+#### **Step 2: Token Contract – The Ctrl+C & Ctrl+V Masterpiece**
 
-没流动性的代币，就像没水的游泳池——跳进去只会摔断腿。
+Let’s face it—**50% of token devs** (and that’s being generous) just:
 
-**经典操作：**
+1. Search GitHub for **"free ERC-20 contract"**
+2. Replace **"ExampleToken"** with **"ScamCoin2024"**
+3. Click **"Deploy"**
 
-1. 自己先加点钱建个LP池（比如10个ETH）
-2. 在社交媒体喊“社区自治，流动性靠大家”
-3. 等韭菜进场后，偷偷撤池子跑路
+**Common Disasters:**
 
-**良心建议**：如果你连做市的钱都没有，建议直接发NFT，成本更低。
+* Forgetting to adjust **total supply**, accidentally minting **1 quadrillion tokens**.
+* Not locking liquidity, so bots drain your pool in seconds.
+* Leaving backdoors… only for hackers to rug **you** first.
 
-如果你连流动性是什么，那么阅读一下这一篇文章吧。不然到时候做大了，想撤池子跑路都不会
-
-{% content-ref url="shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
-{% endcontent-ref %}
+**Real Advice:** If you can’t read code, just use **CPBox’s token launch tool**—it’s idiot-proof (and cheaper than a hack).
 
 ***
 
-#### **第四步：营销——如何让韭菜主动上门？**
+#### **Step 3: Liquidity – No Pool, No Fools**
 
-酒香也怕巷子深，币好也得会忽悠。
+A token without liquidity is like a **dry swimming pool**—people jump in and break their necks.
 
-**低成本营销方案：**
+**Classic Moves:**
 
-* **Twitter/X**：每天发“LFG”“MOON”并@一堆KOL（虽然没人理你）
-* **Telegram**：建个群，塞满机器人制造“火爆”假象
-* **Discord**：搞个空投活动，500个空投，结果400个空投地址全是自己的。
+1. Add **10 ETH** to create a tiny LP pool.
+2. Shill **"Community-driven liquidity!"** on Twitter.
+3. Pull the pool **once suckers ape in**.
 
-**高端玩法：**
-
-* 花钱请KOL喊单（注意：有些KOL的粉丝比你的代币持有者还少）
-* 伪造“巨鲸买入”截图（记得P图时别留水印）
-* 宣布“与某项目合作”（其实就是你和朋友的小号互动）
+**Honest Suggestion:** If you can’t afford liquidity, just **mint an NFT** instead. (Way cheaper to rug.)
 
 ***
 
-#### **第六步：上线后——如何优雅地跑路（或者继续装下去）**
+#### **Step 4: Marketing – How to Attract Willing Bagholders**
 
-发币只是开始，真正的艺术在于：
+Even the best scams need hype. **Low-budget strategies:**
 
-* **如果币涨了**：马上发小作文，宣称“价值发现”“社区的力量”。
-* **如果币跌了**：归咎于“市场情绪”“恶意做空”，并宣布“重大利好即将公布”。
-* **如果没人买**：开小号自己交易，制造“活跃假象”。
+* **Twitter/X:** Spam **"LFG!"** and tag random KOLs (who’ll ignore you).
+* **Telegram:** Fill a group with bots screaming **"MOON SOON!"**
+* **Discord:** Run a fake airdrop (400/500 wallets are yours).
 
-**终极忠告**：
+**Premium Scam Tactics:**
 
-* 别太贪，该跑就跑
-* 别太狂，小心被举报
-* 别太蠢，留点后路
-
-***
-
-#### **结语：发币有风险，入行需谨慎**
-
-看完这篇指南，你是不是觉得发币也没那么难？没错，技术上的确简单，但难的是：**如何在归零前成功套现**。
-
-如果你已经准备好，那就去吧！记住，区块链的世界里，**“早发币是创新，晚发币是跟风，不发币是傻X”**（名人名言，不是我说的）。
-
-祝你的代币：**上线暴涨，高位套现，顺利跑路（划掉）长命百岁！** 🚀
-
-（免责声明：本文纯属娱乐，实际操作请遵守法律法规，跑路后果自负。）
+* Pay a **KOL with 3 real followers** to shill your coin.
+* Photoshop **"whale buy" screenshots** (just remove the watermark).
+* Fake a **"partnership"** (aka your alt accounts liking each other’s tweets).
 
 ***
 
-如果想要深入了解CPBOX产品的其他用途和功能
+#### **Step 5: Post-Launch – The Art of the Rug (or the Slow Fade)**
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+The real skill lies in **what happens after launch**:
 
-或者你有一些好的建议或者想要帮助开发的需求
+* **If price pumps?** Write a manifesto: **"True value recognized!"**
+* **If price dumps?** Blame **"market FUD"** and promise **"big news soon."**
+* **If no one buys?** Wash trade with your own wallets.
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+**Golden Rules of Rugging:**\
+✅ **Don’t get greedy** – Exit before the mob does.\
+✅ **Don’t get cocky** – SEC letters aren’t trophies.\
+✅ **Don’t get stupid** – Leave a **plausible deniability trail**.
 
 ***
 
-### 其他社媒
+#### **Final Words**
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+See? Launching a token isn’t hard. The **real challenge? Cashing out before $0.**
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+So go forth, future **"blockchain innovator"**! Remember:\
+&#xNAN;_"Launch early = visionary. Launch late = copycat. Don’t launch = loser."_\
+—Some Crypto Guru (Probably)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+**May your token:**\
+📈 Pump at launch\
+💰 Let you exit\
+🕳️ Rug gracefully (jk… unless?)
+
+_(Disclaimer: This is satire. Don’t actually rug. Or do. We’re not your mom.)_
+
+***
+
+#### **Want a Legit Token Launch? Try CPBOX!**
+
+📖 **Docs:** [https://docs.cpbox.io](https://docs.cpbox.io/)\
+📩 **Contact:** [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+
+***
+
+#### **Join the "Totally Serious" Community**
+
+💬 **Telegram:** [https://t.me/cpboxio](https://t.me/cpboxio)\
+🐦 **Twitter:** [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)\
+📺 **YouTube:** [https://youtube.com/@cpboxio](https://youtube.com/@cpboxio)

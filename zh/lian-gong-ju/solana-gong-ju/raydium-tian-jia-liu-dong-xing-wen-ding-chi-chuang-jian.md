@@ -16,17 +16,17 @@
 
 当你在CPBOX完成[SOL一键发币](https://www.cpbox.io/cn/solana/token/publish)后进入[raydium官网](https://raydium.io/swap/?inputMint=HtCqD3o5aF1RXcyGi6AW11PoB3bZmFdA8kvVyhJrpump\&outputMint=sol)后。连接您的钱包后，单击页面左上角的“liquidity” 。
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(6).png" alt=""><figcaption></figcaption></figure>
 
 进入页面后单击右侧 create 创建按钮
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(2)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 跳出弹窗后，pool type这里，我们默认选择Concentrated liquidity（集中性流动池）
 
 下方点击continue 继续
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(1)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 #### 选择基础和报价代币
 
@@ -36,25 +36,25 @@
 
 常见的报价代币（Quote token）包括SOL，USDC或其他稳定币。
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(3)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 注意：如果你选择的代币并没有显示头像等信息，大概率是solscan上并没有进行验证，导致信息不显示。
 
 如果你需要相关信息能够显示完全，[更新信息](https://solscan.io/token-update)页面上传相关信息。并完成审核验证
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(4)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 点击下一步后进入价格设定界面
 
 在下方选择价格的波动范围，我这里是设定代币价格范围稳定在1刀左右，所以价格范围设置的很小。如果池子的深度不够的话，基本是没办法成交的。
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 点击下一步后，进入到最后创建池子确认环节。选择初始要多少质押的代币，进入流动性池子。
 
 我们这里因为没有没足够的usdcoin所以没法点击确认。
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(6)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 点击确认后池子就创建成功。
 
@@ -64,11 +64,11 @@
 
 点击deposit进入如果你创建池子成功了，可以直接在搜索栏中搜索找到自己的池子。
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(7).png" alt=""><figcaption></figcaption></figure>
 
 进入页面后。因为是集中性流动池，所以可以在特定的价格范围提供不同的流动性深度。
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(8).png" alt=""><figcaption></figcaption></figure>
 
 对于lp们（liquidity provider）来说，可以选择固定的价格范围来提供流动性，可以避免一些不必要的亏损。这也是CLMM的优势所在。
 
