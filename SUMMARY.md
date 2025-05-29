@@ -26,7 +26,6 @@
       * [Pump 市值管理](zh/solana-gong-ju/pump-shi-zhi-guan-li.md)
       * [PumpSwap流动性添加](zh/lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
       * [Raydium添加流动性——稳定池创建](zh/lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
-    * [Sui 工具](zh/lian-gong-ju/sui-gong-ju.md)
     * [Sui 工具](zh/sui-lian-gong-ju/README.md)
       * [Sui 一键发币](zh/sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
       * [Sui 代币权限修改](zh/sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
