@@ -76,7 +76,7 @@
     * [MetaMask Setup Guide for Beginners](en/xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
     * [Generate Addresses in Bulk](en/xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
     * [Derive Private Keys from Mnemonics](en/xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md)
-    * [Essential Batch Tools for Multi-Account Airdrop Farming](zh/qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
+    * [Essential Batch Tools for Multi-Account Airdrop Farming](en/qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
     * [The Complete Guide to Token Creation: From Launch to Exit](en/qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
     * [Understanding Liquidity Pools, AMMs, and Liquidity Mining](en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
     * [Price Control Strategies: A Guide to Stable Pool CLMM](en/qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
