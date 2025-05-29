@@ -12,6 +12,14 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         }
     };
     
+    var isInitialized = false;
+    
+    function removeExistingSelectors() {
+        // 移除已存在的语言选择器，避免重复创建
+        $('.language-selector').remove();
+        $('.summary-language-selector').remove();
+    }
+    
     function createLanguageSelector() {
         // 生成语言选项HTML
         var optionsHtml = '';
@@ -32,24 +40,82 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         var currentLang = getCurrentLanguage();
         var labelText = config.label[currentLang] || config.label[config.defaultLanguage] || 'Language';
         
-        // 在目录中添加语言选择器
-        var summarySelector = $('<div class="summary-language-selector">' +
+        // 在目录中添加语言选择器（初始状态为loading）
+        var summarySelector = $('<div class="summary-language-selector loading">' +
             '<label>' + labelText + ':</label>' +
             '<select id="summaryLanguageSelect">' +
                 optionsHtml +
             '</select>' +
         '</div>');
         
-        var summary = $('.book-summary ul.summary');
-        if (summary.length > 0) {
-            summary.before(summarySelector);
+        // 等待DOM准备好后再添加选择器
+        setTimeout(function() {
+            var summary = $('.book-summary ul.summary');
+            if (summary.length > 0) {
+                summary.after(summarySelector);
+            } else {
+                // 如果找不到summary，尝试添加到侧边栏的其他位置
+                var bookSummary = $('.book-summary');
+                if (bookSummary.length > 0) {
+                    bookSummary.append(summarySelector);
+                }
+            }
+            
+            // 设置当前语言
+            setCurrentLanguage();
+            
+            // 绑定事件（只在初始化时绑定一次）
+            if (!isInitialized) {
+                bindEvents();
+                isInitialized = true;
+            }
+            
+            // 移除loading类，触发平滑显示动画
+            setTimeout(function() {
+                summarySelector.removeClass('loading');
+            }, 50);
+        }, 50);
+    }
+    
+    function ensureLanguageSelectorExists() {
+        // 检查语言选择器是否存在
+        var selectorExists = $('.summary-language-selector').length > 0;
+        
+        if (!selectorExists) {
+            // 如果不存在，重新创建
+            createLanguageSelector();
+        } else {
+            // 如果存在，只更新语言选择（带平滑效果）
+            updateLanguageSelector();
         }
+    }
+    
+    function updateLanguageSelector() {
+        var $selector = $('.summary-language-selector');
         
-        // 设置当前语言
-        setCurrentLanguage();
+        // 添加updating类，显示更新状态
+        $selector.addClass('updating');
         
-        // 绑定事件
-        $('#languageSelect, #summaryLanguageSelect').on('change', function() {
+        setTimeout(function() {
+            // 更新语言选择和标签
+            setCurrentLanguage();
+            updateSelectorLabel();
+            
+            // 移除updating类
+            $selector.removeClass('updating');
+        }, 100);
+    }
+    
+    function updateSelectorLabel() {
+        // 更新选择器标签文本
+        var currentLang = getCurrentLanguage();
+        var labelText = config.label[currentLang] || config.label[config.defaultLanguage] || 'Language';
+        $('.summary-language-selector label').text(labelText + ':');
+    }
+    
+    function bindEvents() {
+        // 使用事件委托，绑定到document上，避免重复绑定
+        $(document).on('change', '#languageSelect, #summaryLanguageSelect', function() {
             changeLanguage($(this).val());
         });
     }
@@ -129,10 +195,17 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     });
     
     gitbook.events.bind('page.change', function() {
-        // 页面切换时重新设置语言
+        // 页面切换时检查并确保语言选择器存在，而不是重新创建
         setTimeout(function() {
-            setCurrentLanguage();
-        }, 100);
+            ensureLanguageSelectorExists();
+        }, 50);
+    });
+    
+    // 监听侧边栏变化，确保语言选择器始终存在
+    gitbook.events.bind('exercise.submit', function() {
+        setTimeout(function() {
+            ensureLanguageSelectorExists();
+        }, 50);
     });
     
 }); 

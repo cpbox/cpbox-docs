@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url> <loc>https://docs.cpbox.io/undefinedREADME.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedstart/cpbox-dao-hang.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/liang-hao-di-zhi-sheng-cheng.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/metamask-xiao-hu-li-zhu-shou.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/pi-liang-di-zhi-sheng-cheng.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/zhu-ji-ci-sheng-cheng-si-yao.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedbeginner/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://docs.cpbox.io/undefinedREADME.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://docs.cpbox.io/undefinedcpbox-dao-hang.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://docs.cpbox.io/undefinedqi-bu-yin-dao/xiao-bai-ru-men/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://docs.cpbox.io/undefinedxiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -69,4 +58,5 @@
 <url> <loc>https://docs.cpbox.io/undefinedjiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://docs.cpbox.io/undefinedjiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://docs.cpbox.io/undefinedjiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://docs.cpbox.io/undefinedcontactus/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
