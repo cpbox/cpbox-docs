@@ -73,7 +73,7 @@
 
 ## 📞 Contact Us
 
-* [✉️ Get in Touch](en/contactus/README.md)
+* [✉️ Get in Touch](contactus/README.md)
   * [Twitter/X](https://x.com/web3cryptobox)
   * [Official Website](https://www.cpbox.io/)
   * [Telegram](https://t.me/cpbox)
