@@ -13,7 +13,7 @@ CPBox提供的批量代币发送工具允许您从单个钱包向多个钱包地
 
 进入CPBox官网后[https://www.cpbox.io](https://www.cpbox.io/)，点击实用工具，左侧批量发送。进入批量发送页面
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(59).png" alt=""><figcaption></figcaption></figure>
 
 链接钱包后，设置发送主网为Ton设置接收钱包您可以通过以下两种方式添加接收钱包地址：
 
@@ -24,19 +24,19 @@ CPBox提供的批量代币发送工具允许您从单个钱包向多个钱包地
 
 **注意：这里一定要点击修改数量**，不然默认的发送数量为0选择固定金额，点击发送就可以发送成功
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(60).png" alt=""><figcaption></figcaption></figure>
 
 ### MEME代币批量发送 <a href="#meme-dai-bi-pi-liang-fa-song" id="meme-dai-bi-pi-liang-fa-song"></a>
 
 我们先来到Tonviewer找到自己想要发送的Token代币的ca地址
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(61).png" alt=""><figcaption></figcaption></figure>
 
 把刚才的ca复制到页面的代币合约地址文本框
 
 下面会自动弹出你钱包中的MEME代币
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../en/.gitbook/assets/image%20(62).png" alt=""><figcaption></figcaption></figure>
 
 回到下方点击修改数量按照上方的教程，点击修改数量后发送。
 
@@ -64,6 +64,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
-
-
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\\

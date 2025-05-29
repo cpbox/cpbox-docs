@@ -18,13 +18,13 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 进入cpbox官网[https://www.cpbox.io](https://www.cpbox.io)点击实用工具右侧 solana链中的 批量发送进入页面
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
 
 进入页面后点击链接钱包(这里的钱包是要存在你要发送的token代币)
 
 下方再输入meme代币的合约地址，下方就可以自显示钱包中的代币数量
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
 
 再在下方导入收集到需要发送空投的代币地址
 
@@ -43,8 +43,6 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 其实sui链的空投发送和Sol链的发送没有太大区别
 
 选择sui链中的批量发送代币进入页面
-
-
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 

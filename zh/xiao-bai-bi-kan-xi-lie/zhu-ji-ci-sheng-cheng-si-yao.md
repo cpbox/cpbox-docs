@@ -14,13 +14,10 @@ description: 通过助记词安全生成、验证和恢复加密钱包私钥
    * 打开 CPBox 平台并使用您的账户登录
 2. **访问功能**
    * 在左侧菜单中找到并点击[助记词生成私钥](https://www.cpbox.io/cn/mnemonic)
-3.  **输入信息**
-
-    * 填写您的助记词（通常为 12-24 个单词）
-    * 设置开始索引（默认为 0）
-    * 选择正确的 Path 规则（派生路径）
-
-
+3. **输入信息**
+   * 填写您的助记词（通常为 12-24 个单词）
+   * 设置开始索引（默认为 0）
+   * 选择正确的 Path 规则（派生路径）
 4. **生成私钥**
    * 点击「生成」按钮
    * 系统将显示对应的私钥和地址
@@ -33,10 +30,10 @@ description: 通过助记词安全生成、验证和恢复加密钱包私钥
 
 ### 常见问题
 
-**问：什么是 Path 规则？**
+**问：什么是 Path 规则？**\
 答：Path 规则指的是 BIP-44 等标准中定义的派生路径，不同的加密货币可能使用不同的路径格式。
 
-**问：为什么我需要设置开始索引？**
+**问：为什么我需要设置开始索引？**\
 答：开始索引决定了从哪个索引位置开始生成地址，通常从 0 开始。
 
 如需更多帮助，请随时联系我们的客服团队。
@@ -61,4 +58,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../en/solana-gong-ju/solana-yi-jian-fa-bi.md)

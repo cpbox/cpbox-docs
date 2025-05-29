@@ -1,73 +1,66 @@
-# 如何将代币价格控制在一定范围，稳定池CLMM介绍
+# Price Control Strategies: A Guide to Stable Pool CLMM
 
-### 前言
+### Preface
 
-经常有一些项目方有一些特殊的需求，想要把项目的代币稳定在一定的价格范围呢。但是不知道该如何去做，今天一篇文章来告诉你，如何将代币的价格控制在一定的范围内。
+Many projects have specific needs, such as stabilizing their token price within a certain range, but they may not know how to achieve this. Today, we’ll explain how to control a token’s price within a desired range.
 
-ok，这时候有些人会说，创建一个稳定池CLMM不是就够了么，这个是错误的理解。
+Some might say, _“Isn’t creating a stable pool with CLMM enough?”_ — but this is a misunderstanding.
 
-首先我们来解释一下CLMM（集中流动性做市商）的价格机制和调节原理：
+First, let’s clarify the pricing mechanism and adjustment principles of **CLMM (Concentrated Liquidity Market Maker)**:
 
-***
+#### Core Features of CLMM
 
-#### **CLMM的核心特点**
+CLMM allows liquidity providers (LPs) to concentrate their funds within a **custom price range** (instead of providing liquidity across all price ranges). This means:
 
-CLMM允许流动性提供者（LP）将资金集中在**自定义的价格区间**内（而不是全价格范围）。这意味着：
+* When the market price is within your set range, your liquidity is utilized, and you earn trading fees.
+* When the market price moves outside your range, your liquidity becomes **“inactive”** (no longer participating in trades).
 
-* 当市场价格**处于你设定的区间内**时，你的流动性会被使用，并获得交易手续费
-* 当市场价格**超出你设定的区间**时，你的流动性会暂时"休眠"（不再参与交易）
+#### Price Limits and Adjustment Mechanisms
 
-***
+**(1) Prices Are Not Automatically Fixed Within a Range**
 
-#### **价格限制与调节机制**
+&#x20;**Misconception**: CLMM does **not** forcibly restrict prices to a fixed range.\
+&#x20;**Correct Understanding**: Prices are still determined by market supply and demand. CLMM simply lets LPs choose **where** to provide liquidity.
 
-**(1) 价格不会自动固定在某个范围**
+**(2) Behavior When Prices Deviate**
 
-❌ **错误理解**：CLMM不会强制将价格"限制"在某个固定范围内
+When the market price exceeds an LP’s set range:
 
-✅ **正确理解**：价格仍然由市场供需决定，CLMM只是让LP可以选择**在什么价格范围内提供流动性**
+* That LP’s liquidity **stops** participating in trades.
+* Other LPs (whose ranges include the new price) continue providing liquidity.
+* The inactive liquidity **converts to a single asset** (e.g., if the price rises above your upper limit, your funds become entirely the quote token).
 
-**(2) 价格偏离时的表现**
+Of course, all of the above applies to **LPs (Liquidity Providers)**. The essence of CLMM is to **reduce LP losses** under certain conditions.
 
-当市场价格**超出LP设置的区间**时：
-
-* 该LP的流动性会**自动停止参与交易**
-* 但其他LP（如果设置了包含新价格的区间）的流动性仍会继续工作
-* 你的流动性会**自动转换为单一资产**（例如：如果价格涨破你的上限，你的资金会全部变成代币）
-
-**当然，以上说的都是针对LP（Liquidity provider）流动性提供者，CLMM设计的本质是未了在特殊情况下减少LP们的亏损。**
-
-但是对于**项目方**来说，代币的价格其实并**不是真正的固定在了限制的范围**内。如果出现大量的买卖，当价格触及没有流动性的区域，价格依旧是变动，只是没有办法促成成交而已。
+However, for project teams, the token price is **not truly fixed** within a range. If large buy/sell orders occur and the price enters a zone with **no liquidity**, the price can still fluctuate—it just won’t execute trades.
 
 ***
 
-### 解决方案
+### Solution
 
-要在区块链上（如Solana）将代币价格稳定在一定范围内，确实需要**主动的市场干预**，通常通过**算法交易机器人（套利/做市机器人）**&#x6765;实现。但具体方法取决于你的目标（完全稳定价格 vs 引导价格趋势）和资源（资金量、技术能力）。以下是详细的方案：
+To stabilize a token’s price within a range on a blockchain (e.g., Solana), **active market intervention** is typically required, usually via **algorithmic trading bots** (arbitrage/market-making bots). The exact approach depends on your goals (full price stability vs. guiding price trends) and resources (capital, technical capabilities). Below are detailed solutions:
 
-#### **依赖CLMM的流动性设计**
+#### 1. Relying on CLMM Liquidity Design
 
-**在目标价格区间提供深度流动性**
+* **Provide deep liquidity within the target price range** (e.g., 1.0 USDC – 1.2 USDC) in CLMM pools (e.g., Orca Whirlpools or Raydium CLMM).
+* **Effect**:
+  * When the price deviates, liquidity decreases, and slippage spikes, naturally discouraging large trades.
+  * However, it **cannot fully prevent price breaks** (requires active intervention).
+* **Drawback**:
+  * Over-reliance on pool depth—if liquidity is insufficient, large orders may fail or cause significant price gaps.
 
-* 在CLMM（如Orca Whirlpools或Raydium CLMM）中，**将大部分流动性集中在你想稳定的价格范围内**（例如：1.0 USDC - 1.2 USDC）。
-* **效果**：
-  * 当价格偏离该区间时，流动性减少，交易滑点急剧上升，自然抑制大额偏离交易。
-  * 但无法完全阻止价格突破（需配合主动干预）。
-* 缺点：
-  * &#x20; **过于依赖池子深度**，如果流动性池子深度不够，当大额买单或者买单出现时，会出现成交失败，或者较大的价差
+#### 2. Algorithmic Trading Bot Control
 
-***
+For stricter price control, an automated trading bot is needed. Common strategies include:
 
-#### **算法交易机器人控制**
+**(1) Simple Limit Order Bot**
 
-如果希望更严格地控制价格，需编写**自动买卖机器人**，常见策略包括：
+**Logic**:
 
-**(1) 简单限价单机器人**
+* If **price > upper limit (e.g., 1.2 USDC)**, the bot **sells** tokens (increasing supply).
+* If **price < lower limit (e.g., 1.0 USDC)**, the bot **buys** tokens (reducing supply).
 
-* **逻辑**：
-  * 当价格 **> 上限**（如1.2 USDC）时，机器人自动**卖出**代币，增加供应。
-  * 当价格 **< 下限**（如1.0 USDC）时，机器人自动**买入**代币，减少供应。
-* **实现（伪代码）**：
+**Pseudocode Example**:
 
 ```javascript
 while (true) {
@@ -81,33 +74,34 @@ if (currentPrice > TARGET_MAX) {
 }
 ```
 
-* **适用场景**：中小规模代币，资金充足。
+*
 
-**(2) 动态做市策略（DMM）**
+    **Best for**: Mid-to-small-cap tokens with sufficient capital.
 
-* **逻辑**：
-  * 类似传统做市商，在买/卖盘挂单，赚取手续费的同时稳定价格。
-  * 使用**TWAP（时间加权平均价格）**&#x6216;**VWAP（成交量加权）**&#x8C03;整挂单价格。
-* **优势**：
-  * 比简单限价单更平滑，减少市场冲击。
-* **工具**：
-  * Solana上可用**Bonfida**或**Serum**的API构建。
+    **(2) Dynamic Market Making (DMM)**
 
-***
+    **Logic**:
 
-#### **混合方案：CLMM + 机器人协同**
+    * Acts like a traditional market maker, placing limit orders to earn fees while stabilizing price.
+    * Uses **TWAP (Time-Weighted Average Price)** or **VWAP (Volume-Weighted)** for smoother adjustments.\
+      **Advantage**:
+    * Reduces market impact compared to simple limit orders.\
+      **Tools**:
+    * Bonfida or Serum API (Solana).
 
-**CLMM提供基础流动性**
+    #### 3. Hybrid Approach: CLMM + Bot Coordination
 
-* 在目标区间（如1.0-1.2 USDC）提供深度流动性，降低正常波动。
+    * **CLMM provides baseline liquidity** (deep liquidity in the target range, e.g., 1.0–1.2 USDC).
+    *   **Bot handles edge cases**:
 
-**机器人处理极端情况**
+        * **Buys near the lower bound (1.0 USDC)** for support.
+        * **Sells near the upper bound (1.2 USDC)** for resistance.
 
-* 当价格接近区间边界时，机器人介入：
-  * **买入支撑**（接近1.0时）
-  * **卖出压制**（接近1.2时）
 
-#### **(3) 示例架构**
+
+
+
+    **Example Architecture:**
 
 ```javascript
 Price Monitoring Service (e.g., Pyth Network)
@@ -121,32 +115,23 @@ Update CLMM Liquidity (如果需要调整区间)
 
 ***
 
-#### **总结**
+### Summary
 
-* **CLMM流动性管理**可以**辅助**价格稳定，但无法完全限制。
-* **算法机器人**是主动控制价格的核心，需结合限价单、动态做市和套利策略。
-* **最佳实践 = CLMM深度流动性 + 机器人边界干预**
-
-***
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+* **CLMM liquidity management helps stabilize prices but cannot enforce hard limits.**
+* **Algorithmic bots are essential for active control**, combining limit orders, dynamic market-making, and arbitrage.
+* **Best Practice = Deep CLMM Liquidity + Bot Boundary Intervention**
 
 ***
 
-#### 其他社媒
+#### **Want to Dive Deeper?**
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+📖 **CPBOX Docs:** [https://docs.cpbox.io](https://docs.cpbox.io/)\
+📩 **Contact Us:** [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+***
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+#### **Join Our Community**
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+💬 **Telegram:** [https://t.me/cpboxio](https://t.me/cpboxio)\
+🐦 **Twitter:** [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)\
+📺 **YouTube:** [https://youtube.com/@cpboxio](https://youtube.com/@cpboxio)

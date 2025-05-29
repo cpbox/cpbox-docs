@@ -43,11 +43,11 @@ MetaMask推特：[https://twitter.com/metamask](https://twitter.com/metamask)
 
 小狐狸钱包会自动跳出提示，点击确定，就自动配置好了
 
-&#x20;![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (43).png>)
 
 这样小狐狸钱包就创建完成了，点击收款，会显示出自己的账号地址，然后在交易所或者其他钱包转账的时候就可以选择op链了。
 
-![](../../.gitbook/assets/fcdf81fe-401d-4b26-8207-f94119e88c49.png)![](../../.gitbook/assets/e0f42dcd-ce8c-4458-b704-d91324695c28.png)
+![](../../.gitbook/assets/fcdf81fe-401d-4b26-8207-f94119e88c49.png) ![](../../.gitbook/assets/e0f42dcd-ce8c-4458-b704-d91324695c28.png)
 
 ***
 
@@ -69,4 +69,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../en/solana-gong-ju/solana-yi-jian-fa-bi.md)

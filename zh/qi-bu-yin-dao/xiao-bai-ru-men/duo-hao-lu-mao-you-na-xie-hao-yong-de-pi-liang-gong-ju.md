@@ -2,7 +2,7 @@
 description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 ---
 
-# 多号撸毛有哪些好用的批量工具
+# Essential Batch Tools for Multi-Account Airdrop Farming
 
 在区块链空投、挖矿和交互激励盛行的今天，“撸毛”已成为许多用户获取收益的重要方式。然而，随着项目方风控升级，**单账号操作收益有限**，而手动切换多个账号又费时费力，甚至可能因操作失误导致封号风险。如何高效管理多个账号，实现批量操作？本文将为你盘点**多号撸毛的必备工具**，涵盖钱包管理、自动化脚本、RPC节点优化等解决方案，帮助你在合规范围内提升效率，最大化收益。无论是空投猎人、Defi矿工，还是链游玩家，这些工具都能让你事半功倍！
 
@@ -10,7 +10,7 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 点击首页菜单实用工具- 批量生成钱包地址
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>CPBOX 生成钱包地址</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(44).png" alt=""><figcaption><p>CPBOX 生成钱包地址</p></figcaption></figure>
 
 进入主页后，选择需要创建的主网链路
 
@@ -111,4 +111,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../../en/solana-gong-ju/solana-yi-jian-fa-bi.md)\\
