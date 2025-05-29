@@ -19,23 +19,23 @@ CPBox's Bulk Token Sender enables efficient mass transfers from a single wallet 
 
 Visit [CPBox.io](https://www.cpbox.io/) → **Utility Tools** → **Bulk Sender**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
 
 **Connect wallet** (holding tokens to distribute)
 
 
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
 
 **Enter token contract address** → auto-displays balance
 
 **mport recipient addresses**:Manual input or CSV upload
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包导入</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包导入</p></figcaption></figure>
 
 **Set amounts**: Fixed value or random range
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Execute transfer**
 

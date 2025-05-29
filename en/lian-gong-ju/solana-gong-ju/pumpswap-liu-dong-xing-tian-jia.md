@@ -1,76 +1,71 @@
 ---
-description: 教你如何使用pumpswap
+description: Hao to use pumpswap
 ---
 
 # Add Liquidity to PumpSwap
 
 {% embed url="https://youtu.be/GB7DUiNocWY" %}
 
-### 前言
+### **Introduction**
 
-在Solana生态中，**Pump.fun**和**Raydium**代表了两种截然不同的交易文化——一个是土狗狂欢的赌场，另一个是正经项目的战场。它们的核心差异决定了你会成为哪种玩家
+In the Solana ecosystem, Pump.fun and Raydium represent two entirely different trading cultures—one is a casino for meme coin frenzy, while the other is a battleground for serious projects. Their core differences determine what kind of player you will become.
 
-现在pumpfun团队也推出了自己的Dex，[pumpswap](https://swap.pump.fun/)。
+Now, the Pump.fun team has launched its own DEX, [PumpSwap](https://swap.pump.fun/). With the emergence of PumpSwap, some veteran players might say, "Finally, we no longer need to grind through bonding curves, and we don’t have to worry about being sniped by the platform’s bots. If we want to work on small projects seriously, we don’t need the high requirements and complex operations of Raydium anymore." Today, let’s walk through how to use PumpSwap to create a liquidity pool for your Solana token.
 
-[pumpswap](https://swap.pump.fun/)的出现，会有一些老玩家说，终于不需要再老老实实的刷粘合曲线，不用再担心被平台的机器人狙击了。想好好的做小项目也不需要raydium那么高的要求和复杂操作了。今天来带大家如何使用pumpSwap为你的sol代币创建流动性资金池了。
+### **Creating a Token**
 
-### 创建代币
+Go to the [CPBOX ](https://www.cpbox.io/)official website and click on the "Utilities" tab in the top menu, then select "Solana One-Click Token Creation."
 
-进入CPBOX官网后，点击上方菜单实用工具，中的solana一键发币
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../zh/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+1. Connect your wallet on the page that opens.
+2. Upload a logo and enter the relevant information.
+   * By default, the token decimal is set to 9.
+   * Here, I’ve chosen a total supply of 100 million.
 
-进入页面后链接钱包
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-依次上传头像，输入相关信息。
+There’s an optional section for additional details, but we won’t go into that for this demo.
 
-这边我们默认代币精度为9。我这里供应量选择了一个亿
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(1).png" alt=""><figcaption></figcaption></figure>
+After clicking "Create Token," a confirmation pop-up will appear.
 
-下方还有一个相关信息可以选填，这边不过多做演示了
+* Note: CPBOX charges a service fee of 0.1 SOL.
 
-点击创建代币后会弹出一个弹窗，信息二次确认
-
-<figure><img src="../../../zh/.gitbook/assets/image%20(2).png" alt=""><figcaption></figcaption></figure>
-
-注意这边CPBOX会收取**0.1个sol作为服务费用**
-
-代币创建成功之后，我们就可以看到代币的合约地址了
+Once the token is successfully created, you’ll see its contract address.
 
 ***
 
-### 添加流动性
+### **Adding Liquidity**
 
-我们进入[pumpswap](https://swap.pump.fun/)的页面，点击进入中间的Deposit/create 按钮
+Navigate to the PumpSwap page and click the "Deposit/Create" button in the middle.
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-deposit就是质押的意思，进来后我们能看到中间有三个选项
+* "Deposit" means staking tokens (i.e., adding liquidity).
+* "Withdraw" means removing liquidity.
+* "Create" means setting up a new liquidity pool (trading pair).
 
-* deposit：质押代币，就是加池子
-* withdraw：这里是撤池子
-* create：创建池子，建立交易对
+Since we’re creating a liquidity pool, click the "Create" button and enter the contract address of the token you just created.
 
-我们现在要创建流动性池，所以先点击create按钮下面把自己创建代币的合约地址输入进去。
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(4).png" alt=""><figcaption></figcaption></figure>
+Select the amount of tokens and SOL you want to stake.
 
-这边选择相应质押的代币数量和Sol数量。
+Once the liquidity pool is successfully created, you can return to the "Swap" tab in the top-left corner to test transactions.
 
-成功创建流动性池后，我们可以点回左上方的swap 进行交易测试了
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(5).png" alt=""><figcaption></figcaption></figure>
+Back on the "Deposit" page, you can now add or withdraw liquidity based on the current price ratio.
 
-回到中间的deposit页面。我们就可以根据当前的价格来同比例进行加池子，或者是撤池子了
-
-如果你不太清楚什么是流动性池，可以阅读一下下面的文章。
+If you’re not entirely sure what a liquidity pool is, you can check out the article below for more details.
 
 {% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
 [shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
 {% endcontent-ref %}
 
-如果你觉的本篇的加池子不是很清楚，可以参考Sui链或者Ton链的加池子教程。
+If you find this guide on adding liquidity unclear, you can refer to the Sui or Ton chain tutorials on liquidity pool creation.
 
 {% content-ref url="../../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md" %}
 [sui-liu-dong-xing-chi-tian-jia.md](../../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
@@ -78,24 +73,20 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 
 ***
 
-### 联系我们
+### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-如果想要深入了解CPBOX产品的其他用途和功能
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+Suggestions or custom needs?
 
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
 ***
 
-### 其他社媒
+### **Join Our Community** <a href="#join-our-community" id="join-our-community"></a>
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\\
+**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

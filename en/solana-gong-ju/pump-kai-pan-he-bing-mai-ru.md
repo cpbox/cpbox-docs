@@ -1,5 +1,7 @@
 ---
-description: 便捷创建和管理您的Solana代币Pump交易策略，消除pump狙击烦恼
+description: >-
+  Efficient Solana Token Pump Strategy Management - Anti-Sniping Solution for
+  Project Teams
 ---
 
 # Pump Launch Bundle Trading
@@ -28,7 +30,7 @@ Here, we demonstrate **CryptoBox’s Pump Launch Bundled Buy** feature.
 
 Visit [**https://www.cpbox.io/cn/**](https://www.cpbox.io/cn/), go to **Utility Tools**, and select **Pump Launch Bundled Buy**.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 *   _Note: Using CPBox for bundled buys incurs fees._
 
@@ -40,7 +42,7 @@ Visit [**https://www.cpbox.io/cn/**](https://www.cpbox.io/cn/), go to **Utility 
 
 &#x20;If using **3 addresses** for bundled buying, the total cost would be **0.05 + (3 × 0.01) = 0.08 SOL**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After entering the page, fill in the basic token details, then scroll down.
 
@@ -52,7 +54,7 @@ After entering the page, fill in the basic token details, then scroll down.
   * **Higher Jito fees increase success rates.**
   * If the bundled buy involves many addresses or large amounts, **adjusting the Jito fee higher is recommended** in case of launch failures.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Import Private Key Addresses**
 
@@ -60,28 +62,28 @@ After entering the page, fill in the basic token details, then scroll down.
 * Ensure each wallet has **> (Buy Amount + 0.01 SOL)** for fees.
 * After confirming, click **"Modify Quantity."**
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Set Buy Amount**
 
 * Choose between **fixed or random amounts**.
 * For this demo, we select **fixed (0.01 SOL per address).**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Final Confirmation & Signing**
 
 * A pop-up shows the fee breakdown.
 * Confirm and sign the transaction.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Token Creation Success**
 
 * After launch, you’ll receive the **token contract address**.
 * Enter it on Pump.fun to view your token’s page.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Post-Launch Observations**
 
@@ -92,7 +94,7 @@ Upon checking Pump.fun, you’ll notice the token price **immediately spikes**�
   * If **half the liquidity (42.5+ SOL) is bought at launch**, sniping becomes irrelevant—any bot buys would **help pump the price**, allowing you to sell and profit.
   * In our case, we only bought **0.03% of the pool (two small wallets)**, visible in the transaction history.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -2,98 +2,96 @@
 
 {% embed url="https://youtu.be/F-kLQHTfQkQ" %}
 
-### **前言：为什么选择Raydium？**
+### **Introduction: Why Choose Raydium?**
+
+In the Solana ecosystem, decentralized exchanges (DEXs) and liquidity mining platforms are constantly emerging—from Orca and Raydium to various new Pump.fun-style projects—giving users a wide range of choices. However, Raydium remains one of the most reliable and liquid DeFi protocols on Solana, especially suited for long-term liquidity providers (LPs) and traders.
 
 在Solana生态系统中，去中心化交易所（DEX）和流动性挖矿平台层出不穷，从Orca、Raydium到各种新兴的Pump.fun类项目，用户面临着众多选择。然而，**Raydium**仍然是Solana上最可靠、最具流动性的DeFi协议之一，尤其适合长期流动性提供者（LP）和交易者。
 
-* **Raydium** 是Solana生态的**老牌DEX**，采用**CLMM（集中流动性做市商）** + **订单簿混合模型**，深度整合Serum，提供更高效的交易体验。
-* Raydium的流动性池与**Serum订单簿**共享深度，减少滑点，适合大额交易。
-* 提供**双币（LP Token）挖矿**，收益来自真实交易手续费，而非通胀代币激励。
+* **Raydium** is a well-established DEX in the Solana ecosystem, utilizing a **CLMM (Concentrated Liquidity Market Maker) + order book hybrid model**, deeply integrated with Serum for a more efficient trading experience.
+* **Raydium’s liquidity pools share depth with Serum’s order book**, reducing slippage and making it ideal for large trades.
+* It offers **dual-token (LP token) farming**, with rewards coming from real trading fees rather than inflationary token incentives.
 
 ***
 
-### CLMM池创建
+### **Creating a CLMM Pool**
 
-当你在CPBOX完成[SOL一键发币](https://www.cpbox.io/cn/solana/token/publish)后进入[raydium官网](https://raydium.io/swap/?inputMint=HtCqD3o5aF1RXcyGi6AW11PoB3bZmFdA8kvVyhJrpump\&outputMint=sol)后。连接您的钱包后，单击页面左上角的“liquidity” 。
+After creating your token using **CPBOX’s SOL one-click token creation**, go to the **Raydium official website** and connect your wallet.
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(6).png" alt=""><figcaption></figcaption></figure>
+Click **"Liquidity"** in the top-left corner of the page.
 
-进入页面后单击右侧 create 创建按钮
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(2)%20(1).png" alt=""><figcaption></figcaption></figure>
+On the new page, click the **"Create"** button on the right.
 
-跳出弹窗后，pool type这里，我们默认选择Concentrated liquidity（集中性流动池）
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-下方点击continue 继续
+A pop-up will appear—under **"Pool Type"**, keep the default selection (**"Concentrated Liquidity"**) and click **"Continue."**
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(1)%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-#### 选择基础和报价代币
+### **Selecting Base & Quote Tokens**
 
-基础代币是在代币对报价中首次出现的代币。因此，对于该代币对来说，第二个代币是报价代币。 报价代币代表购买1个基础代币所需的代币数量。
+* The **base token** is the first token in the trading pair, while the **quote token** represents the amount needed to buy **1 unit of the base token**.
+* To enable trading for your token, select your newly created token as the **base token**.
+* Common **quote tokens** include **SOL, USDC, or other stablecoins**.
 
-这里我们要让自己的代币可以交易，base token选择我们自己创建的代币
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-常见的报价代币（Quote token）包括SOL，USDC或其他稳定币。
+⚠️ **Note:** If your token doesn’t display an icon or details, it likely hasn’t been verified on **Solscan**. To fix this, update the token’s metadata and complete the verification process.
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(3)%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-注意：如果你选择的代币并没有显示头像等信息，大概率是solscan上并没有进行验证，导致信息不显示。
+Click **"Next"** to proceed to the **price range setting**.
 
-如果你需要相关信息能够显示完全，[更新信息](https://solscan.io/token-update)页面上传相关信息。并完成审核验证
+* Here, you’ll define the **price range** for liquidity concentration.
+* For example, if you want your token to stabilize around **$1**, set a narrow price range.
+* If liquidity depth is insufficient, trades may fail to execute.
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(4)%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-点击下一步后进入价格设定界面
+Click **"Next"** to reach the final confirmation screen.
 
-在下方选择价格的波动范围，我这里是设定代币价格范围稳定在1刀左右，所以价格范围设置的很小。如果池子的深度不够的话，基本是没办法成交的。
+* Enter the **initial amount of tokens** you want to deposit into the liquidity pool.
+* (In this demo, we can’t proceed due to insufficient USDC balance.)
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-点击下一步后，进入到最后创建池子确认环节。选择初始要多少质押的代币，进入流动性池子。
+Once confirmed, your pool will be **successfully created**.
 
-我们这里因为没有没足够的usdcoin所以没法点击确认。
+### **Adding Liquidity (Depositing into a Pool)**
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(6)%20(1).png" alt=""><figcaption></figcaption></figure>
+Return to the **Liquidity** homepage.
 
-点击确认后池子就创建成功。
+To demonstrate, we’ll select an existing pool—if you’ve successfully created your pool, you can search for it directly.
 
-### 加池子操作
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-回到liquidity的主页，我们这边随便挑选一个来演示一下如何加池子。
+Click **"Deposit"** to enter the liquidity management interface.
 
-点击deposit进入如果你创建池子成功了，可以直接在搜索栏中搜索找到自己的池子。
+* Since this is a **Concentrated Liquidity pool**, you can provide liquidity within **specific price ranges**.
+* This allows LPs to **minimize impermanent loss** by focusing liquidity where it’s most effective—a key advantage of CLMM.
 
-<figure><img src="../../../zh/.gitbook/assets/image%20(7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-进入页面后。因为是集中性流动池，所以可以在特定的价格范围提供不同的流动性深度。
-
-<figure><img src="../../../zh/.gitbook/assets/image%20(8).png" alt=""><figcaption></figcaption></figure>
-
-对于lp们（liquidity provider）来说，可以选择固定的价格范围来提供流动性，可以避免一些不必要的亏损。这也是CLMM的优势所在。
-
-Raydium加池子的教程就讲到这里
-
-***
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+That’s it for the **Raydium liquidity pool tutorial**!&#x20;
 
 ***
 
-#### 其他社媒
+### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMwMMfHufN)
+Suggestions or custom needs?
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+***
+
+### **Join Our Community** <a href="#join-our-community" id="join-our-community"></a>
+
+**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
