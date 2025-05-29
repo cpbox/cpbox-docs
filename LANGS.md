@@ -1,2 +1,3 @@
-* [English](en/)
-* [中文](zh/)
+# Languages
+   * [中文](zh/)
+   * [English](en/)
