@@ -42,16 +42,18 @@ For further assistance, feel free to **contact our support team.**
 
 ***
 
-#### **Learn More About CPBOX**
+### **Learn More About CPBOX**
 
-📖 Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)\
-💡 Suggestions or custom needs? Contact us:\
-👉 [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-***
+Suggestions or custom needs?&#x20;
 
-#### **Join Our Community**
+Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
-💬 **Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)\
-🐦 **Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)\
-📺 **YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+### **Join Our Community**
+
+**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
