@@ -28,8 +28,8 @@
 
 多号撸毛必学：
 
-{% content-ref url="duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md" %}
-[duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md](duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***
