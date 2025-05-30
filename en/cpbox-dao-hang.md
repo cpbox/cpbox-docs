@@ -18,17 +18,17 @@ Quick access to CPBOX official website: [https://www.cpbox.io/](https://www.cpbo
 
 [Batch Collection](https://www.cpbox.io/batch/collection): Efficiently consolidate wallet balances | [View Tutorial](pi-liang-gong-ju/pi-liang-gui-ji.md)
 
-[Batch Balance Query](https://www.cpbox.io/batch/check-balance): Quickly check balances to confirm earnings | [View Tutorial](https://docs.cpbox.io/pi-liang-gong-ju/pi-liang-cha-xun.html)
+[Batch Balance Query](https://www.cpbox.io/batch/check-balance): Quickly check balances to confirm earnings | View Tutorial
 
 ### Chain Monitor Tools (Auxiliary Tools)
 
-[Smart Money Address Monitoring](https://www.cpbox.io/balance/monitor): Track whale wallet balances, follow smart money | [View Tutorial](https://docs.cpbox.io/shi-yong-gong-ju/yuejian-kong.html)
+[Smart Money Address Monitoring](https://www.cpbox.io/balance/monitor): Track whale wallet balances, follow smart money | [View Tutorial](shi-yong-gong-ju/yuejian-kong.md)
 
-[Twitter Activity Monitor](https://www.cpbox.io/cn/twitter/group): Stay ahead by tracking early market trends | [View Tutorial](https://docs.cpbox.io/shi-yong-gong-ju/twitter-jian-kong.html)
+[Twitter Activity Monitor](https://www.cpbox.io/cn/twitter/group): Stay ahead by tracking early market trends | [View Tutorial](shi-yong-gong-ju/twitter-jian-kong.md)
 
 ### Batch Transfer & Airdrops
 
-[EVM Chain Batch Distribution](https://www.cpbox.io/cn/batch/send-token): Execute batch sends, automate multi-wallet trades | [View Tutorial](https://docs.cpbox.io/pi-liang-gong-ju/pi-liang-fa-song.html)
+[EVM Chain Batch Distribution](https://www.cpbox.io/cn/batch/send-token): Execute batch sends, automate multi-wallet trades | [View Tutorial](pi-liang-gong-ju/pi-liang-fa-song.md)
 
 [Solana Bulk Transfers & Airdrops](https://www.cpbox.io/cn/solana/batch/send): Quickly send tokens or MEMEs on Solana | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
@@ -38,7 +38,7 @@ Quick access to CPBOX official website: [https://www.cpbox.io/](https://www.cpbo
 
 ### SOLANA Token Launch
 
-[Launch Tokens with One Click](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html): The smoothest Solana token creation experience | [View Tutorial](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html)
+[Launch Tokens with One Click](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html): The smoothest Solana token creation experience | [View Tutorial](solana-gong-ju/solana-yi-jian-fa-bi.md)
 
 [Solana Bulk Transfers & Airdrops](https://www.cpbox.io/cn/solana/batch/send): Send Solana tokens or SOL in bulk | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
@@ -58,7 +58,7 @@ Quick access to CPBOX official website: [https://www.cpbox.io/](https://www.cpbo
 
 ### TON Token Creation
 
-[Launch Tokens with One Click](https://www.cpbox.io/cn/ton/token/publish): The best one-click TON token creation tool | [View Tutorial](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
+[Launch Tokens with One Click](https://www.cpbox.io/cn/ton/token/publish): The best one-click TON token creation tool | [View Tutorial](ton-tools/create-tokens-with-one-click.md)
 
 [Token Management Dashboard](https://www.cpbox.io/cn/ton/token/manage): Edit token info and permissions | [View Tutorial](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
 
