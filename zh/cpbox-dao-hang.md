@@ -12,7 +12,11 @@ description: cpbox工具大全导航
 
 ### 多号批量工具（撸毛工具）
 
-[批量钱包创建](https://www.cpbox.io/cn/batch/generate-wallet)：快速建立多账号，实现多号撸毛｜[查看教程](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
+[批量钱包创建](https://www.cpbox.io/cn/batch/generate-wallet)：快速建立多账号，实现多号撸毛
+
+{% content-ref url="xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md" %}
+[pi-liang-di-zhi-sheng-cheng.md](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
+{% endcontent-ref %}
 
 [交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)：批零提币，防女巫检测 ｜[查看教程](../en/shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
 
