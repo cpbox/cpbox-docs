@@ -18,7 +18,7 @@ description: cpbox工具大全导航
 [pi-liang-di-zhi-sheng-cheng.md](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
 {% endcontent-ref %}
 
-[交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)：批零提币，防女巫检测 ｜[查看教程](../en/shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
+[交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)：批零提币，防女巫检测 ｜[查看教程](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
 
 [批量归集](https://www.cpbox.io/cn/batch/collection)：快速整理钱包余额｜[查看教程](../en/pi-liang-gong-ju/pi-liang-gui-ji.md)
 
