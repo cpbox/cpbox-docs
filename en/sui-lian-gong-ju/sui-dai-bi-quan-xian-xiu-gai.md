@@ -84,7 +84,7 @@ Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
 Suggestions or custom needs?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us:[https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 

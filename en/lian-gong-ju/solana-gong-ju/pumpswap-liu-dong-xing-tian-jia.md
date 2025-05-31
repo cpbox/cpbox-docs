@@ -62,24 +62,24 @@ Back on the "Deposit" page, you can now add or withdraw liquidity based on the c
 If you’re not entirely sure what a liquidity pool is, you can check out the article below for more details.
 
 {% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+Understanding Liquidity Pools, AMMs, and Liquidity Mining
 {% endcontent-ref %}
 
 If you find this guide on adding liquidity unclear, you can refer to the Sui or Ton chain tutorials on liquidity pool creation.
 
 {% content-ref url="../../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md" %}
-[sui-liu-dong-xing-chi-tian-jia.md](../../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
+Add Liquidity to Pools(SUI)
 {% endcontent-ref %}
 
 ***
 
 ### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/?_s=docs)
 
 Suggestions or custom needs?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us:[https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 

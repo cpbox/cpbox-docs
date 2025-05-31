@@ -39,9 +39,9 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 
 
-钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间“连接钱包”
+钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish?_s=docs) 点击中间"连接钱包"
 
-<figure><img src="../../.gitbook/assets/1280X1280——1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-1.png" alt=""><figcaption></figcaption></figure>
 
 ### 代币信息
 
@@ -49,7 +49,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 按照图片信息依次把相关信息填入这边代币初始供应量为：1000000，你也可以根据自己的需求输入想要的代币数量**参数都要填**
 
-<figure><img src="../../.gitbook/assets/1280X1280——2.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-2.png" alt=""><figcaption></figcaption></figure>
 
 * **精度：**&#x9ED8;认填9，精度与你能填写的最大供应量有关。
 * **供应数量：**&#x5F53;精度为9时，供应量最大不能超过100亿。当精度为8时，不能超过1000亿，以此类推
@@ -60,15 +60,15 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 最后只要点击创建代币， 会有一个创建代币的明细弹窗，里面会详细介绍费用，再次确认会进行钱包签名。代币创建成功后会出现一串合约地址。**这里cpbox收取代币创建费用是15个sui（市面上同类工具收取20个sui），算比较有性价比的。**
 
-<figure><img src="../../.gitbook/assets/3ce17743-4114-4f57-bf96-282d975af7d0.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-3.png" alt="" width="375"><figcaption></figcaption></figure>
 
 创建成功后会弹出一个提示窗口，点击代币合约地址后，可以进入到sui代币信息页面。
 
-<figure><img src="../../.gitbook/assets/d003849a-df61-4ada-90c2-461f0cbe13b3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-4.png" alt=""><figcaption></figcaption></figure>
 
 我们可以在suiscan上查看到我们代币信息，同时钱包里面也能看到我们创建的代币
 
-<figure><img src="../../.gitbook/assets/d599ab88-ebac-4dbd-9374-60ba44f0bc84.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-5.png" alt=""><figcaption></figcaption></figure>
 
 到此，整个发币工作就算是完成了。
 
@@ -77,7 +77,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：
 
 {% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
-[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
+SUI 流动性添加
 {% endcontent-ref %}
 
 ***
@@ -90,7 +90,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 或者你有一些好的建议或者想要帮助开发的需求
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+可以通过主页 [https://www.cpbox.io/](https://www.cpbox.io/cn/?_s=docs)最下方的联系方式来找到我们
 
 也可以通过下方社媒来联系我们
 

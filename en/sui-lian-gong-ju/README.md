@@ -1,37 +1,37 @@
 ---
-description: Sui相关工具
+description: Sui token creation, transfer and batch operation tools
 ---
 
-# Sui 工具
+# Sui Tools
 
-本篇是为Sui链玩家提供的批量工具和发币工具教程
+This section provides batch tools and token creation tool tutorials for Sui blockchain users.
 
-如果你想更多的了解Sui公链，可以阅读这边文章
+If you want to learn more about the Sui public chain, you can read this article:
 
-{% content-ref url="../../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md" %}
-[sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md](../../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
+{% content-ref url="../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md" %}
+Sui Blockchain Introduction and Wallet Usage Guide
 {% endcontent-ref %}
 
-如果你从来没有发过币，想尝试一下。
+If you have never created a token before and want to give it a try.
 
-可以阅读这篇文章
+You can read this article:
 
-{% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
-[fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+The Complete Guide to Token Creation: From Launch to Exit
 {% endcontent-ref %}
 
-如果你想通过CPBox来创建属于自己的Sui链代币
+If you want to create your own Sui chain token through CPBox
 
-可以阅读下方教程
+You can read the tutorial below:
 
-{% content-ref url="../../sui-lian-gong-ju/sui-yi-jian-fa-bi.md" %}
-[sui-yi-jian-fa-bi.md](../../sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
+{% content-ref url="./sui-yi-jian-fa-bi.md" %}
+SUI Launch Token
 {% endcontent-ref %}
 
 ***
 
-本团队正在持续开发中
+Our team is continuously developing
 
-如果你有一些好的建议或者想要帮助开发的需求
+If you have good suggestions or need development assistance
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
