@@ -10,8 +10,8 @@ description: >-
 
 On the Solana blockchain, each NFT or token requires an initial SOL deposit for storage account rent. If you've sold these assets, you can reclaim this rent using CPBOX's **Close Account** feature. Choose between:
 
-* [**Single Address Mode**](https://www.cpbox.io/cn/solana/close-account): Reclaims rent only from your connected wallet
-* [**Batch Address Mode**](https://www.cpbox.io/cn/solana/batch/close-account): Processes multiple imported addresses simultaneously
+* [**Single Address Mode**](https://www.cpbox.io/en/solana/close-account): Reclaims rent only from your connected wallet
+* [**Batch Address Mode**](https://www.cpbox.io/en/solana/batch/close-account): Processes multiple imported addresses simultaneously
 
 ### **How to Close Accounts**
 
@@ -27,7 +27,7 @@ On the Solana blockchain, each NFT or token requires an initial SOL deposit for 
 
 
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-06-07/d1tqq6b3nm1xq1ncbc.png" alt=""><figcaption><p>单个钱包关闭</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-06-07/d1tqq6b3nm1xq1ncbc.png" alt=""><figcaption><p>Close Account Single</p></figcaption></figure>
 
 #### **Batch Address Mode**
 
@@ -52,7 +52,7 @@ For managing multiple Solana addresses efficiently:
 
 ### **Support**
 
-Need help? Contact **CPBOX Support** or check our [Help Docs](https://docs.cpbox.io/).查阅帮助文档。
+Need help? Contact **CPBOX Support** or check our [Help Docs](https://docs.cpbox.io/).
 
 ***
 
@@ -60,9 +60,9 @@ Need help? Contact **CPBOX Support** or check our [Help Docs](https://docs.cpbox
 
 Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?&#x20;
+Suggestions or custom needs?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us: [https://www.cpbox.io/en/](https://www.cpbox.io/en/)
 
 ### **Join Our Community**
 

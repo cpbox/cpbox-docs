@@ -1,10 +1,10 @@
-# Create Wallets in Bulk
+# Batch Create Solana Wallets
 
-### I**ntroduction**
+### **Introduction**
 
-The Solana blockchain has been performing exceptionally well recently, largely driven by the explosive popularity of meme coins. This hype has led to a surge in new projects launching on Solana. With these projects come numerous small airdrop opportunities.
+The Solana blockchain has been experiencing remarkable growth recently, driven primarily by the surge in popularity of meme coins. This momentum has catalyzed a wave of new project launches on Solana, creating numerous airdrop opportunities for users.
 
-If you want to maximize your gains by farming airdrops across multiple accounts, you'll need a way to **batch-generate Solana wallet addresses**. Take the recent **PumpDao voting event** as an example—holding just **0.1 SOL** in an account and voting made you eligible for an airdrop. To increase your chances, you'd naturally want to use multiple wallets.
+To maximize your potential returns from airdrop campaigns across multiple accounts, you'll need an efficient method to **batch-generate Solana wallet addresses**. Consider the recent **PumpDao voting event** as an example—simply holding **0.1 SOL** in your wallet and participating in the vote qualified you for an airdrop. To optimize your opportunities, using multiple wallets is a natural strategy.
 
 <figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
@@ -12,49 +12,49 @@ If you want to maximize your gains by farming airdrops across multiple accounts,
 
 ### **How to Batch-Create Solana Wallets Using CPBOX**
 
-**Step-by-Step Guide**
+**Step-by-Step Guide:**
 
-Visit the [**CPBOX official website**](https://www.cpbox.io/)
+1. Visit the [**CPBOX official website**](https://www.cpbox.io/)
 
 <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-Navigate to **"Utility Tools"** → **"Batch Generate Wallet Addresses"**
+2. Navigate to **"Utility Tools"** → **"Batch Generate Wallet Addresses"**
 
-Select **Solana** as the blockchain
+3. Select **Solana** as the blockchain network
 
-Enter the **number of wallets** you want to create
+4. Enter the **number of wallets** you want to create
 
-Click **"Generate"**—the system will instantly produce the wallets
+5. Click **"Generate"**—the system will instantly create the wallets
 
 <figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
-**Download** the results as a spreadsheet
+6. **Download** the results as a spreadsheet for easy management
 
 <figure><img src="../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-### **Important Notes**
+### **Important Security & Safety Notes**
 
 🔒 **Security First:**
 
-* All wallets are **generated locally** on your device—CPBOX **never** accesses your private data.
-* For maximum safety:
-  * **Disconnect from the internet** during generation
-  * Use **incognito mode**
+* All wallets are **generated locally** on your device—CPBOX **never** accesses or stores your private data
+* For maximum security:
+  * **Disconnect from the internet** during wallet generation
+  * Use **incognito/private browsing mode**
 
-⚠ **Avoid Over-Creating Wallets:**
+⚠️ **Avoid Creating Excessive Wallets:**
 
-* Projects now use **anti-Sybil measures** (IP tracking, activity patterns).
-* Creating too many wallets may trigger red flags.
+* Modern projects implement **anti-Sybil detection measures** (IP tracking, behavioral pattern analysis)
+* Creating too many wallets from a single source may trigger security flags and result in disqualification
 
 ***
 
 ### **Learn More About CPBOX**
 
-Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
+Explore our comprehensive features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?&#x20;
+Have suggestions or custom requirements?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us: [https://www.cpbox.io/](https://www.cpbox.io/en/)
 
 ***
 

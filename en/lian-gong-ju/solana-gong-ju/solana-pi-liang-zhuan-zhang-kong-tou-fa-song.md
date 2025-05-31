@@ -4,14 +4,14 @@
 
 CPBox's Bulk Token Sender enables efficient mass transfers from a single wallet to multiple addresses, featuring:
 
-* **Multi-chain support**: All EVM-compatible chains + [Solana](https://www.cpbox.io/cn/solana/batch/send), [Sui](https://www.cpbox.io/cn/sui/batch-send-token), [Tron](https://www.cpbox.io/cn/tron/batch-send-token), Ton, Aptos, Cosmos
+* **Multi-chain support**: All EVM-compatible chains + [Solana](https://www.cpbox.io/en/solana/batch/send), [Sui](https://www.cpbox.io/en/sui/batch-send-token), [Tron](https://www.cpbox.io/en/tron/batch-send-token), Ton, Aptos, Cosmos
 * **Customizable parameters**: Node selection, gas fee adjustment, transfer interval control
 * **Enterprise-grade efficiency**: Optimized for large-scale airdrops and community rewards
 
 **Target Users**
 
 * **Airdrop farmers**: Execute multi-wallet interactions for eligibility
-* **Community managers**: Distribute tokens for promotions/events
+* **Community managers**: Distribute tokens for promotions and events
 
 ***
 
@@ -19,47 +19,45 @@ CPBox's Bulk Token Sender enables efficient mass transfers from a single wallet 
 
 Visit [CPBox.io](https://www.cpbox.io/) → **Utility Tools** → **Bulk Sender**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CPBOX 菜单</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-transfer-1.png" alt=""><figcaption><p>CPBox Main Menu</p></figcaption></figure>
 
-**Connect wallet** (holding tokens to distribute)
+**Step 1: Connect Wallet** (holding tokens to distribute)
 
+<figure><img src="../../../.gitbook/assets/sol-transfer-2.png" alt=""><figcaption><p>Wallet Connection</p></figcaption></figure>
 
+**Step 2: Enter Token Contract Address** → System automatically displays token balance
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包数量</p></figcaption></figure>
+**Step 3: Import Recipient Addresses**: Manual input or CSV file upload
 
-**Enter token contract address** → auto-displays balance
+<figure><img src="../../../.gitbook/assets/sol-transfer-3.png" alt=""><figcaption><p>Wallet Import Interface</p></figcaption></figure>
 
-**mport recipient addresses**:Manual input or CSV upload
+**Step 4: Set Transfer Amounts**: Choose between fixed value or random range
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>钱包导入</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-transfer-4.png" alt=""><figcaption><p>Amount Configuration</p></figcaption></figure>
 
-**Set amounts**: Fixed value or random range
-
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Execute transfer**
+**Step 5: Execute Transfer**
 
 ***
 
-### **Solana  Mainnet**
+### **Solana Mainnet**
 
-Select **Solana Mainnet**
+**Step 1: Select Solana Mainnet**
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-transfer-5.png" alt=""><figcaption><p>Network Selection</p></figcaption></figure>
 
-epeat steps 2-6 above
+**Step 2-6: Repeat the above process**
 
-Adjust SOL amounts as needed
+Adjust SOL amounts as needed for your specific requirements.
 
 ***
 
 ### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
+Explore all features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?
+Have suggestions or custom development needs?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us: [https://www.cpbox.io/en/](https://www.cpbox.io/en/)
 
 ***
 

@@ -1,65 +1,65 @@
 ---
-description: Solana玩法须知
+description: Essential Guide to Solana Tools
 ---
 
-# Solana 工具
+# Solana Tools
 
-本篇涵盖Sol链的多个批量工具和发币工具教程
+This article covers multiple batch tools and token creation tool tutorials for the Sol chain.
 
-如果你还没有发过Token代币，可以先阅读这边文章&#x20;
+If you haven't issued tokens before, you can first read this article:
 
-{% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
-[fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+The Complete Guide to Token Creation: From Launch to Exit
 {% endcontent-ref %}
 
-**发币后应该要做什么**
+**What should you do after issuing tokens?**
 
-Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么有真本事（比如能写合约、懂运营），要么有钞能力（比如舍得砸钱做流动性）。别一上来就“梭哈”，不然很可能币发了，钱包空了，社区跑了，最后只剩你一个人在TG群里自言自语。如果你已经做好准备，想在Sol链上发币，大展身手的话。那我讲一下发币三板斧
+Issuing tokens on Solana is like opening a bubble tea shop - low barriers to entry, but fierce competition. You either need real skills (like smart contract development and operations expertise), or financial power (like being willing to invest heavily in liquidity). Don't go "all-in" from the start, or you might end up with tokens issued, wallet empty, community fled, leaving you talking to yourself in the Telegram group. If you're ready and want to make a big splash issuing tokens on the Sol chain, let me explain the three key moves for token issuance:
 
-* 创建代币
-* 流动性添加
-* Dex交易
+* Create the token
+* Add liquidity
+* DEX trading
 
-如果你不会写代码，想在SOL链上发币，可以参考这篇文章
+If you can't code and want to issue tokens on the SOL chain, you can refer to this article:
 
-{% content-ref url="../../solana-gong-ju/solana-yi-jian-fa-bi.md" %}
-[solana-yi-jian-fa-bi.md](../../solana-gong-ju/solana-yi-jian-fa-bi.md)
+{% content-ref url="./solana-yi-jian-fa-bi.md" %}
+Solana Token Launch
 {% endcontent-ref %}
 
-如果你不会添加流动性，可以参考这篇文章
+If you don't know how to add liquidity, you can refer to this article:
 
-当然，抛去这种玩法，Sol链还有另一种选择，pump.fun 一样可以发币，当粘合曲线到达要求，一样可以发射成功
+Of course, aside from this approach, the Sol chain has another option - pump.fun can also be used for token issuance. When the bonding curve reaches the requirement, it can also launch successfully.
 
 ***
 
-**Pump开盘？先问问自己能不能跑得比韭菜快**
+**Pump Launch? First ask yourself if you can run faster than the retail investors**
 
-你看到别人在Pump.fm上开盘10倍、100倍，心痒痒？别忘了，Solana上的狙击bot比野狗还多，你的币刚上DEX，可能还没等散户进场，就被科学家们啃得骨头都不剩。要么你有本事反狙击，要么你准备好足够的流动性，否则可能就是“开盘即巅峰，然后一路向南”。
+You see others making 10x, 100x on Pump.fm and feel tempted? Don't forget that sniping bots on Solana are more numerous than wild dogs. Your token might be devoured by scientists before retail investors even enter the market after hitting DEX. Either you have the skills to counter-snipe, or you prepare enough liquidity, otherwise it might be "launch is the peak, then straight south."
 
-当然，如果你使用了**CPBox的pump开盘绑定买入功能**，上面那些问题也就不是什么大问题了。CPBox就是为了帮助不会代码的朋友，通过我们的工具，可以让你处于一个相对公平的状态。
+Of course, if you use **CPBox's pump launch bundled buy feature**, the above problems won't be major issues. CPBox is designed to help friends who can't code, allowing you to be in a relatively fair position through our tools.
 
-如果你不知道怎么使用pump开盘绑定买入功能，你可以参考下面这篇文章
+If you don't know how to use the pump launch bundled buy feature, you can refer to this article:
 
-{% content-ref url="../../solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md" %}
-[pump-kai-pan-he-bing-mai-ru.md](../../solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
-{% endcontent-ref %}
-
-***
-
-**社区运营？别光拉群，得学会‘画饼**
-
-拉个TG群、发几个“Moon”“To the Mars”的表情包，这谁不会？关键是你得让韭菜（哦不，是“社区成员”）相信你的项目真的有未来。哪怕你现在只是个“三无产品”（无产品、无团队、无路线图），至少也得学会编故事，比如：“我们正在和某神秘机构谈合作”“下周有大所上线”（尽管你自己都不知道是哪家）。
-
-当然光画饼是不行的，你还得时不时的给社区发一下代币的空投。如果你不知道怎么给你社群的幸运用户**发送空投**，你可以参考下面这篇文章。
-
-{% content-ref url="../../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md" %}
-[meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md](../../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
+{% content-ref url="./pump-kai-pan-he-bing-mai-ru.md" %}
+Pump Launch Bundle Trading
 {% endcontent-ref %}
 
 ***
 
-本团队正在持续开发中
+**Community Operations? Don't just create groups, learn to 'paint the vision'**
 
-如果你有一些好的建议或者想要帮助开发的需求
+Creating a TG group and posting a few "Moon" and "To the Mars" emojis - anyone can do that. The key is making retail investors (oh no, "community members") believe your project truly has a future. Even if you're currently a "three-nothing product" (no product, no team, no roadmap), you at least need to learn to tell stories, like: "We're in talks with a mysterious institution" or "A major exchange listing next week" (even though you don't know which one yourself).
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+Of course, just painting visions isn't enough. You also need to occasionally send token airdrops to your community. If you don't know how to **send airdrops** to lucky users in your community, you can refer to this article:
+
+{% content-ref url="../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md" %}
+Meme Community Airdrop Success Story
+{% endcontent-ref %}
+
+***
+
+Our team is continuously developing
+
+If you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of our homepage [https://www.cpbox.io/](https://www.cpbox.io/en/)
