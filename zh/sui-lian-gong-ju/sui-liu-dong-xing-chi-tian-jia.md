@@ -36,33 +36,33 @@ description: Sui链发币后如何交易，流动性资金池创建教程
 
 第一步，还是我们的老规矩，先进行钱包的链接，我们这里要选择原先发币的钱包，因为创建池子，是需要把币投进池子里的。
 
-<figure><img src="../../en/.gitbook/assets/ce818782-646c-4f1b-b65d-2d550a0de8db.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-1.png" alt=""><figcaption></figcaption></figure>
 
 第二步，点击左上方菜单的earn按钮，点击pool选项，来进入我们的创建流动性资金池的界面，进行所谓的加池子的操作
 
-<figure><img src="../../en/.gitbook/assets/9a8b5b53-a356-45ac-9596-5956122e83a9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-2.png" alt=""><figcaption></figcaption></figure>
 
 进入页面后我们能够看到 右下方有一个添加池子的 操作按钮 ，点击create a new pool
 
-<figure><img src="../../en/.gitbook/assets/5ee1de73-e7e7-4e90-8b74-94f91f20ea1e.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-3.png" alt=""><figcaption></figcaption></figure>
 
 点击后弹出来一个弹窗，我们按步骤来，先点击左侧的token 选择按钮，然后把我们合约代币地址输入进来，右侧我们这边默认选择sui代币作为价格锚定代币，你也可以选择usdc或者其他代币。
 
-<figure><img src="../../en/.gitbook/assets/702ab66b-8786-4828-83a8-c2a402cfafce.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-4.png" alt=""><figcaption></figcaption></figure>
 
 需要注意的是，这里填写代币的合约地址是不行的，还需要把代币类型的后缀带上，我们要复制suiscan上type这一栏的代币地址
 
-<figure><img src="../../en/.gitbook/assets/c9138371-ec6c-43c8-9be3-13d166e78ff0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-5.png" alt=""><figcaption></figcaption></figure>
 
 下面再进行交易滑点设置，这个滑点越大，意味着交易摩擦成本越高，但是也越容易成交。像稳定币，价格波动低的，可以选择0.01%、0.05%。正常的土狗币，推荐选择**0.25%和1%**。因为土狗币交易不频繁、不稳定，滑点大一点有助于交易顺利完成
 
-<figure><img src="../../en/.gitbook/assets/fd6838c1-2f8e-4d47-92b0-07b93b7edf60.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-6.png" alt=""><figcaption></figcaption></figure>
 
 ## 设置并创建交易资金池
 
 当我选择一个滑点（0.25%）之后，我们就可以进行下一步配置了首先需要给一个初始上线价格，这个价格是基于SUI的，即：1个土狗币=多少SUI我们这里设置的一个土狗币=**0.0001**个sui 相当于1个sui可以购买**10000**个土狗也就是上线后的初始价格
 
-<figure><img src="../../en/.gitbook/assets/7c9e4445-de8d-4111-9872-12da1fd8ce87.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-7.png" alt=""><figcaption></figcaption></figure>
 
 下方的 **set price range** 设置价格范围，我们选择**Full Range**，然后选择下一步
 
@@ -70,7 +70,7 @@ description: Sui链发币后如何交易，流动性资金池创建教程
 
 之后，我们填写要加池子的金额。例如，我选择加4个SUI，交易所会自动给我配对4w个左右的Cryptopig，确认数量后，点击**continue**按钮即可
 
-<figure><img src="../../en/.gitbook/assets/15157e5d-5347-4f17-93e3-82464b0b69b4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-8.png" alt=""><figcaption></figcaption></figure>
 
 点击确定后，会跳出钱包签名，签名成功后资金池就创建成功了
 
@@ -78,21 +78,21 @@ description: Sui链发币后如何交易，流动性资金池创建教程
 
 流动性池创建完成之后，就可以进行交易测试了，点击菜单栏上方的swap，我们就能够看到能够开始交易了，现在因为资金池里面sui的数量比较小，代币会有很大的价差。
 
-<figure><img src="../../en/.gitbook/assets/e3c3f9c9-2f66-4caf-b638-2ee713a1909b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-9.png" alt=""><figcaption></figcaption></figure>
 
 ## 增加与撤出流动性资金池
 
 池子创建成功后，接下来我们看怎么增加流动性与撤出流动性，即所谓的：加池子与撤池子。回到pools页面，点击中间position，就可以看到我们的流行性池了。再点击最右侧进入详情页面
 
-<figure><img src="../../en/.gitbook/assets/1936b258-29de-481b-91a0-194bd8afd1b2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-10.png" alt=""><figcaption></figcaption></figure>
 
 进入流动性池详情页面后，我们就能在右侧看到我们加池子和撤池子功能了，只要输入相应的sui数量，就会同比例的把token数量加入进池子，如果需要撤池子，就点击上面的额Remove
 
-<figure><img src="../../en/.gitbook/assets/5c5d6fad-73bd-4da5-9ca1-06afb06c5770.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-11.png" alt=""><figcaption></figcaption></figure>
 
 注意这里加池子，并不会使得代币的价格的上涨，池子里资金的增加，只会减少交易时的差价磨损，滑点越来越小代币价格的上涨是由池子里token存在的数量减少引起的。
 
-## **为什么要“撤池子”？——流动性的风险与控制**
+## **为什么要"撤池子"？——流动性的风险与控制**
 
 ### **(1) 常见撤池子场景**
 
@@ -107,7 +107,7 @@ description: Sui链发币后如何交易，流动性资金池创建教程
 
 ***
 
-**引申概念：流动性质押（Liquidity Staking）**&#x6D41;动性池的进阶玩法是 **流动性质押**，它解决了传统质押的“资金闲置”问题：**传统质押**：你把代币锁定在合约中赚取利息，但无法交易。**流动性质押**：
+**引申概念：流动性质押（Liquidity Staking）**&#x6D41;动性池的进阶玩法是 **流动性质押**，它解决了传统质押的"资金闲置"问题：**传统质押**：你把代币锁定在合约中赚取利息，但无法交易。**流动性质押**：
 
 * 你将代币存入流动性池（如 SUI-你的代币 交易对），获得 **LP Token**（流动性凭证）。
 * 再将 LP Token 质押到矿池，同时赚取：
@@ -115,6 +115,10 @@ description: Sui链发币后如何交易，流动性资金池创建教程
   * **额外代币奖励**（项目方或协议提供的激励）。
 
 如果你想详细了解什么是LP，可以阅读这篇文章：
+
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
+什么是流动性资金池、AMM、流动性挖矿
+{% endcontent-ref %}
 
 ***
 

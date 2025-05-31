@@ -1,5 +1,5 @@
 ---
-description: 专业优化您的DEX流动性池和BMM做市策略
+description: Professionally optimize your DEX liquidity pools and BMM market making strategies
 ---
 
 # Pump Market Cap Management
@@ -10,196 +10,210 @@ In the digital currency market, market cap management is one of the core concern
 
 ## **Use Cases**
 
-CPBox.io's **Pump Market Cap Management** is a comprehensive solution for digital asset projects. Utilizing smart algorithms and professional trading strategies, it helps project teams effectively regulate token prices and market capitalization under various market conditions.
+CPBox.io's [**Pump Market Cap Management**](https://www.cpbox.io/en/solana/bmm?_s=docs) is a comprehensive solution for digital asset projects. Utilizing smart algorithms and professional trading strategies, it helps project teams effectively regulate token prices and market capitalization under various market conditions.
 
 **Applicable Scenarios:**
 
-* **New Project Launch:** Stabilizes prices and builds market confidence.
+* **New Project Launch:** Stabilizes prices and builds market confidence during initial token release.
 * **Major Positive Announcements:** Amplifies positive impacts alongside marketing campaigns.
-* **Market Downturns:** Prevents excessive price drops and maintains investor trust.
-* **Long-Term Growth Plans:** Gradually increases token value through sustained strategies.
-
-### 使用教程
+* **Market Downturns:** Prevents excessive price drops and maintains investor confidence.
+* **Long-Term Growth Plans:** Gradually increases token value through sustained strategic interventions.
 
 ### **User Guide**
 
 **First-Time Users:**
 
-* The system automatically creates a task upon first access.
-
-1. **Returning Users:**
-   * Choose between **resuming a historical task** or **creating a new one**.
-2. **Token Contract Input:**
-   * Enter the token contract address.
-   * If the token is already listed on **Raydium (external market)**, select **Raydium** under DEX options.
-3. **Wallet Private Key Import:**
-   * Import the private keys of wallets used for market making.
-4. **Basic Trading Parameters:**
-   * **Slippage Tolerance:** Adjust acceptable price fluctuations for buy/sell orders.
-5. **RPC Node Settings:**
-   * **VIP Users:** Access exclusive high-speed VIP nodes.
-   * **Custom Option:** Import private RPC nodes.
-
-![自动创建任务](https://www.cpbox.io/cpfiles/2024-09-13/d44ww8uzq5mzfbwlr9.png)
+* The system automatically creates a task upon first access.  [Go BMM>>](https://www.cpbox.io/en/solana/bmm?_s=docs)
 
 **Returning Users:**
 
 * Choose between **resuming a historical task** or **creating a new one**.
 
-![打开历史任务image.png](https://www.cpbox.io/cpfiles/2024-09-13/d44wzurkgv4kdqmq0d.png)
+![Auto-create task](https://www.cpbox.io/cpfiles/2024-09-13/d44ww8uzq5mzfbwlr9.png)
 
-**Token Contract Input:**
+**Returning Users:**
+
+* Choose between **resuming a historical task** or **creating a new one**.
+
+![Open historical task](https://www.cpbox.io/cpfiles/2024-09-13/d44wzurkgv4kdqmq0d.png)
+
+**Token Contract Configuration:**
 
 * Enter the token contract address.
 * If the token is already listed on **Raydium (external market)**, select **Raydium** under DEX options.
 
-<figure><img src="https://www.cpbox.io/cpfiles/2025-01-25/d7av5yr84grtiy6j9t.png" alt=""><figcaption><p>选择DEX</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2025-01-25/d7av5yr84grtiy6j9t.png" alt=""><figcaption><p>Select DEX</p></figcaption></figure>
 
-![选择和收藏代币](https://www.cpbox.io/cpfiles/2024-09-13/d44x89hi4xd9a9dsho.png)
+![Select and favorite tokens](https://www.cpbox.io/cpfiles/2024-09-13/d44x89hi4xd9a9dsho.png)
 
 **Wallet Private Key Import:**
 
-* Import the private keys of wallets used for market making.
+* Import the private keys of wallets to be used for market making operations.
 
-![导入钱包私钥](https://www.cpbox.io/cpfiles/2024-09-13/d44x2qa443a8f2pb29.png)
+![Import wallet private keys](https://www.cpbox.io/cpfiles/2024-09-13/d44x2qa443a8f2pb29.png)
 
-![批量导入或者去创建私钥](https://www.cpbox.io/cpfiles/2024-09-13/d452a7qfytsdtezleb.png)
+![Batch import or create private keys](https://www.cpbox.io/cpfiles/2024-09-13/d452a7qfytsdtezleb.png)
 
 **Basic Trading Parameters:**
 
-* **Slippage Tolerance:** Adjust acceptable price fluctuations for buy/sell orders.
+* **Slippage Tolerance:** Adjust acceptable price fluctuations for buy/sell orders to optimize execution.
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d44xs8ikyebaolvjoi.png" alt=""><figcaption><p>基本参数设置</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d44xs8ikyebaolvjoi.png" alt=""><figcaption><p>Basic parameter settings</p></figcaption></figure>
 
-**RPC Node Settings:**
+**RPC Node Configuration:**
 
-* **VIP Users:** Access exclusive high-speed VIP nodes.
-* **Custom Option:** Import private RPC nodes.
+* **VIP Users:** Access exclusive high-speed VIP nodes for optimal performance.
+* **Custom Option:** Import and configure private RPC nodes.
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d44xvkacc64zwi4aar.png" alt=""><figcaption><p>RPC选择</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d44xvkacc64zwi4aar.png" alt=""><figcaption><p>RPC selection</p></figcaption></figure>
 
 ### **Trading Strategies**
 
-CPBox.io currently offers **four trading strategies**:
+CPBox.io currently offers **four comprehensive trading strategies**:
 
-1. **One-Click Dump**
-2. **Target Price Pump**
-3. **Target Price Drop**
-4. **Batch Sell-Off**
+1. **One-Click Dump** - Quick liquidation strategy
+2. **Target Price Pump** - Price appreciation campaign
+3. **Target Price Drop** - Controlled price reduction
+4. **Batch Sell-Off** - Systematic distribution strategy
 
 ### **Target Price Pump Strategy**
 
-* **Stop Conditions:** Set price or time triggers.
+This strategy is designed to systematically increase token price to a predetermined target level.
 
-![目标价拉盘参数](https://www.cpbox.io/cpfiles/2024-09-13/d44yo36va2ew0lrbvc.png)
+* **Stop Conditions:** Configure price thresholds or time-based triggers to halt operations.
 
-**Buy Parameters (Per Wallet):**
+![Target price pump parameters](https://www.cpbox.io/cpfiles/2024-09-13/d44yo36va2ew0lrbvc.png)
 
-Fixed SOL amount
+**Buy Parameters (Per Wallet Configuration):**
 
-![单个钱包买入金额](https://www.cpbox.io/cpfiles/2024-09-13/d44ysa6jnzd4gwthlj.png)
+**Fixed SOL Amount:**
+Set a specific SOL amount for each wallet transaction.
 
-Random SOL amount
+![Fixed SOL amount per wallet](https://www.cpbox.io/cpfiles/2024-09-13/d44ysa6jnzd4gwthlj.png)
 
-![单个钱包随机金额](https://www.cpbox.io/cpfiles/2024-09-13/d44ytcs6yo0p2zsia3.png)
+**Random SOL Amount:**
+Define a range for randomized SOL amounts to create natural trading patterns.
 
-Fixed percentage of wallet SOL balance
+![Random SOL amount per wallet](https://www.cpbox.io/cpfiles/2024-09-13/d44ytcs6yo0p2zsia3.png)
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d44z1ljmsfr1sv0czu.png" alt=""><figcaption><p>单个钱包宝百分比金额</p></figcaption></figure>
+**Fixed Percentage of Wallet SOL Balance:**
+Use a set percentage of each wallet's SOL balance for purchases.
 
-Random percentage of wallet SOL balance
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d44z1ljmsfr1sv0czu.png" alt=""><figcaption><p>Fixed percentage of wallet balance</p></figcaption></figure>
 
-![钱包SOL余额](https://www.cpbox.io/cpfiles/2024-09-13/d44z0h25zh8ibfned0.png)
+**Random Percentage of Wallet SOL Balance:**
+Apply randomized percentages within a defined range for varied transaction sizes.
 
-**Buy Parameters (Token Quantity):**
+![Wallet SOL balance percentage](https://www.cpbox.io/cpfiles/2024-09-13/d44z0h25zh8ibfned0.png)
 
-Fixed token amount
+**Buy Parameters (Token Quantity Configuration):**
 
-![按固定数量](https://www.cpbox.io/cpfiles/2024-09-13/d44z3gidxoafzpzaqe.png)
+**Fixed Token Amount:**
+Purchase a predetermined number of tokens per transaction.
 
-Random token amount
+![Fixed token quantity](https://www.cpbox.io/cpfiles/2024-09-13/d44z3gidxoafzpzaqe.png)
 
-![随机数量买入](https://www.cpbox.io/cpfiles/2024-09-13/d44z3wxxmce2jjktkb.png)
+**Random Token Amount:**
+Set parameters for randomized token purchase quantities.
+
+![Random token quantity purchase](https://www.cpbox.io/cpfiles/2024-09-13/d44z3wxxmce2jjktkb.png)
 
 ### **Target Price Drop Strategy**
 
-**Stop Price:** Task halts when the token reaches the target SOL-denominated price.
+This strategy enables controlled price reduction to reach specific target levels.
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d45030ho6l8c4wbkwr.png" alt=""><figcaption><p>下跌参数</p></figcaption></figure>
+**Stop Price Configuration:** 
+The task automatically halts when the token reaches the predetermined SOL-denominated target price.
 
-**Sell Parameters (Per Wallet):**
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d45030ho6l8c4wbkwr.png" alt=""><figcaption><p>Price drop parameters</p></figcaption></figure>
 
-Fixed SOL amount
+**Sell Parameters (Per Wallet Configuration):**
 
-![单个钱包固定金额](https://www.cpbox.io/cpfiles/2024-09-13/d4509m0310x0qw2dpj.png)
+**Fixed SOL Amount:**
+Sell tokens equivalent to a fixed SOL value per wallet.
 
-Random SOL amount
+![Fixed SOL amount per wallet](https://www.cpbox.io/cpfiles/2024-09-13/d4509m0310x0qw2dpj.png)
 
-![单个钱包随机金额](https://www.cpbox.io/cpfiles/2024-09-13/d4509zw95axil3y2li.png)
+**Random SOL Amount:**
+Randomize SOL-equivalent sell amounts within specified ranges.
 
-Fixed percentage of token balance
+![Random SOL amount per wallet](https://www.cpbox.io/cpfiles/2024-09-13/d4509zw95axil3y2li.png)
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d450am93px6hwkg1jz.png" alt=""><figcaption><p>单个钱包余额百分比</p></figcaption></figure>
+**Fixed Percentage of Token Balance:**
+Sell a predetermined percentage of each wallet's token holdings.
 
-Random percentage of token balance
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d450am93px6hwkg1jz.png" alt=""><figcaption><p>Fixed percentage of wallet balance</p></figcaption></figure>
 
-![余额随机百分比](https://www.cpbox.io/cpfiles/2024-09-13/d450b1mydhqo0af7db.png)
+**Random Percentage of Token Balance:**
+Apply randomized percentages for more natural selling patterns.
+
+![Random balance percentage](https://www.cpbox.io/cpfiles/2024-09-13/d450b1mydhqo0af7db.png)
 
 ### **Batch Sell-Off Strategy** 
 
-![分配出货策略参数](https://www.cpbox.io/cpfiles/2024-09-13/d45138be3ebiq8vgu7.png)
+This strategy enables systematic token distribution across multiple wallets with customizable parameters.
 
-**Sell Conditions:**
+![Batch sell-off strategy parameters](https://www.cpbox.io/cpfiles/2024-09-13/d45138be3ebiq8vgu7.png)
 
-![卖出条件](https://www.cpbox.io/cpfiles/2024-09-13/d4519iz3kftikjzk4d.png)
+**Sell Conditions Configuration:**
 
-Fixed SOL amount per wallet
+![Sell conditions](https://www.cpbox.io/cpfiles/2024-09-13/d4519iz3kftikjzk4d.png)
 
-![卖出固定金额](https://www.cpbox.io/cpfiles/2024-09-13/d451ccacc5crakojhi.png)
+**Fixed SOL Amount per Wallet:**
+Each wallet sells tokens equivalent to a specified SOL amount.
 
-Random SOL amount per wallet
+![Sell fixed amount](https://www.cpbox.io/cpfiles/2024-09-13/d451ccacc5crakojhi.png)
 
-![卖出随机金额](https://www.cpbox.io/cpfiles/2024-09-13/d451csvo6pev9osxp8.png)
+**Random SOL Amount per Wallet:**
+Randomize SOL-equivalent amounts within defined parameters.
 
-Fixed percentage of token balance
+![Sell random amount](https://www.cpbox.io/cpfiles/2024-09-13/d451csvo6pev9osxp8.png)
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d451dg4ie0k3vjwcka.png" alt=""><figcaption><p>卖出固定百分比</p></figcaption></figure>
+**Fixed Percentage of Token Balance:**
+Sell a consistent percentage of token holdings across all wallets.
 
-Random percentage of token balance
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d451dg4ie0k3vjwcka.png" alt=""><figcaption><p>Sell fixed percentage</p></figcaption></figure>
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d451ebqsabzslf2m2c.png" alt=""><figcaption><p>卖出随机百分比</p></figcaption></figure>
+**Random Percentage of Token Balance:**
+Apply varied percentages for natural distribution patterns.
 
-**Execution:**
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d451ebqsabzslf2m2c.png" alt=""><figcaption><p>Sell random percentage</p></figcaption></figure>
 
-* Launch immediately or schedule for later.
-* **Note:** The frontend interface must remain open during execution for security and control.
+**Strategy Execution:**
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d451kn0aytishmic0u.png" alt=""><figcaption></figcaption></figure>
+* **Immediate Launch:** Execute the strategy immediately upon configuration.
+* **Scheduled Execution:** Set specific times for strategy activation.
+* **Important Note:** The frontend interface must remain open during execution to ensure security and maintain control over operations.
 
-**Post-Execution:**
+<figure><img src="https://www.cpbox.io/cpfiles/2024-09-13/d451kn0aytishmic0u.png" alt=""><figcaption><p>Strategy execution interface</p></figcaption></figure>
 
-* View real-time status, transaction hashes, and logs in the **Transaction History** section.
+**Post-Execution Monitoring:**
 
-### **Customized Services**
+* Monitor real-time strategy status and performance metrics.
+* Access detailed transaction hashes and execution logs in the **Transaction History** section.
+* Track success rates and optimize future strategy parameters.
 
-We understand each project has unique needs. CPBox.io offers **tailored market cap management services** for Solana-based projects, including:
+### **Customized Professional Services**
 
-* **DEX-Specific Strategies**
-* **Short-Term Support for Key Events**
-* **Long-Term Token Appreciation Plans**
+We understand that each project has unique market requirements and objectives. CPBox.io offers **comprehensive tailored market cap management services** specifically designed for Solana-based projects, including:
 
-**Contact Us:**\
-Our expert team provides **24-hour consultation** to deliver personalized solutions and quotes. Let CPBox.io empower your project to stand out in competitive markets.
+* **DEX-Specific Strategic Solutions:** Customized approaches for different decentralized exchanges.
+* **Event-Driven Short-Term Support:** Targeted interventions for product launches, partnerships, and major announcements.
+* **Long-Term Token Appreciation Programs:** Sustained growth strategies for continuous value enhancement.
+* **Risk Management Protocols:** Advanced safeguards to protect against market volatility.
+
+**Professional Consultation:**
+Our expert team provides **24/7 consultation services** to deliver personalized solutions and competitive quotes. Let CPBox.io empower your project to excel in today's competitive digital asset markets.
 
 ***
 
 ### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
+Explore comprehensive features and capabilities: [https://docs.cpbox.io](https://docs.cpbox.io/?_s=docs)
 
-Suggestions or custom needs?
+Have suggestions or custom requirements?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us: [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 

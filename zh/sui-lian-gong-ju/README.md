@@ -8,24 +8,24 @@ description: Sui相关工具
 
 如果你想更多的了解Sui公链，可以阅读这边文章
 
-{% content-ref url="../../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md" %}
-[sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md](../../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md)
+{% content-ref url="../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.md" %}
+Sui 区块链介绍及钱包使用指南
 {% endcontent-ref %}
 
 如果你从来没有发过币，想尝试一下。
 
 可以阅读这篇文章
 
-{% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
-[fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+The Complete Guide to Token Creation: From Launch to Exit
 {% endcontent-ref %}
 
 如果你想通过CPBox来创建属于自己的Sui链代币
 
 可以阅读下方教程
 
-{% content-ref url="../../sui-lian-gong-ju/sui-yi-jian-fa-bi.md" %}
-[sui-yi-jian-fa-bi.md](../../sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
+{% content-ref url="./sui-yi-jian-fa-bi.md" %}
+Sui 一键发币
 {% endcontent-ref %}
 
 ***

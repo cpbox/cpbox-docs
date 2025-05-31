@@ -1,109 +1,126 @@
 ---
 description: >-
-  No Coding Needed: Launch Your Own Sui Token in 1-Click (Beginner-Friendly
-  Tutorial
+  Zero Coding Required: Launch Your Custom Sui Token in One Click - Complete
+  Beginner's Guide
 ---
 
-# Create Tokens with One Click
+# Launch Sui Tokens with One Click
 
 {% embed url="https://youtu.be/ZcPps423ZGA?si=w8IF55iCcXHPIQhK" %}
 
-### **Foreword**
+### **Introduction**
 
-With the rapid development of blockchain technology, **Sui**, as a next-generation high-performance Layer 1 blockchain, has become an ideal platform for digital asset issuance due to its **Move language-based security** and **horizontal scalability**. However, because of its Move-based architecture, many users find its code structure unfamiliar and struggle to get started. To lower the barrier to entry and improve development efficiency, we’ve introduced the **"One-Click Token Creation"** feature, helping developers, project teams, and everyday users quickly create and manage custom tokens on the Sui network.
+As blockchain technology rapidly evolves, **Sui** has emerged as a next-generation, high-performance Layer 1 blockchain that provides an ideal platform for digital asset creation. Built on the **secure Move programming language** with **horizontal scalability**, Sui offers unparalleled advantages for token deployment.
 
-### **Why Choose Sui Over Other Blockchains?**
+However, Move's unique architecture can feel unfamiliar to developers accustomed to other blockchain ecosystems, creating a barrier to entry. To democratize access and accelerate development, we've created the **"One-Click Token Launch"** feature—empowering developers, project teams, and everyday users to quickly create and manage custom tokens on the Sui network without any coding knowledge.
 
-Compared to other blockchains like Ethereum, Solana, or BNB Chain, **Sui** stands out with its **high performance, low gas fees, and Move language security**.
+### **Why Build on Sui Instead of Other Blockchains?**
 
-But some might ask: _"Why not just launch a token on Pump.fun instead of Sui?"_
+When compared to established blockchains like Ethereum, Solana, or BNB Chain, **Sui delivers superior performance, minimal gas fees, and enterprise-grade security** through its Move language foundation.
 
-Here’s the simple answer:
+You might wonder: _"Why not just use Pump.fun on Solana instead?"_
 
-* **Sui is for serious projects** that need **custom functionality, security, and cost efficiency**.
-  * Move language reduces vulnerabilities.
-  * **Full control over liquidity (LP) and token permissions**—no platform dependency.
-  * More **independence and flexibility**.
-* **Solana is better for memecoins, hype-driven tokens, and short-term speculation**.
-  * Memecoins have become Solana’s defining trait.
-  * If you think of memes, you think of Solana.
-* **If your goal is long-term value or complex tokenomics, Sui is the superior choice.**
+Here's the strategic difference:
 
-Additionally, **different blockchains carry different perceptions**:
+#### **Sui: Built for Serious Projects**
+* **Enterprise-grade security** with Move language reducing smart contract vulnerabilities
+* **Complete control** over liquidity pools (LP) and token permissions—no platform dependencies
+* **Cost-effective operations** with consistently low gas fees
+* **Maximum flexibility** for custom tokenomics and functionality
+* **Professional positioning** in the market
 
-* **Solana = Memecoins & speculation** (fair or not, that’s its reputation).
-* **Sui = Institutional backing (a16z, Coinbase) + developer-friendly (hackathons, tech focus)**.
-  * Projects on Sui appear more **credible and technically sophisticated**.
+#### **Solana: Optimized for Memecoins**
+* **Meme-focused ecosystem** with speculation-driven culture
+* **Platform dependency** for most token launches
+* **Limited customization** for serious business use cases
 
-### **Step-by-Step Guide to Launching a Token on Sui**
+#### **Market Perception Matters**
+* **Solana = Memecoins & speculation** (regardless of technical capabilities)
+* **Sui = Institutional credibility** with backing from a16z, Coinbase, and major VCs
+* **Developer-centric ecosystem** with regular hackathons and technical innovation focus
+* **Projects on Sui appear more credible and technically sophisticated**
 
-#### &#x20;**Connect Your Wallet**
+**Bottom line**: Choose Sui for long-term value creation and complex tokenomics. Choose Solana for quick meme launches.
 
-* Ensure you’ve installed a **Sui-compatible wallet** (e.g., **Sui Wallet, Suiet Wallet**) and have at least **20 SUI** for gas fees.
-* **Download Link (Chrome Extension)**: [Sui Wallet](https://chromewebstore.google.com/search/sui?hl=zh-CN\&utm_source=ext_sidebar)
-* _Veteran crypto users can skip this step._
-* Visit the token creation page: [CPBOX Token Launch](https://www.cpbox.io/cn/sui/token/publish)
+### **Complete Token Launch Tutorial**
 
-<figure><img src="../../.gitbook/assets/1280X1280——1.PNG" alt=""><figcaption></figcaption></figure>
+#### **Step 1: Wallet Setup**
 
-#### **Token Configuration**
+**Requirements:**
+* Install a **Sui-compatible wallet** (**Sui Wallet** or **Suiet Wallet** recommended)
+* Hold at least **20 SUI** for deployment and gas fees
+* **Download**: [Sui Wallet Chrome Extension](https://chromewebstore.google.com/search/sui?hl=zh-CN\&utm_source=ext_sidebar)
 
-* Click **"Connect Wallet"** and fill in the details:
-  * **Total Supply**: Default 1,000,000 (adjustable).
-  * **Decimals**: Default **9** (affects max supply—e.g., 10B max at decimals=9).
-  * **Logo & Description**: Mandatory fields for branding.
+**Access the Platform**: [CPBOX Token Launch](https://www.cpbox.io/en/sui/token/publish?_s=docs)
 
-<figure><img src="../../.gitbook/assets/1280X1280——2.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-1.png" alt="Connect your Sui wallet to begin"><figcaption></figcaption></figure>
 
-**Cost**: **15 SUI** (cheaper than competitors charging 20 SUI).
+#### **Step 2: Token Configuration**
 
+Click **"Connect Wallet"** and configure your token parameters:
 
+**Essential Settings:**
+* **Total Supply**: Default 1,000,000 tokens (fully customizable)
+* **Decimals**: Default **9** (Note: This affects maximum supply—decimals=9 allows up to 10B tokens)
+* **Token Logo**: Upload your project's visual identity
+* **Description**: Craft compelling project narrative
 
-<figure><img src="../../.gitbook/assets/3ce17743-4114-4f57-bf96-282d975af7d0.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-2.png" alt="Configure your token parameters"><figcaption></figcaption></figure>
 
-#### **Confirm & Deploy**
+**Deployment Cost**: **15 SUI** (industry-leading pricing—competitors charge 20+ SUI)
 
-Review the transaction details, sign via your wallet, and wait for confirmation.
+<figure><img src="../../.gitbook/assets/sui-token-3.png" alt="Review deployment cost" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/d003849a-df61-4ada-90c2-461f0cbe13b3.png" alt=""><figcaption></figcaption></figure>
+#### **Step 3: Deploy & Verify**
 
-Once deployed, you’ll receive a **token contract address**. Verify it on [Suiscan](https://suiscan.xyz/) or your wallet’s asset list.
+1. **Review** all transaction details carefully
+2. **Sign** the deployment transaction through your wallet
+3. **Wait** for blockchain confirmation (typically 2-5 seconds)
 
-<figure><img src="../../.gitbook/assets/d599ab88-ebac-4dbd-9374-60ba44f0bc84.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-4.png" alt="Sign the deployment transaction"><figcaption></figcaption></figure>
 
-**Done!** You’ve just launched a token on Sui
+**Success!** Your token is now deployed with a unique contract address.
 
-***
+**Verification Steps:**
+* Check your token on [Suiscan Explorer](https://suiscan.xyz/)
+* Verify token appears in your wallet's asset list
+* Save your contract address for future reference
 
-#### **Next Steps: Liquidity & Trading**
+<figure><img src="../../.gitbook/assets/sui-token-5.png" alt="Token successfully deployed"><figcaption></figcaption></figure>
 
-**Your token isn’t tradable yet!** You must:
+**🎉 Congratulations! Your Sui token is live!**
 
-1. **Create a liquidity pool** (e.g., SUI/YourToken pair).
-2. **Set up trading pairs** on a DEX (e.g., Turbos, Cetus).
+---
 
-* _Refer to our liquidity pool guide for details._
+#### **Critical Next Step: Enable Trading**
+
+**Important**: Your token exists but isn't tradable yet. To enable trading, you must:
+
+1. **Create Liquidity Pools** (e.g., SUI/YourToken trading pairs)
+2. **List on DEX Platforms** (Turbos, Cetus, FlowX)
+3. **Configure Trading Parameters**
+
+**📖 Complete Guide Available:**
 
 {% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
-[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
+SUI Add Liquidity
 {% endcontent-ref %}
 
-***
+---
 
-### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
+### **Explore CPBOX Ecosystem** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
+**📚 Documentation**: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?
+**💡 Custom Solutions & Partnership Inquiries**:
+Contact us: [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+---
 
-***
+### **Join Our Growing Community** <a href="#join-our-community" id="join-our-community"></a>
 
-### **Join Our Community** <a href="#join-our-community" id="join-our-community"></a>
+**💬 Telegram**: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
+**🐦 Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
-
-**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+**📺 YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

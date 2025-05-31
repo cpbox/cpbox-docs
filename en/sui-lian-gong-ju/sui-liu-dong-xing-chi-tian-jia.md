@@ -30,40 +30,40 @@ This guide focuses on **Cetus**, the most widely used DEX.
 
 #### **1. Connect Your Wallet**
 
-* Use the **same wallet** that holds your token (you’ll deposit tokens into the pool).
+* Use the **same wallet** that holds your token (you'll deposit tokens into the pool).
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-1.png" alt=""><figcaption></figcaption></figure>
 
 **2. Navigate to Pool Creation**
 
 * Click **Earn** → **Pools** → **Create New Pool**.
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-3.png" alt=""><figcaption></figcaption></figure>
 
 **3. Set Up the Trading Pair**
 
-* **Token Selection**: Paste your token’s **full contract address** (include the `::` suffix from SuiScan’s "Type" field).
+* **Token Selection**: Paste your token's **full contract address** (include the `::` suffix from SuiScan's "Type" field).
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-4.png" alt=""><figcaption></figcaption></figure>
 
 * **Quote Token**: Default is SUI (or choose USDC).
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-5.png" alt=""><figcaption></figcaption></figure>
 
 **4. Configure Slippage**
 
 * **Stablecoins**: 0.01–0.05% (low volatility).
 * **Meme Tokens**: 0.25–1% (high volatility, ensures trades execute).
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-6.png" alt=""><figcaption></figcaption></figure>
 
 **5. Set Initial Price & Range**
 
 * **Price**: E.g., `1 Token = 0.0001 SUI` (1 SUI buys 10K tokens).
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-7.png" alt=""><figcaption></figcaption></figure>
 
 * **Range**: Select **Full Range** for unlimited trading.
 
@@ -72,7 +72,7 @@ This guide focuses on **Cetus**, the most widely used DEX.
 * Example: Add **4 SUI** + **40K Tokens** (auto-calculated).
 * Sign the transaction → Pool is live!
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-8.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -80,17 +80,17 @@ This guide focuses on **Cetus**, the most widely used DEX.
 
 * **Test Trading**: Go to **Swap** to buy/sell your token (note: small pools have high slippage).
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-9.png" alt=""><figcaption></figcaption></figure>
 
 ### **Add/Remove Liquidity**:
 
-* **Add**: Increases depth (reduces slippage) but doesn’t raise token price.
+* **Add**: Increases depth (reduces slippage) but doesn't raise token price.
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-10.png" alt=""><figcaption></figcaption></figure>
 
 * **Remove**: Withdraw funds (risks price crashes if done abruptly).
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-liq-11.png" alt=""><figcaption></figcaption></figure>
 
 **When to Remove Liquidity?**
 
@@ -116,10 +116,10 @@ This guide focuses on **Cetus**, the most widely used DEX.
 * Cetus simplifies pool creation but requires manual setup.
 * **DYOR**: Balance liquidity depth with decentralization.
 
-_For LP Token mechanics, read:_&#x20;
+_For LP Token mechanics, read:
 
 {% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+Understanding Liquidity Pools, AMMs, and Liquidity Mining
 {% endcontent-ref %}
 
 ***
