@@ -16,7 +16,7 @@ description: >-
 
 ### **Step-by-Step Guide**
 
-Log in to CPBOX and navigate to **Utility Tools →** [**Token Management**](https://www.cpbox.io/cn/solana/account)
+Log in to CPBOX and navigate to **Utility Tools →** [**Token Management**](https://www.cpbox.io/en/solana/account)
 
 **Token Burning**
 
@@ -52,7 +52,7 @@ Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
 Suggestions or custom needs?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us:[https://www.cpbox.io/](https://www.cpbox.io/en/)
 
 ***
 

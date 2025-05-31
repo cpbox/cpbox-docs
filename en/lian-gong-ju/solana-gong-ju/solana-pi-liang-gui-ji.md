@@ -1,40 +1,50 @@
-# Bulk Balance Collection
+# Solana Bulk Collection
 
-### Function Introduction:
+### Function Overview:
 
-Frequent multi-account airdrop hunters on-chain often face the issue of managing too many wallet addresses when they want to uniformly sell an asset or consolidate an asset into a single wallet, finding the process cumbersome.\
-To address this problem, CPBOX has developed the **Batch Consolidation** feature.
+On-chain airdrop hunters who manage multiple accounts often face the challenge of consolidating assets across numerous wallet addresses. Whether selling assets uniformly or transferring them to a single wallet, the process can be cumbersome and time-consuming.
 
-**Note:**
+To solve this problem, CPBOX has developed the **Bulk Collection** feature.
 
-* The Crypto Box consolidation service fee is **0.001 SOL per transaction**.
-* According to Solana's rules, a **new address that has never received SOL** requires approximately **0.001 SOL** to exempt rental fees.
-* A **new address that has never received other target assets** requires approximately **0.002 SOL**.\
-  Before executing consolidation, **ensure your address has sufficient balance for both the asset and gas fees**.
+**Important Notes:**
 
-Log in to **CPBox**, navigate to **"Utility Tools"** on the homepage, and find **"Batch Consolidation."**
+* CPBOX collection service fee: **0.001 SOL per transaction**
+* Per Solana protocol requirements:
+  * **New addresses that have never received SOL** require approximately **0.001 SOL** for rent exemption
+  * **New addresses that have never received the target assets** require approximately **0.002 SOL**
+* **Ensure sufficient balance for both assets and gas fees before executing the collection**
 
-[Go to **Solana Batch Consolidation**](https://www.cpbox.io/cn/solana/batch/collection?_s=search)
+### Getting Started:
+
+Log in to **CPBOX**, navigate to **"Utility Tools"** on the homepage, and select **"Bulk Collection."**
+
+[Access **Solana Bulk Collection** →](https://www.cpbox.io/en/solana/batch/collection?_s=search)
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2gnueq8w6h1aeqldi.png)
 
-Fill in the required information as shown in the diagram.
+### Step-by-Step Guide:
+
+**Step 1:** Fill in the required information as shown below:
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2gny0nn01p9ttt8a0.png)
 
-Set the **send amount** (Fixed, Random, Send All, or Specify Remaining Balance After Sending).
+**Step 2:** Configure the **send amount** options:
+- Fixed amount
+- Random amount  
+- Send all
+- Specify remaining balance after sending
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2go9vs5q7tyxfeybv.png)
 
-You may **check balances** or proceed directly to consolidation.
+**Step 3:** You can **check balances** first or proceed directly to collection:
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2golgx4rd6zo7lj1s.png)
 
-Click **"Start Execution."**
+**Step 4:** Click **"Start Execution"** to begin the process:
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2gow13sknnu0usivc.png)
 
-Wait for the progress bar to complete.
+**Step 5:** Wait for the progress bar to complete:
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2goylfc1hr5npap6a.png)
 
@@ -42,11 +52,9 @@ Wait for the progress bar to complete.
 
 ### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
+Explore comprehensive features and documentation: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?
-
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Have suggestions or need custom solutions? Contact us: [https://www.cpbox.io/](https://www.cpbox.io/en/)
 
 ***
 

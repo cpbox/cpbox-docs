@@ -6,7 +6,7 @@ description: Solana玩法须知
 
 本篇涵盖Sol链的多个批量工具和发币工具教程
 
-如果你还没有发过Token代币，可以先阅读这边文章&#x20;
+如果你还没有发过Token代币，可以先阅读这边文章
 
 {% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
 [fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)

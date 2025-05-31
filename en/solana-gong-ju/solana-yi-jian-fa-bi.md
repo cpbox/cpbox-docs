@@ -8,7 +8,7 @@ description: >-
 
 ### **Feature Overview**
 
-[CPBox ](solana-yi-jian-fa-bi.md#id-1.-fang-wen-cpbox-ping-tai-httpswww.cpbox.io)provides a user-friendly tool that enables quick token creation and issuance on the Solana blockchain—no complex smart contract coding required. Additionally, for immediate market listing, we recommend using our [**PUMP Launch & Bulk Buy Tool**](https://www.cpbox.io/cn/solana/pump/publish) in conjunction with platforms like pump.fun.
+[CPBox ](https://www.cpbox.io)provides a user-friendly tool that enables quick token creation and issuance on the Solana blockchain—no complex smart contract coding required. Additionally, for immediate market listing, we recommend using our [**PUMP Launch & Bulk Buy Tool**](https://www.cpbox.io/en/solana/pump/publish) in conjunction with platforms like pump.fun.
 
 ### **Step-by-Step Guide**
 
@@ -66,10 +66,10 @@ In this section, you can add:
 
 With **CPBox's Solana One-Click Token Creator**, you can launch your blockchain project in minutes by easily creating and issuing your token.
 
-**Need help adding liquidity to a DEX?** Check out this guide:&#x20;
+**Need help adding liquidity to a DEX?** Check out this guide:
 
 {% content-ref url="../lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md" %}
-[pumpswap-liu-dong-xing-tian-jia.md](../lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
+Add Liquidity to PumpSwap
 {% endcontent-ref %}
 
 ***
@@ -78,7 +78,7 @@ With **CPBox's Solana One-Click Token Creator**, you can launch your blockchain 
 
 Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?&#x20;
+Suggestions or custom needs?
 
 Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 

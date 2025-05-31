@@ -78,7 +78,7 @@ Execute withdrawals
 
 ***
 
-#### &#x20;**Batch Asset Consolidation**
+#### **Batch Asset Consolidation**
 
 Aggregate scattered tokens across wallets via **"Utility Tools → Batch Consolidation"**:
 
@@ -97,7 +97,7 @@ Aggregate scattered tokens across wallets via **"Utility Tools → Batch Consoli
 
 Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-Suggestions or custom needs?&#x20;
+Suggestions or custom needs?
 
 Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 

@@ -74,7 +74,7 @@ Click **"Deposit"** to enter the liquidity management interface.
 
 <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-That’s it for the **Raydium liquidity pool tutorial**!&#x20;
+That’s it for the **Raydium liquidity pool tutorial**!
 
 ***
 
