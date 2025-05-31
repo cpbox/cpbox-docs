@@ -6,7 +6,7 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>Pump Launch Bundle Trading · CPBox.io</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Efficient Solana Token Pump Strategy Management - Anti-Sniping Solution for Project Teams">
+        <meta name="description" content="Efficient Solana Token Launch Strategy Management - Anti-Sniping Solution for Project Teams">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -1111,24 +1111,26 @@
                         </iframe>
                     </div>
                 </p>
-<h3 id="preface"><strong>Preface</strong></h3>
-<p>Pump.fun, a popular memecoin launch platform on Solana and Ethereum, has attracted numerous projects due to its low barriers and liquidity mechanisms. However, it has also become a &quot;hunting ground&quot; for snipers. This article provides an in-depth analysis of strategies to counter snipe attacks when launching tokens on Pump.fun, helping project owners and investors protect their interests.</p>
-<p><strong>What is Sniping?</strong>\
-Sniping refers to the practice where newly launched tokens are rapidly bought in large quantities by certain investors (often bots or professional traders) upon listing, leveraging technical or informational advantages. This causes a sharp price surge in a short time, followed by potential high-price sell-offs for profit. Also known as &quot;launch sniping,&quot; this behavior is prevalent on Pump.fun due to the platform&apos;s lack of restrictions, making nearly every new token vulnerable</p>
+<h3 id="introduction"><strong>Introduction</strong></h3>
+<p>Pump.fun, a popular memecoin launch platform on both Solana and Ethereum, has attracted numerous projects due to its low barriers to entry and robust liquidity mechanisms. However, the platform has also become a prime target for snipers. This guide provides an in-depth analysis of effective strategies to counter snipe attacks when launching tokens on Pump.fun, helping project owners and investors protect their interests.</p>
+<p><strong>What is Sniping?</strong>
+Sniping refers to the practice where automated bots or professional traders rapidly purchase newly launched tokens in large quantities immediately upon listing, leveraging technical or informational advantages. This causes sharp price surges in a short timeframe, followed by high-price sell-offs for profit. Also known as &quot;launch sniping,&quot; this behavior is particularly prevalent on Pump.fun due to the platform&apos;s permissionless nature, making virtually every new token vulnerable to such attacks.</p>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-9.png" alt=""><figcaption></figcaption></figure>
+
 <h3 id="pump-launch-bundled-buy-&#x2013;-target-audience"><strong>Pump Launch Bundled Buy &#x2013; Target Audience</strong></h3>
-<p>Due to Pump.fun&apos;s mechanics, an increasing number of &quot;scientists&quot; (advanced users) exploit automated bots (such as MEV bots) and high-Gas strategies to front-run purchases. To address this issue, we developed the <strong>Pump Launch Bundled Buy</strong> feature for the following users:</p>
+<p>Due to Pump.fun&apos;s mechanics, an increasing number of &quot;scientists&quot; (sophisticated users) exploit automated bots (such as MEV bots) and high-gas strategies to front-run token purchases. To address this challenge, we developed the <strong>Pump Launch Bundled Buy</strong> feature specifically for:</p>
 <ul>
-<li><strong>Project owners &amp; participants</strong> on Solana who want to secure a certain amount of tokens before launch.</li>
-<li><strong>Pump.fun traders</strong> who wish to avoid being sniped by others.</li>
+<li><strong>Project owners &amp; participants</strong> on Solana who want to secure token allocations before public launch</li>
+<li><strong>Pump.fun traders</strong> who wish to protect themselves from being sniped by other participants</li>
 </ul>
 <hr>
 <h3 id="feature-demo"><strong>Feature Demo</strong></h3>
-<p>Here, we demonstrate <strong>CryptoBox&#x2019;s Pump Launch Bundled Buy</strong> feature.</p>
-<p>Visit <a href="https://www.cpbox.io/cn/" target="_blank"><strong>https://www.cpbox.io/cn/</strong></a>, go to <strong>Utility Tools</strong>, and select <strong>Pump Launch Bundled Buy</strong>.</p>
-<figure><img src="../../gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<p>Below is a demonstration of <strong>CryptoBox&apos;s Pump Launch Bundled Buy</strong> feature.</p>
+<p>Visit <a href="https://www.cpbox.io/en/?_s=docs" target="_blank"><strong>https://www.cpbox.io/</strong></a>, navigate to <strong>Utility Tools</strong>, and select <strong>Pump Launch Bundled Buy</strong>.</p>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-1.png" alt=""><figcaption></figcaption></figure>
 
 <ul>
-<li><p><em>Note: Using CPBox for bundled buys incurs fees.</em></p>
+<li><p><em>Note: Using CPBox for bundled purchases incurs the following fees:</em></p>
 <ul>
 <li><strong>Token Creation:</strong> 0.05 SOL</li>
 <li><strong>Vanity Address (Custom Name):</strong> 0.1 SOL</li>
@@ -1136,82 +1138,82 @@ Sniping refers to the practice where newly launched tokens are rapidly bought in
 </ul>
 </li>
 </ul>
-<p> If using <strong>3 addresses</strong> for bundled buying, the total cost would be <strong>0.05 + (3 &#xD7; 0.01) = 0.08 SOL</strong>.</p>
-<figure><img src="../../gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<p>If using <strong>3 addresses</strong> for bundled buying, the total cost would be <strong>0.05 + (3 &#xD7; 0.01) = 0.08 SOL</strong>.</p>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-2.png" alt=""><figcaption></figcaption></figure>
 
-<p>After entering the page, fill in the basic token details, then scroll down.</p>
-<p><strong>Key Notes:</strong></p>
+<p>After accessing the page, fill in the basic token information, then scroll down to continue.</p>
+<p><strong>Important Notes:</strong></p>
 <ul>
-<li><strong>Max 17 addresses</strong> can be bundled per buy.</li>
+<li><strong>Maximum 17 addresses</strong> can be bundled per transaction</li>
 <li><strong>Jito Fee Explanation:</strong><ul>
-<li>Jito bundles transactions into an atomic <strong>Bundle</strong>, meaning all transactions either succeed or fail together, preventing front-running.</li>
-<li><strong>Higher Jito fees increase success rates.</strong></li>
-<li>If the bundled buy involves many addresses or large amounts, <strong>adjusting the Jito fee higher is recommended</strong> in case of launch failures.</li>
+<li>Jito bundles transactions into an atomic <strong>Bundle</strong>, ensuring all transactions either succeed or fail together, preventing front-running attacks</li>
+<li><strong>Higher Jito fees significantly increase success rates</strong></li>
+<li>When bundled purchases involve many addresses or large amounts, <strong>we recommend increasing the Jito fee</strong> to prevent launch failures</li>
 </ul>
 </li>
 </ul>
-<figure><img src="../../gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-3.png" alt=""><figcaption></figcaption></figure>
 
 <p><strong>Import Private Key Addresses</strong></p>
 <ul>
-<li>The system displays each address&#x2019;s SOL balance.</li>
-<li>Ensure each wallet has <strong>&gt; (Buy Amount + 0.01 SOL)</strong> for fees.</li>
-<li>After confirming, click <strong>&quot;Modify Quantity.&quot;</strong></li>
+<li>The system displays each address&apos;s current SOL balance</li>
+<li>Ensure each wallet contains <strong>more than (Buy Amount + 0.01 SOL)</strong> to cover transaction fees</li>
+<li>After verification, click <strong>&quot;Modify Quantity&quot;</strong></li>
 </ul>
-<figure><img src="../../gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-4.png" alt=""><figcaption></figcaption></figure>
 
-<p><strong>Set Buy Amount</strong></p>
+<p><strong>Set Purchase Amount</strong></p>
 <ul>
-<li>Choose between <strong>fixed or random amounts</strong>.</li>
-<li>For this demo, we select <strong>fixed (0.01 SOL per address).</strong></li>
+<li>Choose between <strong>fixed or randomized amounts</strong></li>
+<li>For this demonstration, we&apos;ll select <strong>fixed amount (0.01 SOL per address)</strong></li>
 </ul>
-<figure><img src="../../gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-5.png" alt=""><figcaption></figcaption></figure>
 
-<p><strong>Final Confirmation &amp; Signing</strong></p>
+<p><strong>Final Confirmation &amp; Transaction Signing</strong></p>
 <ul>
-<li>A pop-up shows the fee breakdown.</li>
-<li>Confirm and sign the transaction.</li>
+<li>A popup displays the complete fee breakdown</li>
+<li>Review and confirm, then sign the transaction</li>
 </ul>
-<figure><img src="../../gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-6.png" alt=""><figcaption></figcaption></figure>
 
-<p><strong>Token Creation Success</strong></p>
+<p><strong>Successful Token Creation</strong></p>
 <ul>
-<li>After launch, you&#x2019;ll receive the <strong>token contract address</strong>.</li>
-<li>Enter it on Pump.fun to view your token&#x2019;s page.</li>
+<li>Upon successful launch, you&apos;ll receive the <strong>token contract address</strong></li>
+<li>Enter this address on Pump.fun to view your token&apos;s dedicated page</li>
 </ul>
-<figure><img src="../../gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-7.png" alt=""><figcaption></figcaption></figure>
 
-<h3 id="post-launch-observations"><strong>Post-Launch Observations</strong></h3>
-<p>Upon checking Pump.fun, you&#x2019;ll notice the token price <strong>immediately spikes</strong>&#x2014;this is a snipe attack.</p>
+<h3 id="post-launch-analysis"><strong>Post-Launch Analysis</strong></h3>
+<p>Upon checking Pump.fun, you&apos;ll observe that the token price <strong>immediately spikes</strong>&#x2014;this demonstrates a snipe attack in action.</p>
 <ul>
-<li><strong>In this demo, we only spent 0.02 SOL across two addresses</strong>, leaving the majority of liquidity untouched.</li>
-<li>Pump.fun&#x2019;s <strong>initial liquidity pool is 85 SOL</strong>.<ul>
-<li>If <strong>half the liquidity (42.5+ SOL) is bought at launch</strong>, sniping becomes irrelevant&#x2014;any bot buys would <strong>help pump the price</strong>, allowing you to sell and profit.</li>
-<li>In our case, we only bought <strong>0.03% of the pool (two small wallets)</strong>, visible in the transaction history.</li>
+<li><strong>In this demonstration, we invested only 0.02 SOL across two addresses</strong>, leaving the majority of available liquidity untouched</li>
+<li>Pump.fun&apos;s <strong>initial liquidity pool contains 85 SOL</strong><ul>
+<li>If <strong>approximately half the liquidity (42.5+ SOL) is purchased at launch</strong>, sniping becomes counterproductive&#x2014;any bot purchases would <strong>help drive the price higher</strong>, allowing you to sell at a profit</li>
+<li>In our example, we purchased only <strong>0.03% of the total pool (through two small wallets)</strong>, which is visible in the transaction history</li>
 </ul>
 </li>
 </ul>
-<figure><img src="../../gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../gitbook/assets/sol-bundle-trade-8.png" alt=""><figcaption></figcaption></figure>
 
 <hr>
-<h3 id="faq"><strong>FAQ</strong></h3>
-<h4 id="1-does-pumpfun-require-manual-liquidity-pooling"><strong>1. Does Pump.fun require manual liquidity pooling?</strong></h4>
+<h3 id="frequently-asked-questions"><strong>Frequently Asked Questions</strong></h3>
+<h4 id="1-does-pumpfun-require-manual-liquidity-pool-creation"><strong>1. Does Pump.fun require manual liquidity pool creation?</strong></h4>
 <ul>
-<li><strong>No.</strong> Purchases automatically form a <strong>bonding curve liquidity pool</strong>; no manual LP addition is needed.</li>
+<li><strong>No.</strong> All purchases automatically contribute to a <strong>bonding curve liquidity pool</strong>; no manual LP token creation is required.</li>
 </ul>
-<h4 id="2-what-are-the-requirements-for-listing-on-raydium"><strong>2. What are the requirements for listing on Raydium?</strong></h4>
+<h4 id="2-what-are-the-requirements-for-raydium-listing"><strong>2. What are the requirements for Raydium listing?</strong></h4>
 <ul>
-<li>When the <strong>Pump.fun bonding curve pool reaches 85 SOL</strong>, Pump.fun automatically creates a <strong>Raydium AMM liquidity pool</strong> and burns the LP tokens.</li>
+<li>When the <strong>Pump.fun bonding curve pool reaches 85 SOL in volume</strong>, Pump.fun automatically creates a <strong>Raydium AMM liquidity pool</strong> and permanently burns the LP tokens.</li>
 </ul>
-<h4 id="3-what-is-pumpfuns-default-token-launch-price"><strong>3. What is Pump.fun&#x2019;s default token launch price?</strong></h4>
+<h4 id="3-what-is-pumpfuns-default-token-launch-price"><strong>3. What is Pump.fun&apos;s default token launch price?</strong></h4>
 <ul>
-<li>The <strong>initial price is 0.000000028 SOL per token.</strong></li>
+<li>The <strong>initial price is set at 0.000000028 SOL per token.</strong></li>
 </ul>
 <hr>
 <h3 id="learn-more-about-cpbox-"><strong>Learn More About CPBOX</strong> <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a></h3>
-<p>Explore features: <a href="https://docs.cpbox.io/" target="_blank">https://docs.cpbox.io</a></p>
-<p>Suggestions or custom needs?</p>
-<p>Contact us:<a href="https://www.cpbox.io/cn/" target="_blank">https://www.cpbox.io/cn/</a></p>
+<p>Explore our complete feature set: <a href="https://docs.cpbox.io/?_s=docs" target="_blank">https://docs.cpbox.io</a></p>
+<p>Have suggestions or custom requirements?</p>
+<p>Contact us: <a href="https://www.cpbox.io/en/?_s=docs" target="_blank">https://www.cpbox.io/</a></p>
 <hr>
 <h3 id="join-our-community-"><strong>Join Our Community</strong> <a href="#join-our-community" id="join-our-community"></a></h3>
 <p><strong>Telegram Group</strong>: <a href="https://t.me/cpboxio" target="_blank">https://t.me/cpboxio</a></p>
@@ -1260,7 +1262,7 @@ Sniping refers to the practice where newly launched tokens are rapidly bought in
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"Efficient Solana Token Pump Strategy Management - Anti-Sniping Solution for Project Teams","title":"Pump Launch Bundle Trading","level":"3.1.8","depth":2,"next":{"title":"Pump Market Cap Management","level":"3.1.9","depth":2,"path":"solana-gong-ju/pump-shi-zhi-guan-li.md","ref":"solana-gong-ju/pump-shi-zhi-guan-li.md","articles":[]},"previous":{"title":"Bulk Balance Collection","level":"3.1.7","depth":2,"path":"lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md","ref":"lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md","mtime":"2025-05-30T14:01:06.631Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-05-31T19:44:19.504Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"description":"Efficient Solana Token Launch Strategy Management - Anti-Sniping Solution for Project Teams","title":"Pump Launch Bundle Trading","level":"3.1.8","depth":2,"next":{"title":"Pump Market Cap Management","level":"3.1.9","depth":2,"path":"solana-gong-ju/pump-shi-zhi-guan-li.md","ref":"solana-gong-ju/pump-shi-zhi-guan-li.md","articles":[]},"previous":{"title":"Bulk Balance Collection","level":"3.1.7","depth":2,"path":"lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md","ref":"lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md","mtime":"2025-05-31T21:27:15.331Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-05-31T21:27:39.730Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
