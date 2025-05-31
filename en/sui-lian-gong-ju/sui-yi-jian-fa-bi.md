@@ -1,80 +1,88 @@
 ---
-description: 0代码sui公链发币，小白也可以。Sui一键发币教程
+description: >-
+  No Coding Needed: Launch Your Own Sui Token in 1-Click (Beginner-Friendly
+  Tutorial
 ---
 
-# Sui 一键发币
-
-
+# Create Tokens with One Click
 
 {% embed url="https://youtu.be/ZcPps423ZGA?si=w8IF55iCcXHPIQhK" %}
 
-## 前言
+### **Foreword**
 
-随着区块链技术的快速发展，Sui作为新一代高性能Layer1公链，凭借其基于Move语言的高安全性和水平可扩展性，成为数字资产发行的理想平台。但也是因为基于Move语言的开发，很多人对其代码结构不是很了解，想要参与却不知道如何进行。为降低用户门槛并提升开发效率，我们推出「一键发Token」功能，帮助开发者、项目方及普通用户快速在Sui网络上创建和管理自定义Token。
+With the rapid development of blockchain technology, **Sui**, as a next-generation high-performance Layer 1 blockchain, has become an ideal platform for digital asset issuance due to its **Move language-based security** and **horizontal scalability**. However, because of its Move-based architecture, many users find its code structure unfamiliar and struggle to get started. To lower the barrier to entry and improve development efficiency, we’ve introduced the **"One-Click Token Creation"** feature, helping developers, project teams, and everyday users quickly create and manage custom tokens on the Sui network.
 
-## Sui公链优势
+### **Why Choose Sui Over Other Blockchains?**
 
-Sui较于其他区块链（如以太坊、Solana、BNB Chain等）具有独特的优势，主要得益于 Sui 的高性能、低gas费和 Move 语言的安全性，OK讲了一堆废话，有的人就会问，那我为什么不在pump.fun上面发token，而是选择sui链上发token呢？
+Compared to other blockchains like Ethereum, Solana, or BNB Chain, **Sui** stands out with its **high performance, low gas fees, and Move language security**.
 
-用简单的语言来说就是
+But some might ask: _"Why not just launch a token on Pump.fun instead of Sui?"_
 
-Sui适合认真做项目、需要自定义功能、重视安全性和低成本的团队。基于Move 语言，漏洞会少很多，而且LP 由自己控制，拥有的代币权限也更高，独立性更高，不依赖不平台
+Here’s the simple answer:
 
-sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme的热度。反觉meme已经成为了sol的标签。如果说到meme，可能你的第一反应就是sol。
+* **Sui is for serious projects** that need **custom functionality, security, and cost efficiency**.
+  * Move language reduces vulnerabilities.
+  * **Full control over liquidity (LP) and token permissions**—no platform dependency.
+  * More **independence and flexibility**.
+* **Solana is better for memecoins, hype-driven tokens, and short-term speculation**.
+  * Memecoins have become Solana’s defining trait.
+  * If you think of memes, you think of Solana.
+* **If your goal is long-term value or complex tokenomics, Sui is the superior choice.**
 
-如果你的目标是 **长期价值** 或 **复杂经济模型**，Sui 是更好的选择。
+Additionally, **different blockchains carry different perceptions**:
 
-同时不同公链给人的第一印象不同，如果提到sol链，大家的第一反应可能是meme，来割韭菜的sui链因为背后有a16z、Coinbase这些顶级投资机构做背书，再加上经常开展一些黑客松活动。如果你的项目是在sui链上，会显得更高大上一点，更加的有技术向。
+* **Solana = Memecoins & speculation** (fair or not, that’s its reputation).
+* **Sui = Institutional backing (a16z, Coinbase) + developer-friendly (hackathons, tech focus)**.
+  * Projects on Sui appear more **credible and technically sophisticated**.
 
-## Sui发币教程
+### **Step-by-Step Guide to Launching a Token on Sui**
 
-### 链接钱包
+#### &#x20;**Connect Your Wallet**
 
-首先，我们需要确保自己已经在浏览器里下载安装了Sui钱包，并在钱包内存储了超过20个SUI代币。如果还没有安装钱包，请大家通过谷歌应用商店自行安装：[https://chromewebstore.google.com/search/sui?hl=zh-CN\&utm\_source=ext\_sidebar](https://chromewebstore.google.com/search/sui?hl=zh-CN\&utm_source=ext_sidebar)
-
-如果大家是crypto 老玩家可以自动略过这一part，直接快进到下一环节。
-
-* Suiwallet钱包
-* Suiet钱包
-
-
-
-钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish) 点击中间“连接钱包”
+* Ensure you’ve installed a **Sui-compatible wallet** (e.g., **Sui Wallet, Suiet Wallet**) and have at least **20 SUI** for gas fees.
+* **Download Link (Chrome Extension)**: [Sui Wallet](https://chromewebstore.google.com/search/sui?hl=zh-CN\&utm_source=ext_sidebar)
+* _Veteran crypto users can skip this step._
+* Visit the token creation page: [CPBOX Token Launch](https://www.cpbox.io/cn/sui/token/publish)
 
 <figure><img src="../../.gitbook/assets/1280X1280——1.PNG" alt=""><figcaption></figcaption></figure>
 
-### 代币信息
+#### **Token Configuration**
 
-
-
-按照图片信息依次把相关信息填入这边代币初始供应量为：1000000，你也可以根据自己的需求输入想要的代币数量**参数都要填**
+* Click **"Connect Wallet"** and fill in the details:
+  * **Total Supply**: Default 1,000,000 (adjustable).
+  * **Decimals**: Default **9** (affects max supply—e.g., 10B max at decimals=9).
+  * **Logo & Description**: Mandatory fields for branding.
 
 <figure><img src="../../.gitbook/assets/1280X1280——2.PNG" alt=""><figcaption></figcaption></figure>
 
-* **精度：**&#x9ED8;认填9，精度与你能填写的最大供应量有关。
-* **供应数量：**&#x5F53;精度为9时，供应量最大不能超过100亿。当精度为8时，不能超过1000亿，以此类推
-* **logo：**&#x4EE3;币标识
-* **简介：**&#x5FC5;填，介绍你的代币信息
+**Cost**: **15 SUI** (cheaper than competitors charging 20 SUI).
 
 
-
-最后只要点击创建代币， 会有一个创建代币的明细弹窗，里面会详细介绍费用，再次确认会进行钱包签名。代币创建成功后会出现一串合约地址。**这里cpbox收取代币创建费用是15个sui（市面上同类工具收取20个sui），算比较有性价比的。**
 
 <figure><img src="../../.gitbook/assets/3ce17743-4114-4f57-bf96-282d975af7d0.png" alt="" width="375"><figcaption></figcaption></figure>
 
-创建成功后会弹出一个提示窗口，点击代币合约地址后，可以进入到sui代币信息页面。
+#### **Confirm & Deploy**
+
+Review the transaction details, sign via your wallet, and wait for confirmation.
 
 <figure><img src="../../.gitbook/assets/d003849a-df61-4ada-90c2-461f0cbe13b3.png" alt=""><figcaption></figcaption></figure>
 
-我们可以在suiscan上查看到我们代币信息，同时钱包里面也能看到我们创建的代币
+Once deployed, you’ll receive a **token contract address**. Verify it on [Suiscan](https://suiscan.xyz/) or your wallet’s asset list.
 
 <figure><img src="../../.gitbook/assets/d599ab88-ebac-4dbd-9374-60ba44f0bc84.png" alt=""><figcaption></figcaption></figure>
 
-到此，整个发币工作就算是完成了。
+**Done!** You’ve just launched a token on Sui
 
 ***
 
-当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：
+#### **Next Steps: Liquidity & Trading**
+
+**Your token isn’t tradable yet!** You must:
+
+1. **Create a liquidity pool** (e.g., SUI/YourToken pair).
+2. **Set up trading pairs** on a DEX (e.g., Turbos, Cetus).
+
+* _Refer to our liquidity pool guide for details._
 
 {% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
 [sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
@@ -82,24 +90,20 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 ***
 
-### 联系我们
+### **Learn More About CPBOX** <a href="#learn-more-about-cpbox" id="learn-more-about-cpbox"></a>
 
-如果想要深入了解CPBOX产品的其他用途和功能
+Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+Suggestions or custom needs?
 
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
 ***
 
-### 其他社媒
+### **Join Our Community** <a href="#join-our-community" id="join-our-community"></a>
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+**Telegram Group**: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+**Twitter**: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+**YouTube**: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
