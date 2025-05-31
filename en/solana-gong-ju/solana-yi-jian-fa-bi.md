@@ -4,7 +4,7 @@ description: >-
   required
 ---
 
-# Create Tokens with One Click
+# Solana Token Launch
 
 ### **Feature Overview**
 

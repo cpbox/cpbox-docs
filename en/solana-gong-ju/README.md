@@ -8,8 +8,8 @@ description: Solana玩法须知
 
 如果你还没有发过Token代币，可以先阅读这边文章&#x20;
 
-{% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
-[fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+The Complete Guide to Token Creation: From Launch to Exit
 {% endcontent-ref %}
 
 **发币后应该要做什么**
@@ -22,8 +22,8 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 
 如果你不会写代码，想在SOL链上发币，可以参考这篇文章
 
-{% content-ref url="../../solana-gong-ju/solana-yi-jian-fa-bi.md" %}
-[solana-yi-jian-fa-bi.md](../../solana-gong-ju/solana-yi-jian-fa-bi.md)
+{% content-ref url="./solana-yi-jian-fa-bi.md" %}
+Solana Token Launch
 {% endcontent-ref %}
 
 如果你不会添加流动性，可以参考这篇文章
