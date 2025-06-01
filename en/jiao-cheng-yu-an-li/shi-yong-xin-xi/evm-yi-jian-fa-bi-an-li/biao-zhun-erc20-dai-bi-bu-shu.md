@@ -1,103 +1,103 @@
 ---
-description: 手把手教你使用remix部署一个纯净的ERC20代币
+description: Step-by-step guide to deploy a pure ERC20 token using Remix
 ---
 
-# ERC20 代币部署教程
+# ERC20 Token Deployment Tutorial
 
-### 不求别人，手把手教你自己通过remix部署EVM合约代码
+### Do it yourself - Step-by-step guide to deploy EVM contract code through Remix
 
-#### 什么是标准ERC20代币？
+#### What is a Standard ERC20 Token?
 
-标准ERC20代币指的是**没有任何功能**、机制的代币合约，代币创建之后默认会丢弃权限，所以也没有任何权限，是一个纯粹的、干净的、标准的合约。
+A standard ERC20 token refers to a token contract with **no additional functionality** or mechanisms. After token creation, permissions are dropped by default, so there are no special permissions - it's a pure, clean, and standard contract.
 
-根据以下步骤，您可以在可支持的任意一条链上，创建一个标准合约代币。
+Following the steps below, you can create a standard contract token on any supported blockchain.
 
-* 注意：没有安装钱包的不能发币，我们使用Metamask(小狐狸)钱包来演示，请先安装小狐狸钱包插件
+* Note: You cannot deploy tokens without a wallet installed. We'll use MetaMask wallet for demonstration, please install the MetaMask wallet extension first.
 
-以下已Sepolia testnet为例进行部署的说明：
+The following deployment instructions use Sepolia testnet as an example:
 
-#### 部署准备
+#### Deployment Preparation
 
-Metamask
+MetaMask
 
-如果Metamask中没有要部署代币的网络，可前往[cpbox.io小狐狸助](https://www.cpbox.io/cn/metamask/helper)手搜索对应的主网并添加到Metamask中，添加流程参考【教程】
+If MetaMask doesn't have the network where you want to deploy tokens, you can go to [cpbox.io MetaMask helper](https://www.cpbox.io/metamask/helper) to search for the corresponding mainnet and add it to MetaMask. For the addition process, refer to the [Tutorial].
 
-地址有余额用于支付部署代币的gas费用
+The address needs a balance to pay for gas fees when deploying tokens.
 
-如果是测试网络部署，可以去对应链的水龙头领取测试代币，然后metamusk切到对应的测试网络。可通过[https://www.cpbox.io/cn/metamask/helper](https://www.cpbox.io/cn/metamask/helper)查询对应链的测试网领水地址，并将测试网添加到Metamask中。
+If deploying on a testnet, you can get test tokens from the corresponding chain's faucet, then switch MetaMask to the corresponding test network. You can check the testnet faucet addresses for corresponding chains through [https://www.cpbox.io/metamask/helper](https://www.cpbox.io/metamask/helper) and add the testnet to MetaMask.
 
-#### 部署流程
+#### Deployment Process
 
-我们使用[remix](https://remix.ethereum.org/)进行合约部署
+We use [Remix](https://remix.ethereum.org/) for contract deployment.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-1.png" alt=""><figcaption><p>Remix 导入代码</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-1.png" alt=""><figcaption><p>Remix Import Code</p></figcaption></figure>
 
-这里我们之间从URL链接中导入合约代码
+Here we import contract code directly from a URL link.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-2.png" alt=""><figcaption><p>通过链接导入代码</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-2.png" alt=""><figcaption><p>Import Code via Link</p></figcaption></figure>
 
-链接在这https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol
+The link is: https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol
 
-cpbox已经在github中提供了可以直接部署的代码，填入对应的url即可导入合约代码。
+CPBOX has already provided ready-to-deploy code on GitHub. Just fill in the corresponding URL to import the contract code.
 
-有的时候网络不是很好，可能会导入不了，我现在就没导入
+Sometimes the network isn't great and you might not be able to import. I couldn't import it just now.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-3.png" alt=""><figcaption><p>导入出错</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-3.png" alt=""><figcaption><p>Import Error</p></figcaption></figure>
 
-这个时候，索性打开github.com的文件，然后新建一个erc20.sol的文件，然后把文件里面的内容拷贝进去Remix 会弹出一个安全提示
+In this case, simply open the file on github.com, then create a new erc20.sol file and copy the file contents into it. Remix will show a security prompt.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-4.png" alt=""><figcaption><p>安全提示</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-4.png" alt=""><figcaption><p>Security Warning</p></figcaption></figure>
 
-意思是要注意安全，别拷贝了有木马的代码，拷贝完事以后和github.com上面的源码比较一下， 一样的话就放心了。成功导入后，找到erc20.sol这个文件，保存一下即可编译
+This means to be careful about security and not copy code with malware. After copying, compare it with the source code on github.com - if they match, you can be confident. After successfully importing, find the erc20.sol file and save it to compile.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-5.png" alt=""><figcaption><p>编译</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-5.png" alt=""><figcaption><p>Compile</p></figcaption></figure>
 
-编译的时候把参数选一下
+When compiling, select the parameters.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-6.png" alt=""><figcaption><p>编译参数</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-6.png" alt=""><figcaption><p>Compilation Parameters</p></figcaption></figure>
 
-EVM version 不一样的版本设计到一些EVM 更新，一般选默认就行了，这里选默认的 cancun， Optimization，一般可以勾选一下，这个会对编译的代码做一些优化，大多数情况下都会在部署的时候省不少gas费。
+Different EVM versions involve some EVM updates. Generally, choose the default, here we select the default Cancun. Optimization can generally be checked - this will optimize the compiled code and save significant gas fees during deployment in most cases.
 
-编译成功的话可以看到左侧第三个按钮有个绿色的勾，下一步准备连接钱包进行合约的部署
+If compilation is successful, you'll see a green checkmark on the third button on the left. Next, prepare to connect your wallet for contract deployment.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-7.png" alt=""><figcaption><p>链接钱包</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-7.png" alt=""><figcaption><p>Connect Wallet</p></figcaption></figure>
 
-通过红色框的按钮切到部署合约的面板，在下拉中选择连接MetaMask，此时会唤起钱包的弹框，点击连接即可连接上钱包
+Use the red-boxed button to switch to the contract deployment panel. In the dropdown, select connect to MetaMask. This will trigger a wallet popup - click connect to connect the wallet.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-8.png" alt=""><figcaption><p>部署合约</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-8.png" alt=""><figcaption><p>Deploy Contract</p></figcaption></figure>
 
-成功连接之后，可以看到当前所在的链已经连接的钱包地址和钱包余额
+After successful connection, you can see the current chain, connected wallet address, and wallet balance.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-9.png" alt=""><figcaption><p>查看钱包地址余额</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-9.png" alt=""><figcaption><p>View Wallet Address and Balance</p></figcaption></figure>
 
-下面开始部署合约，首先根据要部署的代币信息填写对应的参
+Now start deploying the contract. First, fill in the corresponding parameters based on the token information you want to deploy.
 
-数假设我们总共的代币供应量为10000，decimal为18位，那么这里的initialSupply的供应量就需要填10000000000000000000000 = 10000 \* 10^18（10000乘以10的18次方）
+Suppose our total token supply is 10,000 with 18 decimals. Then the initialSupply here needs to be 10000000000000000000000 = 10000 * 10^18 (10,000 multiplied by 10 to the 18th power).
 
-<figure><img src="../../../../.gitbook/assets/stand-con-10.png" alt=""><figcaption><p>合约参数</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-10.png" alt=""><figcaption><p>Contract Parameters</p></figcaption></figure>
 
-点击transact唤起钱包，查看预估要消耗的gas，点击确认进行合约的部署
+Click transact to trigger the wallet, view the estimated gas consumption, and click confirm to deploy the contract.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-11.png" alt=""><figcaption><p>部署合约</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-11.png" alt=""><figcaption><p>Deploy Contract</p></figcaption></figure>
 
-控制面板中可以看到交易的状态，交易确认后即部署成功
+You can see the transaction status in the control panel. The deployment is successful after the transaction is confirmed.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-12.png" alt=""><figcaption><p>查看交易结果</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-12.png" alt=""><figcaption><p>View Transaction Results</p></figcaption></figure>
 
-这里便是刚刚部署的合约地址，可通过区块浏览器进行查看。[https://sepolia.etherscan.io/address/0x5afd0dbcd0cc417c754ac71380e0124ba1db3562#code](https://sepolia.etherscan.io/address/0x5afd0dbcd0cc417c754ac71380e0124ba1db3562#code)
+Here is the just-deployed contract address, which can be viewed through a block explorer: [https://sepolia.etherscan.io/address/0x5afd0dbcd0cc417c754ac71380e0124ba1db3562#code](https://sepolia.etherscan.io/address/0x5afd0dbcd0cc417c754ac71380e0124ba1db3562#code)
 
-打开钱包的代币面板，点击添加代币，将刚刚的代币合约地址添加进去，即可看到刚刚的代币信息和当前地址代币的余额
+Open the wallet's token panel, click add token, add the just-deployed token contract address, and you can see the token information and current address token balance.
 
-<figure><img src="../../../../.gitbook/assets/stand-con-13.png" alt=""><figcaption><p>添加代币</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-13.png" alt=""><figcaption><p>Add Token</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/stand-con-14.png" alt=""><figcaption><p>查看余额</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stand-con-14.png" alt=""><figcaption><p>View Balance</p></figcaption></figure>
 
-#### 附录：
+#### Appendix:
 
-Remix地址：[https://remix.ethereum.org/](https://remix.ethereum.org/)
+Remix address: [https://remix.ethereum.org/](https://remix.ethereum.org/)
 
-代币合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol)
+Token contract source code: [https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/erc20.sol)
 
-CPBOX也提供了更复杂的工具和功能，如果需要定制的话可以加TG群联系我们 [https://t.me/cpboxio](https://t.me/cpboxio)
+CPBOX also provides more complex tools and features. If you need customization, you can join our TG group to contact us: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-如果你有好的建议，也欢迎一起来探讨 [https://www.cpbox.io/cn/suggest](https://www.cpbox.io/cn/suggest)
+If you have good suggestions, we welcome discussion: [https://www.cpbox.io/en/suggest](https://www.cpbox.io/en/suggest)

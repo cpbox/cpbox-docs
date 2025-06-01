@@ -1,74 +1,74 @@
 ---
-description: 管理你创建的代币信息及权限
+description: Manage your created token information and permissions
 ---
 
-# Ton 代币管理
+# TON Token Management
 
-### 前言
+### Introduction
 
-Ton链的代币创建出来后，会有3个权限：增发权限（铸币权）、更新资料权限，代币燃烧权限 以及**权限丢弃**功能
+After creating tokens on the TON chain, there are 3 permissions: minting permission, information update permission, token burning permission, and **permission renouncement** functionality
 
-* **增发权限：**&#x53EF;以增发、铸造代币，提高代币供给量
-* **更新资料权限：**&#x53EF;以修改代币名称、logo等
-* **代币燃烧：**&#x71C3;烧代币
-* **权限丢弃：**&#x4E22;弃Token的信息修改权限和Token的操作权限
+* **Minting Permission:** Can mint and create tokens, increasing the token supply
+* **Information Update Permission:** Can modify token name, logo, etc.
+* **Token Burning:** Burn tokens
+* **Permission Renouncement:** Renounce token information modification permissions and token operation permissions
 
-下面我来演示一下如何对对我们的代币进行管理
+Below I will demonstrate how to manage our tokens
 
-首先进入我们的CPBOX官网，菜单点击使用工具，Ton链中的代币管理
+First, enter our CPBOX official website, click on the menu to use tools, and select Token Management in the TON chain
 
-<figure><img src="../../.gitbook/assets/743c63eb-2c72-4a4f-85d5-40007d0842f8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-1.png" alt=""><figcaption></figcaption></figure>
 
-进入页面后，把我们刚刚创建的代币合约地址输入进去。输入合约地址后，下方信息自动显示出来。
+After entering the page, input the token contract address we just created. After entering the contract address, the information below will automatically display.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-2.png" alt=""><figcaption></figcaption></figure>
 
-### 燃烧代币
+### Token Burning
 
-在下方点击输入需要燃烧的代币数量后，点击燃烧代币即可完成等待五分钟后可以在钱包中通过代币数量变化确认
+Click below to input the amount of tokens you need to burn, then click burn tokens to complete. Wait five minutes and you can confirm through the token quantity change in your wallet
 
-<figure><img src="../../.gitbook/assets/c7543f7a-ef95-4593-a4c5-8761acbab1c8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-3.png" alt=""><figcaption></figcaption></figure>
 
-我们这里作为演示，燃烧了10000枚代币，点击燃烧完成后可以在钱包中看到
+As a demonstration here, we burned 10,000 tokens. After clicking burn and completing, you can see it in your wallet
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-4.png" alt=""><figcaption></figcaption></figure>
 
-### 代币增发
+### Token Minting
 
-输入需要增发的代币数量，点击确定等待五分钟后可以在钱包中通过代币数量变化确认，是否操作成功
+Input the amount of tokens you need to mint, click confirm and wait five minutes. You can confirm whether the operation was successful by checking the token quantity change in your wallet
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-5.png" alt=""><figcaption></figcaption></figure>
 
-### 代币信息修改
+### Token Information Modification
 
-代币信息修改和发币差不多，只需要把相应的代币信息填写上去即可等待五分钟后，可以进入tonviewer进行查看，代币信息是否变化成功
+Token information modification is similar to token creation. You just need to fill in the corresponding token information. Wait five minutes, then you can check on tonviewer to see if the token information has changed successfully
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-6.png" alt=""><figcaption></figcaption></figure>
 
-### 权限丢弃
+### Permission Renouncement
 
-直接点击确定后就可以进行权限丢弃！！需要注意的是 ，此操作是没办法撤回的，所以是否要放弃权限 要考虑好首先恶意使用增发权限与更新资料权限，会损害项目的长期发展，这也是会有这个功能的原因
-
-***
-
-### 联系我们
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+Just click confirm to renounce permissions!! Note that this operation cannot be reversed, so you need to think carefully about whether to give up permissions. Malicious use of minting permissions and information update permissions will damage the long-term development of the project, which is why this feature exists
 
 ***
 
-### 其他社媒
+### Contact Us
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+If you want to learn more about other uses and features of CPBOX products
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+You can click [https://docs.cpbox.io/](https://docs.cpbox.io/) to view
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Or if you have some good suggestions or development needs for help
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
