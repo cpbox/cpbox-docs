@@ -22,19 +22,19 @@ description: 一键创建Ton链token
 
 首先进入cpbox官网：[https://www.cpbox.io/cn](https://www.cpbox.io/cn)，点击实用工具，ton链，ton一键发币进入页面后，点击链接钱包。
 
-<figure><img src="../../.gitbook/assets/1280X1280.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-01-wallet-connect.PNG" alt=""><figcaption></figcaption></figure>
 
 如果你使用ton钱包，可以通过二维码扫描进入
 
 这边需要注意的是使用ton钱包，必须得使用里面的**Tonspace**
 
-<figure><img src="../../.gitbook/assets/1280X1280 (1).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-02-tonspace-wallet.PNG" alt=""><figcaption></figcaption></figure>
 
 我们这边选择使用Tonkeeper钱包来进行登陆
 
 点击下方Browser Extension 插件链接
 
-<figure><img src="../../.gitbook/assets/d654a04e-c4eb-44ef-8d2f-de2a40e02492.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-03-tonkeeper-extension.png" alt=""><figcaption></figcaption></figure>
 
 链接成功后可以看到我们的页面非常的简单填写相应的的代币信息即可**参数都要填**
 
@@ -45,28 +45,28 @@ description: 一键创建Ton链token
 * **logo：**&#x4EE3;币标识
 * **简介：**&#x5FC5;填，介绍你的代币信息
 
-<figure><img src="../../.gitbook/assets/b4fcd1d0-4bba-46aa-b000-8f01f7c8f5cb (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-04-token-form.png" alt=""><figcaption></figcaption></figure>
 
 输入完相应的信息后，我们能够看到会有一个提示弹窗。点击确认即可
 
 注意：cpbox会**收取5个Ton**作为代币创建的服务费。
 
-<figure><img src="../../.gitbook/assets/5de23f75-e544-49df-95f0-f82731cc81a9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-05-confirm-transaction.png" alt=""><figcaption></figcaption></figure>
 
 创建完成之后就会拿到自己的代币的合约地址了
 
-<figure><img src="../../.gitbook/assets/ba59eca7-d091-477f-997c-22bad4314c2c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-06-contract-address.png" alt=""><figcaption></figcaption></figure>
 
 这边我们可以进入Tonviewer官网[https://tonviewer.com/](https://tonviewer.com/)来查看我们的代币详情信息
 
-<figure><img src="../../.gitbook/assets/a3568b1b-bb65-45c6-b104-2d549c1e6baa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-07-tonviewer-details.png" alt=""><figcaption></figcaption></figure>
 
 到这里Ton链代币就已经创建完毕了。
 
 后续想要为代币添加流动性池，并希望dex上交易可以参考这篇文章：
 
-{% content-ref url="../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
+什么是流动性资金池、AMM、流动性挖矿
 {% endcontent-ref %}
 
 ***
@@ -75,11 +75,11 @@ description: 一键创建Ton链token
 
 如果想要深入了解CPBOX产品的其他用途和功能
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/cn/?_s=docs)查看
 
 或者你有一些好的建议或者想要帮助开发的需求
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+可以通过主页 [https://www.cpbox.io/ ](https://www.cpbox.io/cn/?_s=docs)最下方的联系方式来找到我们
 
 也可以通过下方社媒来联系我们
 
@@ -91,4 +91,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../en/solana-gong-ju/solana-yi-jian-fa-bi.md)\\
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](htts://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

@@ -1,96 +1,96 @@
 ---
-description: 一键创建Ton链token
+description: One-click TON chain token creation
 ---
 
-# Zero Code Launch Token on Ton
+# Zero Code Launch Token on TON
 
 {% embed url="https://youtu.be/uH7jV9jCcD8" %}
 
-### 前言
+### Introduction
 
-过去的一年中Ton代币的走势非常的优异，从年初2.5刀左右一路飞升。因为和Telegram应用做背书，在用户生态上有着天然的优势。最火热的时候，代币价格甚至来到了8刀左右。可惜随着市场的调整，以及tg创始人问题，代币走势在目前来看不是非常的强势。
+Over the past year, TON tokens have shown excellent performance, soaring from around $2.5 at the beginning of the year. Due to backing from the Telegram application, it has natural advantages in user ecosystem. At its peak, the token price even reached around $8. Unfortunately, with market adjustments and issues with the Telegram founder, the token trend is currently not very strong.
 
-* **Telegram 深度集成**：TON 与 Telegram 紧密结合，用户可通过 Telegram 钱包机器人（如 @wallet）直接进行链上交易，极大降低使用门槛。
-* **多种智能合约语言**：支持 **FunC（TON 原生语言）、Tact（简化版智能合约语言）、Solidity（通过 EVM 兼容层）**，满足不同开发者需求。
-* **TON Foundation 支持**：TON 基金会持续资助优质生态项目，推动开发者增长。
+* **Deep Telegram Integration**: TON is tightly integrated with Telegram, allowing users to conduct on-chain transactions directly through Telegram wallet bots (such as @wallet), greatly lowering the barrier to entry.
+* **Multiple Smart Contract Languages**: Supports **FunC (TON native language), Tact (simplified smart contract language), Solidity (through EVM compatibility layer)**, meeting different developer needs.
+* **TON Foundation Support**: The TON Foundation continuously funds high-quality ecosystem projects, driving developer growth.
 
-正是ton以上的的优势，支持着生态不断的发展。
+It is these advantages of TON that support the continuous development of the ecosystem.
 
-本篇文章将介绍如何使用cpbox来进行**Ton链的一键发币**
+This article will introduce how to use cpbox for **one-click token deployment on TON chain**.
 
-### 代币创建
+### Token Creation
 
-首先进入cpbox官网：[https://www.cpbox.io/cn](https://www.cpbox.io/cn)，点击实用工具，ton链，ton一键发币进入页面后，点击链接钱包。
+First, go to the cpbox official website: [https://www.cpbox.io/cn](https://www.cpbox.io/en/?_s=docs), click on Tools, TON chain, TON one-click token deployment to enter the page, then click Connect Wallet.
 
-<figure><img src="../../.gitbook/assets/1280X1280.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-01-wallet-connect.PNG" alt=""><figcaption></figcaption></figure>
 
-如果你使用ton钱包，可以通过二维码扫描进入
+If you're using a TON wallet, you can enter by scanning the QR code.
 
-这边需要注意的是使用ton钱包，必须得使用里面的**Tonspace**
+Note that when using a TON wallet, you must use **Tonspace** within it.
 
-<figure><img src="../../.gitbook/assets/1280X1280 (1).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-02-tonspace-wallet.PNG" alt=""><figcaption></figcaption></figure>
 
-我们这边选择使用Tonkeeper钱包来进行登陆
+We choose to use the Tonkeeper wallet for login.
 
-点击下方Browser Extension 插件链接
+Click on the Browser Extension plugin link below.
 
-<figure><img src="../../.gitbook/assets/d654a04e-c4eb-44ef-8d2f-de2a40e02492.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-03-tonkeeper-extension.png" alt=""><figcaption></figcaption></figure>
 
-链接成功后可以看到我们的页面非常的简单填写相应的的代币信息即可**参数都要填**
+After successful connection, you can see our page is very simple - just fill in the corresponding token information. **All parameters must be filled**:
 
-* 代币名称：token的名称
-* 代币标识：Token的标识，可与名称相同
-* **精度：**&#x9ED8;认填9，精度与你能填写的最大供应量有关。
-* **供应数量：**&#x5F53;精度为9时，供应量最大不能超过100亿。当精度为8时，不能超过1000亿，以此类推
-* **logo：**&#x4EE3;币标识
-* **简介：**&#x5FC5;填，介绍你的代币信息
+* Token Name: The name of the token
+* Token Symbol: Token identifier, can be the same as the name
+* **Decimals**: Default is 9, decimals are related to the maximum supply you can enter.
+* **Supply Quantity**: When decimals are 9, supply cannot exceed 10 billion. When decimals are 8, it cannot exceed 100 billion, and so on.
+* **Logo**: Token logo
+* **Description**: Required, describe your token information
 
-<figure><img src="../../.gitbook/assets/b4fcd1d0-4bba-46aa-b000-8f01f7c8f5cb (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-04-token-form.png" alt=""><figcaption></figcaption></figure>
 
-输入完相应的信息后，我们能够看到会有一个提示弹窗。点击确认即可
+After entering the corresponding information, we can see there will be a confirmation popup. Click confirm.
 
-注意：cpbox会**收取5个Ton**作为代币创建的服务费。
+Note: cpbox will **charge 5 TON** as a service fee for token creation.
 
-<figure><img src="../../.gitbook/assets/5de23f75-e544-49df-95f0-f82731cc81a9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-05-confirm-transaction.png" alt=""><figcaption></figcaption></figure>
 
-创建完成之后就会拿到自己的代币的合约地址了
+After creation is complete, you will get your token's contract address.
 
-<figure><img src="../../.gitbook/assets/ba59eca7-d091-477f-997c-22bad4314c2c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-06-contract-address.png" alt=""><figcaption></figcaption></figure>
 
-这边我们可以进入Tonviewer官网[https://tonviewer.com/](https://tonviewer.com/)来查看我们的代币详情信息
+Here we can go to the Tonviewer official website [https://tonviewer.com/](https://tonviewer.com/) to view our token details.
 
-<figure><img src="../../.gitbook/assets/a3568b1b-bb65-45c6-b104-2d549c1e6baa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-token-07-tonviewer-details.png" alt=""><figcaption></figcaption></figure>
 
-到这里Ton链代币就已经创建完毕了。
+At this point, the TON chain token has been successfully created.
 
-后续想要为代币添加流动性池，并希望dex上交易可以参考这篇文章：
+If you want to add liquidity pools for your token later and hope to trade on DEX, you can refer to this article:
 
 {% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+Understanding Liquidity Pools, AMMs, and Liquidity Mining
 {% endcontent-ref %}
 
 ***
 
-### 联系我们
+### Contact Us
 
-如果想要深入了解CPBOX产品的其他用途和功能
+If you want to learn more about other uses and features of CPBOX products
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+You can click [https://docs.cpbox.io/](https://docs.cpbox.io/en/?_s=docs) to view
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or development assistance needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
-也可以通过下方社媒来联系我们
+You can also contact us through the social media below
 
 ***
 
-### 其他社媒
+### Other Social Media
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+Telegram Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+YouTube: [youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
 
 
