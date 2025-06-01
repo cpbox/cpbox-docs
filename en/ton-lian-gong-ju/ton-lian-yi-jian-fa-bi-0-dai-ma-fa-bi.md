@@ -2,7 +2,7 @@
 description: 一键创建Ton链token
 ---
 
-# Ton 一键发币
+# Zero Code Launch Token on Ton
 
 {% embed url="https://youtu.be/uH7jV9jCcD8" %}
 
