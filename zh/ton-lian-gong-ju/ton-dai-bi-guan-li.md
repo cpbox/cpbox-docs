@@ -17,33 +17,33 @@ Ton链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 首先进入我们的CPBOX官网，菜单点击使用工具，Ton链中的代币管理
 
-<figure><img src="../../.gitbook/assets/743c63eb-2c72-4a4f-85d5-40007d0842f8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-1.png" alt=""><figcaption></figcaption></figure>
 
 进入页面后，把我们刚刚创建的代币合约地址输入进去。输入合约地址后，下方信息自动显示出来。
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-2.png" alt=""><figcaption></figcaption></figure>
 
 ### 燃烧代币
 
 在下方点击输入需要燃烧的代币数量后，点击燃烧代币即可完成等待五分钟后可以在钱包中通过代币数量变化确认
 
-<figure><img src="../../.gitbook/assets/c7543f7a-ef95-4593-a4c5-8761acbab1c8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-3.png" alt=""><figcaption></figcaption></figure>
 
 我们这里作为演示，燃烧了10000枚代币，点击燃烧完成后可以在钱包中看到
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-4.png" alt=""><figcaption></figcaption></figure>
 
 ### 代币增发
 
 输入需要增发的代币数量，点击确定等待五分钟后可以在钱包中通过代币数量变化确认，是否操作成功
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-5.png" alt=""><figcaption></figcaption></figure>
 
 ### 代币信息修改
 
 代币信息修改和发币差不多，只需要把相应的代币信息填写上去即可等待五分钟后，可以进入tonviewer进行查看，代币信息是否变化成功
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-manage-6.png" alt=""><figcaption></figcaption></figure>
 
 ### 权限丢弃
 
@@ -71,4 +71,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
