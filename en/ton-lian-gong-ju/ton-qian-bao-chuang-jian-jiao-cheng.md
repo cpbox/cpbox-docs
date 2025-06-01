@@ -1,93 +1,90 @@
 ---
-description: tg钱包详解
+description: Complete guide to TON wallets
 ---
 
 # Create TON Wallets
 
-### 前言
+### Introduction
 
-Ton因为有着Telegram作为绑定，未来的生态有着很多潜在的用户。个人认为在未来的一段时间内，Ton链上会涌现出许许多多好的项目。当初在tg上的空投小游戏也是非常火热，就像当初出现的微信小程序一样，说不定哪天Ton的代币因为这些项目水涨船高。本编文章教大家如何创建一个属于自己的Ton钱包。现在常用的钱包有以下几个
+TON blockchain, with its strong integration with Telegram, holds tremendous potential for future ecosystem growth. We believe that in the coming period, the TON chain will see the emergence of many promising projects. The popularity of Telegram mini-games and airdrops reminds us of the early days of WeChat mini-programs - perhaps TON tokens will surge in value due to these innovative projects. This tutorial will guide you through creating your own TON wallet. Currently, the most popular wallets include:
 
-* **Wallet on Telegram**：Ton官方钱包
-* **Tonkeeper**：Ton链去中心化钱包
+* **Wallet on Telegram**: Official TON wallet
+* **Tonkeeper**: Decentralized TON blockchain wallet
 
-### Wallet on Telegram创建
+### Creating a Wallet on Telegram
 
-**特点**
+**Key Features**
 
-* **内置在 Telegram 中**：直接在 Telegram 聊天界面使用（通过 @Wallet 机器人或侧边栏）。
-* **用户友好**：适合新手，无需额外安装 App，支持扫码支付、P2P 转账。
-* **支持 TON 和部分代币**：可存储/发送 TON、USDT（TON 链）、NFT 等。
-* **非完全去中心化**：私钥由 Telegram 部分托管（需信任 Telegram 的安全性）
+* **Built into Telegram**: Access directly within Telegram chat interface (via @Wallet bot or sidebar)
+* **User-friendly**: Perfect for beginners, no additional app installation required, supports QR payments and P2P transfers
+* **Supports TON and select tokens**: Store/send TON, USDT (TON chain), NFTs, and more
+* **Semi-decentralized**: Private keys are partially managed by Telegram (requires trust in Telegram's security)
 
-因为是非完全去中心化钱包，所以钱包中建议只放入小额的代币。在tg搜索栏中搜索wallet，下方会弹出一个官方的小程序，点击open打开。
+Since this is not a fully decentralized wallet, we recommend only storing small amounts of tokens. Search for "wallet" in the Telegram search bar, and an official mini-app will appear below. Click "Open" to launch it.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-wallet-telegram-search.png" alt=""><figcaption></figcaption></figure>
 
-点开后就可以看到这里已经有个一个钱包界面了
+Once opened, you'll see a wallet interface ready to use.
 
-需要注意的是：这个**wallet并不是一个web3钱包**，他只是类似于微信的支付钱包，他是没有**助记词和私钥的**
+**Important Note**: This wallet is **not a Web3 wallet** - it functions similarly to WeChat Pay, serving as a payment wallet **without seed phrases or private keys**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-wallet-basic-interface.png" alt=""><figcaption></figcaption></figure>
 
-如果我们是想要获取TG上领取一下空投奖励或者游戏奖励上面的钱包是不行的，还需要再创建一个TonSpace。这恶搞TonSpace是有助记词和私钥的。
+If you want to claim airdrops or game rewards on Telegram, the basic wallet won't suffice. You'll need to create a TonSpace wallet, which does include seed phrases and private keys.
 
-点击上方的tonspace进行切换。选择创建一个新的钱包
+Click on "TonSpace" at the top to switch. Select "Create a new wallet."
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-wallet-tonspace-create.png" alt=""><figcaption></figcaption></figure>
 
-选择手动备份
+Choose "Manual backup"
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-wallet-manual-backup.png" alt=""><figcaption></figcaption></figure>
 
-手动备份后会有一个助记词，这边需要你们自己保存好，等会还要验证使用\
-保存下来后，填写好相应的助记词就可以使用了
+After manual backup, you'll receive a seed phrase that you must securely save and will need to verify later. Once you've saved it, enter the corresponding seed phrase words to complete the setup.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-wallet-seed-phrase.png" alt=""><figcaption></figcaption></figure>
 
-### Tonkeeper创建
+### Creating a Tonkeeper Wallet
 
-* **特点**
-  * **完全去中心化**：用户自持助记词/私钥，资产完全自主控制。
-  * **功能全面**：支持 TON 生态所有代币（如 jUSDT、STON）、NFT、DApp 连接（如 STON.fi、DeDust）。
-  * **独立 App**：可以下载安装（iOS/Android），安全性更高。
+**Key Features**
+* **Fully decentralized**: Users maintain complete control over seed phrases/private keys and assets
+* **Comprehensive functionality**: Supports all TON ecosystem tokens (jUSDT, STON), NFTs, and DApp connections (STON.fi, DeDust)
+* **Standalone app**: Available for download (iOS/Android) with enhanced security
 
-简单来讲Tonkeeper的钱包在使用上会更方便快捷一点，在一些项目生态上bug会更少。相当于是ton链上最稳定的钱包首先我们进入[google拓展应用商店](https://chromewebstore.google.com/category/extensions?utm_source=ext_sidebar\&hl=zh-CN)，点击安装
+In simple terms, Tonkeeper offers more convenient and seamless usage with fewer bugs across various project ecosystems. It's essentially the most stable wallet on the TON chain.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+First, visit the [Chrome Web Store](https://chromewebstore.google.com/category/extensions?utm_source=ext_sidebar&hl=en) and install the extension.
 
-安装完成后点击右上角的拓展程序，打开tonkeeper钱包
+<figure><img src="../../.gitbook/assets/ton-wallet-tonkeeper-extension-install.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+After installation, click the extension icon in the upper right corner and open the Tonkeeper wallet.
 
-点击进入页面后，点击创建新钱包
+<figure><img src="../../.gitbook/assets/ton-wallet-tonkeeper-extension-open.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+On the main page, click "Create new wallet"
 
-点击后会进入页面，我们需要备份好助记词，然后完成测试，就会提示创建成功
+<figure><img src="../../.gitbook/assets/ton-wallet-tonkeeper-create-wallet.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+You'll be prompted to backup your seed phrase and complete a verification test. Once completed, you'll see a success message confirming your wallet creation.
 
-***
+<figure><img src="../../.gitbook/assets/ton-wallet-tonkeeper-wallet-success.png" alt=""><figcaption></figcaption></figure>
 
-### 联系我们
+---
 
-如果想要深入了解CPBOX产品的其他用途和功能
+### Contact Us
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+To learn more about CPBOX's features and functionalities, visit our documentation at [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs)
 
-或者你有一些好的建议或者想要帮助开发的需求
+For suggestions, feedback, or development assistance, contact us through the information provided at the bottom of our homepage: [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can also reach us through our social media channels below.
 
-也可以通过下方社媒来联系我们
+---
 
-***
+### Social Media
 
-### 其他社媒
+Telegram Community: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
-
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\\
+YouTube: [youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)
