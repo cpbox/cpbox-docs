@@ -1,120 +1,120 @@
-# Sui 区块链介绍及钱包使用指南
+# Sui Blockchain Introduction and Wallet Usage Guide
 
-随着区块链技术不断演进，Web3 世界迎来了新的技术浪潮。其中，**Sui** 区块链凭借其高性能、可扩展性和独特的编程模型，正逐渐成为开发者和用户关注的焦点。
+As blockchain technology continues to evolve, the Web3 world welcomes new technological waves. Among them, the **Sui** blockchain is gradually becoming the focus of developers and users with its high performance, scalability, and unique programming model.
 
-### 什么是 Sui 区块链？
+### What is Sui Blockchain?
 
-**Sui** 是一个基于 Move 语言的一级 Layer 1 公链，由 Mysten Labs 团队开发，致力于为数字资产、游戏、NFT、DeFi 和日常应用场景提供高吞吐量、低延迟的基础设施。Sui官网: https://sui.io/
+**Sui** is a Layer 1 public blockchain based on the Move language, developed by the Mysten Labs team, dedicated to providing high-throughput, low-latency infrastructure for digital assets, games, NFTs, DeFi, and everyday application scenarios. Sui official website: https://sui.io/
 
 
-**1. 理论 TPS**
+**1. Theoretical TPS**
 
-* 在官方测试和文档中，Sui 号称支持超过 **120,000 TPS**。
-* 这个数字基于并行交易执行（如转账类的“简单交易”），并依赖强大的节点硬件和优化配置。
+* In official tests and documentation, Sui claims to support over **120,000 TPS**.
+* This number is based on parallel transaction execution (such as "simple transactions" like transfers) and relies on powerful node hardware and optimized configurations.
 
-**2. 主网实际 TPS**
+**2. Actual Mainnet TPS**
 
-* 主网上的实际 TPS 会远低于理论值，因为包含：
-  * 不同复杂度的交易（转账 vs 合约交互）
-  * 网络延迟
-  * 验证者之间的共识成本
-  * 链上资源争用
-* **主网稳定运行时的实际 TPS**：大致在 **300 - 2,000 TPS** 之间浮动（根据社区和节点观察数据）。
+* The actual TPS on the mainnet will be much lower than the theoretical value because it includes:
+  * Transactions of different complexity (transfers vs contract interactions)
+  * Network latency
+  * Consensus costs between validators
+  * On-chain resource contention
+* **Actual TPS during stable mainnet operation**: roughly fluctuates between **300 - 2,000 TPS** (based on community and node observation data).
 
-**3. 压力测试中的峰值**
+**3. Peak Performance in Stress Tests**
 
-* 社区或第三方团队的压力测试中，曾达到 **5,000 - 20,000 TPS** 的峰值，前提是大批量的“简单交易”（例如平行地址之间的转账）。
+* In stress tests by the community or third-party teams, peak values of **5,000 - 20,000 TPS** have been achieved, provided that large batches of "simple transactions" (such as transfers between parallel addresses) are executed.
 
-**4. Sui 的独特优势**
+**4. Sui's Unique Advantages**
 
-Sui 不强调“全链统一 TPS”，而是通过并行执行让**多个账户之间的交易可以同时进行**。所以它的设计不是追求平均 TPS 极大化，而是追求高吞吐下的**低延迟和可扩展性**
+Sui does not emphasize "unified chain-wide TPS," but rather allows **transactions between multiple accounts to proceed simultaneously** through parallel execution. So its design does not pursue maximizing average TPS, but rather pursues **low latency and scalability** under high throughput.
 
-#### Sui 的核心特点：
+#### Core Features of Sui:
 
-* **基于 Move 的安全智能合约**：使用 Move 语言开发，具备资源导向模型，防止资产丢失和未授权访问。
-* **并行交易处理架构**：大幅提升 TPS（每秒处理交易数），特别适合高频微交易场景。
-* **对象驱动的状态模型**：将链上资产抽象为对象，开发体验更直观。
-* **可扩展性强**：无需复杂分片即可横向扩展，适应 Web3 应用增长。
+* **Move-based Secure Smart Contracts**: Developed using the Move language with a resource-oriented model that prevents asset loss and unauthorized access.
+* **Parallel Transaction Processing Architecture**: Significantly improves TPS (transactions per second), particularly suitable for high-frequency micro-transaction scenarios.
+* **Object-driven State Model**: Abstracts on-chain assets as objects, providing a more intuitive development experience.
+* **Strong Scalability**: Can scale horizontally without complex sharding, adapting to Web3 application growth.
 
-### Sui 的应用场景
+### Sui Application Scenarios
 
-* NFT 与数字藏品平台（如 Suiet、Clutchy）
-* DeFi 项目（如 Aftermath Finance）
-* 游戏与链游平台（如 Abyss World）
-* DAO 与身份系统
-* 企业级 Web3 服务
+* NFT and digital collectible platforms (such as Suiet, Clutchy)
+* DeFi projects (such as Aftermath Finance)
+* Gaming and blockchain game platforms (such as Abyss World)
+* DAO and identity systems
+* Enterprise-level Web3 services
 
 ***
 
-### Sui 钱包使用指南（以 Suiet 和 Sui Wallet 为例）
+### Sui Wallet Usage Guide (Using Suiet and Sui Wallet as Examples)
 
-#### 常用 Sui 钱包简介：
+#### Introduction to Common Sui Wallets:
 
 **Suiet Wallet**
 
-* 用户友好的浏览器扩展钱包。
-* 支持 NFT 显示、多个账户、网络切换。
+* User-friendly browser extension wallet.
+* Supports NFT display, multiple accounts, network switching.
 
-&#x20; **✅ 步骤一：访问官网**
+&#x20; **✅ Step 1: Visit the Official Website**
 
-&#x20; 打开浏览器，前往 Suiet 官方网站：  👉 [https://suiet.app](https://suiet.app)  点击主页上的 “**Add to Chrome**” 或 “**Download Wallet**” 按钮，跳转到扩展市场。
+&#x20; Open your browser and go to the official Suiet website:  👉 [https://suiet.app](https://suiet.app)  Click the "**Add to Chrome**" or "**Download Wallet**" button on the homepage to jump to the extension marketplace.
 
-&#x20; **✅ 步骤二：安装插件**
+&#x20; **✅ Step 2: Install the Plugin**
 
-* 如果你使用的是 Chrome 或兼容的浏览器（Brave / Edge），点击 “添加到浏览器”。
-* 安装完成后，你将在浏览器右上角看到 Suiet 的图标。
+* If you are using Chrome or compatible browsers (Brave / Edge), click "Add to Browser".
+* After installation is complete, you will see the Suiet icon in the upper right corner of your browser.
 
-**Sui Wallet（官方钱包）**
+**Sui Wallet (Official Wallet)**
 
-* 由 Mysten Labs 官方推出。
-* 适合开发测试和普通用户使用。
-* GitHub：[https://github.com/MystenLabs/sui](https://github.com/MystenLabs/sui)
-
-***
-
-#### 创建钱包 以suiet为例
-
-打开 Suiet，点击「创建新钱包」。
-
-1. 设定密码（建议使用强密码），确认。
-2. 系统将生成一个**12 个助记词单词** —— **务必妥善保存**，这相当于你的链上账户钥匙，不能丢失。
-3. 确认助记词顺序后，点击完成，你的钱包就创建好了！
-
-> 💡 **安全提醒**：不要将助记词截图、发送给他人，推荐抄写在纸上并离线保管。
-
-4. 钱包创建成功，进入首页。
+* Officially launched by Mysten Labs.
+* Suitable for development testing and general user use.
+* GitHub: [https://github.com/MystenLabs/sui](https://github.com/MystenLabs/sui)
 
 ***
 
-#### 收款与转账
+#### Creating a Wallet (Using Suiet as an Example)
 
-**收款：**
+Open Suiet and click "Create New Wallet".
 
-钱包首页点击地址旁的复制图标或「Receive」按钮。分享你的钱包地址给付款方即可。
+1. Set a password (recommend using a strong password) and confirm.
+2. The system will generate **12 mnemonic words** — **be sure to keep them safe**, this is equivalent to your on-chain account key and cannot be lost.
+3. After confirming the order of the mnemonic words, click complete, and your wallet is created!
 
-**转账：**
+> 💡 **Security Reminder**: Do not screenshot or send mnemonic words to others. It is recommended to write them down on paper and keep them offline.
 
-点击「Send」按钮。输入对方钱包地址、选择 Token 类型（如 SUI）与数量。点击确认发送，等待链上确认。
-
-
-如果有批量发的需求可以参考这里： [https://www.cpbox.io/cn/sui/batch-send-token](https://www.cpbox.io/cn/sui/batch-send-token)
-
-***
-
-#### 连接 DApp
-
-打开支持 Sui 的 DApp 网站（如 Clutchy NFT 平台、Keepsake）。点击「Connect Wallet」，选择 Suiet。钱包弹出连接请求，确认即可完成连接。
+4. Wallet creation successful, enter the homepage.
 
 ***
 
-#### 五、切换网络（测试网 / 主网）
+#### Receiving and Transferring
 
-在钱包设置中选择网络（Mainnet / Testnet / Devnet）。开发者可在测试网中领取水龙头 Token 测试合约。  开发者水龙头地址示例：
+**Receiving:**
+
+Click the copy icon next to the address on the wallet homepage or the "Receive" button. Share your wallet address with the payer.
+
+**Transferring:**
+
+Click the "Send" button. Enter the recipient's wallet address, select the Token type (such as SUI) and amount. Click confirm to send and wait for on-chain confirmation.
+
+
+If you have batch sending needs, you can refer to here: [https://www.cpbox.io/sui/batch-send-token](https://www.cpbox.io/en/sui/batch-send-token?_s=docs)
+
+***
+
+#### Connecting to DApps
+
+Open a DApp website that supports Sui (such as Clutchy NFT platform, Keepsake). Click "Connect Wallet" and select Suiet. The wallet will pop up a connection request, confirm to complete the connection.
+
+***
+
+#### Switching Networks (Testnet / Mainnet)
+
+Select the network (Mainnet / Testnet / Devnet) in wallet settings. Developers can receive faucet tokens on the testnet to test contracts.  Developer faucet address example:
 
 * Testnet Faucet: https://faucet.testnet.sui.io
 
 ***
 
-### 结语
+### Conclusion
 
-Sui 区块链为 Web3 世界注入了新的活力，不论你是开发者还是普通用户，都可以通过使用 Sui 钱包轻松参与到这一生态中。随着越来越多项目部署到 Sui，未来可期！
+The Sui blockchain has injected new vitality into the Web3 world. Whether you are a developer or an ordinary user, you can easily participate in this ecosystem by using Sui wallets. As more and more projects deploy to Sui, the future looks promising!

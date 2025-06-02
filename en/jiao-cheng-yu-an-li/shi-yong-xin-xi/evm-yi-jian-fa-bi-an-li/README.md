@@ -1,30 +1,30 @@
 ---
-description: 这里有丰富的EVM代币，案例，看有满足你需求的代币么，快来创建吧
+description: Rich collection of EVM tokens and examples - find tokens that meet your needs and start creating!
 ---
 
-# EVM代币案例
+# EVM Token Examples
 
-## EVM 营销代币案例
+## EVM Marketing Token Examples
 
-本专栏汇总各种基于 EVM 链的营销型代币部署方案，适用于流动性挖矿、推荐奖励、分红分润等多种场景。
+This section compiles various EVM-based marketing token deployment solutions, suitable for multiple scenarios including liquidity mining, referral rewards, dividend distribution, and profit sharing.
 
-每个案例都会提供可复用的合约结构、部署方案及实际用途解析，帮助你快速创建具备特定营销功能的代币。
+Each example provides reusable contract structures, deployment solutions, and practical use case analysis to help you quickly create tokens with specific marketing functions.
 
 
 
-如果想要更多的了解CPBOX这个产品的其他用途和功能
+If you want to learn more about other uses and features of the CPBOX product
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+You can visit [ https://docs.cpbox.io/](https://docs.cpbox.io/en/?_s=docs)
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or development assistance needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/ ](https://www.cpbox.io/en/)
 
 ***
 
-【其他社媒】
+【Other Social Media】
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+Telegram Group：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
