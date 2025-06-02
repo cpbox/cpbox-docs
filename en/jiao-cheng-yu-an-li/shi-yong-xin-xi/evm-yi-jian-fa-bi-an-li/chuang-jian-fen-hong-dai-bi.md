@@ -1,103 +1,103 @@
 ---
-description: 教你创建分红代币，让你的代币价格不停的往上涨
+description: Learn how to create dividend tokens that keep your token price continuously rising
 ---
 
-# 创建分红代币
+# Creating Dividend Tokens
 
-#### 什么是分红代币？
+#### What are dividend tokens?
 
-分红本币，指的是持币分本币（所谓本币，就是**你发行的代币**）。用户从每一笔交易中，按照分红税率扣除一定的代币给到所有持币人。每个持币人所能分到的奖励，和它所拥有的代币数额有关系。持仓越大，分到的奖励越多。
+Dividend tokens refer to tokens that distribute the native token (the **token you issue**) to holders. Users deduct a certain amount of tokens from each transaction according to the dividend tax rate and distribute them to all token holders. The rewards that each holder can receive are related to the number of tokens they own. The larger the holding, the more rewards they receive.
 
-#### 使用场景
+#### Use Cases
 
-通过定期分红（如协议收入、交易手续费等），鼓励用户长期持有代币而非短期抛售，稳定代币价格。结合代币燃烧和提供流动性奖励等机制，实现灵活的代币运营。
+Through regular dividends (such as protocol revenue, transaction fees, etc.), encourage users to hold tokens for the long term rather than short-term selling, stabilizing token prices. Combined with mechanisms like token burning and providing liquidity rewards, achieve flexible token operations.
 
-#### 合约部署
+#### Contract Deployment
 
-打开[remix](https://remix.ethereum.org/)，新建文件并粘贴合约源码，或者直接关联合约源码地址，操作流程参考：
+Open [remix](https://remix.ethereum.org/), create a new file and paste the contract source code, or directly link to the contract source code address. For operation procedures, refer to:
 
-合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol)
+Contract source code: [https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividend.sol)
 
-**参数说明**
+**Parameter Description**
 
-<figure><img src="../../../../.gitbook/assets/image (54).png" alt=""><figcaption><p>创建分红代币</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dividend-token-creation.png" alt=""><figcaption><p>Creating Dividend Tokens</p></figcaption></figure>
 
-这里给出一份示例参数，并解释如何修改适合自己的参数
+Here's a sample set of parameters with explanations on how to modify them for your needs:
 
-* 第一个 stringParams 的参数: `["CPBoxTestToken", "CPBLP"]`
-* 第二个addressParams 的参数:
+* First stringParams parameter: `["CPBoxTestToken", "CPBLP"]`
+* Second addressParams parameter:
 
 `["0x1234567890123456789012345678901234567890","0x0987654321098765432109876543210987654321","0x1111111111111111111111111111111111111111"]`
 
-* 第三个numberParams参数：`["18","1000000000000000000","200","100","100","50","200","100","100","50","3"]`
-* 第四个boolParams 参数： `[true]`
+* Third numberParams parameter: `["18","1000000000000000000","200","100","100","50","200","100","100","50","3"]`
+* Fourth boolParams parameter: `[true]`
 
-参数说明：
+Parameter explanation:
 
 ```java
-// 字符串参数数组
+// String parameter array
 string[] memory stringParams = [
-    "CPBoxTestToken",  // 代币name，请修改为你自己的代币符号
-    "CPB"              // 代币符号，请修改为你自己的代币符合
+    "CPBoxTestToken",  // Token name, please change to your own token name
+    "CPB"              // Token symbol, please change to your own token symbol
 ];
 
-// 地址参数数组
+// Address parameter array
 address[] memory addressParams = [
-    0x1234567890123456789012345678901234567890,  // fundAddress: 基金地址
-    0x0987654321098765432109876543210987654321,  // currency: 交易对代币地址
-    0x1111111111111111111111111111111111111111   // swapRouter: 交易路由合约地址
+    0x1234567890123456789012345678901234567890,  // fundAddress: Fund address
+    0x0987654321098765432109876543210987654321,  // currency: Trading pair token address
+    0x1111111111111111111111111111111111111111   // swapRouter: Trading router contract address
 ];
 
-// 数值参数数组
+// Numeric parameter array
 uint256[] memory numberParams = [
-    18,                    // decimals: 代币精度
-    1000000000000000000,   // totalSupply: 代币总供应量
-    200,                   // buyFundFee: 买入基金费率 (2%)
-    100,                   // buyLPFee: 买入LP费率 (1%)
-    100,                   // buyReflectFee: 买入分红税率 (1%)
-    50,                    // buyBurnFee: 买入销毁费率 (0.5%)
-    200,                   // sellFundFee: 卖出基金费率 (2%)
-    100,                   // sellLPFee: 卖出LP费率 (1%)
-    100,                   // sellReflectFee: 卖出分红税率率 (1%)
-    50,                    // sellBurnFee: 卖出销毁费率 (0.5%)
-    3                      // airdropNumbs: 空投数量
+    18,                    // decimals: Token precision
+    1000000000000000000,   // totalSupply: Total token supply
+    200,                   // buyFundFee: Buy fund fee rate (2%)
+    100,                   // buyLPFee: Buy LP fee rate (1%)
+    100,                   // buyReflectFee: Buy dividend tax rate (1%)
+    50,                    // buyBurnFee: Buy burn fee rate (0.5%)
+    200,                   // sellFundFee: Sell fund fee rate (2%)
+    100,                   // sellLPFee: Sell LP fee rate (1%)
+    100,                   // sellReflectFee: Sell dividend tax rate (1%)
+    50,                    // sellBurnFee: Sell burn fee rate (0.5%)
+    3                      // airdropNumbs: Airdrop quantity
 ];
 
-// 布尔参数数组
+// Boolean parameter array
 bool[] memory boolParams = [
-    true    // enableAirdrop: 空投开关
+    true    // enableAirdrop: Airdrop switch
 ];
 ```
 
-（买入/卖出）费率说明：
+(Buy/Sell) Fee Rate Explanation:
 
-* 基金费率：每笔买入/卖入都会扣除对应比例本币发送到你的`营销钱包`地址
-* LP费率：每笔买入/卖入都会扣除对应比例代币送进`资金池`
-* 分红费率：每笔买入/卖入都会扣除对应比例的本币分给所有`持币地址`
-* 销毁费率：每笔买入/卖入都会扣除对应比例代币送进`黑洞地址`,达到销毁的目的
+* Fund fee rate: Each buy/sell transaction will deduct the corresponding proportion of native tokens and send them to your `marketing wallet` address
+* LP fee rate: Each buy/sell transaction will deduct the corresponding proportion of tokens and send them to the `liquidity pool`
+* Dividend fee rate: Each buy/sell transaction will deduct the corresponding proportion of native tokens and distribute them to all `token holder addresses`
+* Burn fee rate: Each buy/sell transaction will deduct the corresponding proportion of tokens and send them to the `black hole address` to achieve burning
 
-**注意事项**
+**Important Notes**
 
-* 总的买入税率不能超过25%（ 买入营销税 + 买入税 + 分红税 + 买入销毁 < 2500）
-* 总的卖出税率不能超过25%（卖出营销税 + 卖出税 + 卖出分红 + 卖出销毁 <2500）
-* 在Pancake第一次添加流动性的时候，必须做V2的池子，不能做V3的池子。V3不支持任何机制，所以只能在V2做，请注意
-* 合约创建完成后默认丢弃权限，也没有白名单、黑名单、杀机器人、交易开关等功能
-* 黑洞地址如果持有代币，同样会参与分红
+* Total buy tax rate cannot exceed 25% (buy marketing tax + buy tax + dividend tax + buy burn < 2500)
+* Total sell tax rate cannot exceed 25% (sell marketing tax + sell tax + sell dividend + sell burn < 2500)
+* When adding liquidity for the first time on Pancake, you must create a V2 pool, not a V3 pool. V3 does not support any mechanisms, so you can only do it on V2, please note
+* After contract creation, permissions are discarded by default, and there are no whitelist, blacklist, anti-bot, trading switch functions
+* If the black hole address holds tokens, it will also participate in dividends
 
-如果想要更多的了解CPBOX这个产品的其他用途和功能
+If you want to learn more about other uses and features of the CPBOX product
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+You can click [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs)
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or need development help
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 
-【其他社媒】
+【Other Social Media】
 
-TG交流群：[https://t.me/cpboxio](chuang-jian-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
+TG Community: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
