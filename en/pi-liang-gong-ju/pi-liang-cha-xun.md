@@ -1,59 +1,59 @@
 ---
-description: 快速批量检查一批钱包中的指定代币的余额
+description: Quickly batch check the balance of specified tokens in multiple wallets
 ---
 
-# 批量查询
+# Batch Query
 
-### 功能概述
+### Function Overview
 
-CPBox提供的批量检查功能让您能够同时查询多个钱包地址中指定代币的余额，提高您的工作效率。 当前CPBOX支持所有的EVM链的批量余额查询，还支持[Solana](https://www.cpbox.io/cn/solana/check-balance), [SUI](https://www.cpbox.io/cn/sui/check-balance), [Tron](https://www.cpbox.io/cn/tron/check-balance), [TON](https://www.cpbox.io/cn/ton/check-balance), Cosmos, [BTC](https://www.cpbox.io/check-balance/btc), [DOGE](https://www.cpbox.io/cn/check-balance/doge), [APTOS](https://www.cpbox.io/cn/aptos/check-balance), Ripple等非EVM链。
+CPBox's batch checking functionality allows you to simultaneously query the balance of specified tokens across multiple wallet addresses, improving your work efficiency. Currently, CPBOX supports batch balance queries for all EVM chains, as well as non-EVM chains including [Solana](https://www.cpbox.io/en/solana/check-balance), [SUI](https://www.cpbox.io/en/sui/check-balance), [Tron](https://www.cpbox.io/en/tron/check-balance), [TON](https://www.cpbox.io/en/ton/check-balance), Cosmos, [BTC](https://www.cpbox.io/check-balance/btc), [DOGE](https://www.cpbox.io/en/check-balance/doge), [APTOS](https://www.cpbox.io/en/aptos/check-balance), Ripple, and more.
 
-### 操作步骤
+### Operation Steps
 
-1. **登录CPBox**：访问CPBox官网并登录您的账户
-2. **导航至功能**：在首页找到"实用工具"区域，选择"[批量检查地址余额](https://www.cpbox.io/cn/batch/check-balance)"选项
+1. **Login to CPBox**: Visit the CPBox official website and log into your account
+2. **Navigate to Function**: Find the "Utility Tools" section on the homepage and select the "[Batch Check Address Balance](https://www.cpbox.io/en/batch/check-balance)" option
 
-### 使用方法
+### Usage Instructions
 
-#### 输入地址的两种方式
+#### Two Ways to Input Addresses
 
-* **直接输入**：在指定文本框中手动输入需要查询的钱包地址
-* **导入文件**：通过上传包含多个钱包地址的文件批量导入
+* **Direct Input**: Manually enter the wallet addresses you want to query in the specified text box
+* **Import File**: Upload a file containing multiple wallet addresses for batch import
 
 
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-05-22/d1fz590sten8waborp.png" alt=""><figcaption><p>输入地址</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-05-22/d1fz590sten8waborp.png" alt=""><figcaption><p>Input Addresses</p></figcaption></figure>
 
-#### 执行查询
+#### Execute Query
 
-* 完成地址输入后，只需点击"开始执行"按钮即可启动查询过程
+* After completing the address input, simply click the "Start Execution" button to initiate the query process
 
-### 性能优势
+### Performance Advantages
 
-我们为用户提供VIP专用节点，显著提升查询速度，让您能更快获取所需的地址余额信息。
-
-***
-
-### 联系我们
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+We provide VIP dedicated nodes for users, significantly improving query speed and allowing you to obtain the required address balance information faster.
 
 ***
 
-### 其他社媒
+### Contact Us
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+If you want to learn more about other uses and features of CPBOX products
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs) to check
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Or if you have good suggestions or development assistance needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
 
 

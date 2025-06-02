@@ -96,4 +96,4 @@ Discord：[https://discord.com/invite/XMwMMfHufN](https://discord.com/invite/XMw
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

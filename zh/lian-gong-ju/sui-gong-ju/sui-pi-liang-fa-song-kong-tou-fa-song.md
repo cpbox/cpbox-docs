@@ -68,6 +68,6 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
 
 
