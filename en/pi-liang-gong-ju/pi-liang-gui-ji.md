@@ -1,82 +1,82 @@
 ---
-description: 一键将分散在多个钱包的代币和资产安全归集到主地址
+description: One-click secure collection of tokens and assets scattered across multiple wallets to the main address
 ---
 
-# 批量归集
+# Batch Collection
 
-### 功能概述
+### Feature Overview
 
-本功能可帮助您将多个钱包的代币一次性批量转移至指定的单个钱包中。我们支持所有的EVM链同时还支持[Solana](https://www.cpbox.io/cn/solana/batch/collection), [SUI](https://www.cpbox.io/cn/sui/batch-collection-token), [TRON](https://www.cpbox.io/cn/tron/batch-collection-token), [TON](https://www.cpbox.io/cn/ton/batch-collection-token), APTOS, BTC, DOGE，Cosmos 等非EVM架构链
+This feature helps you batch transfer tokens from multiple wallets to a single designated wallet at once. We support all EVM chains as well as non-EVM architecture chains including [Solana](https://www.cpbox.io/solana/batch/collection), [SUI](https://www.cpbox.io/sui/batch-collection-token), [TRON](https://www.cpbox.io/tron/batch-collection-token), [TON](https://www.cpbox.io/ton/batch-collection-token), APTOS, BTC, DOGE, Cosmos, and more.
 
-### 操作步骤
+### Operation Steps
 
-#### 第一步：进入功能页面
+#### Step 1: Access the Feature Page
 
-1. 登录CPBox平台(https://www.cpbox.io)
-2. 在首页的"实用工具"区域找到"[Token批量归集](https://www.cpbox.io/cn/batch/collection)"功能
+1. Log in to CPBox platform (https://www.cpbox.io/)
+2. Find the "[Token Batch Collection](https://www.cpbox.io/batch/collection)" feature in the "Utility Tools" section on the homepage
 
-#### 第二步：导入钱包私钥
+#### Step 2: Import Wallet Private Keys
 
-* 可通过直接输入私钥添加钱包
-* 也可通过导入文件批量添加钱包
-* 支持添加多个源钱包进行归集操作
+* Add wallets by directly entering private keys
+* Batch add wallets by importing files
+* Support adding multiple source wallets for collection operations
 
-注意：CPBox不会存储用户的私钥信息，请务必妥善保管您的私钥，谨慎进行复制粘贴操作。
+Note: CPBox does not store users' private key information. Please keep your private keys safe and be cautious when copying and pasting.
 
-#### 第三步：设置转账参数
+#### Step 3: Set Transfer Parameters
 
-选择以下转账方式之一：
+Choose one of the following transfer methods:
 
-**随机金额发送**
+**Random Amount Transfer**
 
-* 设置转账金额范围（最低金额和最高金额）
-* 设置小数位数（例：设置为2，则保留2位小数）
+* Set transfer amount range (minimum amount and maximum amount)
+* Set decimal places (e.g., set to 2 to keep 2 decimal places)
 
-**固定金额发送**
+**Fixed Amount Transfer**
 
-* 直接设置每个钱包需要发送的具体金额
+* Directly set the specific amount each wallet needs to send
 
-**全部发送**
+**Send All**
 
-* 将每个钱包中的代币全部转出
+* Transfer all tokens from each wallet
 
-**剩余金额设置**
+**Remaining Balance Setting**
 
-* 指定转账后源钱包中保留的金额
+* Specify the amount to be retained in the source wallet after transfer
 
-**百分比发送**
+**Percentage Transfer**
 
-* 按照设定的百分比从每个钱包中转出代币
+* Transfer tokens from each wallet according to the set percentage
 
-#### 第四步：执行操作
+#### Step 4: Execute Operation
 
-* 确认所有设置无误后
-* 点击"开始执行"按钮启动批量归集流程
+* Confirm all settings are correct
+* Click the "Start Execution" button to initiate the batch collection process
 
-### 安全提示
+### Security Notice
 
-CPBox不会存储用户的私钥信息，请务必妥善保管您的私钥，谨慎进行复制粘贴操作。
-
-***
-
-### 联系我们
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+CPBox does not store users' private key information. Please keep your private keys safe and be cautious when copying and pasting.
 
 ***
 
-### 其他社媒
+### Contact Us
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+If you want to learn more about other uses and features of CPBOX products
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Or if you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Community: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

@@ -1,91 +1,91 @@
 ---
-description: 一键将多个NFT资产同时发送给不同的接收地址。支持ERC721和ERC1155标准
+description: Send multiple NFT assets to different recipient addresses with one click. Supports ERC721 and ERC1155 standards
 ---
 
-# NFT 批量发送
+# NFT Batch Sending
 
-### 功能概述
+### Feature Overview
 
-CPBox的NFT批量发送工具可以帮助用户轻松地将一个钱包中的NFT资产批量分发到多个指定钱包地址，大大提高了NFT分发效率，适合社区空投、团队分配等场景使用。
+CPBox's NFT batch sending tool helps users easily distribute NFT assets from one wallet to multiple specified wallet addresses in bulk, greatly improving NFT distribution efficiency. It's perfect for community airdrops, team allocations, and other scenarios.
 
-### 为什么需要NFT批量发送功能？
+### Why Do You Need NFT Batch Sending Functionality?
 
-* **节省时间**：不必手动一个个发送NFT，几分钟内完成上百个NFT的分发
-* **降低错误风险**：批量操作减少人为失误
-* **降低Gas费**：通过优化交易批次降低总体网络费用
-* **提高工作效率**：特别适合NFT项目方、社区管理者和数字艺术家
+* **Save Time**: No need to manually send NFTs one by one - complete distribution of hundreds of NFTs in just minutes
+* **Reduce Error Risk**: Batch operations minimize human errors
+* **Lower Gas Fees**: Optimize transaction batches to reduce overall network costs
+* **Improve Work Efficiency**: Especially suitable for NFT project teams, community managers, and digital artists
 
-### 详细操作步骤
+### Detailed Operation Steps
 
-#### 1. 登录CPBox平台
+#### 1. Log in to CPBox Platform
 
-首先，访问[CPBox官方网站](https://www.cpbox.io/)并使用您的账号登录系统。[https://www.cpbox.io/](https://www.cpbox.io/)
+First, visit the [CPBox official website](https://www.cpbox.io/) and log in to the system with your account. [https://www.cpbox.io/](https://www.cpbox.io/)
 
-#### 2. 找到NFT批量发送工具
+#### 2. Find the NFT Batch Sending Tool
 
-在CPBox首页导航栏中找到「实用工具」，在下拉菜单中选择[NFT批量发送](https://www.cpbox.io/cn/batch/send-nft)选项。
+In the CPBox homepage navigation bar, find "Utility Tools" and select the [NFT Batch Sending](https://www.cpbox.io/cn/batch/send-nft) option from the dropdown menu.
 
-#### 3. 设置发送参数
+#### 3. Set Sending Parameters
 
-在NFT批量发送页面中，您需要填写以下信息：
+On the NFT batch sending page, you need to fill in the following information:
 
-* **源钱包地址**：选择或输入包含NFT的源钱包地址
-* **NFT合约地址**：输入要发送的NFT合约地址
-* **目标钱包列表**：输入或上传接收NFT的钱包地址列表
-* **每个钱包分发数量**：设置每个接收钱包将获得的NFT数量
+* **Source Wallet Address**: Select or enter the source wallet address containing NFTs
+* **NFT Contract Address**: Enter the NFT contract address to be sent
+* **Target Wallet List**: Enter or upload the list of wallet addresses that will receive NFTs
+* **Distribution Quantity per Wallet**: Set the number of NFTs each receiving wallet will get
 
-#### 4. 执行批量发送
+#### 4. Execute Batch Sending
 
-仔细检查所有参数后，点击页面底部的「开始执行」按钮启动批量发送流程。
+After carefully checking all parameters, click the "Start Execution" button at the bottom of the page to initiate the batch sending process.
 
-#### 5. 确认交易
+#### 5. Confirm Transaction
 
-系统会提示您确认交易，此时需要通过您的钱包（如MetaMask，OKEX）进行签名确认。
+The system will prompt you to confirm the transaction, at which point you need to sign and confirm through your wallet (such as MetaMask, OKEX).
 
-#### 6. 查看发送结果
+#### 6. View Sending Results
 
-交易提交后，您可以在页面上查看发送进度和结果统计。
+After the transaction is submitted, you can view the sending progress and result statistics on the page.
 
-### NFT批量发送的常见问题
+### Common Questions About NFT Batch Sending
 
-#### Q1: 批量发送NFT需要支付多少Gas费？
+#### Q1: How much gas fee is required for batch sending NFTs?
 
-A1: Gas费取决于区块链网络拥堵情况和发送的NFT数量。CPBox采用了优化算法，尽可能减少总体Gas费用。
+A1: Gas fees depend on blockchain network congestion and the number of NFTs being sent. CPBox uses optimization algorithms to minimize overall gas costs as much as possible.
 
-#### Q2: 支持哪些区块链网络？
+#### Q2: Which blockchain networks are supported?
 
-A2: 目前支持以太坊主网、Polygon、BSC、Arbitrum等主流区块链网络。
+A2: Currently supports mainstream blockchain networks including Ethereum mainnet, Polygon, BSC, Arbitrum, and more.
 
-#### Q3: 有发送数量限制吗？
+#### Q3: Is there a limit on sending quantity?
 
-A3: 单次操作可支持最多上万个目标钱包地址，无NFT数量限制。
+A3: A single operation can support up to tens of thousands of target wallet addresses with no NFT quantity limit.
 
-### 总结
+### Summary
 
-CPBox的NFT批量发送功能为用户提供了便捷高效的NFT分发解决方案，无论是NFT项目空投、社区奖励分发还是团队资产分配，都能轻松应对。通过简单几步操作，即可完成大量NFT的精准分发，为NFT管理带来全新体验。
+CPBox's NFT batch sending functionality provides users with a convenient and efficient NFT distribution solution. Whether it's NFT project airdrops, community reward distribution, or team asset allocation, it can handle everything with ease. Through just a few simple steps, you can complete precise distribution of large quantities of NFTs, bringing a completely new experience to NFT management.
 
-立即登录CPBox，体验NFT批量发送功能，让您的NFT分发工作变得简单高效！
-
-***
-
-### 联系我们
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+Log in to CPBox now and experience the NFT batch sending functionality to make your NFT distribution work simple and efficient!
 
 ***
 
-### 其他社媒
+### Contact Us
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+If you want to learn more about other uses and features of CPBOX products
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
+
+Or if you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
 Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
