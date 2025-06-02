@@ -1,124 +1,124 @@
 ---
-description: Ton流动性池创建-DeDust教程
+description: TON Liquidity Pool Creation - DeDust Tutorial
 ---
 
-# Ton 流动性池创建
+# TON Create Liquidity Pool on DeDust
 
 {% embed url="https://youtu.be/MsOaA0YJmW4" %}
 
-今天教大家如何在DeDust上为你的代币创建流动性池，从defillama平台上我们可以看到，DeDust是在Ton链上排在第二的 **DEX**
+Today we'll teach you how to create a liquidity pool for your token on DeDust. From the DeFiLlama platform, we can see that DeDust is the second-ranked **DEX** on the TON chain.
 
-### **DuDust和Ston.Fi相比 有哪些优势呢？，为什么要选择DuDust**
+### **What advantages does DeDust have compared to Ston.Fi? Why choose DeDust?**
 
-* **DeDust 的 v2 版本** 采用了 **新颖的“集中流动性”模型**（类似 Uniswap v3），允许流动性提供者（LP）自定义价格区间，提高资金效率。
-* **DeDust 原生支持 TON 和 EVM 兼容链**（如 Ethereum、BNB Chain）的资产，适合跨链交易需求。
+* **DeDust's v2 version** adopts an **innovative "concentrated liquidity" model** (similar to Uniswap v3), allowing liquidity providers (LPs) to customize price ranges and improve capital efficiency.
+* **DeDust natively supports assets from TON and EVM-compatible chains** (such as Ethereum, BNB Chain), making it suitable for cross-chain trading needs.
 
-相较于Ston.Fi传统的AMM机制，如果你需要更加专业的流动性管理，又或者希望可以进行跨链资产交易，DuDust是你更好的选择
+Compared to Ston.Fi's traditional AMM mechanism, if you need more professional liquidity management or want to conduct cross-chain asset trading, DeDust is a better choice for you.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-01-defillama.png" alt=""><figcaption></figcaption></figure>
 
-### 链接钱包
+### Connecting Wallet
 
-不说废话，开始今天的教程，我们可以先进入[DeDust](https://dedust.io/)的官网https://dedust.io/。
+Let's get straight to today's tutorial. We can first go to [DeDust](https://dedust.io/)'s official website at https://dedust.io/.
 
-点击右上方链接钱包后，再点击菜单栏中的**pool**按钮
+Click on "Connect Wallet" in the upper right corner, then click the **Pool** button in the menu bar.
 
-链接钱包的时候这边建议使用**Tonkeeper**钱包，因为链接插件的原因，选用其他钱包可能会有不显示余额的bug
+When connecting your wallet, we recommend using the **Tonkeeper** wallet, as other wallets may have bugs that don't display balances properly due to plugin connection issues.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-02-connect-wallet.png" alt=""><figcaption></figcaption></figure>
 
-### 创建流动性池
+### Creating a Liquidity Pool
 
-点击pool进入池子页面后，我们点击下方 **create a pool** 按钮。会弹出一个弹窗，要我们先进行交易对的配置。
+After clicking Pool to enter the pool page, we click the **Create a Pool** button at the bottom. A popup will appear asking us to configure the trading pair first.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-03-create-pool.png" alt=""><figcaption></figcaption></figure>
 
-在设置交易对的时候，上方我们选择Ton作为交易兑换代币当然你也可以自己选择使用其他代币，这里我们使用Ton来进行演示在DeDust创建池子。
+When setting up the trading pair, we select TON as the trading exchange token at the top. Of course, you can also choose to use other tokens. Here we use TON to demonstrate creating a pool on DeDust.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-04-trading-pair.png" alt=""><figcaption></figcaption></figure>
 
-授权的时候需要支付0.1TON，创池子(Creat Pair)的时候需要支出0.5TON左右，所以累积差不多要支出0.6TON左右
+Authorization requires paying 0.1 TON, and creating the pool (Create Pair) costs around 0.5 TON, so you'll need to spend approximately 0.6 TON in total.
 
-在下方输入合约地址之后会有一个提示弹窗，提示我们的代币是不存在白名单中，属于高危代币
+After entering the contract address below, a warning popup will appear, indicating that our token is not on the whitelist and is considered a high-risk token.
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-05-import-warning.png" alt=""><figcaption></figcaption></figure>
 
-这里我们点击import
+Here we click Import.
 
-进入我们质押池子的我们选择质押了9w个土狗代币和一个Ton在池子里面
+For our staking pool, we choose to stake 90,000 meme tokens and 1 TON in the pool.
 
-点击确认后，这边还会收取**0.2个Ton**费用作为池子创建的费用
+After clicking confirm, there will be an additional **0.2 TON** fee charged for pool creation.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-06-stake-confirm.png" alt=""><figcaption></figcaption></figure>
 
-钱包签名后池子就已经创建成功了。
+After wallet signature, the pool has been successfully created.
 
-我们可以回到pool页面下方的all pools 进行搜索查找，能搜索到后就可以进行交易了。
+We can return to the Pool page and search in "All Pools" below. Once we can find it in the search, trading can begin.
 
-注意：刚创建完成后可能不一定会出现，等一分钟后刷新一下就会显示成功。
+Note: It may not appear immediately after creation. Wait a minute and refresh, then it will display successfully.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-07-all-pools.png" alt=""><figcaption></figcaption></figure>
 
-### Swap交易
+### Swap Trading
 
-我们进入swap页面，搜索我们代币的名称。这边就可以交易了。
+We go to the Swap page and search for our token name. Here we can trade.
 
-下面提示价差会比较大，可能会造成你的损失
+The warning below shows that the price difference will be quite large and may cause losses.
 
-现在我们这样是进行买入。因为池子里面的流动性不多，这样一笔就买完了。
+Now we're making a buy order. Because there's not much liquidity in the pool, this single transaction buys it all out.
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-08-swap-trading.png" alt=""><figcaption></figcaption></figure>
 
-### 加池子和撤池子
+### Adding and Removing Liquidity
 
-如果我们想要进行加池子或者撤池子的操作
+If we want to add or remove liquidity from the pool:
 
-我们点击进入pool页面，进入my pools中，点击代币的池子进入详情页面
+We click to enter the Pool page, go to "My Pools", and click on the token's pool to enter the details page.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-09-my-pools.png" alt=""><figcaption></figcaption></figure>
 
-进入详情页面后，点击Deposit 就可以加池子
+After entering the details page, click Deposit to add liquidity to the pool.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-10-deposit-details.png" alt=""><figcaption></figcaption></figure>
 
-点击Deposit按钮后，我们能看到一个质押的界面。此时你可通过池子中当前代币的价格同比例去质押进去。这就是所谓的加池子
+After clicking the Deposit button, we can see a staking interface. At this point, you can stake proportionally according to the current token price ratio in the pool. This is what's called "adding to the pool."
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-11-deposit-interface.png" alt=""><figcaption></figcaption></figure>
 
-撤池子也是一样的道理，点击withdraw 就可以了&#x20;
+Removing liquidity works the same way - just click Withdraw.
 
-反正撤池子 这个操作，不是很建议大家去用。如果池子流动性大了，会引发一些风险。
+However, we don't really recommend everyone use the withdraw operation. If the pool liquidity increases, it may introduce some risks.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ton-liq-12-withdraw.png" alt=""><figcaption></figcaption></figure>
 
-ok，DeDust的教程到这里就结束了，大家也可以通过LP来进行一个流动性挖矿
+OK, the DeDust tutorial ends here. Everyone can also use LP for liquidity mining.
 
-如果大家不清楚流动性池的原理可以查看这篇文章
+If you're not clear about the principles of liquidity pools, you can check out this article:
 
 {% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+Understanding Liquidity Pools, AMMs, and Liquidity Mining
 {% endcontent-ref %}
 
 ***
 
-### 联系我们
+### Contact Us
 
-如果想要深入了解CPBOX产品的其他用途和功能
+If you want to learn more about other uses and features of CPBOX products
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/en/?_s=docs)
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or development assistance needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of our homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
-也可以通过下方社媒来联系我们
+You can also contact us through the social media below
 
 ***
 
-### 其他社媒
+### Other Social Media
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+TG Community: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

@@ -22,14 +22,14 @@ Thank you for trusting CPBOX. We hope everyone can find their own wealth code in
 
 MetaMask Wallet Quick Guide:
 
-{% content-ref url="../../beginner/metamask-xiao-hu-li-zhu-shou.md" %}
-[Metamask Helper](../../beginner/metamask-xiao-hu-li-zhu-shou.md)
+{% content-ref url="../../xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md" %}
+MetaMask Setup Guide for Beginners
 {% endcontent-ref %}
 
 Multi-Account Airdrop Farming Essentials:
 
-{% content-ref url="duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md" %}
-[duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md](beginner/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md)
+{% content-ref url="./duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md" %}
+Essential Batch Tools for Multi-Account Airdrop Farming
 {% endcontent-ref %}
 
 ***
