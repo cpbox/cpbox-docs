@@ -20,7 +20,7 @@ description: 教你创建分红代币，让你的代币价格不停的往上涨
 
 **参数说明**
 
-<figure><img src="../../../../.gitbook/assets/image (54).png" alt=""><figcaption><p>创建分红代币</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dividend-token-creation.png" alt=""><figcaption><p>创建分红代币</p></figcaption></figure>
 
 这里给出一份示例参数，并解释如何修改适合自己的参数
 
@@ -94,7 +94,7 @@ bool[] memory boolParams = [
 
 ***
 
-【其他社媒】&#x20;
+【其他社媒】
 
 TG交流群：[https://t.me/cpboxio](chuang-jian-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
 

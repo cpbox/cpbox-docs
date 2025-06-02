@@ -1,29 +1,29 @@
 ---
-description: 批量工具总览
+description: Batch Tools Overview
 ---
 
-# 工具总览
+# Tools Overview
 
-这是专为区块链开发者、爱好者及从业者设计的实用工具集合，旨在为各位区块链玩家或者小白提供丝滑又方便的批量工具，帮助大家更好的参与区块链项目和生态建设。
+This is a practical tool collection designed specifically for blockchain developers, enthusiasts, and practitioners, aiming to provide smooth and convenient batch tools for blockchain players or beginners to better participate in blockchain projects and ecosystem development.
 
-**适合谁使用？**
+**Who is it suitable for?**
 
-* 区块链初学者：通过工具实操学习底层原理。
-* 专业撸毛玩家：多号批量工具，快速管理钱包。
-* 一级市场玩家：推特监控，地址监控等功能，帮助你快速获取聪明钱信息。
+* Blockchain beginners: Learn underlying principles through hands-on tool practice.
+* Professional airdrop hunters: Multi-account batch tools for quick wallet management.
+* Primary market players: Twitter monitoring, address monitoring and other functions to help you quickly obtain smart money information.
 
-**特点**
+**Features**
 
-✅ **跨链支持**：兼容当前主流公链及热点公链。
+✅ **Cross-chain support**: Compatible with current mainstream blockchains and trending blockchains.
 
-✅ 教程完整：提供清晰文档，能够让你快速上手。
+✅ Complete tutorials: Provide clear documentation to help you get started quickly.
 
-我们相信，工具的价值在于解决问题。希望这个合集能成为你区块链探索之路上的“瑞士军刀”！
+We believe that the value of tools lies in solving problems. We hope this collection can become your "Swiss Army knife" on your blockchain exploration journey!
 
 ***
 
-本团队正在持续开发中
+Our team is continuously developing
 
-如果你有一些好的建议或者想要帮助开发的需求
+If you have good suggestions or development assistance needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/ ](https://www.cpbox.io/en/?_s=docs)

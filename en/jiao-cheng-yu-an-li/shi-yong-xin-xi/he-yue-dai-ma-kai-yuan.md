@@ -1,103 +1,103 @@
 ---
-description: 学会开源合约代码，Web3合约开源促进安全审计、建立透明信任、推动协作创新并加强社区问责制。
+description: Learn to open-source contract code. Web3 contract open-sourcing promotes security audits, establishes transparent trust, drives collaborative innovation, and strengthens community accountability.
 ---
 
 # Open Source Contract Code
 
-## 为什么要进行合约代码开源
+## Why Open-Source Contract Code
 
-在[EVM 一键发币案例](evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md) 中介绍了很多种类型的token合约的部署，默认通过[remix](https://remix.ethereum.org/)部署的代币合约都是未开源的，打开对应链的区块浏览器，输入合约地址，点击Contract，可以看到合约是否开源
+In the [EVM One-Click Token Issuance Case](evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md), we introduced the deployment of many types of token contracts. By default, token contracts deployed through [remix](https://remix.ethereum.org/) are not open-sourced. Open the corresponding blockchain explorer, enter the contract address, click Contract, and you can see whether the contract is open-sourced.
 
-<figure><img src="../../../.gitbook/assets/contract-ver-1.png" alt=""><figcaption><p>scan上的合约代码</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-1.png" alt=""><figcaption><p>Contract code on scan</p></figcaption></figure>
 
-如上图所示是一个未开源的合约，合约内容都是16进制的数据，同时有个【Verify and Publish】的按钮会引导你进行合约的开源，具体的流程我们后面会进行说明。
+As shown in the image above, this is a non-open-sourced contract where the contract content is all hexadecimal data. There's also a [Verify and Publish] button that will guide you through the contract open-sourcing process, which we'll explain in detail later.
 
-合约开源有什么好处呢？
+What are the benefits of open-sourcing contracts?
 
-#### **增强透明度与可信度**
+#### **Enhanced Transparency and Credibility**
 
-* 用户、开发者、审计方可以直接查看和验证合约的逻辑是否安全、是否如项目方所描述，减少黑箱操作的可能性，提升社区对项目的信任度。
-* 安全专家或社区开发者可以检查是否存在漏洞、后门、权限过大等风险，更容易发现逻辑缺陷或潜在攻击点（如重入、权限滥用）。
-* 针对未开源的代币合约，大部分交易平台或者第三方安全检查平台（如Ave.ai/gmgn/goPlus等）会将其标识为风险合约，风险标识会影响普通用户对代币的信任度，从而影响代币的交易。
+* Users, developers, and auditors can directly view and verify whether the contract logic is secure and whether it functions as described by the project team, reducing the possibility of black-box operations and increasing community trust in the project.
+* Security experts or community developers can check for vulnerabilities, backdoors, excessive permissions, and other risks, making it easier to discover logic flaws or potential attack vectors (such as reentrancy, privilege abuse).
+* For non-open-sourced token contracts, most trading platforms or third-party security check platforms (such as Ave.ai/gmgn/goPlus, etc.) will mark them as risky contracts. Risk labels affect ordinary users' trust in tokens, thereby impacting token trading.
 
-#### **提升交互体验**
+#### **Improved Interaction Experience**
 
-* 区块浏览器在合约开源并验证后，可以展示合约函数的名称和参数，用户可以直接通过 UI 与合约交互，无需借助第三方工具（如 Remix 或自定义脚本）。
+* After contracts are open-sourced and verified, blockchain explorers can display contract function names and parameters, allowing users to interact directly with contracts through the UI without needing third-party tools (such as Remix or custom scripts).
 
-#### **方便第三方集成**
+#### **Facilitates Third-Party Integration**
 
-* 钱包、DeFi 平台、DEX、分析平台等更愿意集成公开透明的合约，因为可读性高、风险可控。
-* 提高代币被追踪、交易、上架的可能性。
+* Wallets, DeFi platforms, DEXs, analytics platforms, etc., are more willing to integrate publicly transparent contracts because of their high readability and controllable risks.
+* Increases the likelihood of tokens being tracked, traded, and listed.
 
-## 怎样进行合约开源
+## How to Open-Source Contracts
 
-合约代码的开源的方式有很多种，可以通过区块浏览器操作，可以在remix部署后在remix上进行，除此之外，如果你有本地的合约开发环境，还可以通过forge相关的命令进行合约开源，下面我们分别描述一下怎么操作：
+There are many ways to open-source contract code: through blockchain explorers, through Remix after deployment, and if you have a local contract development environment, you can also use forge-related commands for contract open-sourcing. Let's describe how to operate each method:
 
-### **通过区块浏览器**
+### **Through Blockchain Explorer**
 
-前面我们已经看到，针对未开源的合约，区块浏览器会有相应的引导入口引导用户去进行合约的开源，这种方式相对比较简单，比较适合一些小白的用户。通过下面的流程一步一步操作，即可快速实现合约的开源。
+As we've seen earlier, for non-open-sourced contracts, blockchain explorers have corresponding entry points to guide users through contract open-sourcing. This method is relatively simple and suitable for novice users. Following the step-by-step process below, you can quickly achieve contract open-sourcing.
 
-<figure><img src="../../../.gitbook/assets/contract-ver-2.png" alt=""><figcaption><p>开源代码</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-2.png" alt=""><figcaption><p>Open-source code</p></figcaption></figure>
 
-进入合约开源页面之后，自动带入合约地址，因为我们示例的只有有个单独的合约文件，因为我们选择单文件，然后根据合约代码填写对应的合约编译器版本和开源协议
+After entering the contract open-sourcing page, the contract address is automatically filled in. Since our example has only a single contract file, we select single file, then fill in the corresponding contract compiler version and open-source license according to the contract code.
 
-<figure><img src="../../../.gitbook/assets/contract-ver-3.png" alt=""><figcaption><p>选择编译器版本</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-3.png" alt=""><figcaption><p>Select compiler version</p></figcaption></figure>
 
-这两个参数我们在部署的时候可以看到
+We can see these two parameters during deployment:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-4.png" alt=""><figcaption><p>编译版本</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-4.png" alt=""><figcaption><p>Compilation version</p></figcaption></figure>
 
-点击继续进入下一个页面
+Click continue to enter the next page:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-5.png" alt=""><figcaption><p>合约开源</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-5.png" alt=""><figcaption><p>Contract open-sourcing</p></figcaption></figure>
 
-首先我们把合约代码拷贝进去，然后因为合约比较简单，注意 optimization 和 Runs 这两个参数在remix 上是自己选的
+First, we copy the contract code in, then because the contract is relatively simple, note that the optimization and Runs parameters are selected in Remix:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-6.png" alt=""><figcaption><p>remix 编译优化选项</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-6.png" alt=""><figcaption><p>Remix compilation optimization options</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/contract-ver-7.png" alt=""><figcaption><p>合约配置</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-7.png" alt=""><figcaption><p>Contract configuration</p></figcaption></figure>
 
-点击验证和部署，会看到这个提示
+Click verify and publish, and you'll see this prompt:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-8.png" alt=""><figcaption><p>合约开源提示</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-8.png" alt=""><figcaption><p>Contract open-sourcing prompt</p></figcaption></figure>
 
-这个是再在区块浏览器中输入合约地址，发现合约已经是验证过的了，并且可以看到合约的源码
+Now enter the contract address in the blockchain explorer, and you'll find the contract has been verified and you can see the contract source code:
 
 <figure><img src="../../../.gitbook/assets/contract-ver-9.png" alt=""><figcaption></figcaption></figure>
 
-#### **合约调用**
+#### **Contract Interaction**
 
-合约开源还有一个好处是，可以通过区块浏览器进行合约方法的调用，方法分两类，一类是读操作，一类是写操作，读操作一般不需要链接钱包，可以直接输入参数调用合约方法，比如我们想看token的相关信息：
+Another benefit of contract open-sourcing is that you can call contract methods through the blockchain explorer. Methods are divided into two categories: read operations and write operations. Read operations generally don't require wallet connection and can directly call contract methods by inputting parameters. For example, if we want to see token-related information:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-10.png" alt=""><figcaption><p>合约只读调用</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-10.png" alt=""><figcaption><p>Contract read-only calls</p></figcaption></figure>
 
-另外一类是写操作，这类操作通常需要链接钱包，首先点击【Connect to Web3】进行钱包的连接
+The other category is write operations, which usually require wallet connection. First click [Connect to Web3] to connect your wallet:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-11.png" alt=""><figcaption><p>合约写调用</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-11.png" alt=""><figcaption><p>Contract write calls</p></figcaption></figure>
 
-比如这里我可以通过连接钱包，进行一笔代币的转移操作
+For example, here I can connect my wallet to perform a token transfer operation:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-12.png" alt=""><figcaption><p>transfer 测试</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-12.png" alt=""><figcaption><p>Transfer test</p></figcaption></figure>
 
-### **通过Remix进行合约开源**
+### **Open-Sourcing Contracts Through Remix**
 
-在Remix上进行合约部署之后，同样可以通过Remix进行合约的开源，首先进入插件的面板，开启合约的验证插件
+After deploying contracts on Remix, you can also open-source contracts through Remix. First, enter the plugins panel and enable the contract verification plugin:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-13.png" alt=""><figcaption><p>remix验证</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-13.png" alt=""><figcaption><p>Remix verification</p></figcaption></figure>
 
-开启之后通过左侧的面板进入合约验证的插件管理页面
+After enabling it, enter the contract verification plugin management page through the left panel:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-14.png" alt=""><figcaption><p>remix 验证</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-14.png" alt=""><figcaption><p>Remix verification</p></figcaption></figure>
 
-红框中是我们要进行验证的平台，也就是说验证完成后，在这些平台上可以看到合约的代码针对主流的区块浏览器（比如Etherscan），需要申请apikey进行配置，完成配置之后才能勾选apikey的申请地址：https://etherscan.io/apidashboard，申请到的apikey可以主网和测试网通用
+The red box shows the platforms we want to verify on, meaning after verification is complete, contract code can be viewed on these platforms. For mainstream blockchain explorers (like Etherscan), you need to apply for an API key for configuration. After completing the configuration, you can check the API key. API key application address: https://etherscan.io/apidashboard. The applied API key can be used for both mainnet and testnet.
 
-<figure><img src="../../../.gitbook/assets/contract-ver-15.png" alt=""><figcaption><p>remix scan opikey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-15.png" alt=""><figcaption><p>Remix scan API key</p></figcaption></figure>
 
-填完之后回到初始面板，可以看到Etherscan已经是勾选的状态，点击验证即可开始验证
+After filling it in, return to the initial panel, and you can see Etherscan is now in a checked state. Click verify to start verification.
 
-### **其他开源方法**
+### **Other Open-Sourcing Methods**
 
-除了上面的两种方式，还可以通过一下开发工具进行合约代码的开源，以foundry为例，假设我们已经部署好了一份合约，执行下面的命令可以进行合约的开源
+Besides the two methods above, you can also open-source contract code through development tools. Using Foundry as an example, assuming we've deployed a contract, execute the following command to open-source the contract:
 
 ```typescript
 forge verify-contract 0x123...abc MyContract \
@@ -107,33 +107,33 @@ forge verify-contract 0x123...abc MyContract \
     --compiler-version v0.8.23+commit.f704f362
 ```
 
-* 参数解释
+* Parameter explanation
 
 ```javascript
-<CONTRACT_ADDRESS>        合约部署地址        0x123...abc
-<CONTRACT_NAME>        合约名称（与 Solidity 文件一致）        MyContract
---chain        链 ID（如 mainnet、goerli、polygon）        mainnet
---verifier        验证服务（通常 etherscan）        etherscan
---verifier-url        验证 API URL（可选，默认 Etherscan）    https://api.etherscan.io/api
+<CONTRACT_ADDRESS>        Contract deployment address        0x123...abc
+<CONTRACT_NAME>        Contract name (consistent with Solidity file)        MyContract
+--chain        Chain ID (like mainnet, goerli, polygon)        mainnet
+--verifier        Verification service (usually etherscan)        etherscan
+--verifier-url        Verification API URL (optional, default Etherscan)    https://api.etherscan.io/api
 --etherscan-api-key        Etherscan API Key        YourApiKey
---compiler-version        Solidity 编译器版本        v0.8.23+commit.f704f362
---optimizer-runs        优化器运行次数（默认 200）        200
---constructor-args        构造函数参数（ABI 编码）        0x000...123
-上面介绍了几种合约代码开源的方式，
+--compiler-version        Solidity compiler version        v0.8.23+commit.f704f362
+--optimizer-runs        Optimizer run count (default 200)        200
+--constructor-args        Constructor arguments (ABI encoded)        0x000...123
+The above introduces several methods for open-sourcing contract code.
 ```
 
-如果想要了解更多web3的知识，可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/) 查看
+If you want to learn more about web3 knowledge, you can click [https://docs.cpbox.io/](https://docs.cpbox.io/en/?_s=docs) to view
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or development needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can contact us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 
-【其他社媒】
+【Other Social Media】
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+TG Discussion Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

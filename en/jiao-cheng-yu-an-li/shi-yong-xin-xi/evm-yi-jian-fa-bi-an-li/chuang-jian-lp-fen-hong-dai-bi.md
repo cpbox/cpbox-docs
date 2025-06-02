@@ -1,117 +1,117 @@
 ---
-description: 创建LP分红代币，瓜分代币分红
+description: Create LP dividend tokens, share token dividends
 ---
 
-# 创建LP分红代币
+# Create LP Dividend Token
 
-#### P什么是分红代币？
+#### What is a dividend token?
 
-LP分红指的是，用户在去中心化交易所（如Pancake）添加流动性之后，除了可以获得流动性奖励外，可以获得额外的代币分红。该代币分红，是直接分发到LP地址的。具体分红哪种币，可以在创建合约时选择，一般为主流币，如wBNB、USDT、USDC、Doge等等。
+LP dividend refers to users being able to receive additional token dividends after adding liquidity on decentralized exchanges (such as Pancake), in addition to liquidity rewards. These token dividends are distributed directly to LP addresses. The specific tokens to be distributed as dividends can be selected when creating the contract, typically mainstream tokens such as wBNB, USDT, USDC, Doge, etc.
 
-#### 合约部署
+#### Contract Deployment
 
-打开[remix](https://remix.ethereum.org/)，新建文件并粘贴合约源码，或者直接关联合约源码地址，操作流程参考：
+Open [remix](https://remix.ethereum.org/), create a new file and paste the contract source code, or directly link to the contract source code address. For operation procedures, refer to:
 
-合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpdividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpdividend.sol)
+Contract source code: [https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpdividend.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpdividend.sol)
 
-**参数说明**
+**Parameter Description**
 
-<figure><img src="../../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption><p>LP 分红代币</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/lp-dividend-token-params.png" alt=""><figcaption><p>LP Dividend Token</p></figcaption></figure>
 
-这里给出一份示例参数，并解释如何修改适合自己的参数
+Here's a sample parameter set with explanations on how to modify it for your needs:
 
-* 第一个 stringParams 的参数: `["CPBoxToken", "CPB"]`
-* 第二个addressParams 的参数:
+* First stringParams parameter: `["CPBoxToken", "CPB"]`
+* Second addressParams parameter:
 
 `["0x1234567890123456789012345678901234567890","0x0987654321098765432109876543210987654321","0x1111111111111111111111111111111111111111","0x2222222222222222222222222222222222222222","0x3333333333333333333333333333333333333333"]`
 
-* 第三个numberParams参数：`["18","1000000000000000000","1000000000000","200","100","100","50","200","100","100","50","10","3"]`
-* 第四个boolParams 参数： `[true,true,true,true,true,true,true]`
+* Third numberParams parameter: `["18","1000000000000000000","1000000000000","200","100","100","50","200","100","100","50","10","3"]`
+* Fourth boolParams parameter: `[true,true,true,true,true,true,true]`
 
-参数说明：
+Parameter explanation:
 
 ```java
-// 字符串参数数组
+// String parameter array
 string[] memory stringParams = [
-    "CPBoxToken",  // 代币name，请修改为你自己的代币符号
-    "CPB"              // 代币符号，请修改为你自己的代币符合
+    "CPBoxToken",  // Token name, please modify to your own token symbol
+    "CPB"          // Token symbol, please modify to your own token symbol
 ];
 
-// 地址参数数组
+// Address parameter array
 address[] memory addressParams = [
-    0x1234567890123456789012345678901234567890,  // fundAddress: 营销地址
-    0x0987654321098765432109876543210987654321,  // currency: 交易对代币地址
-    0x1111111111111111111111111111111111111111,  // swapRouter: 交易路由合约地址
-    0x2222222222222222222222222222222222222222,   // receiveAddress: 接收地址   
-    0x3333333333333333333333333333333333333333,   // rewardToken:分红的代币
+    0x1234567890123456789012345678901234567890,  // fundAddress: Marketing address
+    0x0987654321098765432109876543210987654321,  // currency: Trading pair token address
+    0x1111111111111111111111111111111111111111,  // swapRouter: Trading router contract address
+    0x2222222222222222222222222222222222222222,  // receiveAddress: Receiving address   
+    0x3333333333333333333333333333333333333333,  // rewardToken: Dividend token
 ];
 
-// 数值参数数组
+// Numeric parameter array
 uint256[] memory numberParams = [
-    18,                    // decimals: 代币精度
-    1000000000000000000,   // totalSupply: 代币总供应量
-    1000000000000,         // maxWalletAmount: 单个地址最大持币量
-    200,                   // buyFundFee: 买入基金费率 (2%)
-    100,                   // buyLPFee: 买入LP费率 (1%)
-    100,                   // buyReflectFee: 买入分红税率 (1%)
-    50,                    // buyBurnFee: 买入销毁费率 (0.5%)
-    200,                   // sellFundFee: 卖出基金费率 (2%)
-    100,                   // sellLPFee: 卖出LP费率 (1%)
-    100,                   // sellReflectFee: 卖出分红税率率 (1%)
-    50,                    // sellBurnFee: 卖出销毁费率 (0.5%)
-    10,                    // kb:防同步块数
-    3                      // airdropNumbs: 空投数量
+    18,                    // decimals: Token precision
+    1000000000000000000,   // totalSupply: Total token supply
+    1000000000000,         // maxWalletAmount: Maximum token amount per address
+    200,                   // buyFundFee: Buy fund fee rate (2%)
+    100,                   // buyLPFee: Buy LP fee rate (1%)
+    100,                   // buyReflectFee: Buy dividend tax rate (1%)
+    50,                    // buyBurnFee: Buy burn fee rate (0.5%)
+    200,                   // sellFundFee: Sell fund fee rate (2%)
+    100,                   // sellLPFee: Sell LP fee rate (1%)
+    100,                   // sellReflectFee: Sell dividend tax rate (1%)
+    50,                    // sellBurnFee: Sell burn fee rate (0.5%)
+    10,                    // kb: Anti-sync block count
+    3                      // airdropNumbs: Airdrop quantity
 ];
 
-// 布尔参数数组
+// Boolean parameter array
 bool[] memory boolParams = [
-    true,    // enableOffTrade: 手动开启交易
-    true,    // enableKillBlock: 防同步块
-    true,    // enableRewardList: 白名单
-    true,    // enableWalletLimit: 开启钱包数量限制
-    true,    // enableChangeTax: 允许修改税率
-    true,    // currencyIsEth: 是否使用BNB作为交易对
-    true     // airdropEnable: 空投开关   
+    true,    // enableOffTrade: Manually enable trading
+    true,    // enableKillBlock: Anti-sync blocks
+    true,    // enableRewardList: Whitelist
+    true,    // enableWalletLimit: Enable wallet quantity limit
+    true,    // enableChangeTax: Allow tax rate modification
+    true,    // currencyIsEth: Use BNB as trading pair
+    true     // airdropEnable: Airdrop switch   
 ];
 ```
 
-（买入/卖出）费率说明：
+(Buy/Sell) Fee Rate Explanation:
 
-* 基金费率：每笔买入/卖入都会扣除对应比例代币送进`合约地址`,在**触发阈值**时会自动**卖出**换成`USDT`(这取决于池子类型，底池是什么币营销钱包就进什么) 发送到你的营销钱包地址
-* LP费率：每笔买入/卖入都会扣除对应比例代币送进`合约地址`,在**触发阈值**时会自动添加流动性,使池子更厚，加池子获得的LP默认给到营销钱包
-* 分红费率：每笔买入/卖入都会扣除对应比例代币送进`合约地址`,在**触发阈值**时会自动**卖出**成`USDT`(取决于你的分红代币)发放给持有LP的用户
-* 销毁费率：每笔买入/卖入都会扣除对应比例代币送进`黑洞地址`,达到销毁的目的
+* Fund Fee Rate: Each buy/sell transaction deducts the corresponding proportion of tokens to the `contract address`. When the **trigger threshold** is reached, it will automatically **sell** and convert to `USDT` (depending on the pool type, whatever token is in the base pool goes to the marketing wallet) and send to your marketing wallet address
+* LP Fee Rate: Each buy/sell transaction deducts the corresponding proportion of tokens to the `contract address`. When the **trigger threshold** is reached, it will automatically add liquidity, making the pool thicker. The LP obtained from adding to the pool defaults to the marketing wallet
+* Dividend Fee Rate: Each buy/sell transaction deducts the corresponding proportion of tokens to the `contract address`. When the **trigger threshold** is reached, it will automatically **sell** to `USDT` (depending on your dividend token) and distribute to users holding LP
+* Burn Fee Rate: Each buy/sell transaction deducts the corresponding proportion of tokens to the `black hole address`, achieving the purpose of burning
 
-> 总的买入税率不能超过25%（ buyFundFee + buyLPFee + buyReflectFee + buyBurnFee < 2500）总的卖出税率不能超过25%（sellFundFee + sellLPFee + sellReflectFee + sellBurnFee <2500）
+> Total buy tax rate cannot exceed 25% (buyFundFee + buyLPFee + buyReflectFee + buyBurnFee < 2500). Total sell tax rate cannot exceed 25% (sellFundFee + sellLPFee + sellReflectFee + sellBurnFee < 2500)
 
-**注意事项**
+**Important Notes**
 
-* **他人LP的地址，必须交易才能激活**
-  * 如果用户的LP不是自己加池子获得了，而是别人转账给他的。那么这个地址必须在交易一笔（买卖各一笔）之后，才能激活，获得分红。否则合约无法识别到该地址，是没有分红的
-* **为什么交易了很多笔还是没有分红？**
-  * 不要使用白名单地址交易，如发币地址、营销钱包地址交易都是没有用的
-  * 不要只买，必须有卖单，才能分红。没有卖单，分红发不出去的
-* **锁池后还有分红吗？**
-  * 锁池的那个人是没有分红的，其他没锁的人依然参与分红，互不影响。此外，可以通过控制台将锁池地址排除在分红之外。
-* **加/撤池子手续费问题**
-  * 默认加/撤池子是不收手续费的，但是需要满足一定的前提条件才可以：
-    * 如果是用USDT做底池，用户加池子的`方向`需要和初始加池子的方向保持一致。所谓“方向”，就是USDT和代币哪个在前，哪个在后的问题。如果方向不一致，加池仍然要收手续费
-    * 如果是用BNB做底池，用户必须使用wBNB加池子，且方向一致，才能不收手续费
+* **Others' LP addresses must trade to be activated**
+  * If a user's LP is not obtained by adding their own pool, but transferred from others, then this address must trade once (one buy and one sell) before it can be activated to receive dividends. Otherwise, the contract cannot recognize the address and there will be no dividends
+* **Why are there still no dividends after many trades?**
+  * Don't use whitelist addresses for trading. Trading with issuing addresses or marketing wallet addresses is useless
+  * Don't just buy; there must be sell orders to receive dividends. Without sell orders, dividends cannot be distributed
+* **Are there still dividends after locking the pool?**
+  * The person who locked the pool has no dividends, but others who didn't lock still participate in dividends without affecting each other. Additionally, locked pool addresses can be excluded from dividends through the console.
+* **Add/Remove pool transaction fee issues**
+  * By default, adding/removing pools doesn't charge transaction fees, but certain prerequisites must be met:
+    * If using USDT as the base pool, users adding pools must maintain the same `direction` as the initial pool addition. "Direction" refers to which comes first between USDT and tokens. If directions are inconsistent, adding pools will still charge transaction fees
+    * If using BNB as the base pool, users must use wBNB to add pools with consistent direction to avoid transaction fees
 
-如果想要更多的了解CPBOX这个产品的其他用途和功能
+If you want to learn more about other uses and features of the CPBOX product
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/)
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or development assistance needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can contact us through the contact information at the bottom of the homepage [https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
 
 ***
 
-【其他社媒】
+【Other Social Media】
 
-TG交流群：[https://t.me/cpboxio](chuang-jian-lp-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
+TG Community Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

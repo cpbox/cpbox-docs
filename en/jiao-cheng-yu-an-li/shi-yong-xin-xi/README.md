@@ -1,38 +1,38 @@
 ---
-description: 《从零到狂飙：区块链开发+Web3社群运营实战手册》简介
+description: "From Zero to Hero: A Practical Manual for Blockchain Development + Web3 Community Operations"
 ---
 
-# 实用信息
+# Useful Information
 
-### **合集里有什么？**
+### **What's in the Collection?**
 
-**开发实战篇** —— 手把手带你从“Hello, Blockchain”到“DeFi狂飙”：
+**Development Practice Section** — Hand-in-hand guidance from "Hello, Blockchain" to "DeFi Mastery":
 
-* 智能合约编写避坑指南
-* 前端如何优雅地“勾搭”钱包
-* 实战案例：NFT、DAO、链游……直接抄作业！
+* Smart contract development pitfall guide
+* How frontend elegantly "connects" with wallets
+* Practical cases: NFT, DAO, chain games... Direct implementation examples!
 
-**Web3社群运营篇** —— 让你的社群从“死群”变“神群”：
+**Web3 Community Operations Section** — Transform your community from "dead group" to "legendary group":
 
-* Web3营销骚操作：空投、MEME、AMA……怎么玩才不翻车？
-* 社群营销案例介绍：还不知道该怎么推广宣传？
+* Web3 marketing tactics: Airdrops, MEME, AMA... How to play without failing?
+* Community marketing case studies: Still don't know how to promote and publicize?
 
-### 联系我们
+### Contact Us
 
-如果想要更多的了解CPBOX这个产品的其他用途和功能
+If you want to learn more about other uses and features of the CPBOX product
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs)
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or development assistance needs
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of our homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 
-【其他社媒】
+【Other Social Media】
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+TG Community Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

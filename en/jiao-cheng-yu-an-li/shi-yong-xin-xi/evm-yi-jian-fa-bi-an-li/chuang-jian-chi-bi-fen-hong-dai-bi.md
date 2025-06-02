@@ -1,109 +1,105 @@
 ---
-description: 持币分红，每笔交易自动分红主流币，持仓越多奖励越多，轻松享被动收益！        4o
+description: Dividend-paying tokens automatically distribute mainstream coins from each transaction, with rewards proportional to holdings for easy passive income!        4o
 ---
 
-# 创建持币分红代币
+# Creating Dividend-Paying Tokens
 
-## 什么是持币分红？
+## What is Dividend-Paying?
 
-持币分红，指的是你发行代币之后，持有你发行的代币的用户可以从每一笔交易中，按照分红税率扣除一定的分红代币给到所有持币人。每个持币人所能分到的奖励，和它所拥有的代币数额有关系。持仓越大，分到的奖励越多。具体分红哪种币，可以在创建合约时选择，一般为主流币，如wBNB、USDT、USDC、Doge等等。
+Dividend-paying refers to a mechanism where after you issue a token, users holding your issued tokens can receive dividend tokens from every transaction according to the dividend tax rate, distributed to all token holders. The rewards each holder receives are related to the amount of tokens they own. The larger the holdings, the more rewards they receive. You can choose which specific coin to distribute as dividends when creating the contract, typically mainstream coins such as wBNB, USDT, USDC, Doge, etc.
 
+## Contract Function Description
 
-## 合约功能描述
+* Features include blacklist, whitelist, burn, marketing wallet, and other functions
+* Dividend distribution in other coins (USDT, USDC, etc.), does not support distributing the native token
+* Dividend-paying can set thresholds
+* After token issuance, buy/sell tax rates can be adjusted
+* After deployment, token permissions can be renounced
 
-* 有黑名单、白名单 、销毁、营销钱包等功能
-* 持币分其他币（USDT、USDC等），不支持分本币
-* 持币分红可以设置门槛
-* 发币之后，可以调整买卖税率
-* 发布之后，可以丢弃代币权限
+## Contract Deployment
 
+Open [remix](https://remix.ethereum.org/), create a new file and paste the contract source code, or directly link to the contract source code address
 
+Contract source code: [https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividendPayingToken.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividendPayingToken.sol)
 
-## 合约部署
+**Parameter Description**
 
-打开[remix](https://remix.ethereum.org/)，新建文件并粘贴合约源码，或者直接关联合约源码地址
+Here's a sample parameter set with explanations on how to modify them for your needs:
 
-合约源码：[https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividendPayingToken.sol](https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/dividendPayingToken.sol)
-
-**参数说明**
-
-
-这里给出一份示例参数，并解释如何修改适合自己的参数
-
-* 第一个 stringParams 的参数: `["CPBoxTestToken", "CPBLP"]`
-* 第二个addressParams 的参数:
+* First stringParams parameter: `["CPBoxTestToken", "CPBLP"]`
+* Second addressParams parameter:
 
 `["0x1234567890123456789012345678901234567890","0x0987654321098765432109876543210987654321","0x1111111111111111111111111111111111111111"]`
 
-* 第三个numberParams参数：`["18","1000000000000000000","200","100","100","50","200","100","100","50","3"]`
-* 第四个boolParams 参数： `[true]`
+* Third numberParams parameter: `["18","1000000000000000000","200","100","100","50","200","100","100","50","3"]`
+* Fourth boolParams parameter: `[true]`
 
-参数说明：
+Parameter explanation:
 
 ```java
-// 字符串参数数组
+// String parameter array
 string[] memory stringParams = [
-    "CPBoxTestToken",  // 代币name，请修改为你自己的代币符号
-    "CPB"              // 代币符号，请修改为你自己的代币符合
+    "CPBoxTestToken",  // Token name, please modify to your own token name
+    "CPB"              // Token symbol, please modify to your own token symbol
 ];
 
-// 地址参数数组
+// Address parameter array
 address[] memory addressParams = [
-    0x1234567890123456789012345678901234567890,  // fundAddress: 基金地址
-    0x0987654321098765432109876543210987654321,  // currency: 交易对代币地址
-    0x1111111111111111111111111111111111111111   // swapRouter: 交易路由合约地址
+    0x1234567890123456789012345678901234567890,  // fundAddress: Fund address
+    0x0987654321098765432109876543210987654321,  // currency: Trading pair token address
+    0x1111111111111111111111111111111111111111   // swapRouter: Trading router contract address
 ];
 
-// 数值参数数组
+// Numeric parameter array
 uint256[] memory numberParams = [
-    18,                    // decimals: 代币精度
-    1000000000000000000,   // totalSupply: 代币总供应量
-    200,                   // buyFundFee: 买入基金费率 (2%)
-    100,                   // buyLPFee: 买入LP费率 (1%)
-    100,                   // buyReflectFee: 买入分红税率 (1%)
-    50,                    // buyBurnFee: 买入销毁费率 (0.5%)
-    200,                   // sellFundFee: 卖出基金费率 (2%)
-    100,                   // sellLPFee: 卖出LP费率 (1%)
-    100,                   // sellReflectFee: 卖出分红税率率 (1%)
-    50,                    // sellBurnFee: 卖出销毁费率 (0.5%)
-    3                      // airdropNumbs: 空投数量
+    18,                    // decimals: Token precision
+    1000000000000000000,   // totalSupply: Total token supply
+    200,                   // buyFundFee: Buy fund fee rate (2%)
+    100,                   // buyLPFee: Buy LP fee rate (1%)
+    100,                   // buyReflectFee: Buy dividend tax rate (1%)
+    50,                    // buyBurnFee: Buy burn fee rate (0.5%)
+    200,                   // sellFundFee: Sell fund fee rate (2%)
+    100,                   // sellLPFee: Sell LP fee rate (1%)
+    100,                   // sellReflectFee: Sell dividend tax rate (1%)
+    50,                    // sellBurnFee: Sell burn fee rate (0.5%)
+    3                      // airdropNumbs: Airdrop quantity
 ];
 
-// 布尔参数数组
+// Boolean parameter array
 bool[] memory boolParams = [
-    true    // enableAirdrop: 空投开关
+    true    // enableAirdrop: Airdrop switch
 ];
 ```
 
-（买入/卖出）费率说明：
+(Buy/Sell) Fee Rate Explanation:
 
-* 基金费率：每笔买入/卖入都会扣除对应比例本币发送到你的`营销钱包`地址
-* LP费率：每笔买入/卖入都会扣除对应比例代币送进`资金池`
-* 分红费率：每笔买入/卖入都会扣除对应比例的本币分给所有`持币地址`
-* 销毁费率：每笔买入/卖入都会扣除对应比例代币送进`黑洞地址`,达到销毁的目的
+* Fund fee rate: Each buy/sell transaction will deduct the corresponding proportion of native tokens and send them to your `marketing wallet` address
+* LP fee rate: Each buy/sell transaction will deduct the corresponding proportion of tokens and send them to the `liquidity pool`
+* Dividend fee rate: Each buy/sell transaction will deduct the corresponding proportion of native tokens and distribute them to all `token holding addresses`
+* Burn fee rate: Each buy/sell transaction will deduct the corresponding proportion of tokens and send them to the `black hole address` to achieve burning
 
-**注意事项**
+**Important Notes**
 
-* 总的买入税率不能超过25%（ buyFundFee + buyLPFee + buyReflectFee + buyBurnFee < 2500）
-* 总的卖出税率不能超过25%（sellFundFee + sellLPFee + sellReflectFee + sellBurnFee <2500）
-* 在Pancake第一次添加流动性的时候，必须做V2的池子，不能做V3的池子。V3不支持任何机制，所以只能在V2做，请注意
-* 合约创建完成后默认丢弃权限，也没有白名单、黑名单、杀机器人、交易开关等功能
-* 黑洞地址如果持有代币，同样会参与分红
+* Total buy tax rate cannot exceed 25% (buyFundFee + buyLPFee + buyReflectFee + buyBurnFee < 2500)
+* Total sell tax rate cannot exceed 25% (sellFundFee + sellLPFee + sellReflectFee + sellBurnFee < 2500)
+* When adding liquidity for the first time on Pancake, you must create a V2 pool, not a V3 pool. V3 does not support any mechanisms, so you can only use V2. Please note this.
+* After contract creation, permissions are renounced by default, and there are no whitelist, blacklist, anti-bot, or trading switch functions
+* If the black hole address holds tokens, it will also participate in dividend distribution
 
-如果想要更多的了解CPBOX这个产品的其他用途和功能
+If you want to learn more about other uses and features of the CPBOX product
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/)
 
-或者你有一些好的建议或者想要帮助开发的需求
+Or if you have good suggestions or need development assistance
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***
 
-【其他社媒】
+【Other Social Media】
 
-TG交流群：[https://t.me/cpboxio](chuang-jian-chi-bi-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
+TG Community: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

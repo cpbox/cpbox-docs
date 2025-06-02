@@ -32,7 +32,7 @@ description: 适用于 DeFi 项目冷启动、社群裂变和用户增长等营�
 
 源码地址 https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpmine.sol
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>流动性挖矿代码</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/contract-lp-1.png" alt=""><figcaption><p>流动性挖矿代码</p></figcaption></figure>
 
 我这里给出一份参数，并解释如何修改适合自己的参数
 
