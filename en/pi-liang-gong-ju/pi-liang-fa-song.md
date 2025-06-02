@@ -1,95 +1,95 @@
 ---
-description: 一次操作向数百个钱包地址分发ERC20代币，丝滑的转账和空投工具
+description: Distribute ERC20 tokens to hundreds of wallet addresses in one operation, a smooth transfer and airdrop tool
 ---
 
-# 批量发送
+# Batch Send
 
-### 功能概述
+### Feature Overview
 
-CPBox提供的批量代币发送工具允许您从单个钱包向多个钱包地址批量发送指定代币。该功能支持自定义节点、自定义gas费用设置以及灵活的转账时间间隔控制，提高您的资产管理效率。所有的和EVM兼容的链我们都支持，此外，我们还支持[Solana](https://www.cpbox.io/cn/solana/batch/send), [SUI](https://www.cpbox.io/cn/sui/batch-send-token), [Tron](https://www.cpbox.io/cn/tron/batch-send-token), Ton, Aptos, Cosmos等非EVM链的批量发送功能。
+CPBox's batch token sending tool allows you to send specified tokens from a single wallet to multiple wallet addresses in bulk. This feature supports custom nodes, custom gas fee settings, and flexible transfer interval control to improve your asset management efficiency. We support all EVM-compatible chains, and additionally support batch sending functionality for non-EVM chains such as [Solana](https://www.cpbox.io/en/solana/batch/send), [SUI](https://www.cpbox.io/en/sui/batch-send-token), [Tron](https://www.cpbox.io/en/tron/batch-send-token), Ton, Aptos, Cosmos, and more.
 
-### 操作步骤
+### Operation Steps
 
-#### 1. 访问批量发送工具 [https://www.cpbox.io](https://www.cpbox.io)
+#### 1. Access the Batch Send Tool [https://www.cpbox.io](https://www.cpbox.io/?_s=docs)
 
-1. 登录您的CPBox账户
-2. 在首页导航至"实用工具"菜单
-3. 选择"Token批量发送"功能
+1. Log into your CPBox account
+2. Navigate to the "Utilities" menu on the homepage
+3. Select the "Token Batch Send" feature
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-05-22/d1fudbt9fbbqqkgkgf.png" alt=""><figcaption><p>菜单</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-05-22/d1fudbt9fbbqqkgkgf.png" alt=""><figcaption><p>Menu</p></figcaption></figure>
 
-#### 2. 设置接收钱包
+#### 2. Set Receiving Wallets
 
-您可以通过以下两种方式添加接收钱包地址：
+You can add receiving wallet addresses in two ways:
 
-* 手动输入：在文本框中直接输入钱包地址
-* 批量导入：点击"导入文件"按钮，上传包含多个钱包地址的文件
+* Manual input: Directly enter wallet addresses in the text box
+* Batch import: Click the "Import File" button to upload a file containing multiple wallet addresses
 
-![导入文件](https://www.cpbox.io/cpfiles/2024-05-22/d1fue2rkeab6ta0w6n.png)
+![Import File](https://www.cpbox.io/cpfiles/2024-05-22/d1fue2rkeab6ta0w6n.png)
 
-![文件地址](https://www.cpbox.io/cpfiles/2024-05-22/d1fuejd725ab6sy8wo.png)
+![File Addresses](https://www.cpbox.io/cpfiles/2024-05-22/d1fuejd725ab6sy8wo.png)
 
-#### 3. 配置发送金额
+#### 3. Configure Send Amount
 
-系统提供两种金额设置模式：
+The system provides two amount setting modes:
 
-**固定金额模式**
+**Fixed Amount Mode**
 
-* 选择"固定金额"选项
-* 输入要发送的确切金额
-* 所有接收地址将收到相同数量的代币
+* Select the "Fixed Amount" option
+* Enter the exact amount to send
+* All receiving addresses will receive the same amount of tokens
 
-**随机金额模式**
+**Random Amount Mode**
 
-* 选择"随机金额"选项
-* 设置发送金额范围：
-  * 最低金额：允许发送的最小数值
-  * 最高金额：允许发送的最大数值
-  * 小数位设置：控制随机金额的精确度（例如，设置为"2"表示保留2位小数）
+* Select the "Random Amount" option
+* Set the send amount range:
+  * Minimum amount: The smallest value allowed to send
+  * Maximum amount: The largest value allowed to send
+  * Decimal places setting: Control the precision of random amounts (e.g., setting "2" means keeping 2 decimal places)
 
-![设置金额](https://www.cpbox.io/cpfiles/2024-05-22/d1fug4n90k9ziftl26.png)
+![Set Amount](https://www.cpbox.io/cpfiles/2024-05-22/d1fug4n90k9ziftl26.png)
 
-#### 4. 高级设置
+#### 4. Advanced Settings
 
-* 自定义节点：根据您的需求选择或添加区块链节点
-* Gas费用设置：调整矿工费以优化交易速度和成本
-* 发送间隔：设置每笔交易之间的时间间隔，避免网络拥堵
+* Custom Node: Choose or add blockchain nodes according to your needs
+* Gas Fee Settings: Adjust miner fees to optimize transaction speed and cost
+* Send Interval: Set time intervals between each transaction to avoid network congestion
 
-#### 5. 执行批量发送
+#### 5. Execute Batch Send
 
-完成以上所有设置后，点击"开始执行"按钮启动批量发送流程。系统将按照您的设置依次处理所有交易。等待一会，即可完成批量转账，所有转账信息都可以在链上查询
+After completing all the above settings, click the "Start Execution" button to initiate the batch send process. The system will process all transactions sequentially according to your settings. After waiting a moment, the batch transfer will be completed, and all transfer information can be queried on-chain.
 
-### 注意事项
+### Important Notes
 
-* 在执行大量交易前，建议先进行小额测试
-* 确保发送钱包中有足够的代币余额和原生代币（用于支付Gas费）
-* 交易完成后，可在交易历史中查看详细记录
-* 如往交易所地址进行转账，请务必确认交易所是否支持合约转账，否则你的转账将无法到账
+* It's recommended to conduct small amount tests before executing large quantities of transactions
+* Ensure the sending wallet has sufficient token balance and native tokens (for gas fees)
+* After transaction completion, you can view detailed records in transaction history
+* When transferring to exchange addresses, please confirm whether the exchange supports contract transfers, otherwise your transfer may not arrive
 
-### 常见问题解答
+### Frequently Asked Questions
 
-如遇到操作问题或需要更多技术支持，请联系CPBox客户服务或查阅帮助文档。
-
-***
-
-### 联系我们
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+If you encounter operational issues or need more technical support, please contact CPBox customer service or consult the help documentation.
 
 ***
 
-### 其他社媒
+### Contact Us
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+If you want to learn more about other uses and features of CPBOX products
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to check
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
+Or if you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+Telegram Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube: [youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../solana-gong-ju/solana-yi-jian-fa-bi.md)\
