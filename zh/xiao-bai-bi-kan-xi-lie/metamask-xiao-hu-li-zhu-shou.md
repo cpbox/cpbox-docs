@@ -18,7 +18,7 @@ MetaMask推特：[https://twitter.com/metamask](https://twitter.com/metamask)
 
 ## 安装步骤
 
-**第一步：安装小狐狸钱包**进入Metamask.io 官网，点击 “Download now”—— “ Install MetaMask for Chrome ” 可将小狐狸钱包添加到浏览器插件。\*虽然说小狐狸钱包也有手机版，但建议大家在【谷歌浏览器】安装，用电脑端操作，因为很多项目需要链接钱包才能使用，电脑端会方便很多，也不会出现很多bug问题。🦊MetaMask下载链接：[https://metamask.io/download.html](https://metamask.io/download.html)
+**第一步：安装小狐狸钱包**进入Metamask.io 官网，点击 "Download now"—— " Install MetaMask for Chrome " 可将小狐狸钱包添加到浏览器插件。\*虽然说小狐狸钱包也有手机版，但建议大家在【谷歌浏览器】安装，用电脑端操作，因为很多项目需要链接钱包才能使用，电脑端会方便很多，也不会出现很多bug问题。🦊MetaMask下载链接：[https://metamask.io/download.html](https://metamask.io/download.html)
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -69,4 +69,4 @@ TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
 
 Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](../../en/solana-gong-ju/solana-yi-jian-fa-bi.md)
+Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
