@@ -16,15 +16,14 @@ Today, I'll guide Web3 beginners in creating their own blockchain wallet. First,
 
 🖥 **Supported Clients** | iOS, Android, Chrome Extension
 
-**MetaMask Official Website (Always verify the domain to avoid scams):**\
+**MetaMask Official Website (Always verify the domain to avoid scams):**
 👉 [https://metamask.io](https://metamask.io/)
 
-**MetaMask Twitter:**\
+**MetaMask Twitter:**
 👉 [https://twitter.com/metamask](https://twitter.com/metamask)
 
 ⚠ **Important Note:** Using MetaMask requires a VPN (this won’t be covered in detail here, but it’s an essential skill for exploring Web3).
 
-\
 
 
 ## **Installation Steps**
@@ -50,7 +49,7 @@ By default, MetaMask connects to the **Ethereum network**. If a project runs on 
 
 Using **CryptoBox’s tool**, you can automatically add network nodes:
 
-Visit:👉 [https://www.cpbox.io/cn/metamask/helper](https://www.cpbox.io/cn/metamask/helper)
+Visit:👉 [https://www.cpbox.io/metamask/helper](https://www.cpbox.io/en/metamask/helper?_s=docs)
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
@@ -81,7 +80,7 @@ Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
 Have suggestions or development needs? Contact us via:
 
-[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/) (check the footer for contact details)
+[https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs) (check the footer for contact details)
 
 ***
 
