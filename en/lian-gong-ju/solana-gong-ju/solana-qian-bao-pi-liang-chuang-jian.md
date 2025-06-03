@@ -6,7 +6,7 @@ The Solana blockchain has been experiencing remarkable growth recently, driven p
 
 To maximize your potential returns from airdrop campaigns across multiple accounts, you'll need an efficient method to **batch-generate Solana wallet addresses**. Consider the recent **PumpDao voting event** as an example—simply holding **0.1 SOL** in your wallet and participating in the vote qualified you for an airdrop. To optimize your opportunities, using multiple wallets is a natural strategy.
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-wallet-intro.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -16,7 +16,7 @@ To maximize your potential returns from airdrop campaigns across multiple accoun
 
 1. Visit the [**CPBOX official website**](https://www.cpbox.io/)
 
-<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-wallet-homepage.png" alt=""><figcaption></figcaption></figure>
 
 2. Navigate to **"Utility Tools"** → **"Batch Generate Wallet Addresses"**
 
@@ -26,11 +26,11 @@ To maximize your potential returns from airdrop campaigns across multiple accoun
 
 5. Click **"Generate"**—the system will instantly create the wallets
 
-<figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-wallet-generate.png" alt=""><figcaption></figcaption></figure>
 
 6. **Download** the results as a spreadsheet for easy management
 
-<figure><img src="../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sol-wallet-download.png" alt=""><figcaption></figcaption></figure>
 
 ### **Important Security & Safety Notes**
 
