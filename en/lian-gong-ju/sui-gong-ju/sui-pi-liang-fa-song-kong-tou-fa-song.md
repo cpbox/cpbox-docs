@@ -8,7 +8,7 @@ CPBox's **Batch Token Sender** tool enables you to distribute tokens from a sing
 * Adjustable gas fees
 * Flexible transfer intervals
 
-**Supported Chains**: All **EVM-compatible networks**, plus [**Solana**](https://www.cpbox.io/cn/solana/batch/send)**,** [**Sui**](https://www.cpbox.io/cn/sui/batch-send-token)**,** [**Tron**](https://www.cpbox.io/cn/tron/batch-send-token)**, TON, Aptos, and Cosmos**.
+**Supported Chains**: All **EVM-compatible networks**, plus [**Solana**](https://www.cpbox.io/en/solana/batch/send)**,** [**Sui**](https://www.cpbox.io/en/sui/batch-send-token)**,** [**Tron**](https://www.cpbox.io/en/tron/batch-send-token)**, TON, Aptos, and Cosmos**.
 
 #### **Use Cases**
 
@@ -25,7 +25,7 @@ CPBox's **Batch Token Sender** tool enables you to distribute tokens from a sing
 
 * Visit [CPBox](https://www.cpbox.io/) → **Utilities** → **Batch Sender**.
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-1.png" alt=""><figcaption></figcaption></figure>
 
 **2. Configure Transaction**
 
@@ -34,25 +34,25 @@ CPBox's **Batch Token Sender** tool enables you to distribute tokens from a sing
   * **Manual Input**: Paste addresses directly.
   * **Bulk Import**: Upload a file with addresses (CSV/TXT).
 
-<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-2.png" alt=""><figcaption></figcaption></figure>
 
 **3. Set Token Amounts**
 
 * **Critical**: Click **"Modify Amount"** (default = 0).
 * Choose **fixed amount** → Confirm → Send.
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-3.png" alt=""><figcaption></figcaption></figure>
 
 ### **Sending MEME Tokens**
 
-1. Find your token’s **Contract Address (CA)** on [Suiscan](https://suiscan.xyz/).
+1. Find your token's **Contract Address (CA)** on [Suiscan](https://suiscan.xyz/).
    * _Note: Copy the full **"Type" field** (e.g., `0x123::custom_token::TOKEN`), or the tool will reject it._
 
-<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-4.png" alt=""><figcaption></figcaption></figure>
 
 Paste the CA into the token address field → Your balance auto-populates.
 
-<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-5.png" alt=""><figcaption></figcaption></figure>
 
 Follow the **amount setup steps above** → Execute batch send.
 

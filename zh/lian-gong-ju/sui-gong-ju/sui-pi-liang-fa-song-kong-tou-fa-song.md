@@ -13,20 +13,20 @@ CPBox提供的批量代币发送工具允许您从单个钱包向多个钱包地
 
 进入CPBox官网后[https://www.cpbox.io](https://www.cpbox.io/)，点击实用工具，左侧批量发送。进入批量发送页面
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YTg5ODNmYmEwZDRjMWI3YmEwYWVjYzZkZTk0NTFiMDJfcWFsSjgzRGpvVTZDcElvZWhhaTJxd0FyZ2Z3YlN1RDhfVG9rZW46UzA1WWJ5ZzJrb2x6ZXB4S29YWmxZSG9YZ3llXzE3NDcxOTU0MjA6MTc0NzE5OTAyMF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-1.png" alt=""><figcaption></figcaption></figure>
 
 链接钱包后，设置发送主网为Sui设置接收钱包您可以通过以下两种方式添加接收钱包地址：
 
 * 手动输入：在文本框中直接输入钱包地址
 * 批量导入：点击"导入文件"按钮，上传包含多个钱包地址的文件
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=OTdkZjk4YmNmN2JhMGU3M2ExNWI0MWMxMzY1MWZhNTFfYW0zVkJOcEFnUGJaMXlzTE1PVE9xYjhvMFJ4dzgxVWpfVG9rZW46QVRVTmJacE0xb1Y5SUV4dGNsWmw1TXg4Z2FmXzE3NDcxOTU0MjA6MTc0NzE5OTAyMF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-2.png" alt=""><figcaption></figcaption></figure>
 
 输入钱包地址后，点击修改数量
 
 **注意：这里一定要点击修改数量**，不然默认的发送数量为0选择固定金额，点击发送就可以发送成功
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NjMyNDc4NzNkODliZDgxNTk5YTRmMzU4MTczNWVlZTlfVHBvVFp4Tkk2OEZMUTVRVG5SNnlIN1FhWEFsbWlIUnRfVG9rZW46TXNWcGJaTTdUb0F6SDZ4eVhVTWx2eHd1Z2pjXzE3NDcxOTU0MjA6MTc0NzE5OTAyMF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-3.png" alt=""><figcaption></figcaption></figure>
 
 ### MEME代币批量发送
 
@@ -34,13 +34,13 @@ CPBox提供的批量代币发送工具允许您从单个钱包向多个钱包地
 
 **注意：这里必须要选择Type类型**，不然在发送页面会提示报错
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=OGRjNzI0ZTA2YmIwMDY4NThjNDM5ZDM2NmVkOTg2MzZfTWFaRHd6UWZVeFBVSG8yVGNVTkpoWjh0ZUZ5NHl6MWZfVG9rZW46Sks2M2JQNENHb1Rlalh4cWVXQ2xxejBJZ05mXzE3NDcxOTU0MjA6MTc0NzE5OTAyMF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-4.png" alt=""><figcaption></figcaption></figure>
 
 把刚才的ca复制到页面的代币合约地址文本框
 
 下面会自动弹出你钱包中的MEME代币
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ZDc4ZTFlNjNhYmE2ZTBiYmMwMTI2MjQ4NWVkNmRhYmFfWVdZZ09BcmRZcGp0U1lmWUNhZTA3elBpdW5DRzJKT0NfVG9rZW46UU5uZ2JUbktCb1pjTUd4UGJuUWw5RGJNZ0YwXzE3NDcxOTU0MjA6MTc0NzE5OTAyMF9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sui-airdrop-5.png" alt=""><figcaption></figcaption></figure>
 
 回到下方点击修改数量按照上方的教程，点击修改数量后发送。
 
