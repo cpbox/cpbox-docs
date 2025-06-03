@@ -15,9 +15,9 @@ description: Real-time Twitter updates delivered to Telegram groups
 * Navigate to _"_[_Twitter Monitor_](https://www.cpbox.io/cn/twitter/bind)_"_ in the **Utility Tools** section
 * Click _"Bind Now"_ or copy the link to open Telegram in your browser
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-05-21/d1f8tutt40katltrqv.png" alt=""><figcaption><p>去绑定</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-05-21/d1f8tutt40katltrqv.png" alt=""></figure>
 
-4. 进入Twitter机器人页面，发送"/star"命令
+
 
 **Telegram Bot Setup**
 
@@ -32,7 +32,7 @@ Send the dynamic **CODE** from the webpage to the bot to complete Telegram accou
 * Create a group and invite the Twitter bot
 * The website will display group info (if not, remove and re-invite the bot)
 
-<figure><img src="https://www.cpbox.io/cpfiles/2024-05-24/d1hp8l34oza0erlxxv.png" alt=""><figcaption><p>订阅群组信息</p></figcaption></figure>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-05-24/d1hp8l34oza0erlxxv.png" alt=""></figure>
 
 ### Subscription Management
 

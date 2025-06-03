@@ -59,11 +59,11 @@ description: 学会开源合约代码，Web3合约开源促进安全审计、建
 
 点击验证和部署，会看到这个提示
 
-<figure><img src="../../../.gitbook/assets/contract-ver-8 (1).png" alt=""><figcaption><p>合约开源提示</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-8.png" alt=""><figcaption><p>合约开源提示</p></figcaption></figure>
 
 这个是再在区块浏览器中输入合约地址，发现合约已经是验证过的了，并且可以看到合约的源码
 
-<figure><img src="../../../.gitbook/assets/contract-ver-9 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-9.png" alt=""><figcaption></figcaption></figure>
 
 #### **合约调用**
 
