@@ -92,7 +92,7 @@
     * [Pump Market Cap Management](en/solana-gong-ju/pump-shi-zhi-guan-li.md)
     * [Add Liquidity to PumpSwap](en/lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
     * [Create Stable Pools on Raydium](en/lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
-  * [Sui Tools](en/sui-lian-gong-ju//README.md)
+  * [Sui Tools](en/sui-lian-gong-ju/README.md)
     * [Create Tokens with One Click](en/sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
     * [Modify Token Permissions](en/sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
     * [Add Liquidity to Pools](en/sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
