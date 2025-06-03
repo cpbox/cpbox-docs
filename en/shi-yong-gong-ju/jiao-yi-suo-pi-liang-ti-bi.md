@@ -38,11 +38,11 @@ Regardless of which exchange you use, the batch withdrawal process consists of t
 5. Add IP whitelist (obtained from CPBOX)
 6. Complete verification and save the API Key and Secret Key
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>你的IP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cex-withdraw.jpg" alt=""><figcaption><p>你的IP</p></figcaption></figure>
 
 #### **Part 2: CPBOX Batch Withdrawal Setup**
 
-1. Log in to CPBOX and select "[Batch Exchange Withdrawals](https://www.cpbox.io/cn/exchange/withdraw)"
+1. Log in to CPBOX and select "[Batch Exchange Withdrawals](https://www.cpbox.io/en/exchange/withdraw?_s=docs)"
 2. Choose "OKEx" as the exchange
 3. Enter API key information
 4. Fetch and select the asset and network
@@ -79,7 +79,7 @@ Contact Us
 
 If you want to learn more about other uses and features of CPBOX products
 
-You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs) to learn more
 
 Or if you have good suggestions or development needs
 

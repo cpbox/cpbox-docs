@@ -26,6 +26,8 @@ With the rise of **computerized trading**, manual market-making faded, but the c
 
 ***
 
+<figure><img src="../../../.gitbook/assets/liq-bank.png" alt=""><figcaption></figcaption></figure>
+
 #### **Example: How Market Makers Work**
 
 Let’s say **gold futures** are trading at **$2,600 per contract**.
@@ -64,8 +66,6 @@ Imagine a **DEX as a farmers’ market with a shared shelf (LP)**.
 
 * To list your token, you must **lock equal-value assets** (e.g., 100ofyourtoken+100ofyourtoken+100 of USDT).
 * This ensures **fair pricing** and prevents scams.
-
-\
 
 
 ***
