@@ -2,7 +2,7 @@
 description: 支持FourMeme平台，支持上千钱包一键拉盘砸盘
 ---
 
-# BSC 批量交易
+# BSC Bulk Trading
 
 ### 固定功能概述
 
@@ -50,7 +50,6 @@ CPBOX.io为您带来强大的[BSC(币安智能链)批量交易](https://www.cpbo
 
 设置每笔买入的BNB数量，可以是固定数量或者随机数量
 
-
 ![每笔数量](https://www.cpbox.io/cpfiles/2025-03-17/d8i84sr30q5aeasg1r.png)
 
 ![固定数量](https://www.cpbox.io/cpfiles/2025-03-17/d8i8524gj65z4anijp.png)
@@ -61,7 +60,7 @@ CPBOX.io为您带来强大的[BSC(币安智能链)批量交易](https://www.cpbo
 
 【收费标准】
 
-VIP   27.9u/7天  99u/30天  999u/365天
+VIP 27.9u/7天 99u/30天 999u/365天
 
 ### 定制服务
 
@@ -69,26 +68,26 @@ VIP   27.9u/7天  99u/30天  999u/365天
 
 ***
 
-### 联系我们
+### **Contact Us**
 
-如果想要深入了解CPBOX产品的其他用途和功能
+Contact Us
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+If you want to learn more about other uses and features of CPBOX products
 
-或者你有一些好的建议或者想要帮助开发的需求
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+Or if you have good suggestions or development needs
 
-也可以通过下方社媒来联系我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
 
 ***
 
-### 其他社媒
+### Other Social Media
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
-
-
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

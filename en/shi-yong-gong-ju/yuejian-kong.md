@@ -2,7 +2,7 @@
 description: 实时追踪您关注的钱包地址代币余额变动。设置自定义阈值警报，及时接收资金流入流出通知
 ---
 
-# 余额监控
+# Balance Tracker
 
 ### 功能概述
 
@@ -27,13 +27,10 @@ CPBox的余额监控功能是专为数字资产管理者设计的高效工具，
 
 <figure><img src="https://www.cpbox.io/cpfiles/2025-03-03/d86hxoef8uwfeaeeep.png" alt=""><figcaption></figcaption></figure>
 
-*   灵活添加方式：
-
-    * 直接粘贴单个或批量多个地址
-    * 上传包含地址列表的CSV/TXT文件
-    * 支持一次性导入大量地址（轻松处理上万地址）
-
-
+* 灵活添加方式：
+  * 直接粘贴单个或批量多个地址
+  * 上传包含地址列表的CSV/TXT文件
+  * 支持一次性导入大量地址（轻松处理上万地址）
 
 #### 3. 查看余额变化
 
@@ -85,24 +82,26 @@ CPBox的余额监控功能是专为数字资产管理者设计的高效工具，
 
 ***
 
-### 联系我们
+### **Contact Us**
 
-如果想要深入了解CPBOX产品的其他用途和功能
+Contact Us
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+If you want to learn more about other uses and features of CPBOX products
 
-或者你有一些好的建议或者想要帮助开发的需求
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+Or if you have good suggestions or development needs
 
-也可以通过下方社媒来联系我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
 
 ***
 
-### 其他社媒
+### Other Social Media
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
