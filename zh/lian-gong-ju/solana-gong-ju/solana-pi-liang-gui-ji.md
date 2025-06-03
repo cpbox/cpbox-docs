@@ -18,7 +18,7 @@
 
 登录**CPBOX**，在首页**实用工具**中找到**批量归集**功能。
 
-[前往 Solana批量归集 →](https://www.cpbox.io/en/solana/batch/collection?_s=docs)
+[前往 Solana批量归集 →](https://www.cpbox.io/cn/solana/batch/collection?_s=docs)
 
 ![](https://www.cpbox.io/cpfiles/2024-07-04/d2gnueq8w6h1aeqldi.png)
 
@@ -54,7 +54,7 @@
 
 如需深入了解CPBOX的其他功能和用途，请访问：[https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs)
 
-如有建议或定制开发需求，请通过官网联系我们：[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/?_s=docs)
+如有建议或定制开发需求，请通过官网联系我们：[https://www.cpbox.io/](https://www.cpbox.io/cn/?_s=docs)
 
 ***
 
