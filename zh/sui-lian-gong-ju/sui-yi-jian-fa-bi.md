@@ -4,8 +4,6 @@ description: 0代码sui公链发币，小白也可以。Sui一键发币教程
 
 # Sui 一键发币
 
-
-
 {% embed url="https://youtu.be/ZcPps423ZGA?si=w8IF55iCcXHPIQhK" %}
 
 ## 前言
@@ -37,15 +35,11 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 * Suiwallet钱包
 * Suiet钱包
 
-
-
 钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish?_s=docs) 点击中间"连接钱包"
 
-<figure><img src="../../.gitbook/assets/sui-token-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 代币信息
-
-
 
 按照图片信息依次把相关信息填入这边代币初始供应量为：1000000，你也可以根据自己的需求输入想要的代币数量**参数都要填**
 
@@ -55,8 +49,6 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 * **供应数量：**&#x5F53;精度为9时，供应量最大不能超过100亿。当精度为8时，不能超过1000亿，以此类推
 * **logo：**&#x4EE3;币标识
 * **简介：**&#x5FC5;填，介绍你的代币信息
-
-
 
 最后只要点击创建代币， 会有一个创建代币的明细弹窗，里面会详细介绍费用，再次确认会进行钱包签名。代币创建成功后会出现一串合约地址。**这里cpbox收取代币创建费用是15个sui（市面上同类工具收取20个sui），算比较有性价比的。**
 
@@ -77,7 +69,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：
 
 {% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
-SUI 流动性添加
+[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
 {% endcontent-ref %}
 
 ***
