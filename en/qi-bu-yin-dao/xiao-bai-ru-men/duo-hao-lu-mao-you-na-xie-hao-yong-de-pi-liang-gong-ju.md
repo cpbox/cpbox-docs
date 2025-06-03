@@ -14,7 +14,7 @@ In today's crypto landscape where airdrops, mining, and interaction incentives t
 
 * Navigate to **"Utility Tools" → "Batch Generate Wallet Addresses"**
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-batch-wallet-generation-menu.png" alt=""><figcaption></figcaption></figure>
 
 * Select the desired blockchain network
 * Enter the number of wallets to create
@@ -27,11 +27,11 @@ In today's crypto landscape where airdrops, mining, and interaction incentives t
   * **Disconnect from the internet** during generation
   * Use **incognito mode**
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption><p>批量生成钱包地址</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-batch-wallet-addresses-generated.png" alt=""><figcaption><p>Batch Generate Wallet Addresses</p></figcaption></figure>
 
 ***
 
-### 交易所批量提币-钱包防女巫
+### Exchange Batch Withdrawals - Anti-Sybil Wallet Strategy
 
 #### **Exchange Batch Withdrawals (Anti-Sybil Strategy)**
 
@@ -41,31 +41,33 @@ For non-zero-cost airdrops, you'll need to fund multiple wallets while avoiding 
 
 Go to **Profile → API Management**
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>OKX API生成</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-person-api.png" alt=""><figcaption><p>OKX Exchange API</p></figcaption></figure>
 
 Click **"Create API Key"**
 
+<figure><img src="../../../.gitbook/assets/lumao-okx-api-management.png" alt=""><figcaption><p>OKX API Generation</p></figcaption></figure>
+
 Fill in details and confirm
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-api-creation-form.png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
 
 Copy the generated **API Key & Secret**
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-api-key-details.png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
 
 Return to **CPBOX Batch Withdrawal**, input your API credentials
 
-击资产查询，然后可以看到交易所里的资产数量，
+Click asset query, then you can see the asset quantities in the exchange,
 
-再点击需要提现的网络
+Then click on the network you need to withdraw
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>CPBOX 交易所提币</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-exchange-withdrawal-interface.png" alt=""><figcaption><p>CPBOX Exchange Withdrawal</p></figcaption></figure>
 
 Select assets and network (e.g., USDT)
 
 Choose **fixed or random amounts** per wallet
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>CPBOX 交易所提币</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-withdrawal-amount-settings.png" alt=""><figcaption><p>CPBOX Exchange Withdrawal</p></figcaption></figure>
 
 Execute withdrawals
 
@@ -82,14 +84,14 @@ Execute withdrawals
 
 Aggregate scattered tokens across wallets via **"Utility Tools → Batch Consolidation"**:
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption><p>CPBOX批量归集</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-batch-consolidation-menu.png" alt=""><figcaption><p>CPBOX Batch Consolidation</p></figcaption></figure>
 
 * Select blockchain & token contract
 * Input **destination wallet address**
 * Import private keys of source wallets
 * Set transfer amounts (fixed/percentage)
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Token 批量归集</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-token-batch-consolidation-settings.png" alt=""><figcaption><p>Token Batch Consolidation</p></figcaption></figure>
 
 ***
 
@@ -99,7 +101,7 @@ Explore features: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
 Suggestions or custom needs?
 
-Contact us:[https://www.cpbox.io/cn/](https://www.cpbox.io/cn/)
+Contact us: [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ### **Join Our Community**
 

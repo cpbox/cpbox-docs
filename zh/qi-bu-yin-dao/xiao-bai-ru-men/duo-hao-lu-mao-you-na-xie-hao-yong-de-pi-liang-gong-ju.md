@@ -4,13 +4,13 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 # 多号撸毛有哪些好用的批量工具
 
-在区块链空投、挖矿和交互激励盛行的今天，“撸毛”已成为许多用户获取收益的重要方式。然而，随着项目方风控升级，**单账号操作收益有限**，而手动切换多个账号又费时费力，甚至可能因操作失误导致封号风险。如何高效管理多个账号，实现批量操作？本文将为你盘点**多号撸毛的必备工具**，涵盖钱包管理、自动化脚本、RPC节点优化等解决方案，帮助你在合规范围内提升效率，最大化收益。无论是空投猎人、Defi矿工，还是链游玩家，这些工具都能让你事半功倍！
+在区块链空投、挖矿和交互激励盛行的今天，"撸毛"已成为许多用户获取收益的重要方式。然而，随着项目方风控升级，**单账号操作收益有限**，而手动切换多个账号又费时费力，甚至可能因操作失误导致封号风险。如何高效管理多个账号，实现批量操作？本文将为你盘点**多号撸毛的必备工具**，涵盖钱包管理、自动化脚本、RPC节点优化等解决方案，帮助你在合规范围内提升效率，最大化收益。无论是空投猎人、Defi矿工，还是链游玩家，这些工具都能让你事半功倍！
 
 ### 钱包批量生成
 
 点击首页菜单实用工具- 批量生成钱包地址
 
-<figure><img src="../../../en/.gitbook/assets/image%20(44).png" alt=""><figcaption><p>CPBOX 生成钱包地址</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-batch-wallet-generation-menu.png" alt=""><figcaption><p>CPBOX 生成钱包地址</p></figcaption></figure>
 
 进入主页后，选择需要创建的主网链路
 
@@ -20,7 +20,7 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 **需要注意的是：所有钱包地址均由您的电脑在本地环境中生成，CPBOX无法获取到您的任何本地钱包信息，为了安全，请断开网络，并建议在无痕浏览器执行此程序**
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption><p>批量生成钱包地址</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-batch-wallet-addresses-generated.png" alt=""><figcaption><p>批量生成钱包地址</p></figcaption></figure>
 
 ***
 
@@ -32,19 +32,19 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 我们这里以okx为例子进行演示，点击个人资料中的api
 
-<figure><img src="https://uf6jjv03ijb.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWM1OGM4YWE2OTBmMDkwNWE1NTFhYTI0OTIzZWVjMTJfVHdiWWJPRU9zcGkyMzNMRjFQV05TcDlvVDdneXlJeUJfVG9rZW46S2pDS2JWMGRrbzdyNmF4R2xJUmx4djVpZ1NoXzE3NDY0NDc4ODg6MTc0NjQ1MTQ4OF9WNA" alt=""><figcaption><p>OKX 交易所API</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-person-api.png" alt=""><figcaption><p>OKX 交易所API</p></figcaption></figure>
 
 进入后点击创建api key
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>OKX API生成</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-api-management.png" alt=""><figcaption><p>OKX API生成</p></figcaption></figure>
 
 进入创建页面后，填写好相印的信息，点击提交全部
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-api-creation-form.png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
 
 这时候就会弹出api的信息，点击详情，能看到你的apikey 和密钥
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-okx-api-key-details.png" alt=""><figcaption><p>OKX API</p></figcaption></figure>
 
 回到批量提币界面，输入上面产生的key 密钥 和密码点
 
@@ -52,7 +52,7 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 再点击需要提现的网络
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>CPBOX 交易所提币</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-exchange-withdrawal-interface.png" alt=""><figcaption><p>CPBOX 交易所提币</p></figcaption></figure>
 
 我这个里没有其他的代币的现货，所以只能看到u的数量
 
@@ -60,7 +60,7 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 跳出的弹窗中在选择时固定金额还是随机金额
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>CPBOX 交易所提币</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-withdrawal-amount-settings.png" alt=""><figcaption><p>CPBOX 交易所提币</p></figcaption></figure>
 
 点击确定后，就可以实现交易所的批量提币了
 
@@ -77,7 +77,7 @@ description: 多号撸毛在这里寻找好用的工具, CPBOX助力Web3撸毛
 
 收集分散在多个钱包中的代币点击实用工具中左侧的批量归集功能
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption><p>CPBOX批量归集</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-batch-consolidation-menu.png" alt=""><figcaption><p>CPBOX批量归集</p></figcaption></figure>
 
 进入页面后选择主网进行批量归集
 
@@ -89,7 +89,7 @@ cpbox支持多个主网，涵盖大部分需求
 
 导入多个钱包的私钥地址后，选择修改数量，选择固定的比例
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Token 批量归集</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lumao-cpbox-token-batch-consolidation-settings.png" alt=""><figcaption><p>Token 批量归集</p></figcaption></figure>
 
 ***
 
