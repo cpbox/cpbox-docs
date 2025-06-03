@@ -1,76 +1,90 @@
 ---
-description: 区块链多地址高级操作，高效批量调用相同或不同合约的函数
+description: >-
+  Advanced Multi-Address Blockchain Operations: Efficient Batch Function Calls
+  for Same or Different Contracts
 ---
 
-# 批量合约调用
+# Bulk Contract Interactions
 
-### 功能概述
+### Feature **Overview**
 
-我们的[批量合约调用](https://www.cpbox.io/cn/batch/call-contract)区块链工具提供高效的多地址操作功能，让您能够：
+Our **Batch Contract Call Blockchain Tool** provides efficient multi-address operations, enabling you to:
 
-* 从多个钱包地址批量铸造代币
-* 执行NFT批量铸造操作
-* 同时进行多笔交易兑换
-* 管理来自不同<kbd>地址</kbd>的复杂DeFi持仓
-
-### 使用步骤详解
-
-1. **访问工具**：
-   * 打开实用工具栏目（https://www.cpbox.io）
-   * 选择"[批量合约调用](https://www.cpbox.io/cn/batch/call-contract)"功能
-2. **网络设置**：
-   * 选择您要操作的目标区块链网络（以太坊、币安智能链等）
-   * 使用默认RPC节点或配置自定义连接以获得最佳性能
-   * 确保网络设置正确以保证交易可靠性
-3. **合约设置**：
-   * 输入您想要调用的智能合约地址
-   * 在相应的区块链浏览器（如Etherscan、BSCscan）上验证合约
-   * 连接您的钱包到浏览器以获取必要的合约信息
-4.  **交易配置**：
-
-    * 从浏览器复制十六进制的Input Data数据
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>示例：十六进制的Input Data</p></figcaption></figure>
-    * 设置适当的执行间隔以避免网络拥堵
-    * 根据当前网络状况和交易优先级配置Gas设置
-5. **钱包管理**：
-   * 通过直接输入或文件导入方式导入钱包私钥
-   * 组织多个地址进行批量处理
-   * 在继续前检查所有已加载的钱包
-6. **执行操作**：
-   * 确认前检查所有参数
-   * 点击"开始执行"启动批量处理
-   * 实时监控交易状态
-
-对于需要自定义参数或高级配置的合约，请联系我们的客服团队获取个性化指导。
-
-【联系我们】
-
-官网：[https://www.cpbox.io](https://www.cpbox.io/)
-
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
-
-> **注意**：执行前务必验证合约地址和交易参数。处理私钥时请遵循适当的安全措施。
+* **Batch mint tokens** from multiple wallet addresses
+* **Execute NFT batch minting** operations
+* **Perform multi-transaction swaps** simultaneously
+* **Manage complex DeFi positions** across different addresses
 
 ***
 
-### 联系我们
+### **Step-by-Step Guide**
 
-如果想要深入了解CPBOX产品的其他用途和功能
+**1. Access the Tool**
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+* Open the **Utility Tools** section: [https://www.cpbox.io](https://www.cpbox.io/)
+* Select the **"Batch Contract Call"** function
 
-或者你有一些好的建议或者想要帮助开发的需求
+**2. Network Configuration**
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+* Choose your target blockchain network (Ethereum, BSC, etc.)
+* Use the default **RPC node** or configure a custom connection for optimal performance
+* Ensure correct network settings for transaction reliability
 
-也可以通过下方社媒来联系我们
+**3. Contract Setup**
+
+* Enter the **smart contract address** you wish to interact with
+* Verify the contract on blockchain explorers (e.g., Etherscan, BSCscan)
+* Connect your wallet to fetch necessary contract details
+
+**4. Transaction Configuration**
+
+* Copy the **hex-encoded Input Data** from the explorer
+* Set an appropriate **execution interval** to avoid network congestion
+* Configure **Gas settings** based on network conditions and transaction priority
+
+**5. Wallet Management**
+
+* Import wallet private keys via **manual input** or **file upload**
+* Organize multiple addresses for batch processing
+* Double-check all loaded wallets before proceeding
+
+**6. Execute Operations**
+
+* Review all parameters before confirmation
+* Click **"Start Execution"** to begin batch processing
+* Monitor transaction status in real-time
+
+For **custom parameters or advanced configurations**, contact our support team for personalized guidance.
 
 ***
 
-### 其他社媒
+#### **Important Notes**
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+* **Always verify contract addresses and transaction parameters before execution.**
+* **Follow proper security measures when handling private keys.**
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+***
+
+### **Contact Us**
+
+Contact Us
+
+If you want to learn more about other uses and features of CPBOX products
+
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
+
+Or if you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
 Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

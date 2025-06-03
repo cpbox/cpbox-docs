@@ -2,7 +2,7 @@
 description: 快速解决以太坊网络拥堵问题，一键加速或取消卡住的ETH交易
 ---
 
-# Ethereum 交易加速取消
+# Ethereum Transaction Management
 
 ### 功能概述
 
@@ -58,24 +58,26 @@ CPBOX的交易加速与取消功能在以下场景特别有用：
 
 ***
 
-### 联系我们
+### **Contact Us**
 
-如果想要深入了解CPBOX产品的其他用途和功能
+Contact Us
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+If you want to learn more about other uses and features of CPBOX products
 
-或者你有一些好的建议或者想要帮助开发的需求
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+Or if you have good suggestions or development needs
 
-也可以通过下方社媒来联系我们
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
 
 ***
 
-### 其他社媒
+### Other Social Media
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

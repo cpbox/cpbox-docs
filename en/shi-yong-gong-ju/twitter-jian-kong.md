@@ -1,97 +1,108 @@
 ---
-description: 实时将Twitter信息、动态推送至Telegram群组
+description: Real-time Twitter updates delivered to Telegram groups
 ---
 
-# Twitter 监控
+# Twitter Activity Monitor
 
-### 功能概述
+### Feature Overview
 
-**实时监控Twitter账号动态，通过Telegram群聊推送最新内容，便于与朋友、粉丝或合作伙伴共享信息。可为不同群组设置不同订阅，邀请多位管理员共同管理，集中推送内容到同一群组。**
+**Monitor Twitter accounts in real-time and receive updates via Telegram groups, making it easy to share information with friends, followers, or partners. Set up different subscriptions for different groups, invite multiple admins to co-manage, and consolidate content delivery into a single group.**
 
-### 绑定操作
+### Binding Process
 
-1. 连接钱包并开通VIP
-2. 在菜单的实用工具中找到"[Twitter监控](https://www.cpbox.io/cn/twitter/bind)"
-3. 点击"去绑定"或复制链接到浏览器打开Telegram
+**Connect Wallet & Activate VIP**
+
+* Navigate to _"_[_Twitter Monitor_](https://www.cpbox.io/cn/twitter/bind)_"_ in the **Utility Tools** section
+* Click _"Bind Now"_ or copy the link to open Telegram in your browser
 
 <figure><img src="https://www.cpbox.io/cpfiles/2024-05-21/d1f8tutt40katltrqv.png" alt=""><figcaption><p>去绑定</p></figcaption></figure>
 
 4. 进入Twitter机器人页面，发送"/star"命令
 
+**Telegram Bot Setup**
+
+Visit the Twitter bot page and send the `/star` command
+
 <figure><img src="https://www.cpbox.io/cpfiles/2024-05-22/d1fzdth31jnltmcgrm.png" alt=""><figcaption><p>CPBOX Bot</p></figcaption></figure>
 
-5. 将网页上的动态CODE发送给机器人，完成Telegram账号绑定
-6. 创建Telegram群组并邀请Twitter机器人加入
-7. 网站将显示群组信息（如未显示，请移除机器人后重新邀请）
+Send the dynamic **CODE** from the webpage to the bot to complete Telegram account binding
+
+**Create Telegram Group**
+
+* Create a group and invite the Twitter bot
+* The website will display group info (if not, remove and re-invite the bot)
 
 <figure><img src="https://www.cpbox.io/cpfiles/2024-05-24/d1hp8l34oza0erlxxv.png" alt=""><figcaption><p>订阅群组信息</p></figcaption></figure>
 
-### 管理订阅
+### Subscription Management
 
-1. 点击"管理订阅"后选择"增加订阅"
+1. **Add Subscriptions**
+   * Click _"Manage Subscriptions"_ → _"Add Subscription"_
 
 <figure><img src="https://www.cpbox.io/cpfiles/2024-05-24/d1hpekrnktmyztg9gn.png" alt=""><figcaption></figcaption></figure>
 
-2. 输入您想订阅的Twitter账户名（例如：elonmusk）
-3. 当订阅状态显示为"订阅中"，表示订阅成功
+* Enter the target Twitter handle (e.g., `elonmusk`)
+* Status changes to _"Active"_ upon success → real-time updates will be pushed
 
 <figure><img src="https://www.cpbox.io/cpfiles/2024-05-21/d1f8w9jf2hcnwajntd.png" alt=""><figcaption></figcaption></figure>
 
-4. 系统将实时监控并推送该账号的更新内容
+### Subscription Limits
 
-### 订阅限额说明
+With a VIP plan, you can:
 
-购买VIP计划后，您可以：
+* Monitor **up to 100 Twitter accounts** simultaneously
+* Subscribe **1–100 accounts per group** (shared with members)
+* Distribute subscriptions across multiple groups (total cap: 100)
+* _Note: Even for personal use, a group must be created (minimum: you + the bot)_
 
-* 最多同时订阅100个Twitter账号
-* 为单个群聊订阅1-100个账号，与群成员共享
-* 为多个群聊订阅不同账号，但总数仍限制为100个
-* 即使仅为个人使用，也需建立群聊（可仅包含您和监控机器人）
+#### **Need >100 accounts?**
 
-需要监控100个以上账号？您可以：
+* Share subscriptions across VIP accounts in one group
+* Contact us for **custom enterprise solutions**
 
-* 在同一群组内共享多个VIP账户的订阅内容
-* 联系我们定制个性化解决方案
+### Group Management
 
-### 群订阅管理说明
+* Manage subscriptions for multiple groups in one dashboard
+* Group owners/admins have equal management rights
+* Co-admin VIPs can pool subscription quotas
+* **Duplicate subscriptions**:
+  * All records appear in the dashboard (admins manage only their own)
+  * Identical content is pushed **once per group** but counts toward each VIP’s limit
 
-* 可在后台同时管理多个群聊的订阅
-* 群主和群管理员拥有相同的后台管理权限
-* 邀请其他群管理员加入VIP计划并绑定账号，可共享订阅配额
-* 若多位管理员订阅相同账号：
-  * 管理后台将显示所有订阅记录，各管理员仅能管理自己的订阅
-  * 群聊中相同内容只推送一次，但会计入各VIP的订阅限额
 
-### 收费标准
 
-* 7天：27.9 USDT
-* 30天：99 USDT
-* 365天：999 USDT
+### Pricing
 
-### 常见问题解答
+* **7-day**: 27.9 USDT
+* **30-day**: 99 USDT
+* **365-day**: 999 USDT
 
-如遇到操作问题或需要更多的技术支持，请联系CPBox客户服务或查阅帮助文档。
+### Support
 
-***
-
-### 联系我们
-
-如果想要深入了解CPBOX产品的其他用途和功能
-
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
-
-或者你有一些好的建议或者想要帮助开发的需求
-
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
-
-也可以通过下方社媒来联系我们
+For troubleshooting or technical assistance, contact **CPBox Support** or check the help docs.
 
 ***
 
-### 其他社媒
+### **Contact Us**
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+Contact Us
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+If you want to learn more about other uses and features of CPBOX products
+
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
+
+Or if you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
 
 Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)

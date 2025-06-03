@@ -1,79 +1,91 @@
 ---
-description: 一键管理多地址Token授权
+description: One-Click Multi-Wallet Token Approvals
 ---
 
-# Token 批量授权
+# Bulk Token Approvals
 
-### 功能概述
+### Feature **Overview**
 
-批量授权工具允许您同时向多个地址授权指定数量的代币，大幅提升交易效率。通过简单操作，轻松管理多地址授权，适合空投、团队分配、多钱包管理等场景。
-
-### 使用方法
-
-#### 第一步：访问批量授权工具
-
-1. 登录CPBox平台 （[https://www.cpbox.io](https://www.cpbox.io)）
-2. 在首页导航至"实用工具"栏目
-3. 选择"[Token批量授权](https://www.cpbox.io/cn/batch/approve)"工具
-
-#### 第二步：输入授权信息
-
-您可以通过两种方式导入钱包信息：
-
-* **直接输入私钥**：在指定区域逐行输入私钥
-* **导入私钥文件**：上传包含私钥信息的文件
-
-#### 安全提示
-
-> **重要**：CPBox采用前端加密技术，绝不会存储或上传您的私钥信息。所有授权操作均在本地完成，请务必妥善保管您的私钥，防止泄露造成资产损失！
-
-### 适用场景
-
-#### 项目方空投分发
-
-项目方可批量授权代币给社区用户，提高空投效率，节省大量操作时间。
-
-#### 团队资金管理
-
-财务人员可同时向多个团队成员钱包授权代币，便于团队资金分配与管理。
-
-#### 多钱包用户操作
-
-持有多个钱包的用户可一次性完成所有钱包的代币授权，无需重复操作。
-
-#### 智能合约交互
-
-开发者可批量授权代币给智能合约，便于后续自动化操作与交互。
-
-### 特色优势
-
-* **高效便捷**：一键完成多地址授权，节省时间
-* **自定义额度**：灵活设置每个地址的授权数量
-* **安全可靠**：本地授权，私钥不上传，保障资产安全
-* **操作简单**：直观界面，无需专业知识
-
-立即体验CPBox的批量代币授权工具，让您的Token管理更加高效与安全！
+The **Batch Token Approval Tool** enables you to authorize token allowances for multiple addresses simultaneously, significantly improving transaction efficiency. With simple operations, you can easily manage multi-address approvals—ideal for airdrops, team distributions, multi-wallet management, and more.
 
 ***
 
-### 联系我们
+### **How to Use**
 
-如果想要深入了解CPBOX产品的其他用途和功能
+**Step 1: Access the Batch Approval Tool**
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+* Log in to the **CPBox Platform** ([https://www.cpbox.io](https://www.cpbox.io/))
+* Navigate to the **"Utility Tools"** section on the homepage
+* Select the **"Batch Token Approval"** tool
 
-或者你有一些好的建议或者想要帮助开发的需求
+**Step 2: Enter Approval Details**
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+You can import wallet information in two ways:
 
-也可以通过下方社媒来联系我们
+* **Direct Private Key Input**: Enter private keys line by line in the designated area
+* **Private Key File Upload**: Upload a file containing private key information
 
 ***
 
-### 其他社媒
+### **Security Notice**
 
-TG交流群：[https://t.me/cpboxio](https://t.me/cpboxio)
+**Important:** CPBox uses **client-side encryption** and **never stores or uploads** your private keys. All approval operations are performed locally. Please **securely store your private keys** to prevent asset loss due to leaks!
 
-Twitter：[https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+***
 
-Youtube：[https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+### **Use Cases**
+
+✅ **Airdrop Distribution**\
+Project teams can **batch-approve tokens** for community users, improving airdrop efficiency and saving significant time.
+
+✅ **Team Fund Management**\
+Finance managers can **approve tokens for multiple team wallets** simultaneously, simplifying fund allocation and management.
+
+✅ **Multi-Wallet Users**\
+Users holding multiple wallets can **complete token approvals in one click**, eliminating repetitive operations.
+
+✅ **Smart Contract Interaction**\
+Developers can **batch-approve tokens for smart contracts**, facilitating automated operations and interactions.
+
+***
+
+#### **Key Features**
+
+⚡ **High Efficiency** – One-click multi-address approvals save time\
+🔢 **Custom Allowances** – Set different approval amounts per address\
+🔒 **Secure & Reliable** – Local execution, no private key uploads\
+🖥️ **User-Friendly** – Intuitive interface, no technical expertise required
+
+***
+
+#### **Experience CPBox’s Batch Token Approval Tool Today!**
+
+**Streamline your token management with efficiency and security.**
+
+📌 **Get Started Now**: [https://www.cpbox.io](https://www.cpbox.io/)
+
+***
+
+### **Contact Us**
+
+Contact Us
+
+If you want to learn more about other uses and features of CPBOX products
+
+You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
+
+Or if you have good suggestions or development needs
+
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+
+Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+
+Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
