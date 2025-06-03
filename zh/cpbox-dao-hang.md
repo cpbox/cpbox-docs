@@ -12,7 +12,7 @@ description: cpbox工具大全导航
 
 ### 多号批量工具（撸毛工具）
 
-[批量钱包创建](https://www.cpbox.io/cn/batch/generate-wallet)：快速建立多账号，实现多号撸毛｜[查看教程](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
+[批量钱包创建](https://www.cpbox.io/cn/batch/generate-wallet)：快速建立多账号，实现多号撸毛｜[查看教程](broken-reference)
 
 [交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)：批零提币，防女巫检测 ｜[查看教程](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
 
@@ -46,7 +46,7 @@ description: cpbox工具大全导航
 
 [Solana租金回收](https://www.cpbox.io/cn/solana/close-account)：地址单个或批量回收租金，隐藏收入｜[查看教程](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
 
-[Solana创建钱包](https://www.cpbox.io/cn/batch/generate-wallet)：批量生成Solana钱包，1分钟生成几千个｜[查看教程](xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md)
+[Solana创建钱包](https://www.cpbox.io/cn/batch/generate-wallet)：批量生成Solana钱包，1分钟生成几千个｜[查看教程](broken-reference)
 
 [PUMP绑定买入](https://www.cpbox.io/cn/solana/pump/publish)：发币上pump.fun，支持多地址捆绑买入｜[查看教程](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
 

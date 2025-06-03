@@ -1,5 +1,8 @@
 ---
-description: Learn to open-source contract code. Web3 contract open-sourcing promotes security audits, establishes transparent trust, drives collaborative innovation, and strengthens community accountability.
+description: >-
+  Learn to open-source contract code. Web3 contract open-sourcing promotes
+  security audits, establishes transparent trust, drives collaborative
+  innovation, and strengthens community accountability.
 ---
 
 # Open Source Contract Code
@@ -10,7 +13,7 @@ In the [EVM One-Click Token Issuance Case](evm-yi-jian-fa-bi-an-li/biao-zhun-erc
 
 <figure><img src="../../../.gitbook/assets/contract-ver-1.png" alt=""><figcaption><p>Contract code on scan</p></figcaption></figure>
 
-As shown in the image above, this is a non-open-sourced contract where the contract content is all hexadecimal data. There's also a [Verify and Publish] button that will guide you through the contract open-sourcing process, which we'll explain in detail later.
+As shown in the image above, this is a non-open-sourced contract where the contract content is all hexadecimal data. There's also a \[Verify and Publish] button that will guide you through the contract open-sourcing process, which we'll explain in detail later.
 
 What are the benefits of open-sourcing contracts?
 
@@ -59,11 +62,11 @@ First, we copy the contract code in, then because the contract is relatively sim
 
 Click verify and publish, and you'll see this prompt:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-8.png" alt=""><figcaption><p>Contract open-sourcing prompt</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-8 (1).png" alt=""><figcaption><p>Contract open-sourcing prompt</p></figcaption></figure>
 
 Now enter the contract address in the blockchain explorer, and you'll find the contract has been verified and you can see the contract source code:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-9 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Contract Interaction**
 
@@ -71,7 +74,7 @@ Another benefit of contract open-sourcing is that you can call contract methods 
 
 <figure><img src="../../../.gitbook/assets/contract-ver-10.png" alt=""><figcaption><p>Contract read-only calls</p></figcaption></figure>
 
-The other category is write operations, which usually require wallet connection. First click [Connect to Web3] to connect your wallet:
+The other category is write operations, which usually require wallet connection. First click \[Connect to Web3] to connect your wallet:
 
 <figure><img src="../../../.gitbook/assets/contract-ver-11.png" alt=""><figcaption><p>Contract write calls</p></figcaption></figure>
 

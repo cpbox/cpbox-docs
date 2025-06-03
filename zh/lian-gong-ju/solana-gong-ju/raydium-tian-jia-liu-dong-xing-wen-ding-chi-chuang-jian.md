@@ -20,7 +20,7 @@
 
 进入页面后单击右侧 create 创建按钮
 
-<figure><img src="../../../.gitbook/assets/ray-liq-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-2 (2).png" alt=""><figcaption></figcaption></figure>
 
 跳出弹窗后，pool type这里，我们默认选择Concentrated liquidity（集中性流动池）
 
@@ -36,25 +36,25 @@
 
 常见的报价代币（Quote token）包括SOL，USDC或其他稳定币。
 
-<figure><img src="../../../.gitbook/assets/ray-liq-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-4 (2).png" alt=""><figcaption></figcaption></figure>
 
 注意：如果你选择的代币并没有显示头像等信息，大概率是solscan上并没有进行验证，导致信息不显示。
 
 如果你需要相关信息能够显示完全，[更新信息](https://solscan.io/token-update)页面上传相关信息。并完成审核验证
 
-<figure><img src="../../../.gitbook/assets/ray-liq-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-5 (2).png" alt=""><figcaption></figcaption></figure>
 
 点击下一步后进入价格设定界面
 
 在下方选择价格的波动范围，我这里是设定代币价格范围稳定在1刀左右，所以价格范围设置的很小。如果池子的深度不够的话，基本是没办法成交的。
 
-<figure><img src="../../../.gitbook/assets/ray-liq-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-6 (2).png" alt=""><figcaption></figcaption></figure>
 
 点击下一步后，进入到最后创建池子确认环节。选择初始要多少质押的代币，进入流动性池子。
 
 我们这里因为没有没足够的usdcoin所以没法点击确认。
 
-<figure><img src="../../../.gitbook/assets/ray-liq-7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-7 (2).png" alt=""><figcaption></figcaption></figure>
 
 点击确认后池子就创建成功。
 
