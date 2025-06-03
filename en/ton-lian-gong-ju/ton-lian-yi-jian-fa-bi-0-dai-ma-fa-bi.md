@@ -1,12 +1,12 @@
----
-description: One-click TON chain token creation
----
+***
+
+## description: One-click TON chain token creation
 
 # Zero Code Launch Token on TON
 
-{% embed url="https://youtu.be/uH7jV9jCcD8" %}
+{% embed url="<https://youtu.be/uH7jV9jCcD8>" %}
 
-### Introduction
+### Introduction&#x20;
 
 Over the past year, TON tokens have shown excellent performance, soaring from around $2.5 at the beginning of the year. Due to backing from the Telegram application, it has natural advantages in user ecosystem. At its peak, the token price even reached around $8. Unfortunately, with market adjustments and issues with the Telegram founder, the token trend is currently not very strong.
 
@@ -57,7 +57,7 @@ After creation is complete, you will get your token's contract address.
 
 <figure><img src="../../.gitbook/assets/ton-token-06-contract-address.png" alt=""><figcaption></figcaption></figure>
 
-Here we can go to the Tonviewer official website [https://tonviewer.com/](https://tonviewer.com/) to view our token details.
+Here we can go to the Tonviewer official website <https://tonviewer.com/> to view our token details.
 
 <figure><img src="../../.gitbook/assets/ton-token-07-tonviewer-details.png" alt=""><figcaption></figcaption></figure>
 
@@ -87,10 +87,8 @@ You can also contact us through the social media below
 
 ### Other Social Media
 
-Telegram Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+Telegram Group: <https://t.me/cpboxio>
 
-Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: <https://twitter.com/Web3CryptoBox> | <https://x.com/cpboxio>
 
-YouTube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
-
-
+YouTube: <https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA>

@@ -1,6 +1,6 @@
----
-description: One-Click Multi-Wallet Token Approvals
----
+***
+
+## description: One-Click Multi-Wallet Token Approvals
 
 # Bulk Token Approvals
 
@@ -35,25 +35,28 @@ You can import wallet information in two ways:
 
 ### **Use Cases**
 
-✅ **Airdrop Distribution**\
+✅ **Airdrop Distribution**
 Project teams can **batch-approve tokens** for community users, improving airdrop efficiency and saving significant time.
 
-✅ **Team Fund Management**\
+✅ **Team Fund Management**
 Finance managers can **approve tokens for multiple team wallets** simultaneously, simplifying fund allocation and management.
 
-✅ **Multi-Wallet Users**\
+✅ **Multi-Wallet Users**
 Users holding multiple wallets can **complete token approvals in one click**, eliminating repetitive operations.
 
-✅ **Smart Contract Interaction**\
+✅ **Smart Contract Interaction**
 Developers can **batch-approve tokens for smart contracts**, facilitating automated operations and interactions.
 
 ***
 
 #### **Key Features**
 
-⚡ **High Efficiency** – One-click multi-address approvals save time\
-🔢 **Custom Allowances** – Set different approval amounts per address\
-🔒 **Secure & Reliable** – Local execution, no private key uploads\
+⚡ **High Efficiency** – One-click multi-address approvals save time
+
+🔢 **Custom Allowances** – Set different approval amounts per address
+
+🔒 **Secure & Reliable** – Local execution, no private key uploads
+
 🖥️ **User-Friendly** – Intuitive interface, no technical expertise required
 
 ***
@@ -72,7 +75,7 @@ Contact Us
 
 If you want to learn more about other uses and features of CPBOX products
 
-You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/) to learn more
+You can visit <https://docs.cpbox.io/> to learn more
 
 Or if you have good suggestions or development needs
 
@@ -84,8 +87,8 @@ You can also contact us through the social media below
 
 ### Other Social Media
 
-TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+TG Group: <https://t.me/cpboxio>
 
-Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: <https://twitter.com/Web3CryptoBox> | <https://x.com/cpboxio>
 
-Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: <https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA>

@@ -6,7 +6,7 @@ description: 安全便捷地将您的数字资产提取到任意区块链钱包�
 
 ### 功能概述
 
-在加密货币生态中，交易所的钱包地址通常被项目方列入白名单，这使得从交易所批量提币到多个钱包成为空投策略的关键环节。传统提币流程需要反复输入验证码，既耗时又繁琐。CPBOX推出的【[交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)】功能专为解决这一问题而设计，目前支持Binance（币安）、OKEx、Bitget、Gate.io和Bybit五大交易所，让您能够高效地批量提币到链上地址。如果您有其它交易所需求，也可以联系客服进行定制。
+在加密货币生态中，交易所的钱包地址通常被项目方列入白名单，这使得从交易所批量提币到多个钱包成为空投策略的关键环节。传统提币流程需要反复输入验证码，既耗时又繁琐。CPBOX推出的【[交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw?_s=docs)】功能专为解决这一问题而设计，目前支持Binance（币安）、OKEx、Bitget、Gate.io和Bybit五大交易所，让您能够高效地批量提币到链上地址。如果您有其它交易所需求，也可以联系客服进行定制。
 
 ### 支持的交易所
 
@@ -35,13 +35,13 @@ CPBOX目前支持以下五大交易所的批量提币功能：
 4. 设置API名称和权限（确保包含提币权限）
 5. 添加IP白名单（从CPBOX获取）
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>你的IP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cex-withdraw.jpg" alt=""><figcaption><p>你的IP</p></figcaption></figure>
 
 6. 完成验证并保存API Key与Secret Key
 
 #### 第二部分：CPBOX批量提币设置
 
-1. 登录CPBOX，选择"[交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)"
+1. 登录CPBOX，选择"[交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw?_s=docs)"
 2. 选择"OKEx"交易所
 3. 输入API密钥信息
 4. 获取并选择资产和网络
@@ -76,11 +76,11 @@ CPBOX交易所批量提币功能为管理多钱包用户提供了极大便利，
 
 如果想要深入了解CPBOX产品的其他用途和功能
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/)查看
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs)查看
 
 或者你有一些好的建议或者想要帮助开发的需求
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+可以通过主页 [https://www.cpbox.io/](https://www.cpbox.io/cn/?_s=docs)最下方的联系方式来找到我们
 
 也可以通过下方社媒来联系我们
 

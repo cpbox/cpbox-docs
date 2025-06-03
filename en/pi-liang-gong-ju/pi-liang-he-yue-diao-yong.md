@@ -21,7 +21,7 @@ Our **Batch Contract Call Blockchain Tool** provides efficient multi-address ope
 
 **1. Access the Tool**
 
-* Open the **Utility Tools** section: [https://www.cpbox.io](https://www.cpbox.io/)
+* Open the **Utility Tools** section: [https://www.cpbox.io](https://www.cpbox.io/en/?_s=docs)
 * Select the **"Batch Contract Call"** function
 
 **2. Network Configuration**
@@ -39,6 +39,7 @@ Our **Batch Contract Call Blockchain Tool** provides efficient multi-address ope
 **4. Transaction Configuration**
 
 * Copy the **hex-encoded Input Data** from the explorer
+<figure><img src="../../.gitbook/assets/input-data.jpg" alt=""><figcaption><p>Example：Hex Encoded Input Data</p></figcaption></figure>
 * Set an appropriate **execution interval** to avoid network congestion
 * Configure **Gas settings** based on network conditions and transaction priority
 
