@@ -18,7 +18,7 @@ description: 教你如何使用pumpswap
 
 进入CPBOX官网后，点击上方菜单实用工具，中的solana一键发币
 
-<figure><img src="../../../en/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pumpswap-cpbox-utilities-menu.png" alt=""><figcaption></figcaption></figure>
 
 进入页面后链接钱包
 
@@ -26,13 +26,13 @@ description: 教你如何使用pumpswap
 
 这边我们默认代币精度为9。我这里供应量选择了一个亿
 
-<figure><img src="../../../en/.gitbook/assets/image%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pumpswap-token-creation-form.png" alt=""><figcaption></figcaption></figure>
 
 下方还有一个相关信息可以选填，这边不过多做演示了
 
 点击创建代币后会弹出一个弹窗，信息二次确认
 
-<figure><img src="../../../en/.gitbook/assets/image%20(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pumpswap-token-creation-confirmation.png" alt=""><figcaption></figcaption></figure>
 
 注意这边CPBOX会收取**0.1个sol作为服务费用**
 
@@ -44,7 +44,7 @@ description: 教你如何使用pumpswap
 
 我们进入[pumpswap](https://swap.pump.fun/)的页面，点击进入中间的Deposit/create 按钮
 
-<figure><img src="../../../en/.gitbook/assets/image%20(3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pumpswap-deposit-create-interface.png" alt=""><figcaption></figcaption></figure>
 
 deposit就是质押的意思，进来后我们能看到中间有三个选项
 
@@ -54,13 +54,13 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 
 我们现在要创建流动性池，所以先点击create按钮下面把自己创建代币的合约地址输入进去。
 
-<figure><img src="../../../en/.gitbook/assets/image%20(4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pumpswap-create-pool-interface.png" alt=""><figcaption></figcaption></figure>
 
 这边选择相应质押的代币数量和Sol数量。
 
 成功创建流动性池后，我们可以点回左上方的swap 进行交易测试了
 
-<figure><img src="../../../en/.gitbook/assets/image%20(5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pumpswap-swap-trading-interface.png" alt=""><figcaption></figcaption></figure>
 
 回到中间的deposit页面。我们就可以根据当前的价格来同比例进行加池子，或者是撤池子了
 
@@ -86,7 +86,7 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 
 或者你有一些好的建议或者想要帮助开发的需求
 
-可以通过主页 [https://www.cpbox.io/cn/ ](https://www.cpbox.io/cn/)最下方的联系方式来找到我们
+可以通过主页 [https://www.cpbox.io/](https://www.cpbox.io/cn/?_s=docs)最下方的联系方式来找到我们
 
 也可以通过下方社媒来联系我们
 
