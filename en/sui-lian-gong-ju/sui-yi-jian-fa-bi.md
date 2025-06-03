@@ -57,7 +57,7 @@ Here's the strategic difference:
 
 **Access the Platform**: [CPBOX Token Launch](https://www.cpbox.io/en/sui/token/publish?_s=docs)
 
-<figure><img src="../../.gitbook/assets/sui-token-1 (1).png" alt="Connect your Sui wallet to begin"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-1.png" alt="Connect your Sui wallet to begin"><figcaption></figcaption></figure>
 
 #### **Step 2: Token Configuration**
 
@@ -109,7 +109,7 @@ Click **"Connect Wallet"** and configure your token parameters:
 **📖 Complete Guide Available:**
 
 {% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
-[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
+SUI Add Liquidity
 {% endcontent-ref %}
 
 ***
@@ -118,7 +118,7 @@ Click **"Connect Wallet"** and configure your token parameters:
 
 **📚 Documentation**: [https://docs.cpbox.io](https://docs.cpbox.io/)
 
-**💡 Custom Solutions & Partnership Inquiries**:\
+**💡 Custom Solutions & Partnership Inquiries**:
 Contact us: [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
 
 ***

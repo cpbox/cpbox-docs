@@ -37,7 +37,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 
 钱包安装完成后，打开发币链接：[https://www.cpbox.io/cn/sui/token/publish](https://www.cpbox.io/cn/sui/token/publish?_s=docs) 点击中间"连接钱包"
 
-<figure><img src="../../.gitbook/assets/sui-token-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sui-token-1.png" alt=""><figcaption></figcaption></figure>
 
 ### 代币信息
 
@@ -69,7 +69,7 @@ sol链 适合快速发 meme 币、蹭热点、短期投机炒作 sol因为meme�
 当代币创建成功后，是不是就可以进行交易了？当然不是，我们还要再进行后续的步骤创建流动性资金池，设置交易对。参考教程：
 
 {% content-ref url="sui-liu-dong-xing-chi-tian-jia.md" %}
-[sui-liu-dong-xing-chi-tian-jia.md](sui-liu-dong-xing-chi-tian-jia.md)
+SUI 流动性添加
 {% endcontent-ref %}
 
 ***

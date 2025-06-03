@@ -68,8 +68,8 @@ Quick access to CPBOX official website: [https://www.cpbox.io/](https://www.cpbo
 
 ### SUI Token Creation
 
-[Launch Tokens with One Click](https://www.cpbox.io/sui/token/publish): The best platform for one-click SUI token creation | [View Tutorial](broken-reference)
+[Launch Tokens with One Click](https://www.cpbox.io/sui/token/publish): The best platform for one-click SUI token creation | [View Tutorial](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
 
-[Modify Token Permissions](https://www.cpbox.io/sui/token/manage): Edit token metadata and access control | [View Tutorial](broken-reference)
+[Modify Token Permissions](https://www.cpbox.io/sui/token/manage): Edit token metadata and access control | [View Tutorial](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
 
-[Add Liquidity to Pools](https://www.cetus.zone/): The largest DEX in the SUI ecosystem | [View Tutorial](broken-reference)
+[Add Liquidity to Pools](https://www.cetus.zone/): The largest DEX in the SUI ecosystem | [View Tutorial](sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
