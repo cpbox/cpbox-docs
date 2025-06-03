@@ -1,0 +1,1309 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Ton 流动性池创建 · CPBox.io</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Ton流动性池创建-DeDust教程">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-flexible-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-selector/language-selector.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ton-qian-bao-chuang-jian-jiao-cheng.html" />
+    
+    
+    <link rel="prev" href="ton-dai-bi-guan-li.html" />
+    
+
+    <script src="../../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    
+    <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    
+        <meta name="google-adsense-account" content="ca-pub-7787441319194104">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7787441319194104"
+     crossorigin="anonymous"></script>
+    
+    
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    
+    
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./favicon.ico">
+    
+    
+        
+    
+    
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    🏠 CPBOX介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">起步引导</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../cpbox-dao-hang.html">
+            
+                <a href="../cpbox-dao-hang.html">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../qi-bu-yin-dao/xiao-bai-ru-men/">
+            
+                <a href="../qi-bu-yin-dao/xiao-bai-ru-men/">
+            
+                    
+                    小白入门
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.html">
+            
+                <a href="../xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.html">
+            
+                    
+                    靓号地址生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.html">
+            
+                <a href="../xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.html">
+            
+                    
+                    MetaMask小白快速配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.html">
+            
+                <a href="../xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.html">
+            
+                    
+                    批量地址生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.html">
+            
+                <a href="../xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.html">
+            
+                    
+                    助记词生成私钥
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.html">
+            
+                <a href="../qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.html">
+            
+                    
+                    多号撸毛有哪些好用的批量工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.html">
+            
+                <a href="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.html">
+            
+                    
+                    发币从入门到跑路——全网最真诚的区块链发币指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.html">
+            
+                <a href="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.html">
+            
+                    
+                    什么是流动性资金池、AMM、流动性挖矿
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.html">
+            
+                <a href="../qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.html">
+            
+                    
+                    如何将代币价格控制在一定范围，稳定池CLMM介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">链工具</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../solana-gong-ju/">
+            
+                <a href="../solana-gong-ju/">
+            
+                    
+                    Solana 工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../solana-gong-ju/solana-yi-jian-fa-bi.html">
+            
+                <a href="../solana-gong-ju/solana-yi-jian-fa-bi.html">
+            
+                    
+                    Solana 一键发币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.html">
+            
+                <a href="../solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.html">
+            
+                    
+                    Solana 关闭地址(租金回收)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.html">
+            
+                <a href="../lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.html">
+            
+                    
+                    Solana钱包批量创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.html">
+            
+                <a href="../solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.html">
+            
+                    
+                    Solana 批量买卖代币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../solana-gong-ju/solana-dai-bi-guan-li.html">
+            
+                <a href="../solana-gong-ju/solana-dai-bi-guan-li.html">
+            
+                    
+                    Solana 代币管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="../lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.html">
+            
+                <a href="../lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.html">
+            
+                    
+                    Solana批量转账（空投发送）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.html">
+            
+                <a href="../lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.html">
+            
+                    
+                    Solana批量归集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../solana-gong-ju/pump-kai-pan-he-bing-mai-ru.html">
+            
+                <a href="../solana-gong-ju/pump-kai-pan-he-bing-mai-ru.html">
+            
+                    
+                    Pump 开盘合并买入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="../solana-gong-ju/pump-shi-zhi-guan-li.html">
+            
+                <a href="../solana-gong-ju/pump-shi-zhi-guan-li.html">
+            
+                    
+                    Pump 市值管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10" data-path="../lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.html">
+            
+                <a href="../lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.html">
+            
+                    
+                    PumpSwap流动性添加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.11" data-path="../lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.html">
+            
+                <a href="../lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.html">
+            
+                    
+                    Raydium添加流动性——稳定池创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../sui-lian-gong-ju/">
+            
+                <a href="../sui-lian-gong-ju/">
+            
+                    
+                    Sui 工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="../sui-lian-gong-ju/sui-yi-jian-fa-bi.html">
+            
+                <a href="../sui-lian-gong-ju/sui-yi-jian-fa-bi.html">
+            
+                    
+                    Sui 一键发币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="../sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.html">
+            
+                <a href="../sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.html">
+            
+                    
+                    Sui 代币权限修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.html">
+            
+                <a href="../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.html">
+            
+                    
+                    Sui 流动性池添加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="../lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.html">
+            
+                <a href="../lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.html">
+            
+                    
+                    Sui批量发送（空投发送）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Ton 工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.html">
+            
+                <a href="ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.html">
+            
+                    
+                    Ton 一键发币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="ton-dai-bi-guan-li.html">
+            
+                <a href="ton-dai-bi-guan-li.html">
+            
+                    
+                    Ton 代币管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.3.3" data-path="ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.html">
+            
+                <a href="ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.html">
+            
+                    
+                    Ton 流动性池创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.4" data-path="ton-qian-bao-chuang-jian-jiao-cheng.html">
+            
+                <a href="ton-qian-bao-chuang-jian-jiao-cheng.html">
+            
+                    
+                    Ton 钱包创建教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.5" data-path="../lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.html">
+            
+                <a href="../lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.html">
+            
+                    
+                    Ton批量转账（空投发送）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">批量与监控工具</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../pi-liang-yu-jian-kong-gong-ju/gong-ju-zong-lan/">
+            
+                <a href="../pi-liang-yu-jian-kong-gong-ju/gong-ju-zong-lan/">
+            
+                    
+                    工具总览
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../pi-liang-gong-ju/pi-liang-fa-song.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-fa-song.html">
+            
+                    
+                    批量发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../pi-liang-gong-ju/pi-liang-cha-xun.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-cha-xun.html">
+            
+                    
+                    批量查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../pi-liang-gong-ju/pi-liang-gui-ji.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-gui-ji.html">
+            
+                    
+                    批量归集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../pi-liang-gong-ju/nft-pi-liang-fa-song.html">
+            
+                <a href="../pi-liang-gong-ju/nft-pi-liang-fa-song.html">
+            
+                    
+                    NFT 批量发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../pi-liang-gong-ju/nft-pi-liang-gui-ji.html">
+            
+                <a href="../pi-liang-gong-ju/nft-pi-liang-gui-ji.html">
+            
+                    
+                    NFT 批量归集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../pi-liang-gong-ju/pi-liang-he-yue-diao-yong.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-he-yue-diao-yong.html">
+            
+                    
+                    批量合约调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../pi-liang-gong-ju/token-pi-liang-shou-quan.html">
+            
+                <a href="../pi-liang-gong-ju/token-pi-liang-shou-quan.html">
+            
+                    
+                    Token 批量授权
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.html">
+            
+                <a href="../shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.html">
+            
+                    
+                    交易所批量提币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="../shi-yong-gong-ju/twitter-jian-kong.html">
+            
+                <a href="../shi-yong-gong-ju/twitter-jian-kong.html">
+            
+                    
+                    Twitter 监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10" data-path="../shi-yong-gong-ju/yuejian-kong.html">
+            
+                <a href="../shi-yong-gong-ju/yuejian-kong.html">
+            
+                    
+                    余额监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11" data-path="../shi-yong-gong-ju/bsc-pi-liang-jiao-yi.html">
+            
+                <a href="../shi-yong-gong-ju/bsc-pi-liang-jiao-yi.html">
+            
+                    
+                    BSC 批量交易
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12" data-path="../shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.html">
+            
+                <a href="../shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.html">
+            
+                    
+                    Ethereum 交易加速取消
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">教程与案例</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/">
+            
+                    
+                    实用信息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.html">
+            
+                <a href="../shi-yong-xin-xi/sui-qu-kuai-lian-jie-shao-ji-qian-bao-shi-yong-zhi-nan.html">
+            
+                    
+                    Sui 区块链 & 钱包指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.html">
+            
+                <a href="../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.html">
+            
+                    
+                    Meme 社区空投案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/he-yue-dai-ma-kai-yuan.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/he-yue-dai-ma-kai-yuan.html">
+            
+                    
+                    合约代码开源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/">
+            
+                    
+                    EVM一键发币案例
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.4.1" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.html">
+            
+                    
+                    ERC20 代币部署教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.2" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.html">
+            
+                    
+                    LP挖矿推荐奖励的营销代币部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.3" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.html">
+            
+                    
+                    创建可以Mint,以及燃烧LP的代币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.4" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.html">
+            
+                    
+                    创建分红代币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.5" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.html">
+            
+                    
+                    创建LP分红代币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.6" data-path="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.html">
+            
+                <a href="../jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.html">
+            
+                    
+                    创建持币分红代币
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">📞 联系我们</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../contactus/">
+            
+                <a href="../contactus/">
+            
+                    
+                    ✉️ 联系方式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" >
+            
+                <a target="_blank" href="https://x.com/web3cryptobox">
+            
+                    
+                    Twitter/X
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" >
+            
+                <a target="_blank" href="https://www.cpbox.io/">
+            
+                    
+                    官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" >
+            
+                <a target="_blank" href="https://t.me/cpbox">
+            
+                    
+                    Telegram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" >
+            
+                <a target="_blank" href="https://github.com/cpbox">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Ton 流动性池创建</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ton-&#x6D41;&#x52A8;&#x6027;&#x6C60;&#x521B;&#x5EFA;">Ton &#x6D41;&#x52A8;&#x6027;&#x6C60;&#x521B;&#x5EFA;</h1>
+<p>
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                        <iframe src="https://www.youtube.com/embed/MsOaA0YJmW4" "="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                        </iframe>
+                    </div>
+                </p>
+<p>&#x4ECA;&#x5929;&#x6559;&#x5927;&#x5BB6;&#x5982;&#x4F55;&#x5728;DeDust&#x4E0A;&#x4E3A;&#x4F60;&#x7684;&#x4EE3;&#x5E01;&#x521B;&#x5EFA;&#x6D41;&#x52A8;&#x6027;&#x6C60;&#xFF0C;&#x4ECE;defillama&#x5E73;&#x53F0;&#x4E0A;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;DeDust&#x662F;&#x5728;Ton&#x94FE;&#x4E0A;&#x6392;&#x5728;&#x7B2C;&#x4E8C;&#x7684; <strong>DEX</strong></p>
+<h3 id="dudust&#x548C;stonfi&#x76F8;&#x6BD4;-&#x6709;&#x54EA;&#x4E9B;&#x4F18;&#x52BF;&#x5462;&#xFF1F;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x9009;&#x62E9;dudust"><strong>DuDust&#x548C;Ston.Fi&#x76F8;&#x6BD4; &#x6709;&#x54EA;&#x4E9B;&#x4F18;&#x52BF;&#x5462;&#xFF1F;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x9009;&#x62E9;DuDust</strong></h3>
+<ul>
+<li><strong>DeDust &#x7684; v2 &#x7248;&#x672C;</strong> &#x91C7;&#x7528;&#x4E86; <strong>&#x65B0;&#x9896;&#x7684;&quot;&#x96C6;&#x4E2D;&#x6D41;&#x52A8;&#x6027;&quot;&#x6A21;&#x578B;</strong>&#xFF08;&#x7C7B;&#x4F3C; Uniswap v3&#xFF09;&#xFF0C;&#x5141;&#x8BB8;&#x6D41;&#x52A8;&#x6027;&#x63D0;&#x4F9B;&#x8005;&#xFF08;LP&#xFF09;&#x81EA;&#x5B9A;&#x4E49;&#x4EF7;&#x683C;&#x533A;&#x95F4;&#xFF0C;&#x63D0;&#x9AD8;&#x8D44;&#x91D1;&#x6548;&#x7387;&#x3002;</li>
+<li><strong>DeDust &#x539F;&#x751F;&#x652F;&#x6301; TON &#x548C; EVM &#x517C;&#x5BB9;&#x94FE;</strong>&#xFF08;&#x5982; Ethereum&#x3001;BNB Chain&#xFF09;&#x7684;&#x8D44;&#x4EA7;&#xFF0C;&#x9002;&#x5408;&#x8DE8;&#x94FE;&#x4EA4;&#x6613;&#x9700;&#x6C42;&#x3002;</li>
+</ul>
+<p>&#x76F8;&#x8F83;&#x4E8E;Ston.Fi&#x4F20;&#x7EDF;&#x7684;AMM&#x673A;&#x5236;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x9700;&#x8981;&#x66F4;&#x52A0;&#x4E13;&#x4E1A;&#x7684;&#x6D41;&#x52A8;&#x6027;&#x7BA1;&#x7406;&#xFF0C;&#x53C8;&#x6216;&#x8005;&#x5E0C;&#x671B;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x8DE8;&#x94FE;&#x8D44;&#x4EA7;&#x4EA4;&#x6613;&#xFF0C;DuDust&#x662F;&#x4F60;&#x66F4;&#x597D;&#x7684;&#x9009;&#x62E9;</p>
+<figure><img src="../../gitbook/assets/ton-liq-01-defillama.png" alt=""><figcaption></figcaption></figure>
+
+<h3 id="&#x94FE;&#x63A5;&#x94B1;&#x5305;">&#x94FE;&#x63A5;&#x94B1;&#x5305;</h3>
+<p>&#x4E0D;&#x8BF4;&#x5E9F;&#x8BDD;&#xFF0C;&#x5F00;&#x59CB;&#x4ECA;&#x5929;&#x7684;&#x6559;&#x7A0B;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5148;&#x8FDB;&#x5165;<a href="https://dedust.io/" target="_blank">DeDust</a>&#x7684;&#x5B98;&#x7F51;<a href="https://dedust.io/&#x3002;" target="_blank">https://dedust.io/&#x3002;</a></p>
+<p>&#x70B9;&#x51FB;&#x53F3;&#x4E0A;&#x65B9;&#x94FE;&#x63A5;&#x94B1;&#x5305;&#x540E;&#xFF0C;&#x518D;&#x70B9;&#x51FB;&#x83DC;&#x5355;&#x680F;&#x4E2D;&#x7684;<strong>pool</strong>&#x6309;&#x94AE;</p>
+<p>&#x94FE;&#x63A5;&#x94B1;&#x5305;&#x7684;&#x65F6;&#x5019;&#x8FD9;&#x8FB9;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;<strong>Tonkeeper</strong>&#x94B1;&#x5305;&#xFF0C;&#x56E0;&#x4E3A;&#x94FE;&#x63A5;&#x63D2;&#x4EF6;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x9009;&#x7528;&#x5176;&#x4ED6;&#x94B1;&#x5305;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x4E0D;&#x663E;&#x793A;&#x4F59;&#x989D;&#x7684;bug</p>
+<figure><img src="../../gitbook/assets/ton-liq-02-connect-wallet.png" alt=""><figcaption></figcaption></figure>
+
+<h3 id="&#x521B;&#x5EFA;&#x6D41;&#x52A8;&#x6027;&#x6C60;">&#x521B;&#x5EFA;&#x6D41;&#x52A8;&#x6027;&#x6C60;</h3>
+<p>&#x70B9;&#x51FB;pool&#x8FDB;&#x5165;&#x6C60;&#x5B50;&#x9875;&#x9762;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x70B9;&#x51FB;&#x4E0B;&#x65B9; <strong>create a pool</strong> &#x6309;&#x94AE;&#x3002;&#x4F1A;&#x5F39;&#x51FA;&#x4E00;&#x4E2A;&#x5F39;&#x7A97;&#xFF0C;&#x8981;&#x6211;&#x4EEC;&#x5148;&#x8FDB;&#x884C;&#x4EA4;&#x6613;&#x5BF9;&#x7684;&#x914D;&#x7F6E;&#x3002;</p>
+<figure><img src="../../gitbook/assets/ton-liq-03-create-pool.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x5728;&#x8BBE;&#x7F6E;&#x4EA4;&#x6613;&#x5BF9;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E0A;&#x65B9;&#x6211;&#x4EEC;&#x9009;&#x62E9;Ton&#x4F5C;&#x4E3A;&#x4EA4;&#x6613;&#x5151;&#x6362;&#x4EE3;&#x5E01;&#x5F53;&#x7136;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x9009;&#x62E9;&#x4F7F;&#x7528;&#x5176;&#x4ED6;&#x4EE3;&#x5E01;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4F7F;&#x7528;Ton&#x6765;&#x8FDB;&#x884C;&#x6F14;&#x793A;&#x5728;DeDust&#x521B;&#x5EFA;&#x6C60;&#x5B50;&#x3002;</p>
+<figure><img src="../../gitbook/assets/ton-liq-04-trading-pair.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x6388;&#x6743;&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x652F;&#x4ED8;0.1TON&#xFF0C;&#x521B;&#x6C60;&#x5B50;(Creat Pair)&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x652F;&#x51FA;0.5TON&#x5DE6;&#x53F3;&#xFF0C;&#x6240;&#x4EE5;&#x7D2F;&#x79EF;&#x5DEE;&#x4E0D;&#x591A;&#x8981;&#x652F;&#x51FA;0.6TON&#x5DE6;&#x53F3;</p>
+<p>&#x5728;&#x4E0B;&#x65B9;&#x8F93;&#x5165;&#x5408;&#x7EA6;&#x5730;&#x5740;&#x4E4B;&#x540E;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x63D0;&#x793A;&#x5F39;&#x7A97;&#xFF0C;&#x63D0;&#x793A;&#x6211;&#x4EEC;&#x7684;&#x4EE3;&#x5E01;&#x662F;&#x4E0D;&#x5B58;&#x5728;&#x767D;&#x540D;&#x5355;&#x4E2D;&#xFF0C;&#x5C5E;&#x4E8E;&#x9AD8;&#x5371;&#x4EE3;&#x5E01;</p>
+<figure><img src="../../gitbook/assets/ton-liq-05-import-warning.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x70B9;&#x51FB;import</p>
+<p>&#x8FDB;&#x5165;&#x6211;&#x4EEC;&#x8D28;&#x62BC;&#x6C60;&#x5B50;&#x7684;&#x6211;&#x4EEC;&#x9009;&#x62E9;&#x8D28;&#x62BC;&#x4E86;9w&#x4E2A;&#x571F;&#x72D7;&#x4EE3;&#x5E01;&#x548C;&#x4E00;&#x4E2A;Ton&#x5728;&#x6C60;&#x5B50;&#x91CC;&#x9762;</p>
+<p>&#x70B9;&#x51FB;&#x786E;&#x8BA4;&#x540E;&#xFF0C;&#x8FD9;&#x8FB9;&#x8FD8;&#x4F1A;&#x6536;&#x53D6;<strong>0.2&#x4E2A;Ton</strong>&#x8D39;&#x7528;&#x4F5C;&#x4E3A;&#x6C60;&#x5B50;&#x521B;&#x5EFA;&#x7684;&#x8D39;&#x7528;</p>
+<figure><img src="../../gitbook/assets/ton-liq-06-stake-confirm.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x94B1;&#x5305;&#x7B7E;&#x540D;&#x540E;&#x6C60;&#x5B50;&#x5C31;&#x5DF2;&#x7ECF;&#x521B;&#x5EFA;&#x6210;&#x529F;&#x4E86;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x56DE;&#x5230;pool&#x9875;&#x9762;&#x4E0B;&#x65B9;&#x7684;all pools &#x8FDB;&#x884C;&#x641C;&#x7D22;&#x67E5;&#x627E;&#xFF0C;&#x80FD;&#x641C;&#x7D22;&#x5230;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4EA4;&#x6613;&#x4E86;&#x3002;</p>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x521A;&#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x540E;&#x53EF;&#x80FD;&#x4E0D;&#x4E00;&#x5B9A;&#x4F1A;&#x51FA;&#x73B0;&#xFF0C;&#x7B49;&#x4E00;&#x5206;&#x949F;&#x540E;&#x5237;&#x65B0;&#x4E00;&#x4E0B;&#x5C31;&#x4F1A;&#x663E;&#x793A;&#x6210;&#x529F;&#x3002;</p>
+<figure><img src="../../gitbook/assets/ton-liq-07-all-pools.png" alt=""><figcaption></figcaption></figure>
+
+<h3 id="swap&#x4EA4;&#x6613;">Swap&#x4EA4;&#x6613;</h3>
+<p>&#x6211;&#x4EEC;&#x8FDB;&#x5165;swap&#x9875;&#x9762;&#xFF0C;&#x641C;&#x7D22;&#x6211;&#x4EEC;&#x4EE3;&#x5E01;&#x7684;&#x540D;&#x79F0;&#x3002;&#x8FD9;&#x8FB9;&#x5C31;&#x53EF;&#x4EE5;&#x4EA4;&#x6613;&#x4E86;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x63D0;&#x793A;&#x4EF7;&#x5DEE;&#x4F1A;&#x6BD4;&#x8F83;&#x5927;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x9020;&#x6210;&#x4F60;&#x7684;&#x635F;&#x5931;</p>
+<p>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x8FD9;&#x6837;&#x662F;&#x8FDB;&#x884C;&#x4E70;&#x5165;&#x3002;&#x56E0;&#x4E3A;&#x6C60;&#x5B50;&#x91CC;&#x9762;&#x7684;&#x6D41;&#x52A8;&#x6027;&#x4E0D;&#x591A;&#xFF0C;&#x8FD9;&#x6837;&#x4E00;&#x7B14;&#x5C31;&#x4E70;&#x5B8C;&#x4E86;&#x3002;</p>
+<figure><img src="../../gitbook/assets/ton-liq-08-swap-trading.png" alt=""><figcaption></figcaption></figure>
+
+<h3 id="&#x52A0;&#x6C60;&#x5B50;&#x548C;&#x64A4;&#x6C60;&#x5B50;">&#x52A0;&#x6C60;&#x5B50;&#x548C;&#x64A4;&#x6C60;&#x5B50;</h3>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x8FDB;&#x884C;&#x52A0;&#x6C60;&#x5B50;&#x6216;&#x8005;&#x64A4;&#x6C60;&#x5B50;&#x7684;&#x64CD;&#x4F5C;</p>
+<p>&#x6211;&#x4EEC;&#x70B9;&#x51FB;&#x8FDB;&#x5165;pool&#x9875;&#x9762;&#xFF0C;&#x8FDB;&#x5165;my pools&#x4E2D;&#xFF0C;&#x70B9;&#x51FB;&#x4EE3;&#x5E01;&#x7684;&#x6C60;&#x5B50;&#x8FDB;&#x5165;&#x8BE6;&#x60C5;&#x9875;&#x9762;</p>
+<figure><img src="../../gitbook/assets/ton-liq-09-my-pools.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x8FDB;&#x5165;&#x8BE6;&#x60C5;&#x9875;&#x9762;&#x540E;&#xFF0C;&#x70B9;&#x51FB;Deposit &#x5C31;&#x53EF;&#x4EE5;&#x52A0;&#x6C60;&#x5B50;</p>
+<figure><img src="../../gitbook/assets/ton-liq-10-deposit-details.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x70B9;&#x51FB;Deposit&#x6309;&#x94AE;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x80FD;&#x770B;&#x5230;&#x4E00;&#x4E2A;&#x8D28;&#x62BC;&#x7684;&#x754C;&#x9762;&#x3002;&#x6B64;&#x65F6;&#x4F60;&#x53EF;&#x901A;&#x8FC7;&#x6C60;&#x5B50;&#x4E2D;&#x5F53;&#x524D;&#x4EE3;&#x5E01;&#x7684;&#x4EF7;&#x683C;&#x540C;&#x6BD4;&#x4F8B;&#x53BB;&#x8D28;&#x62BC;&#x8FDB;&#x53BB;&#x3002;&#x8FD9;&#x5C31;&#x662F;&#x6240;&#x8C13;&#x7684;&#x52A0;&#x6C60;&#x5B50;</p>
+<figure><img src="../../gitbook/assets/ton-liq-11-deposit-interface.png" alt=""><figcaption></figcaption></figure>
+
+<p>&#x64A4;&#x6C60;&#x5B50;&#x4E5F;&#x662F;&#x4E00;&#x6837;&#x7684;&#x9053;&#x7406;&#xFF0C;&#x70B9;&#x51FB;withdraw &#x5C31;&#x53EF;&#x4EE5;&#x4E86;</p>
+<p>&#x53CD;&#x6B63;&#x64A4;&#x6C60;&#x5B50; &#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#xFF0C;&#x4E0D;&#x662F;&#x5F88;&#x5EFA;&#x8BAE;&#x5927;&#x5BB6;&#x53BB;&#x7528;&#x3002;&#x5982;&#x679C;&#x6C60;&#x5B50;&#x6D41;&#x52A8;&#x6027;&#x5927;&#x4E86;&#xFF0C;&#x4F1A;&#x5F15;&#x53D1;&#x4E00;&#x4E9B;&#x98CE;&#x9669;&#x3002;</p>
+<figure><img src="../../gitbook/assets/ton-liq-12-withdraw.png" alt=""><figcaption></figcaption></figure>
+
+<p>ok&#xFF0C;DeDust&#x7684;&#x6559;&#x7A0B;&#x5230;&#x8FD9;&#x91CC;&#x5C31;&#x7ED3;&#x675F;&#x4E86;&#xFF0C;&#x5927;&#x5BB6;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;LP&#x6765;&#x8FDB;&#x884C;&#x4E00;&#x4E2A;&#x6D41;&#x52A8;&#x6027;&#x6316;&#x77FF;</p>
+<p>&#x5982;&#x679C;&#x5927;&#x5BB6;&#x4E0D;&#x6E05;&#x695A;&#x6D41;&#x52A8;&#x6027;&#x6C60;&#x7684;&#x539F;&#x7406;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;</p>
+<p><a class="group w-[calc(100%-2px)] mx-auto flex flex-row justify-between items-center gap-4 ring-1 ring-gray-300 rounded straight-corners:rounded-none px-[20px] py-[12px] transition-shadow hover:ring-primary-hover decoration-primary/6 page-api-block:ml-0" href="../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md">
+                    <span class="flex flex-col flex-1">
+                        <span class="text-base transition-colors group-hover:text-primary">[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)</span>
+                    </span>
+                    <svg class="gb-icon size-[12px] bg-gray-400 transition-all group-hover:translate-x-0.5 group-hover:text-primary" style="mask-image: url(&apos;https://ka-p.fontawesome.com/releases/v6.6.0/svgs/light/chevron-right.svg?v=2&amp;token=a463935e93&apos;); mask-repeat: no-repeat; mask-position: center center;">
+                </svg></a></p>
+<hr>
+<h3 id="&#x8054;&#x7CFB;&#x6211;&#x4EEC;">&#x8054;&#x7CFB;&#x6211;&#x4EEC;</h3>
+<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x6DF1;&#x5165;&#x4E86;&#x89E3;CPBOX&#x4EA7;&#x54C1;&#x7684;&#x5176;&#x4ED6;&#x7528;&#x9014;&#x548C;&#x529F;&#x80FD;</p>
+<p>&#x53EF;&#x4EE5;&#x70B9;&#x51FB;<a href="https://docs.cpbox.io/" target="_blank"> https://docs.cpbox.io/</a>&#x67E5;&#x770B;</p>
+<p>&#x6216;&#x8005;&#x4F60;&#x6709;&#x4E00;&#x4E9B;&#x597D;&#x7684;&#x5EFA;&#x8BAE;&#x6216;&#x8005;&#x60F3;&#x8981;&#x5E2E;&#x52A9;&#x5F00;&#x53D1;&#x7684;&#x9700;&#x6C42;</p>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E3B;&#x9875; <a href="https://www.cpbox.io/cn/" target="_blank">https://www.cpbox.io/cn/ </a>&#x6700;&#x4E0B;&#x65B9;&#x7684;&#x8054;&#x7CFB;&#x65B9;&#x5F0F;&#x6765;&#x627E;&#x5230;&#x6211;&#x4EEC;</p>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0B;&#x65B9;&#x793E;&#x5A92;&#x6765;&#x8054;&#x7CFB;&#x6211;&#x4EEC;</p>
+<hr>
+<h3 id="&#x5176;&#x4ED6;&#x793E;&#x5A92;">&#x5176;&#x4ED6;&#x793E;&#x5A92;</h3>
+<p>TG&#x4EA4;&#x6D41;&#x7FA4;&#xFF1A;<a href="https://t.me/cpboxio" target="_blank">https://t.me/cpboxio</a></p>
+<p>Twitter&#xFF1A;<a href="https://twitter.com/Web3CryptoBox" target="_blank">https://twitter.com/Web3CryptoBox</a> | <a href="https://x.com/cpboxio" target="_blank">https://x.com/cpboxio</a></p>
+<p>Youtube&#xFF1A;<a href="https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA" target="_blank">https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ton-dai-bi-guan-li.html" class="navigation navigation-prev " aria-label="Previous page: Ton 代币管理">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ton-qian-bao-chuang-jian-jiao-cheng.html" class="navigation navigation-next " aria-label="Next page: Ton 钱包创建教程">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"description":"Ton流动性池创建-DeDust教程","title":"Ton 流动性池创建","level":"3.3.3","depth":2,"next":{"title":"Ton 钱包创建教程","level":"3.3.4","depth":2,"path":"ton-lian-gong-ju/ton-qian-bao-chuang-jian-jiao-cheng.md","ref":"ton-lian-gong-ju/ton-qian-bao-chuang-jian-jiao-cheng.md","articles":[]},"previous":{"title":"Ton 代币管理","level":"3.3.2","depth":2,"path":"ton-lian-gong-ju/ton-dai-bi-guan-li.md","ref":"ton-lian-gong-ju/ton-dai-bi-guan-li.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"zh","gitbook":"*"},"file":{"path":"ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md","mtime":"2025-06-03T02:37:36.765Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-03T07:37:00.228Z"},"basePath":"..","book":{"language":"zh"}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-selector/language-selector.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+

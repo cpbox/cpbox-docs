@@ -6,7 +6,7 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>Create Mintable Tokens with LP Burning · CPBox.io</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="CPBOXLPBurnToken 是一款集自动销毁、流动性管理与灵活税费于一体的代币合约，助力 DeFi 项目实现价值增长与生态稳定。">
+        <meta name="description" content="CPBOXLPBurnToken is a token contract that integrates automatic burning, liquidity management, and flexible tax mechanisms to help DeFi projects achieve value growth and ecosystem stability.">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -190,9 +190,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="../../../qi-bu-yin-dao/README.md">
+        <li class="chapter " data-level="2.2" data-path="../../../qi-bu-yin-dao/xiao-bai-ru-men/">
             
-                <span>
+                <a href="../../../qi-bu-yin-dao/xiao-bai-ru-men/">
             
                     
                     Beginner's Guide
@@ -482,9 +482,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="../../../lian-gong-ju/sui-gong-ju/">
+        <li class="chapter " data-level="3.2" data-path="../../../sui-lian-gong-ju/">
             
-                <a href="../../../lian-gong-ju/sui-gong-ju/">
+                <a href="../../../sui-lian-gong-ju/">
             
                     
                     Sui Tools
@@ -553,9 +553,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.3" data-path="../../../lian-gong-ju/ton-gong-ju/">
+        <li class="chapter " data-level="3.3" data-path="../../../ton-lian-gong-ju/">
             
-                <a href="../../../lian-gong-ju/ton-gong-ju/">
+                <a href="../../../ton-lian-gong-ju/">
             
                     
                     Ton Tools
@@ -988,9 +988,9 @@
         
         
     
-        <li class="chapter " data-level="6.1" data-path="../../../contactus/README.md">
+        <li class="chapter " data-level="6.1" data-path="../../../contactus/">
             
-                <span>
+                <a href="../../../contactus/">
             
                     
                     ✉️ Get in Touch
@@ -1104,148 +1104,150 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x521B;&#x5EFA;&#x53EF;&#x4EE5;mint&#x4EE5;&#x53CA;&#x71C3;&#x70E7;lp&#x7684;&#x4EE3;&#x5E01;">&#x521B;&#x5EFA;&#x53EF;&#x4EE5;Mint,&#x4EE5;&#x53CA;&#x71C3;&#x70E7;LP&#x7684;&#x4EE3;&#x5E01;</h1>
-<p>&#x6982;&#x8FF0;</p>
-<p><strong>CPBOXLPBurnToken</strong> &#x662F;&#x7531; <a href="https://www.cpbox.io" target="_blank">CPBOX.io</a> &#x5F00;&#x53D1;&#x7684;&#x4E00;&#x6B3E;&#x521B;&#x65B0;&#x578B;&#x4EE3;&#x5E01;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#xFF0C;&#x7ED3;&#x5408;&#x4E86;&#x4EE3;&#x5E01;&#x7ECF;&#x6D4E;&#x6A21;&#x578B;&#x4E0E;&#x6D41;&#x52A8;&#x6027;&#x6C60;&#x7BA1;&#x7406;&#x673A;&#x5236;&#x3002;&#x5176;&#x6838;&#x5FC3;&#x76EE;&#x6807;&#x662F;&#x901A;&#x8FC7;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x9500;&#x6BC1;&#x673A;&#x5236;&#x4E0E;&#x7075;&#x6D3B;&#x7684;&#x8D39;&#x7528;&#x7B56;&#x7565;&#xFF0C;&#x5B9E;&#x73B0;&#x4EE3;&#x5E01;&#x4EF7;&#x503C;&#x7684;&#x7A33;&#x5B9A;&#x589E;&#x957F;&#x4E0E;&#x5065;&#x5EB7;&#x7684;&#x6D41;&#x52A8;&#x6027;&#x751F;&#x6001;&#x3002;</p>
+                                <h1 id="create-mintable-tokens-with-lp-burning">Create Mintable Tokens with LP Burning</h1>
+<h2 id="overview">Overview</h2>
+<p><strong>CPBOXLPBurnToken</strong> is an innovative token smart contract developed by <a href="https://www.cpbox.io" target="_blank">CPBOX.io</a> that combines token economic models with liquidity pool management mechanisms. Its core goal is to achieve stable growth in token value and a healthy liquidity ecosystem through automated burning mechanisms and flexible fee strategies.</p>
 <hr>
-<h3 id="&#x6838;&#x5FC3;&#x529F;&#x80FD;">&#x6838;&#x5FC3;&#x529F;&#x80FD;</h3>
+<h3 id="core-features">Core Features</h3>
 <ol>
-<li><p>&#x6D41;&#x52A8;&#x6027;&#x7BA1;&#x7406;&#x673A;&#x5236;</p>
+<li><p><strong>Liquidity Management Mechanism</strong></p>
 </li>
-<li><p><strong>&#x81EA;&#x52A8;&#x6D41;&#x52A8;&#x6027;&#x71C3;&#x70E7;</strong>&#xFF1A;&#x5B9A;&#x671F;&#x9500;&#x6BC1;&#x6D41;&#x52A8;&#x6027;&#x6C60;&#x4E2D;&#x4EE3;&#x5E01;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x51CF;&#x5C11;&#x6C60;&#x5185;&#x6D41;&#x901A;&#x91CF;&#xFF0C;&#x63D0;&#x5347;&#x4EE3;&#x5E01;&#x7A00;&#x7F3A;&#x6027;, &#x9879;&#x76EE;&#x52A0;&#x4E86;&#x6C60;&#x5B50;&#x4EE5;&#x540E;&#xFF0C;&#x6C60;&#x5B50;&#x91CC;&#x9762;&#x81EA;&#x5DF1;&#x7684;&#x5E01;&#x53EF;&#x4EE5;&#x6309;&#x7167;&#x56FA;&#x5B9A;&#x5468;&#x671F;&#x8FDB;&#x884C;&#x71C3;&#x70E7;&#x9500;&#x6BC1;&#xFF0C; &#x4ECE;&#x800C;&#x8FBE;&#x5230;&#x4EF7;&#x683C;&#x88AB;&#x52A8;&#x4E0A;&#x6DA8;&#x3002;</p>
+<li><p><strong>Automatic Liquidity Burning</strong>: Periodically burns tokens in the liquidity pool, reducing circulation and enhancing token scarcity. After the project adds liquidity, tokens in the pool can be burned and destroyed at fixed intervals, thereby achieving passive price appreciation.</p>
 </li>
-<li><p>&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x9500;&#x6BC1;&#x9891;&#x7387;&#x4E0E;&#x6BD4;&#x4F8B;</p>
+<li><p>Configurable burning frequency and ratio</p>
 </li>
-<li><p>&#x4EA4;&#x6613;&#x8D39;&#x7528;&#x673A;&#x5236;</p>
+<li><p><strong>Transaction Fee Mechanism</strong></p>
 <ol>
-<li>&#x4E70;&#x5165;&#x7A0E;&#x7387;&#x548C;&#x5356;&#x51FA;&#x7A0E;&#x7387;&#xFF0C;&#x5404;&#x81EA;&#x603B;&#x91CF;&#x4E0D;&#x8D85;&#x8FC7;25%&#xFF0C;<ol>
-<li><strong>&#x4E70;&#x5165;&#x5356;&#x51FA;&#x7A0E;</strong> : &#x6BCF;&#x7B14;&#x4E70;&#x5165;&#x90FD;&#x4F1A;&#x6263;&#x9664;&#x5BF9;&#x5E94;&#x6BD4;&#x4F8B;&#x4EE3;&#x5E01;&#x9001;&#x8FDB;<code>&#x5408;&#x7EA6;&#x5730;&#x5740;</code>,&#x5728;<strong>&#x89E6;&#x53D1;&#x9608;&#x503C;</strong>&#x65F6;&#x4F1A;&#x81EA;&#x52A8;<strong>&#x5356;&#x51FA;</strong>&#x7136;&#x540E;&#x53D1;&#x9001;&#x5230;&#x4F60;&#x7684;&#x8425;&#x9500;&#x94B1;&#x5305;&#x5730;&#x5740;</li>
-<li><strong>&#x9500;&#x6BC1;&#x7A0E;</strong> : &#x6BCF;&#x7B14;&#x4E70;&#x5165;&#x90FD;&#x4F1A;&#x6263;&#x9664;&#x5BF9;&#x5E94;&#x6BD4;&#x4F8B;&#x4EE3;&#x5E01;&#x9001;&#x8FDB;<code>&#x9ED1;&#x6D1E;&#x5730;&#x5740;</code>,&#x8FBE;&#x5230;&#x9500;&#x6BC1;&#x7684;&#x76EE;&#x7684;</li>
-<li><strong>&#x6D41;&#x52A8;&#x6027;&#x7A0E;</strong> : &#x6BCF;&#x7B14;&#x4E70;&#x5165;&#x90FD;&#x4F1A;&#x6263;&#x9664;&#x5BF9;&#x5E94;&#x6BD4;&#x4F8B;&#x4EE3;&#x5E01;&#x9001;&#x8FDB;<code>&#x5408;&#x7EA6;&#x5730;&#x5740;</code>,&#x5728;<strong>&#x89E6;&#x53D1;&#x9608;&#x503C;</strong>&#x65F6;&#x4F1A;&#x81EA;&#x52A8;&#x6DFB;&#x52A0;&#x6D41;&#x52A8;&#x6027;,&#x4F7F;&#x6C60;&#x5B50;&#x66F4;&#x539A;&#xFF0C;&#x52A0;&#x6C60;&#x5B50;&#x83B7;&#x5F97;&#x7684;LP&#x9ED8;&#x8BA4;&#x7ED9;&#x5230;&#x8425;&#x9500;&#x94B1;&#x5305;</li>
+<li>Buy tax rate and sell tax rate, each not exceeding 25% in total:<ol>
+<li><strong>Buy/Sell Tax</strong>: Each purchase deducts a corresponding proportion of tokens to the <code>contract address</code>, which automatically <strong>sells</strong> when the <strong>trigger threshold</strong> is reached and sends to your marketing wallet address</li>
+<li><strong>Burn Tax</strong>: Each purchase deducts a corresponding proportion of tokens to the <code>black hole address</code> to achieve burning</li>
+<li><strong>Liquidity Tax</strong>: Each purchase deducts a corresponding proportion of tokens to the <code>contract address</code>, which automatically adds liquidity when the <strong>trigger threshold</strong> is reached, making the pool thicker. LP obtained from adding liquidity defaults to the marketing wallet</li>
 </ol>
 </li>
 </ol>
 </li>
 </ol>
 <blockquote>
-<p>&#x6240;&#x6709;&#x8D39;&#x7528;&#x5747;&#x53EF;&#x52A8;&#x6001;&#x8C03;&#x6574;&#xFF0C;&#x4EE5;&#x9002;&#x5E94;&#x5E02;&#x573A;&#x9700;&#x6C42;</p>
+<p>All fees can be dynamically adjusted to adapt to market demands</p>
 </blockquote>
 <ol>
-<li>&#x71C3;&#x70E7;&#x53C2;&#x6570;&#xFF1A;<ol>
-<li>&#x71C3;&#x70E7;&#x5468;&#x671F;: &#x591A;&#x5C11;&#x4E2A;&#x5C0F;&#x65F6;&#x71C3;&#x70E7;&#x4E00;&#x6B21;&#xFF0C;&#x5F53;&#x6709;&#x7528;&#x6237;&#x8FDB;&#x884C;&#x4E70;&#x5356; &#x8D85;&#x8FC7;&#x6B64;&#x65F6;&#x95F4;&#x5C31;&#x4F1A;&#x71C3;&#x70E7;</li>
-<li>&#x71C3;&#x70E7;&#x7387;: &#x6BCF;&#x6B21;&#x71C3;&#x70E7;&#x7684;&#x6BD4;&#x4F8B;</li>
-<li>&#x71C3;&#x70E7;&#x6761;&#x4EF6;&#xFF1A;&#x6BCF;&#x4E2A;&#x5468;&#x671F;&#x5185;&#x5FC5;&#x987B;&#x6709;&#x5356;&#x5355;&#x624D;&#x80FD;&#x71C3;&#x70E7;</li>
-<li>&#x71C3;&#x70E7;&#x505C;&#x6B62;&#xFF1A; &#x6C60;&#x5B50;&#x91CC;&#x9762;&#x53EA;&#x6709;100&#x4E2A;token&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x518D;&#x71C3;&#x70E7;</li>
-</ol>
-</li>
-<li><p>&#x5B89;&#x5168;&#x673A;&#x5236;</p>
-</li>
-<li><p><strong>&#x767D;&#x540D;&#x5355;&#x673A;&#x5236;</strong>&#xFF1A;&#x652F;&#x6301;&#x9884;&#x8BBE;&#x5730;&#x5740;&#x8C41;&#x514D;&#x4EA4;&#x6613;&#x9650;&#x5236;</p>
-</li>
-<li><strong>&#x4EA4;&#x6613;&#x9650;&#x5236;</strong>&#xFF1A;&#x9632;&#x6B62;&#x5927;&#x989D;&#x64CD;&#x4F5C;&#x51B2;&#x51FB;&#x5E02;&#x573A;</li>
-<li><strong>&#x5408;&#x7EA6;&#x5730;&#x5740;&#x8BC6;&#x522B;</strong>&#xFF1A;&#x9632;&#x6B62;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x53C2;&#x4E0E;&#x6076;&#x610F;&#x884C;&#x4E3A;</li>
-<li><p><strong>&#x9632;&#x540C;&#x6B65;&#x653B;&#x51FB;&#x4FDD;&#x62A4;</strong>&#xFF1A;&#x4FDD;&#x969C; LP &#x72B6;&#x6001;&#x4E0E;&#x5E02;&#x573A;&#x884C;&#x4E3A;&#x4E00;&#x81F4;&#x6027;</p>
-</li>
-<li><p>&#x5F00;&#x542F;&#x6B65;&#x9AA4;</p>
+<li><p><strong>Burning Parameters</strong>:</p>
 <ol>
-<li>&#x7528;&#x6237;&#x5C06;&#x4F7F;&#x7528;Bnb &#x8FDB;&#x884C;mint&#xFF0C; &#x5408;&#x7EA6;&#x4F1A;&#x6309;&#x7167;&#x8BBE;&#x5B9A;&#x597D;&#x7684;&#x6BD4;&#x4F8B;&#x8FD4;&#x7ED9;&#x7528;&#x6237;&#xFF0C;&#x7C7B;&#x4F3C;IEO&#x7684;&#x6982;&#x5FF5;</li>
-<li>&#x7528;&#x6237;&#x53EA;&#x8981;&#x5F80;&#x4EE3;&#x5E01;&#x5730;&#x5740;&#x6253;Bnb,&#x5C31;&#x4F1A;mint</li>
-<li>&#x9879;&#x76EE;&#x65B9;&#x52A0;&#x6C60;&#x5B50;&#x4EE5;&#x51B0;&#x7403;&#x624B;&#x52A8;&#x5F00;&#x76D8;&#x4EA4;&#x6613;&#x4EE5;&#x540E;&#xFF0C;mint&#x9636;&#x6BB5;&#x4F1A;&#x7ED3;&#x675F;&#x6216;&#x8005;Mint&#x5206;&#x6570;&#x8FBE;&#x5230;&#x603B;&#x5206;&#x6570;&#xFF0C;&#x4E5F;&#x4F1A;&#x81EA;&#x52A8;&#x7ED3;&#x675F;</li>
+<li>Burning cycle: How many hours between burns, triggers when users buy/sell after this time</li>
+<li>Burning rate: Proportion burned each time</li>
+<li>Burning condition: Must have sell orders in each cycle to burn</li>
+<li>Burning stop: No more burning when only 100 tokens remain in the pool</li>
+</ol>
+</li>
+<li><p><strong>Security Mechanisms</strong></p>
+</li>
+<li><p><strong>Whitelist Mechanism</strong>: Supports preset addresses exempt from trading restrictions</p>
+</li>
+<li><strong>Trading Limits</strong>: Prevents large transactions from impacting the market</li>
+<li><strong>Contract Address Recognition</strong>: Prevents smart contracts from participating in malicious behavior</li>
+<li><p><strong>Anti-MEV Protection</strong>: Ensures LP status consistency with market behavior</p>
+</li>
+<li><p><strong>Launch Process</strong></p>
+<ol>
+<li>Users will mint using BNB, and the contract will return tokens to users according to preset ratios, similar to an IEO concept</li>
+<li>Users only need to send BNB to the token address to mint</li>
+<li>After the project team adds liquidity and manually opens trading, the mint phase will end, or when mint amount reaches the total amount, it will automatically end</li>
 </ol>
 </li>
 </ol>
 <hr>
-<h3 id="&#x5E94;&#x7528;&#x573A;&#x666F;">&#x5E94;&#x7528;&#x573A;&#x666F;</h3>
-<p><strong>&#x2705; &#x4EE3;&#x5E01;&#x7ECF;&#x6D4E;&#x7BA1;&#x7406;</strong></p>
+<h3 id="use-cases">Use Cases</h3>
+<p><strong>&#x2705; Token Economic Management</strong></p>
 <ul>
-<li>&#x63A7;&#x5236;&#x4F9B;&#x5E94;&#x91CF;&#xFF0C;&#x7EF4;&#x6301;&#x7A00;&#x7F3A;&#x6027;</li>
-<li>&#x81EA;&#x52A8;&#x5316;&#x9500;&#x6BC1;&#x673A;&#x5236;&#x589E;&#x5F3A;&#x901A;&#x7F29;&#x6027;</li>
-<li>&#x7BA1;&#x7406;&#x6D41;&#x52A8;&#x6027;&#x6C60;&#x5065;&#x5EB7;&#x5EA6;</li>
+<li>Control supply to maintain scarcity</li>
+<li>Automated burning mechanism enhances deflationary properties</li>
+<li>Manage liquidity pool health</li>
 </ul>
-<p><strong>&#x2705; &#x9879;&#x76EE;&#x878D;&#x8D44;</strong></p>
+<p><strong>&#x2705; Project Fundraising</strong></p>
 <ul>
-<li>&#x901A;&#x8FC7;&#x4EE3;&#x5E01;&#x94F8;&#x9020;&#x5B9E;&#x73B0; Bnb &#x7B79;&#x8D44;</li>
-<li>&#x81EA;&#x52A8;&#x5206;&#x914D;&#x8D44;&#x91D1;&#xFF0C;&#x652F;&#x6301;&#x9879;&#x76EE;&#x53D1;&#x5C55;</li>
-<li>&#x63D0;&#x5347;&#x900F;&#x660E;&#x5EA6;&#x4E0E;&#x8D44;&#x91D1;&#x4F7F;&#x7528;&#x53EF;&#x8FFD;&#x6EAF;&#x6027;</li>
+<li>Raise BNB through token minting</li>
+<li>Automatic fund allocation to support project development</li>
+<li>Enhance transparency and fund usage traceability</li>
 </ul>
-<p><strong>&#x2705; &#x7A33;&#x5B9A;&#x7684;&#x4EA4;&#x6613;&#x5E02;&#x573A;</strong></p>
+<p><strong>&#x2705; Stable Trading Market</strong></p>
 <ul>
-<li>&#x62B5;&#x5FA1;&#x4EF7;&#x683C;&#x64CD;&#x63A7;&#x4E0E;&#x5F02;&#x5E38;&#x4EA4;&#x6613;</li>
-<li>&#x4F18;&#x5316;&#x6295;&#x8D44;&#x8005;&#x4EA4;&#x6613;&#x4F53;&#x9A8C;</li>
-<li>&#x63D0;&#x4F9B;&#x957F;&#x671F;&#x7A33;&#x5B9A;&#x7684;&#x4EA4;&#x6613;&#x751F;&#x6001;</li>
+<li>Resist price manipulation and abnormal trading</li>
+<li>Optimize investor trading experience</li>
+<li>Provide long-term stable trading ecosystem</li>
 </ul>
 <hr>
-<h3 id="&#x90E8;&#x7F72;">&#x90E8;&#x7F72;</h3>
-<p>&#x5408;&#x7EA6;&#x7684;&#x8BBE;&#x8BA1;&#x6BD4;&#x8F83;&#x7075;&#x6D3B;&#xFF0C;&#x7BA1;&#x7406;&#x5458;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5404;&#x79CD;&#x53C2;&#x6570;&#x6765;&#x8C03;&#x6574;&#x4EE3;&#x5E01;&#x7684;&#x7ECF;&#x6D4E;&#x6A21;&#x578B;&#xFF0C;&#x5305;&#x62EC;&#x8D39;&#x7387;&#x3001;&#x9500;&#x6BC1;&#x53C2;&#x6570;&#x7B49;&#x3002;&#x540C;&#x65F6;&#x4E5F;&#x5305;&#x542B;&#x4E86;&#x5FC5;&#x8981;&#x7684;&#x5B89;&#x5168;&#x673A;&#x5236;&#x6765;&#x9632;&#x6B62;&#x6EE5;&#x7528;&#x3002;</p>
-<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;CPBox&#x63D0;&#x4F9B;&#x5408;&#x7EA6;,&#x76F4;&#x63A5;&#x5BFC;&#x5165;<a href="https://remix.ethereum.org/" target="_blank">remix</a> &#x8FDB;&#x884C;&#x90E8;&#x7F72;: &#x6E90;&#x7801;&#x5730;&#x5740; <a href="https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol&#x6211;&#x8FD9;&#x91CC;&#x7ED9;&#x51FA;&#x4E00;&#x4EFD;&#x53C2;&#x6570;&#xFF0C;&#x5E76;&#x89E3;&#x91CA;&#x5982;&#x4F55;&#x4FEE;&#x6539;&#x9002;&#x5408;&#x81EA;&#x5DF1;&#x7684;&#x53C2;&#x6570;" target="_blank">https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol&#x6211;&#x8FD9;&#x91CC;&#x7ED9;&#x51FA;&#x4E00;&#x4EFD;&#x53C2;&#x6570;&#xFF0C;&#x5E76;&#x89E3;&#x91CA;&#x5982;&#x4F55;&#x4FEE;&#x6539;&#x9002;&#x5408;&#x81EA;&#x5DF1;&#x7684;&#x53C2;&#x6570;</a></p>
-<figure><img src="../../../../gitbook/assets/image (2) (1).png" alt=""><figcaption><p>lpburn &#x5408;&#x7EA6;</p></figcaption></figure>
+<h3 id="deployment">Deployment</h3>
+<p>The contract design is quite flexible, allowing administrators to adjust the token&apos;s economic model through various parameters, including fee rates, burning parameters, etc. It also includes necessary security mechanisms to prevent abuse.</p>
+<p>We can use the contract provided by CPBox and directly import it into <a href="https://remix.ethereum.org/" target="_blank">remix</a> for deployment: Source code address <a href="https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol" target="_blank">https://github.com/cpbox/cpbox-token-contracts/blob/main/evm/lpburn.sol</a></p>
+<p>Here I provide a set of parameters and explain how to modify them to suit your needs:</p>
+<figure><img src="../../../../gitbook/assets/contract-mint-burn-1.png" alt=""><figcaption><p>lpburn contract</p></figcaption></figure>
 
 <ul>
-<li>&#x7B2C;&#x4E00;&#x4E2A; stringParams &#x7684;&#x53C2;&#x6570;: <code>[&quot;CPBoxLPTestToken&quot;, &quot;CPBLP&quot;]</code></li>
-<li>&#x7B2C;&#x4E8C;&#x4E2A;addressParams &#x7684;&#x53C2;&#x6570;:</li>
+<li>First stringParams parameter: <code>[&quot;CPBoxLPTestToken&quot;, &quot;CPBLP&quot;]</code></li>
+<li>Second addressParams parameter:</li>
 </ul>
 <p><code>[&quot;0x1234567890123456789012345678901234567890&quot;,&quot;0x0987654321098765432109876543210987654321&quot;,&quot;0x1111111111111111111111111111111111111111&quot;,&quot;0x2222222222222222222222222222222222222222&quot;]</code></p>
 <ul>
-<li>&#x7B2C;&#x4E09;&#x4E2A;numberParams&#x53C2;&#x6570;&#xFF1A;<code>[&quot;18&quot;,&quot;1000000000000000000&quot;,&quot;200&quot;,&quot;100&quot;,&quot;50&quot;,&quot;200&quot;,&quot;100&quot;,&quot;50&quot;,&quot;30&quot;,&quot;100&quot;,&quot;3600&quot;,&quot;100&quot;,&quot;5&quot;,&quot;1000000000000000&quot;,&quot;1000000000000000000&quot;,&quot;1000000&quot;]</code></li>
-<li>&#x7B2C;&#x56DB;&#x4E2A;boolParams &#x53C2;&#x6570;&#xFF1A; <code>[true,true,true,true,true,true,true]</code></li>
+<li>Third numberParams parameter: <code>[&quot;18&quot;,&quot;1000000000000000000&quot;,&quot;200&quot;,&quot;100&quot;,&quot;50&quot;,&quot;200&quot;,&quot;100&quot;,&quot;50&quot;,&quot;30&quot;,&quot;100&quot;,&quot;3600&quot;,&quot;100&quot;,&quot;5&quot;,&quot;1000000000000000&quot;,&quot;1000000000000000000&quot;,&quot;1000000&quot;]</code></li>
+<li>Fourth boolParams parameter: <code>[true,true,true,true,true,true,true]</code></li>
 </ul>
-<pre><code>// &#x5B57;&#x7B26;&#x4E32;&#x53C2;&#x6570;&#x6570;&#x7EC4;
+<pre><code>// String parameters array
 string[] memory stringParams = [
-    &quot;CPBoxLPTestToken&quot;,  //  &#x4EE3;&#x5E01;name&#xFF0C;&#x8BF7;&#x4FEE;&#x6539;&#x4E3A;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x4EE3;&#x5E01;&#x7B26;&#x53F7;
-    &quot;CPBLP&quot;           // &#x4EE3;&#x5E01;&#x7B26;&#x53F7;&#xFF0C;&#x8BF7;&#x4FEE;&#x6539;&#x4E3A;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x4EE3;&#x5E01;&#x7B26;&#x5408;
+    &quot;CPBoxLPTestToken&quot;,  // Token name, please modify to your own token name
+    &quot;CPBLP&quot;           // Token symbol, please modify to your own token symbol
 ];
 
-// &#x5730;&#x5740;&#x53C2;&#x6570;&#x6570;&#x7EC4;
+// Address parameters array
 address[] memory addressParams = [
-    0x1234567890123456789012345678901234567890,  // fundAddress: &#x57FA;&#x91D1;&#x5730;&#x5740;
-    0x0987654321098765432109876543210987654321,  // currency: &#x4EA4;&#x6613;&#x5BF9;&#x4EE3;&#x5E01;&#x5730;&#x5740;
-    0x1111111111111111111111111111111111111111,  // swapRouter: &#x4EA4;&#x6613;&#x8DEF;&#x7531;&#x5408;&#x7EA6;&#x5730;&#x5740;
-    0x2222222222222222222222222222222222222222   // ReceiveAddress: &#x63A5;&#x6536;&#x5730;&#x5740;
+    0x1234567890123456789012345678901234567890,  // fundAddress: Fund address
+    0x0987654321098765432109876543210987654321,  // currency: Trading pair token address
+    0x1111111111111111111111111111111111111111,  // swapRouter: Trading router contract address
+    0x2222222222222222222222222222222222222222   // ReceiveAddress: Receive address
 ];
 
-// &#x6570;&#x503C;&#x53C2;&#x6570;&#x6570;&#x7EC4;
+// Numeric parameters array
 uint256[] memory numberParams = [
-    &quot;18&quot;,                    // numberParams[0]: decimals (&#x4EE3;&#x5E01;&#x7CBE;&#x5EA6;)
-    &quot;1000000000000000000&quot;,   // numberParams[1]: totalSupply (&#x603B;&#x4F9B;&#x5E94;&#x91CF;)
-    &quot;200&quot;,                   // numberParams[2]: maxWalletAmount (&#x6700;&#x5927;&#x94B1;&#x5305;&#x6301;&#x6709;&#x91CF;)
-    &quot;100&quot;,                   // numberParams[3]: _buyFundFee (&#x4E70;&#x5165;&#x8425;&#x9500;&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;50&quot;,                    // numberParams[4]: _buyLPFee (&#x4E70;&#x5165;LP&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;200&quot;,                   // numberParams[5]: buy_burnFee (&#x4E70;&#x5165;&#x9500;&#x6BC1;&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;100&quot;,                   // numberParams[6]: _sellFundFee (&#x5356;&#x51FA;&#x8425;&#x9500;&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;50&quot;,                    // numberParams[7]: _sellLPFee (&#x5356;&#x51FA;LP&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;30&quot;,                    // numberParams[8]: sell_burnFee (&#x5356;&#x51FA;&#x9500;&#x6BC1;&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;100&quot;,                   // numberParams[9]: lpBurnRate (LP&#x9500;&#x6BC1;&#x7387;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x4E07;&#x5206;&#x4E4B;)
-    &quot;3600&quot;,                  // numberParams[10]: lpBurnFrequency (LP&#x9500;&#x6BC1;&#x9891;&#x7387;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x79D2;)
-    &quot;100&quot;,                   // numberParams[11]: kb (&#x4EA4;&#x6613;&#x5F00;&#x59CB;&#x540E;&#x7684;&#x533A;&#x5757;&#x6570;&#x9650;&#x5236;)
-    &quot;5&quot;,                     // numberParams[12]: airdropNumbs (&#x7A7A;&#x6295;&#x6570;&#x91CF;)
-    &quot;1000000000000000&quot;,      // numberParams[13]: price (&#x94F8;&#x9020;&#x4EF7;&#x683C;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;wei)
-    &quot;1000000000000000000&quot;,   // numberParams[14]: amountPerUnits (&#x6BCF;&#x5355;&#x4F4D;&#x94F8;&#x9020;&#x6570;&#x91CF;)
-    &quot;1000000&quot;                // numberParams[15]: mintLimit (&#x94F8;&#x9020;&#x9650;&#x5236;)
+    &quot;18&quot;,                    // numberParams[0]: decimals (token precision)
+    &quot;1000000000000000000&quot;,   // numberParams[1]: totalSupply (total supply)
+    &quot;200&quot;,                   // numberParams[2]: maxWalletAmount (maximum wallet holding)
+    &quot;100&quot;,                   // numberParams[3]: _buyFundFee (buy marketing fee, unit: basis points)
+    &quot;50&quot;,                    // numberParams[4]: _buyLPFee (buy LP fee, unit: basis points)
+    &quot;200&quot;,                   // numberParams[5]: buy_burnFee (buy burn fee, unit: basis points)
+    &quot;100&quot;,                   // numberParams[6]: _sellFundFee (sell marketing fee, unit: basis points)
+    &quot;50&quot;,                    // numberParams[7]: _sellLPFee (sell LP fee, unit: basis points)
+    &quot;30&quot;,                    // numberParams[8]: sell_burnFee (sell burn fee, unit: basis points)
+    &quot;100&quot;,                   // numberParams[9]: lpBurnRate (LP burn rate, unit: basis points)
+    &quot;3600&quot;,                  // numberParams[10]: lpBurnFrequency (LP burn frequency, unit: seconds)
+    &quot;100&quot;,                   // numberParams[11]: kb (block number limit after trading starts)
+    &quot;5&quot;,                     // numberParams[12]: airdropNumbs (airdrop quantity)
+    &quot;1000000000000000&quot;,      // numberParams[13]: price (mint price, unit: wei)
+    &quot;1000000000000000000&quot;,   // numberParams[14]: amountPerUnits (mint amount per unit)
+    &quot;1000000&quot;                // numberParams[15]: mintLimit (mint limit)
 ];
 
-// &#x5E03;&#x5C14;&#x53C2;&#x6570;&#x6570;&#x7EC4;
+// Boolean parameters array
 bool[] memory boolParams = [
-    true,  // boolParams[0]: enableOffTrade (&#x662F;&#x5426;&#x542F;&#x7528;&#x79BB;&#x7EBF;&#x4EA4;&#x6613;)
-    true,  // boolParams[1]: enableKillBlock (&#x662F;&#x5426;&#x542F;&#x7528;&#x533A;&#x5757;&#x9650;&#x5236;)
-    true,  // boolParams[2]: enableRewardList (&#x662F;&#x5426;&#x542F;&#x7528;&#x5956;&#x52B1;&#x5217;&#x8868;)
-    true,  // boolParams[3]: enableWalletLimit (&#x662F;&#x5426;&#x542F;&#x7528;&#x94B1;&#x5305;&#x9650;&#x5236;)
-    true,  // boolParams[4]: enableChangeTax (&#x662F;&#x5426;&#x542F;&#x7528;&#x7A0E;&#x7387;&#x53D8;&#x66F4;)
-    true,  // boolParams[5]: currencyIsEth (&#x57FA;&#x7840;&#x4EE3;&#x5E01;&#x662F;&#x5426;&#x4E3A;ETH)
-    true   // boolParams[6]: airdropEnable (&#x662F;&#x5426;&#x542F;&#x7528;&#x7A7A;&#x6295;)
+    true,  // boolParams[0]: enableOffTrade (enable offline trading)
+    true,  // boolParams[1]: enableKillBlock (enable block restrictions)
+    true,  // boolParams[2]: enableRewardList (enable reward list)
+    true,  // boolParams[3]: enableWalletLimit (enable wallet limit)
+    true,  // boolParams[4]: enableChangeTax (enable tax rate changes)
+    true,  // boolParams[5]: currencyIsEth (base token is ETH)
+    true   // boolParams[6]: airdropEnable (enable airdrop)
 ]
 </code></pre><hr>
-<h3 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h3>
-<p><strong>CPBOXLPBurnToken</strong> &#x4EE3;&#x8868;&#x4E86;&#x73B0;&#x4EE3; DeFi &#x9879;&#x76EE;&#x5728;&#x5408;&#x7EA6;&#x8BBE;&#x8BA1;&#x4E0A;&#x7684;&#x4E00;&#x79CD;&#x65B0;&#x65B9;&#x5F0F;&#x3002;</p>
-<p>&#x901A;&#x8FC7;&#x96C6;&#x6210;&#x81EA;&#x52A8;&#x9500;&#x6BC1;&#x673A;&#x5236;&#x3001;&#x7075;&#x6D3B;&#x7684;&#x8D39;&#x7528;&#x7CFB;&#x7EDF;&#x4EE5;&#x53CA;&#x591A;&#x91CD;&#x5B89;&#x5168;&#x4FDD;&#x969C;&#xFF0C;&#x5B83;&#x4E3A;&#x9700;&#x8981;&#x7EF4;&#x62A4;&#x957F;&#x671F;&#x4EF7;&#x503C;&#x548C;&#x5065;&#x5EB7;&#x6D41;&#x52A8;&#x6027;&#x7684;&#x533A;&#x5757;&#x94FE;&#x9879;&#x76EE;&#x63D0;&#x4F9B;&#x4E86;&#x5F3A;&#x5927;&#x7684;&#x652F;&#x6301;&#x3002;&#x8BE5;&#x5408;&#x7EA6;&#x5C06;&#x662F;&#x4EFB;&#x4F55;&#x8FFD;&#x6C42;&#x53EF;&#x6301;&#x7EED;&#x589E;&#x957F;&#x4E0E;&#x751F;&#x6001;&#x5065;&#x5EB7;&#x7684;&#x9879;&#x76EE;&#x7684;&#x7406;&#x60F3;&#x9009;&#x62E9;&#x3002;</p>
-<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x66F4;&#x591A;&#x7684;&#x4E86;&#x89E3;CPBOX&#x8FD9;&#x4E2A;&#x4EA7;&#x54C1;&#x7684;&#x5176;&#x4ED6;&#x7528;&#x9014;&#x548C;&#x529F;&#x80FD;</p>
-<p>&#x53EF;&#x4EE5;&#x70B9;&#x51FB;<a href="https://docs.cpbox.io/" target="_blank"> https://docs.cpbox.io/</a></p>
-<p>&#x6216;&#x8005;&#x4F60;&#x6709;&#x4E00;&#x4E9B;&#x597D;&#x7684;&#x5EFA;&#x8BAE;&#x6216;&#x8005;&#x60F3;&#x8981;&#x5E2E;&#x52A9;&#x5F00;&#x53D1;&#x7684;&#x9700;&#x6C42;</p>
-<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E3B;&#x9875; <a href="https://www.cpbox.io/cn/" target="_blank">https://www.cpbox.io/cn/ </a>&#x6700;&#x4E0B;&#x65B9;&#x7684;&#x8054;&#x7CFB;&#x65B9;&#x5F0F;&#x6765;&#x627E;&#x5230;&#x6211;&#x4EEC;</p>
+<h3 id="summary">Summary</h3>
+<p><strong>CPBOXLPBurnToken</strong> represents a new approach in modern DeFi project contract design.</p>
+<p>By integrating automatic burning mechanisms, flexible fee systems, and multiple security safeguards, it provides powerful support for blockchain projects that need to maintain long-term value and healthy liquidity. This contract will be an ideal choice for any project pursuing sustainable growth and ecosystem health.</p>
+<p>If you want to learn more about other uses and features of the CPBOX product</p>
+<p>You can visit <a href="https://docs.cpbox.io/?_s=docs" target="_blank">https://docs.cpbox.io/</a></p>
+<p>Or if you have good suggestions or development assistance needs</p>
+<p>You can contact us through the contact information at the bottom of the homepage <a href="https://www.cpbox.io/en/?_s=docs" target="_blank">https://www.cpbox.io/</a></p>
 <hr>
-<p>&#x3010;&#x5176;&#x4ED6;&#x793E;&#x5A92;&#x3011; </p>
-<p>TG&#x4EA4;&#x6D41;&#x7FA4;&#xFF1A;<a href="https://t.me/cpboxio" target="_blank">https://t.me/cpboxio</a></p>
-<p>Twitter&#xFF1A;<a href="chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.html#he-xin-gong-neng">https://twitter.com/Web3CryptoBox</a></p>
-<p>Youtube&#xFF1A;<a href="https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA" target="_blank">https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA</a></p>
+<p><strong>&#x3010;Other Social Media&#x3011;</strong></p>
+<p>Telegram Group: <a href="https://t.me/cpboxio" target="_blank">https://t.me/cpboxio</a></p>
+<p>Twitter: <a href="chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.html#he-xin-gong-neng">https://twitter.com/Web3CryptoBox</a></p>
+<p>Youtube: <a href="https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA" target="_blank">https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA</a></p>
 
                                 
                                 </section>
@@ -1289,7 +1291,7 @@ bool[] memory boolParams = [
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"CPBOXLPBurnToken 是一款集自动销毁、流动性管理与灵活税费于一体的代币合约，助力 DeFi 项目实现价值增长与生态稳定。","title":"Create Mintable Tokens with LP Burning","level":"5.1.4.3","depth":3,"next":{"title":"Create Dividend-Paying Tokens","level":"5.1.4.4","depth":3,"path":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md","ref":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md","articles":[]},"previous":{"title":"Deploy LP Mining Referral Tokens","level":"5.1.4.2","depth":3,"path":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md","ref":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md","mtime":"2025-05-29T02:58:00.454Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-05-29T02:58:28.841Z"},"basePath":"../../..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"description":"CPBOXLPBurnToken is a token contract that integrates automatic burning, liquidity management, and flexible tax mechanisms to help DeFi projects achieve value growth and ecosystem stability.","title":"Create Mintable Tokens with LP Burning","level":"5.1.4.3","depth":3,"next":{"title":"Create Dividend-Paying Tokens","level":"5.1.4.4","depth":3,"path":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md","ref":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md","articles":[]},"previous":{"title":"Deploy LP Mining Referral Tokens","level":"5.1.4.2","depth":3,"path":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md","ref":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md","mtime":"2025-06-03T02:37:36.754Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-03T07:37:00.228Z"},"basePath":"../../..","book":{"language":"en"}});
         });
     </script>
 </div>

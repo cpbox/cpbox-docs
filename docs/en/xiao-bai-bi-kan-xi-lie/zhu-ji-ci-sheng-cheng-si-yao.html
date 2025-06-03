@@ -6,7 +6,7 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>Derive Private Keys from Mnemonics · CPBox.io</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="通过助记词安全生成、验证和恢复加密钱包私钥">
+        <meta name="description" content="Securely generate, validate, and recover encrypted wallet private keys using mnemonic phrases">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -190,9 +190,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="../qi-bu-yin-dao/README.md">
+        <li class="chapter " data-level="2.2" data-path="../qi-bu-yin-dao/xiao-bai-ru-men/">
             
-                <span>
+                <a href="../qi-bu-yin-dao/xiao-bai-ru-men/">
             
                     
                     Beginner's Guide
@@ -482,9 +482,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="../lian-gong-ju/sui-gong-ju/">
+        <li class="chapter " data-level="3.2" data-path="../sui-lian-gong-ju/">
             
-                <a href="../lian-gong-ju/sui-gong-ju/">
+                <a href="../sui-lian-gong-ju/">
             
                     
                     Sui Tools
@@ -553,9 +553,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.3" data-path="../lian-gong-ju/ton-gong-ju/">
+        <li class="chapter " data-level="3.3" data-path="../ton-lian-gong-ju/">
             
-                <a href="../lian-gong-ju/ton-gong-ju/">
+                <a href="../ton-lian-gong-ju/">
             
                     
                     Ton Tools
@@ -988,9 +988,9 @@
         
         
     
-        <li class="chapter " data-level="6.1" data-path="../contactus/README.md">
+        <li class="chapter " data-level="6.1" data-path="../contactus/">
             
-                <span>
+                <a href="../contactus/">
             
                     
                     ✉️ Get in Touch
@@ -1104,57 +1104,56 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x52A9;&#x8BB0;&#x8BCD;&#x751F;&#x6210;&#x79C1;&#x94A5;">&#x52A9;&#x8BB0;&#x8BCD;&#x751F;&#x6210;&#x79C1;&#x94A5;</h1>
-<h3 id="&#x529F;&#x80FD;&#x6982;&#x8FF0;">&#x529F;&#x80FD;&#x6982;&#x8FF0;</h3>
-<p>&#x6570;&#x5B57;&#x94B1;&#x5305;&#x901A;&#x5E38;&#x4F7F;&#x7528;&#x52A9;&#x8BB0;&#x8BCD;&#xFF08;&#x4E00;&#x7EC4;&#x968F;&#x673A;&#x5355;&#x8BCD;&#xFF09;&#x4F5C;&#x4E3A;&#x6062;&#x590D;&#x79C1;&#x94A5;&#x7684;&#x79CD;&#x5B50;&#x3002;&#x901A;&#x8FC7; BIP-32&#x3001;BIP-39&#x3001;BIP-44 &#x7B49;&#x6807;&#x51C6;&#xFF0C;&#x8FD9;&#x4E9B;&#x52A9;&#x8BB0;&#x8BCD;&#x53EF;&#x4EE5;&#x751F;&#x6210;&#x591A;&#x4E2A;&#x52A0;&#x5BC6;&#x8D27;&#x5E01;&#x5730;&#x5740;&#x3002;&#x4E3A;&#x4E86;&#x5E2E;&#x52A9;&#x60A8;&#x6062;&#x590D;&#x94B1;&#x5305;&#x5730;&#x5740;&#xFF0C;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x52A9;&#x8BB0;&#x8BCD;&#x751F;&#x6210;&#x79C1;&#x94A5;&#x7684;&#x529F;&#x80FD;&#x3002;</p>
-<h3 id="&#x4F7F;&#x7528;&#x6B65;&#x9AA4;">&#x4F7F;&#x7528;&#x6B65;&#x9AA4;</h3>
+                                <h1 id="derive-private-keys-from-mnemonics">Derive Private Keys from Mnemonics</h1>
+<h4 id="feature-overview"><strong>Feature Overview</strong></h4>
+<p>Digital wallets typically use <strong>mnemonic phrases</strong> (a set of random words) as a seed to recover private keys. Based on standards like <strong>BIP-32, BIP-39, and BIP-44</strong>, these mnemonics can generate multiple cryptocurrency addresses. To help you recover wallet addresses, we provide a <strong>mnemonic-to-private-key conversion</strong> feature.</p>
+<h4 id="usage-steps"><strong>Usage Steps</strong></h4>
 <ol>
-<li><strong>&#x767B;&#x5F55;&#x8D26;&#x6237;</strong><ul>
-<li>&#x6253;&#x5F00; CPBox &#x5E73;&#x53F0;&#x5E76;&#x4F7F;&#x7528;&#x60A8;&#x7684;&#x8D26;&#x6237;&#x767B;&#x5F55;</li>
+<li><strong>Log in to Your Account</strong><ul>
+<li>Open the <strong>CPBox platform</strong> and sign in.</li>
 </ul>
 </li>
-<li><strong>&#x8BBF;&#x95EE;&#x529F;&#x80FD;</strong><ul>
-<li>&#x5728;&#x5DE6;&#x4FA7;&#x83DC;&#x5355;&#x4E2D;&#x627E;&#x5230;&#x5E76;&#x70B9;&#x51FB;<a href="https://www.cpbox.io/cn/mnemonic" target="_blank">&#x52A9;&#x8BB0;&#x8BCD;&#x751F;&#x6210;&#x79C1;&#x94A5;</a></li>
+<li><strong>Access the Feature</strong><ul>
+<li>From the left-side menu, select <strong>&quot;Generate Private Key from Mnemonic.&quot;</strong></li>
 </ul>
 </li>
-<li><p><strong>&#x8F93;&#x5165;&#x4FE1;&#x606F;</strong></p>
-<ul>
-<li>&#x586B;&#x5199;&#x60A8;&#x7684;&#x52A9;&#x8BB0;&#x8BCD;&#xFF08;&#x901A;&#x5E38;&#x4E3A; 12-24 &#x4E2A;&#x5355;&#x8BCD;&#xFF09;</li>
-<li>&#x8BBE;&#x7F6E;&#x5F00;&#x59CB;&#x7D22;&#x5F15;&#xFF08;&#x9ED8;&#x8BA4;&#x4E3A; 0&#xFF09;</li>
-<li>&#x9009;&#x62E9;&#x6B63;&#x786E;&#x7684; Path &#x89C4;&#x5219;&#xFF08;&#x6D3E;&#x751F;&#x8DEF;&#x5F84;&#xFF09;</li>
+<li><strong>Enter Information</strong><ul>
+<li>Input your <strong>mnemonic phrase</strong> (usually 12-24 words).</li>
+<li>Set the <strong>starting index</strong> (default: 0).</li>
+<li>Choose the correct <strong>Path rule</strong> (derivation path).</li>
+</ul>
+</li>
+<li><strong>Generate Private Key</strong><ul>
+<li>Click the <strong>&quot;Generate&quot;</strong> button.</li>
+<li>The system will display the corresponding <strong>private key and address.</strong></li>
 </ul>
 </li>
 </ol>
-<ol>
-<li><strong>&#x751F;&#x6210;&#x79C1;&#x94A5;</strong><ul>
-<li>&#x70B9;&#x51FB;&#x300C;&#x751F;&#x6210;&#x300D;&#x6309;&#x94AE;</li>
-<li>&#x7CFB;&#x7EDF;&#x5C06;&#x663E;&#x793A;&#x5BF9;&#x5E94;&#x7684;&#x79C1;&#x94A5;&#x548C;&#x5730;&#x5740;</li>
-</ul>
-</li>
-</ol>
-<h3 id="&#x6CE8;&#x610F;&#x4E8B;&#x9879;">&#x6CE8;&#x610F;&#x4E8B;&#x9879;</h3>
+<h4 id="important-notes"><strong>Important Notes</strong></h4>
 <ul>
-<li>&#x786E;&#x4FDD;&#x5728;&#x5B89;&#x5168;&#x7684;&#x73AF;&#x5883;&#x4E2D;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</li>
-<li>&#x4E0D;&#x540C;&#x5E01;&#x79CD;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x4E0D;&#x540C;&#x7684; Path &#x89C4;&#x5219;</li>
-<li>&#x5982;&#x679C;&#x60A8;&#x4E0D;&#x786E;&#x5B9A;&#x5982;&#x4F55;&#x8BBE;&#x7F6E; Path &#x89C4;&#x5219;&#x6216;&#x5F00;&#x59CB;&#x7D22;&#x5F15;&#xFF0C;&#x8BF7;&#x8054;&#x7CFB;&#x6211;&#x4EEC;&#x7684;&#x5BA2;&#x670D;&#x56E2;&#x961F;&#x83B7;&#x53D6;&#x4E13;&#x4E1A;&#x6307;&#x5BFC;</li>
+<li><strong>Always operate in a secure environment.</strong></li>
+<li>Different cryptocurrencies may require different <strong>Path rules.</strong></li>
+<li>If you&apos;re unsure about <strong>Path rules or starting index</strong>, contact our <strong>support team</strong> for guidance.</li>
 </ul>
-<h3 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;">&#x5E38;&#x89C1;&#x95EE;&#x9898;</h3>
-<p><strong>&#x95EE;&#xFF1A;&#x4EC0;&#x4E48;&#x662F; Path &#x89C4;&#x5219;&#xFF1F;</strong>
-&#x7B54;&#xFF1A;Path &#x89C4;&#x5219;&#x6307;&#x7684;&#x662F; BIP-44 &#x7B49;&#x6807;&#x51C6;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x6D3E;&#x751F;&#x8DEF;&#x5F84;&#xFF0C;&#x4E0D;&#x540C;&#x7684;&#x52A0;&#x5BC6;&#x8D27;&#x5E01;&#x53EF;&#x80FD;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x8DEF;&#x5F84;&#x683C;&#x5F0F;&#x3002;</p>
-<p><strong>&#x95EE;&#xFF1A;&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x9700;&#x8981;&#x8BBE;&#x7F6E;&#x5F00;&#x59CB;&#x7D22;&#x5F15;&#xFF1F;</strong>
-&#x7B54;&#xFF1A;&#x5F00;&#x59CB;&#x7D22;&#x5F15;&#x51B3;&#x5B9A;&#x4E86;&#x4ECE;&#x54EA;&#x4E2A;&#x7D22;&#x5F15;&#x4F4D;&#x7F6E;&#x5F00;&#x59CB;&#x751F;&#x6210;&#x5730;&#x5740;&#xFF0C;&#x901A;&#x5E38;&#x4ECE; 0 &#x5F00;&#x59CB;&#x3002;</p>
-<p>&#x5982;&#x9700;&#x66F4;&#x591A;&#x5E2E;&#x52A9;&#xFF0C;&#x8BF7;&#x968F;&#x65F6;&#x8054;&#x7CFB;&#x6211;&#x4EEC;&#x7684;&#x5BA2;&#x670D;&#x56E2;&#x961F;&#x3002;</p>
+<h4 id="frequently-asked-questions-faq"><strong>Frequently Asked Questions (FAQ)</strong></h4>
+<p>&#x2753; <strong>What is a Path rule?</strong></p>
+<ul>
+<li>A <strong>Path rule</strong> refers to the derivation path defined in standards like BIP-44. Different cryptocurrencies may use different path formats.</li>
+</ul>
+<p>&#x2753; <strong>Why do I need to set a starting index?</strong></p>
+<ul>
+<li>The <strong>starting index</strong> determines which position to begin generating addresses (usually starts at 0).</li>
+</ul>
+<p>For further assistance, feel free to <strong>contact our support team.</strong></p>
 <hr>
-<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x6DF1;&#x5165;&#x4E86;&#x89E3;CPBOX&#x4EA7;&#x54C1;&#x7684;&#x5176;&#x4ED6;&#x7528;&#x9014;&#x548C;&#x529F;&#x80FD;</p>
-<p>&#x53EF;&#x4EE5;&#x70B9;&#x51FB;<a href="https://docs.cpbox.io/" target="_blank"> https://docs.cpbox.io/</a>&#x67E5;&#x770B;</p>
-<p>&#x6216;&#x8005;&#x4F60;&#x6709;&#x4E00;&#x4E9B;&#x597D;&#x7684;&#x5EFA;&#x8BAE;&#x6216;&#x8005;&#x60F3;&#x8981;&#x5E2E;&#x52A9;&#x5F00;&#x53D1;&#x7684;&#x9700;&#x6C42;</p>
-<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E3B;&#x9875; <a href="https://www.cpbox.io/cn/" target="_blank">https://www.cpbox.io/cn/ </a>&#x6700;&#x4E0B;&#x65B9;&#x7684;&#x8054;&#x7CFB;&#x65B9;&#x5F0F;&#x6765;&#x627E;&#x5230;&#x6211;&#x4EEC;</p>
-<p>&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0B;&#x65B9;&#x793E;&#x5A92;&#x6765;&#x8054;&#x7CFB;&#x6211;&#x4EEC;</p>
-<hr>
-<h3 id="&#x5176;&#x4ED6;&#x793E;&#x5A92;">&#x5176;&#x4ED6;&#x793E;&#x5A92;</h3>
-<p>TG&#x4EA4;&#x6D41;&#x7FA4;&#xFF1A;<a href="https://t.me/cpboxio" target="_blank">https://t.me/cpboxio</a></p>
-<p>Twitter&#xFF1A;<a href="https://twitter.com/Web3CryptoBox" target="_blank">https://twitter.com/Web3CryptoBox</a> | <a href="https://x.com/cpboxio" target="_blank">https://x.com/cpboxio</a></p>
-<p>Youtube&#xFF1A;<a href="../solana-gong-ju/solana-yi-jian-fa-bi.html">youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA</a></p>
+<h3 id="learn-more-about-cpbox"><strong>Learn More About CPBOX</strong></h3>
+<p>Explore features: <a href="https://docs.cpbox.io/" target="_blank">https://docs.cpbox.io</a></p>
+<p>Suggestions or custom needs? </p>
+<p>Contact us:<a href="https://www.cpbox.io/cn/" target="_blank">https://www.cpbox.io/cn/</a></p>
+<h3 id="join-our-community"><strong>Join Our Community</strong></h3>
+<p><strong>Telegram Group</strong>: <a href="https://t.me/cpboxio" target="_blank">https://t.me/cpboxio</a></p>
+<p><strong>Twitter</strong>: <a href="https://twitter.com/Web3CryptoBox" target="_blank">https://twitter.com/Web3CryptoBox</a> | <a href="https://x.com/cpboxio" target="_blank">https://x.com/cpboxio</a></p>
+<p><strong>YouTube</strong>: <a href="https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA" target="_blank">https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA</a></p>
 
                                 
                                 </section>
@@ -1198,7 +1197,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"通过助记词安全生成、验证和恢复加密钱包私钥","title":"Derive Private Keys from Mnemonics","level":"2.2.4","depth":2,"next":{"title":"Essential Batch Tools for Multi-Account Airdrop Farming","level":"2.2.5","depth":2,"path":"qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md","ref":"qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md","articles":[]},"previous":{"title":"Generate Addresses in Bulk","level":"2.2.3","depth":2,"path":"xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md","ref":"xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md","mtime":"2025-05-29T02:58:00.465Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-05-29T02:58:28.841Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"description":"Securely generate, validate, and recover encrypted wallet private keys using mnemonic phrases","title":"Derive Private Keys from Mnemonics","level":"2.2.4","depth":2,"next":{"title":"Essential Batch Tools for Multi-Account Airdrop Farming","level":"2.2.5","depth":2,"path":"qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md","ref":"qi-bu-yin-dao/xiao-bai-ru-men/duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md","articles":[]},"previous":{"title":"Generate Addresses in Bulk","level":"2.2.3","depth":2,"path":"xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md","ref":"xiao-bai-bi-kan-xi-lie/pi-liang-di-zhi-sheng-cheng.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"xiao-bai-bi-kan-xi-lie/zhu-ji-ci-sheng-cheng-si-yao.md","mtime":"2025-05-29T10:46:40.357Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-03T07:37:00.228Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
