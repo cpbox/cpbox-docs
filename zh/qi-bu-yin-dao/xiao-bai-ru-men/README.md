@@ -22,14 +22,14 @@
 
 小狐狸钱包速通指南：
 
-{% content-ref url="../../../en/xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md" %}
-[metamask-xiao-hu-li-zhu-shou.md](../../../en/xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
+{% content-ref url="../../xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md" %}
+MetaMask小白快速配置
 {% endcontent-ref %}
 
 多号撸毛必学：
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="./duo-hao-lu-mao-you-na-xie-hao-yong-de-pi-liang-gong-ju.md" %}
+多号撸毛有哪些好用的批量工具
 {% endcontent-ref %}
 
 ***

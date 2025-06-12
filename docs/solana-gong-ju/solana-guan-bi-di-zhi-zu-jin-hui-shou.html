@@ -1,0 +1,755 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Solana 关闭地址(租金回收) · CPBox.io</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="安全回收闲置Solana账户中的SOL租金，优化您的钱包结构">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="solana-pi-liang-mai-mai-dai-bi.html" />
+    
+    
+    <link rel="prev" href="solana-yi-jian-fa-bi.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    🏠 CPBOX介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../contactus/">
+            
+                <a href="../contactus/">
+            
+                    
+                    ✉️ 联系我们
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <a target="_blank" href="https://x.com/web3cryptobox">
+            
+                    
+                    twitter/X
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <a target="_blank" href="https://www.cpbox.io/">
+            
+                    
+                    官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <a target="_blank" href="https://t.me/cpbox">
+            
+                    
+                    Telegram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <a target="_blank" href="https://github.com/cpbox">
+            
+                    
+                    Github
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Solana工具</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="solana-yi-jian-fa-bi.html">
+            
+                <a href="solana-yi-jian-fa-bi.html">
+            
+                    
+                    Solana 一键发币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="solana-guan-bi-di-zhi-zu-jin-hui-shou.html">
+            
+                <a href="solana-guan-bi-di-zhi-zu-jin-hui-shou.html">
+            
+                    
+                    Solana 关闭地址(租金回收)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="solana-pi-liang-mai-mai-dai-bi.html">
+            
+                <a href="solana-pi-liang-mai-mai-dai-bi.html">
+            
+                    
+                    Solana批量买卖代币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="pump-kai-pan-he-bing-mai-ru.html">
+            
+                <a href="pump-kai-pan-he-bing-mai-ru.html">
+            
+                    
+                    Pump开盘合并买入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="pump-shi-zhi-guan-li.html">
+            
+                <a href="pump-shi-zhi-guan-li.html">
+            
+                    
+                    Pump市值管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="solana-dai-bi-guan-li.html">
+            
+                <a href="solana-dai-bi-guan-li.html">
+            
+                    
+                    Solana代币管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">批量工具</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../pi-liang-gong-ju/pi-liang-fa-song.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-fa-song.html">
+            
+                    
+                    批量发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../pi-liang-gong-ju/pi-liang-cha-xun.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-cha-xun.html">
+            
+                    
+                    批量查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../pi-liang-gong-ju/pi-liang-gui-ji.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-gui-ji.html">
+            
+                    
+                    批量归集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../pi-liang-gong-ju/nft-pi-liang-fa-song.html">
+            
+                <a href="../pi-liang-gong-ju/nft-pi-liang-fa-song.html">
+            
+                    
+                    NFT批量发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../pi-liang-gong-ju/nft-pi-liang-gui-ji.html">
+            
+                <a href="../pi-liang-gong-ju/nft-pi-liang-gui-ji.html">
+            
+                    
+                    NFT批量归集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../pi-liang-gong-ju/pi-liang-he-yue-diao-yong.html">
+            
+                <a href="../pi-liang-gong-ju/pi-liang-he-yue-diao-yong.html">
+            
+                    
+                    批量合约调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../pi-liang-gong-ju/token-pi-liang-shou-quan.html">
+            
+                <a href="../pi-liang-gong-ju/token-pi-liang-shou-quan.html">
+            
+                    
+                    Token批量授权
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">实用工具</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.html">
+            
+                <a href="../shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.html">
+            
+                    
+                    交易所批量提币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../shi-yong-gong-ju/twitter-jian-kong.html">
+            
+                <a href="../shi-yong-gong-ju/twitter-jian-kong.html">
+            
+                    
+                    Twitter监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../shi-yong-gong-ju/yuejian-kong.html">
+            
+                <a href="../shi-yong-gong-ju/yuejian-kong.html">
+            
+                    
+                    余额监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../shi-yong-gong-ju/bsc-pi-liang-jiao-yi.html">
+            
+                <a href="../shi-yong-gong-ju/bsc-pi-liang-jiao-yi.html">
+            
+                    
+                    BSC批量交易
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.html">
+            
+                <a href="../shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.html">
+            
+                    
+                    Ethereum交易加速取消
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">钱包管理</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../qian-bao-guan-li/liang-hao-di-zhi-sheng-cheng.html">
+            
+                <a href="../qian-bao-guan-li/liang-hao-di-zhi-sheng-cheng.html">
+            
+                    
+                    靓号地址生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../qian-bao-guan-li/metamask-xiao-hu-li-zhu-shou.html">
+            
+                <a href="../qian-bao-guan-li/metamask-xiao-hu-li-zhu-shou.html">
+            
+                    
+                    MetaMask小狐狸助手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../qian-bao-guan-li/pi-liang-di-zhi-sheng-cheng.html">
+            
+                <a href="../qian-bao-guan-li/pi-liang-di-zhi-sheng-cheng.html">
+            
+                    
+                    批量地址生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../qian-bao-guan-li/zhu-ji-ci-sheng-cheng-si-yao.html">
+            
+                <a href="../qian-bao-guan-li/zhu-ji-ci-sheng-cheng-si-yao.html">
+            
+                    
+                    助记词生成私钥
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">实用信息</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../shi-yong-xin-xi/shi-yong-xin-xi.html">
+            
+                <a href="../shi-yong-xin-xi/shi-yong-xin-xi.html">
+            
+                    
+                    实用信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">发币工具</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../fa-bi-gong-ju/sui-yi-jian-fa-bi.html">
+            
+                <a href="../fa-bi-gong-ju/sui-yi-jian-fa-bi.html">
+            
+                    
+                    Sui一键发币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../fa-bi-gong-ju/sui-dai-bi-quan-xian-xiu-gai.html">
+            
+                <a href="../fa-bi-gong-ju/sui-dai-bi-quan-xian-xiu-gai.html">
+            
+                    
+                    Sui代币权限修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.html">
+            
+                <a href="../fa-bi-gong-ju/sui-liu-dong-xing-chi-tian-jia.html">
+            
+                    
+                    Sui流动性池添加
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Solana 关闭地址(租金回收)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="solana-&#x5173;&#x95ED;&#x5730;&#x5740;&#x79DF;&#x91D1;&#x56DE;&#x6536;">Solana &#x5173;&#x95ED;&#x5730;&#x5740;(&#x79DF;&#x91D1;&#x56DE;&#x6536;)</h1>
+<h3 id="&#x529F;&#x80FD;&#x6982;&#x8FF0;">&#x529F;&#x80FD;&#x6982;&#x8FF0;</h3>
+<p>&#x5728; Solana &#x533A;&#x5757;&#x94FE;&#x4E0A;&#xFF0C;&#x6BCF;&#x4E2A; NFT &#x6216;&#x4EE3;&#x5E01;&#x9996;&#x6B21;&#x83B7;&#x53D6;&#x65F6;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x652F;&#x4ED8;&#x4E00;&#x7B14; SOL &#x4F5C;&#x4E3A;&#x5B58;&#x50A8;&#x8D26;&#x6237;&#x7684;&#x79DF;&#x91D1;&#x3002;&#x5982;&#x679C;&#x60A8;&#x5DF2;&#x7ECF;&#x5356;&#x7A7A;&#x8FD9;&#x4E9B;&#x8D44;&#x4EA7;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; CPBOX &#x7684;&#x5173;&#x95ED;&#x8D26;&#x6237;&#x529F;&#x80FD;&#x5C06;&#x8FD9;&#x7B14;&#x79DF;&#x91D1;&#x56DE;&#x6536;&#x3002;&#x540C;&#x65F6;&#x60A8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<a href="https://www.cpbox.io/cn/solana/close-account" target="_blank">&#x5355;&#x4E2A;&#x5730;&#x5740;&#x5173;&#x95ED;&#x8D26;&#x53F7;</a>&#x6216;&#x8005;<a href="https://www.cpbox.io/cn/solana/batch/close-account" target="_blank">&#x6279;&#x91CF;&#x5730;&#x5740;&#x5173;&#x95ED;&#x8D26;&#x53F7;</a>&#xFF0C;&#x4ED6;&#x4EEC;&#x7684;&#x533A;&#x522B;&#x662F;&#x5355;&#x4E2A;&#x5730;&#x5740;&#x56DE;&#x6536;&#x53EA;&#x56DE;&#x6536;&#x60A8;&#x5F53;&#x524D;&#x94B1;&#x5305;&#x8FDE;&#x63A5;&#x7684;&#x5730;&#x5740;&#xFF0C;&#x800C;&#x6279;&#x91CF;&#x7684;&#x8BDD;&#x5219;&#x662F;&#x6279;&#x91CF;&#x5BFC;&#x5165;&#x5730;&#x5740;&#xFF0C;&#x56DE;&#x6536;&#x6240;&#x6709;&#x5730;&#x5740;&#x4E0A;&#x7684;&#x79DF;&#x91D1;&#x3002;</p>
+<h3 id="&#x5173;&#x95ED;&#x8D26;&#x6237;&#x64CD;&#x4F5C;&#x65B9;&#x5F0F;">&#x5173;&#x95ED;&#x8D26;&#x6237;&#x64CD;&#x4F5C;&#x65B9;&#x5F0F;</h3>
+<h4 id="&#x5355;&#x4E2A;&#x5730;&#x5740;&#x5173;&#x95ED;">&#x5355;&#x4E2A;&#x5730;&#x5740;&#x5173;&#x95ED;</h4>
+<ol>
+<li><strong>&#x767B;&#x5F55; CPBOX&#xFF08;</strong><a href="https://www.cpbox.io" target="_blank"><strong>https://www.cpbox.io</strong></a><strong>&#xFF09;</strong><ul>
+<li>&#x8BBF;&#x95EE;&#x9996;&#x9875;&#x5B9E;&#x7528;&#x5DE5;&#x5177;&#x680F;&#x76EE;</li>
+<li>&#x627E;&#x5230;&#x5E76;&#x70B9;&#x51FB;&quot;<a href="https://www.cpbox.io/cn/solana/close-account" target="_blank">Solana &#x5355;&#x4E2A;&#x5730;&#x5740;&#x5173;&#x95ED;&#x8D26;&#x53F7;</a>&quot;&#x529F;&#x80FD;</li>
+</ul>
+</li>
+<li><strong>&#x8FDE;&#x63A5;&#x94B1;&#x5305;</strong><ul>
+<li>&#x652F;&#x6301;&#x6240;&#x6709;&#x5982;<a href="https://phantom.com/" target="_blank">Phantom</a>, <a href="https://www.okx.com/zh-hans/web3" target="_blank">Okx</a>, <a href="https://solflare.com/" target="_blank">solflare</a>&#x4E3B;&#x6D41; Solana &#x94B1;&#x5305;</li>
+</ul>
+</li>
+<li><strong>&#x8D26;&#x6237;&#x7B5B;&#x9009;&#x4E0E;&#x64CD;&#x4F5C;</strong><ul>
+<li>&#x7CFB;&#x7EDF;&#x81EA;&#x52A8;&#x626B;&#x63CF;&#x663E;&#x793A;&#x60A8;&#x94B1;&#x5305;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x8D44;&#x4EA7;</li>
+<li>&#x52FE;&#x9009;&quot;&#x6570;&#x91CF;&#x4E3A; 0&quot;&#x9009;&#x9879; &#x2192; &#x7B5B;&#x9009;&#x51FA;&#x5DF2;&#x5356;&#x7A7A;&#x7684;&#x4EE3;&#x5E01;&#x8D26;&#x6237;</li>
+<li>&#x52FE;&#x9009;&quot;&#x6570;&#x91CF;&#x5927;&#x4E8E; 0&quot;&#x9009;&#x9879; &#x2192; &#x7B5B;&#x9009;&#x51FA;&#x4ECD;&#x6709;&#x4EE3;&#x5E01;&#x7684;&#x8D26;&#x6237;&#xFF08;<strong>&#x8BF7;&#x8C28;&#x614E;&#x64CD;&#x4F5C;</strong>&#xFF0C;&#x6267;&#x884C;&#x540E;&#x5C06;&#x9500;&#x6BC1;&#x8D26;&#x6237;&#x4E2D;&#x6240;&#x6709;&#x4EE3;&#x5E01;&#xFF09;</li>
+<li>&#x70B9;&#x51FB;&quot;&#x5F00;&#x59CB;&#x6267;&#x884C;&quot;&#xFF0C;&#x6839;&#x636E;&#x5173;&#x95ED;&#x8D26;&#x6237;&#x6570;&#x91CF;&#x5728;&#x94B1;&#x5305;&#x4E2D;&#x8FDB;&#x884C;&#x786E;&#x8BA4;</li>
+</ul>
+</li>
+</ol>
+<figure><img src="https://www.cpbox.io/cpfiles/2024-06-07/d1tqq6b3nm1xq1ncbc.png" alt=""><figcaption><p>&#x5355;&#x4E2A;&#x94B1;&#x5305;&#x5173;&#x95ED;</p></figcaption></figure>
+
+<h4 id="&#x6279;&#x91CF;&#x5730;&#x5740;&#x5173;&#x95ED;">&#x6279;&#x91CF;&#x5730;&#x5740;&#x5173;&#x95ED;</h4>
+<p>&#x5982;&#x679C;&#x60A8;&#x7BA1;&#x7406;&#x591A;&#x4E2A; Solana &#x5730;&#x5740;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6B64;&#x529F;&#x80FD;&#x66F4;&#x9AD8;&#x6548;&#x5730;&#x56DE;&#x6536;&#x79DF;&#x91D1;&#xFF1A;</p>
+<ol>
+<li><strong>&#x8FDB;&#x5165;&#x6279;&#x91CF;&#x529F;&#x80FD;</strong><ul>
+<li>&#x5728; CPBOX &#x5B9E;&#x7528;&#x5DE5;&#x5177;&#x4E2D;&#x9009;&#x62E9;&quot;<a href="https://www.cpbox.io/cn/solana/batch/close-account" target="_blank">&#x6279;&#x91CF;&#x5730;&#x5740;&#x5173;&#x95ED;&#x8D26;&#x53F7;</a>&quot;&#x9009;&#x9879;</li>
+</ul>
+</li>
+<li><strong>&#x6DFB;&#x52A0;&#x591A;&#x4E2A;&#x94B1;&#x5305;&#x5730;&#x5740;</strong><ul>
+<li>&#x8F93;&#x5165;&#x6216;&#x5BFC;&#x5165;&#x9700;&#x8981;&#x5904;&#x7406;&#x7684;&#x591A;&#x4E2A; Solana &#x94B1;&#x5305;&#x5730;&#x5740;</li>
+<li>&#x652F;&#x6301;&#x6587;&#x672C;&#x7C98;&#x8D34;&#x6216; CSV &#x6587;&#x4EF6;&#x5BFC;&#x5165;</li>
+</ul>
+</li>
+<li><strong>&#x6279;&#x91CF;&#x64CD;&#x4F5C;</strong><ul>
+<li>&#x7CFB;&#x7EDF;&#x81EA;&#x52A8;&#x626B;&#x63CF;&#x6240;&#x6709;&#x5730;&#x5740;&#x7684;&#x8D26;&#x6237;&#x72B6;&#x6001;&#x548C;&#x53EF;&#x56DE;&#x6536; SOL</li>
+<li>&#x52FE;&#x9009;&#x9700;&#x8981;&#x5904;&#x7406;&#x7684;&#x5730;&#x5740;&#x6216;&#x4F7F;&#x7528;&quot;&#x5168;&#x9009;&quot;&#x529F;&#x80FD;</li>
+<li>&#x70B9;&#x51FB;&quot;&#x6279;&#x91CF;&#x6267;&#x884C;&quot;&#x6309;&#x94AE;</li>
+<li>&#x6309;&#x63D0;&#x793A;&#x5728;&#x8FDE;&#x63A5;&#x7684;&#x94B1;&#x5305;&#x4E2D;&#x786E;&#x8BA4;&#x4EA4;&#x6613;&#x5B8C;&#x6210;&#x64CD;&#x4F5C;</li>
+</ul>
+</li>
+</ol>
+<h3 id="&#x63A8;&#x5E7F;&#x5956;&#x52B1;">&#x63A8;&#x5E7F;&#x5956;&#x52B1;</h3>
+<p>&#x9080;&#x8BF7;&#x597D;&#x53CB;&#x4F7F;&#x7528;&#x8D26;&#x6237;&#x5173;&#x95ED;&#x529F;&#x80FD;&#xFF0C;&#x60A8;&#x53EF;&#x83B7;&#x5F97; 30% &#x7684;&#x670D;&#x52A1;&#x8D39;&#x8FD4;&#x4F63;&#x3002;</p>
+<h3 id="&#x670D;&#x52A1;&#x8D39;">&#x670D;&#x52A1;&#x8D39;</h3>
+<p>&#x7CFB;&#x7EDF;&#x670D;&#x52A1;&#x8D39;&#x4E3A;&#x56DE;&#x6536;&#x5F97;&#x5230;&#x7684;&#x5168;&#x90E8;&#x79DF;&#x91D1;&#x7684;8%&#x3002;</p>
+<h3 id="&#x6CE8;&#x610F;&#x4E8B;&#x9879;">&#x6CE8;&#x610F;&#x4E8B;&#x9879;</h3>
+<ul>
+<li>&#x8BF7;&#x786E;&#x4FDD;&#x60A8;&#x8981;&#x5173;&#x95ED;&#x7684;&#x8D26;&#x6237;&#x8D44;&#x4EA7;&#x4E3A;0&#x6216;&#x8005;&#x662F;&#x4E00;&#x4E9B;&#x65E0;&#x7528;&#x7684;&#x4EE3;&#x5E01;&#xFF0C;&#x5173;&#x95ED;&#x4F1A;&#x71C3;&#x70E7;&#x8FD9;&#x79CD;&#x8D26;&#x6237;&#x7684;&#x8D44;&#x4EA7;</li>
+</ul>
+<h3 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;&#x89E3;&#x7B54;">&#x5E38;&#x89C1;&#x95EE;&#x9898;&#x89E3;&#x7B54;</h3>
+<p>&#x5982;&#x9047;&#x5230;&#x64CD;&#x4F5C;&#x95EE;&#x9898;&#x6216;&#x9700;&#x8981;&#x66F4;&#x591A;&#x6280;&#x672F;&#x652F;&#x6301;&#xFF0C;&#x8BF7;&#x8054;&#x7CFB;CPBox&#x5BA2;&#x6237;&#x670D;&#x52A1;&#x6216;&#x67E5;&#x9605;&#x5E2E;&#x52A9;&#x6587;&#x6863;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="solana-yi-jian-fa-bi.html" class="navigation navigation-prev " aria-label="Previous page: Solana 一键发币">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="solana-pi-liang-mai-mai-dai-bi.html" class="navigation navigation-next " aria-label="Next page: Solana批量买卖代币">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+<<<<<<< HEAD
+            gitbook.page.hasChanged({"page":{"description":"安全回收闲置Solana账户中的SOL租金，优化您的钱包结构","title":"Solana 关闭地址(租金回收)","level":"2.2","depth":1,"next":{"title":"Solana批量买卖代币","level":"2.3","depth":1,"path":"solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md","ref":"solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md","articles":[]},"previous":{"title":"Solana 一键发币","level":"2.1","depth":1,"path":"solana-gong-ju/solana-yi-jian-fa-bi.md","ref":"solana-gong-ju/solana-yi-jian-fa-bi.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","custom-favicon","sitemap","video-embed","chapter-fold"],"root":".","styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"./favicon.ico","sitemap":{"hostname":"https://docs.cpbox.io"},"appleTouchIconPrecomposed152":"./favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","gitbook":"*"},"file":{"path":"solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md","mtime":"2025-04-19T14:37:11.710Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-04-19T14:50:35.199Z"},"basePath":"..","book":{"language":""}});
+=======
+            gitbook.page.hasChanged({"page":{"description":"安全回收闲置Solana账户中的SOL租金，优化您的钱包结构","title":"Solana 关闭地址(租金回收)","level":"2.2","depth":1,"next":{"title":"Solana批量买卖代币","level":"2.3","depth":1,"path":"solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md","ref":"solana-gong-ju/solana-pi-liang-mai-mai-dai-bi.md","articles":[]},"previous":{"title":"Solana 一键发币","level":"2.1","depth":1,"path":"solana-gong-ju/solana-yi-jian-fa-bi.md","ref":"solana-gong-ju/solana-yi-jian-fa-bi.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","custom-favicon","sitemap","video-embed","chapter-fold","reflinks"],"root":".","styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"./favicon.ico","sitemap":{"hostname":"https://docs.cpbox.io"},"appleTouchIconPrecomposed152":"./favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","gitbook":"*"},"file":{"path":"solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md","mtime":"2025-04-15T06:30:50.159Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-04-22T02:05:51.448Z"},"basePath":"..","book":{"language":""}});
+>>>>>>> f76987f (add/modify page)
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
