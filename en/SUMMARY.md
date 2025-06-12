@@ -14,6 +14,7 @@
   * [The Complete Guide to Token Creation: From Launch to Exit](qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
   * [Understanding Liquidity Pools, AMMs, and Liquidity Mining](qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
   * [Price Control Strategies: A Guide to Stable Pool CLMM](qi-bu-yin-dao/xiao-bai-ru-men/ru-he-jiang-dai-bi-jia-ge-kong-zhi-zai-yi-ding-fan-wei-wen-ding-chi-clmm-jie-shao.md)
+  * [Testnet faucet](qi-bu-yin-dao/xiao-bai-ru-men/ling-qu-ce-shi-gas.md)
 
 ## Blockchain Tools
 
