@@ -34,11 +34,11 @@ A pop-up will appear—under **"Pool Type"**, keep the default selection (**"Con
 * To enable trading for your token, select your newly created token as the **base token**.
 * Common **quote tokens** include **SOL, USDC, or other stablecoins**.
 
-<figure><img src="../../../.gitbook/assets/ray-liq-4 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-4.png" alt=""><figcaption></figcaption></figure>
 
 ⚠️ **Note:** If your token doesn't display an icon or details, it likely hasn't been verified on **Solscan**. To fix this, update the token's metadata and complete the verification process.
 
-<figure><img src="../../../.gitbook/assets/ray-liq-5 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-5.png" alt=""><figcaption></figcaption></figure>
 
 Click **"Next"** to proceed to the **price range setting**.
 
@@ -46,14 +46,14 @@ Click **"Next"** to proceed to the **price range setting**.
 * For example, if you want your token to stabilize around **$1**, set a narrow price range.
 * If liquidity depth is insufficient, trades may fail to execute.
 
-<figure><img src="../../../.gitbook/assets/ray-liq-6 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-6.png" alt=""><figcaption></figcaption></figure>
 
 Click **"Next"** to reach the final confirmation screen.
 
 * Enter the **initial amount of tokens** you want to deposit into the liquidity pool.
 * (In this demo, we can't proceed due to insufficient USDC balance.)
 
-<figure><img src="../../../.gitbook/assets/ray-liq-7 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ray-liq-7.png" alt=""><figcaption></figcaption></figure>
 
 Once confirmed, your pool will be **successfully created**.
 
