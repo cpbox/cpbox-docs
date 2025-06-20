@@ -62,11 +62,11 @@ First, we copy the contract code in, then because the contract is relatively sim
 
 Click verify and publish, and you'll see this prompt:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-8 (1).png" alt=""><figcaption><p>Contract open-sourcing prompt</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-8.png" alt=""><figcaption><p>Contract open-sourcing prompt</p></figcaption></figure>
 
 Now enter the contract address in the blockchain explorer, and you'll find the contract has been verified and you can see the contract source code:
 
-<figure><img src="../../../.gitbook/assets/contract-ver-9 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/contract-ver-9.png" alt=""><figcaption></figcaption></figure>
 
 #### **Contract Interaction**
 
