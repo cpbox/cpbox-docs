@@ -66,8 +66,8 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 
 如果你不太清楚什么是流动性池，可以阅读一下下面的文章。
 
-{% content-ref url="../../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+{% content-ref url="../../../zh/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
+[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../../zh/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
 {% endcontent-ref %}
 
 如果你觉的本篇的加池子不是很清楚，可以参考Sui链或者Ton链的加池子教程。

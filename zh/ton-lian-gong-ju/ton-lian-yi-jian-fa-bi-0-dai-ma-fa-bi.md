@@ -75,7 +75,7 @@ description: 一键创建Ton链token
 
 如果想要深入了解CPBOX产品的其他用途和功能
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/cn/?_s=docs)查看
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/zh/?_s=docs)查看
 
 或者你有一些好的建议或者想要帮助开发的需求
 

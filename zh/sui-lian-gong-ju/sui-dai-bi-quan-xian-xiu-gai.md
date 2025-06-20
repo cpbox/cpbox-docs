@@ -31,7 +31,7 @@ Sui链的代币创建出来后，会有3个权限：增发权限（铸币权）�
 
 这边需要注意的是，增发的的代币是增发在你自己的钱包地址的，如果后续想要以空投的形式发送多个人，可以通过sui链中的批量发送功能进行实现。
 
-可以参考教材[https://docs.cpbox.io/pi-liang-gong-ju/pi-liang-fa-song.html](https://docs.cpbox.io/pi-liang-gong-ju/pi-liang-fa-song.html)
+可以参考教材[https://docs.cpbox.io/zh/pi-liang-gong-ju/pi-liang-fa-song.html](https://docs.cpbox.io/zh/pi-liang-gong-ju/pi-liang-fa-song.html)
 
 ***
 

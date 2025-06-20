@@ -24,33 +24,33 @@ Quick access to CPBOX official website: [https://www.cpbox.io/](https://www.cpbo
 
 [Smart Money Address Monitoring](https://www.cpbox.io/balance/monitor): Track whale wallet balances, follow smart money | [View Tutorial](shi-yong-gong-ju/yuejian-kong.md)
 
-[Twitter Activity Monitor](https://www.cpbox.io/cn/twitter/group): Stay ahead by tracking early market trends | [View Tutorial](shi-yong-gong-ju/twitter-jian-kong.md)
+[Twitter Activity Monitor](https://www.cpbox.io/en/twitter/group): Stay ahead by tracking early market trends | [View Tutorial](shi-yong-gong-ju/twitter-jian-kong.md)
 
 ### Batch Transfer & Airdrops
 
-[EVM Chain Batch Distribution](https://www.cpbox.io/cn/batch/send-token): Execute batch sends, automate multi-wallet trades | [View Tutorial](pi-liang-gong-ju/pi-liang-fa-song.md)
+[EVM Chain Batch Distribution](https://www.cpbox.io/en/batch/send-token): Execute batch sends, automate multi-wallet trades | [View Tutorial](pi-liang-gong-ju/pi-liang-fa-song.md)
 
-[Solana Bulk Transfers & Airdrops](https://www.cpbox.io/cn/solana/batch/send): Quickly send tokens or MEMEs on Solana | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+[Solana Bulk Transfers & Airdrops](https://www.cpbox.io/en/solana/batch/send): Quickly send tokens or MEMEs on Solana | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[TON Bulk Transfers & Airdrops](https://www.cpbox.io/cn/ton/batch-send-token): Send tokens or airdrops on TON with ease | [View Tutorial](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+[TON Bulk Transfers & Airdrops](https://www.cpbox.io/en/ton/batch-send-token): Send tokens or airdrops on TON with ease | [View Tutorial](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[SUI Bulk Transfers & Airdrops](https://www.cpbox.io/cn/sui/batch-send-token): Easily distribute tokens on SUI | [View Tutorial](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
+[SUI Bulk Transfers & Airdrops](https://www.cpbox.io/en/sui/batch-send-token): Easily distribute tokens on SUI | [View Tutorial](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
 
 ### SOLANA Token Launch
 
-[Launch Tokens with One Click](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html): The smoothest Solana token creation experience | [View Tutorial](solana-gong-ju/solana-yi-jian-fa-bi.md)
+[Launch Tokens with One Click](https://docs.cpbox.io/en/solana-gong-ju/solana-yi-jian-fa-bi.html): The smoothest Solana token creation experience | [View Tutorial](solana-gong-ju/solana-yi-jian-fa-bi.md)
 
-[Solana Bulk Transfers & Airdrops](https://www.cpbox.io/cn/solana/batch/send): Send Solana tokens or SOL in bulk | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+[Solana Bulk Transfers & Airdrops](https://www.cpbox.io/en/solana/batch/send): Send Solana tokens or SOL in bulk | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[Solana Bulk Collection](https://www.cpbox.io/cn/solana/batch/collection): Collect tokens from multiple wallets efficiently | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md)
+[Solana Bulk Collection](https://www.cpbox.io/en/solana/batch/collection): Collect tokens from multiple wallets efficiently | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-pi-liang-gui-ji.md)
 
-[Close Solana Accounts (Rent Recovery)](https://www.cpbox.io/cn/solana/close-account): Recover rent via single or batch address closure | [View Tutorial](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
+[Close Solana Accounts (Rent Recovery)](https://www.cpbox.io/en/solana/close-account): Recover rent via single or batch address closure | [View Tutorial](solana-gong-ju/solana-guan-bi-di-zhi-zu-jin-hui-shou.md)
 
-[Create Solana Wallets in Bulk](https://www.cpbox.io/cn/batch/generate-wallet): Generate thousands of Solana wallets in a minute | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
+[Create Solana Wallets in Bulk](https://www.cpbox.io/en/batch/generate-wallet): Generate thousands of Solana wallets in a minute | [View Tutorial](lian-gong-ju/solana-gong-ju/solana-qian-bao-pi-liang-chuang-jian.md)
 
-[Pump Launch Bundle Trading](https://www.cpbox.io/cn/solana/pump/publish): Launch tokens on pump.fun and bundle multiple buyers | [View Tutorial](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
+[Pump Launch Bundle Trading](https://www.cpbox.io/en/solana/pump/publish): Launch tokens on pump.fun and bundle multiple buyers | [View Tutorial](solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
 
-[Pump Market Cap Management](https://www.cpbox.io/cn/solana/bmm?id=3): Manage pump.fun token markets with batch tools | [View Tutorial](solana-gong-ju/pump-shi-zhi-guan-li.md)
+[Pump Market Cap Management](https://www.cpbox.io/en/solana/bmm?id=3): Manage pump.fun token markets with batch tools | [View Tutorial](solana-gong-ju/pump-shi-zhi-guan-li.md)
 
 [Add Liquidity to PumpSwap](https://swap.pump.fun/?input=So11111111111111111111111111111111111111112): Use pump.fun's DEX for effortless trading | [View Tutorial](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
 
@@ -58,9 +58,9 @@ Quick access to CPBOX official website: [https://www.cpbox.io/](https://www.cpbo
 
 ### TON Token Creation
 
-[Launch Tokens with One Click](https://www.cpbox.io/cn/ton/token/publish): The best one-click TON token creation tool | [View Tutorial](ton-tools/create-tokens-with-one-click.md)
+[Launch Tokens with One Click](https://www.cpbox.io/en/ton/token/publish): The best one-click TON token creation tool | [View Tutorial](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
 
-[Token Management Dashboard](https://www.cpbox.io/cn/ton/token/manage): Edit token info and permissions | [View Tutorial](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
+[Token Management Dashboard](https://www.cpbox.io/en/ton/token/manage): Edit token info and permissions | [View Tutorial](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
 
 [Create Liquidity Pools on DeDust](https://dedust.io/): TON’s second-largest DEX, supports EVM and cross-chain | [View Tutorial](ton-lian-gong-ju/ton-liu-dong-xing-chi-chuang-jian-dedust-jiao-cheng.md)
 

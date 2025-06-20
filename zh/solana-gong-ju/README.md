@@ -22,8 +22,8 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 
 如果你不会写代码，想在SOL链上发币，可以参考这篇文章
 
-{% content-ref url="../../solana-gong-ju/solana-yi-jian-fa-bi.md" %}
-[solana-yi-jian-fa-bi.md](../../solana-gong-ju/solana-yi-jian-fa-bi.md)
+{% content-ref url="./solana-yi-jian-fa-bi.md" %}
+[solana-yi-jian-fa-bi.md](./solana-yi-jian-fa-bi.md)
 {% endcontent-ref %}
 
 如果你不会添加流动性，可以参考这篇文章
@@ -40,8 +40,8 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 
 如果你不知道怎么使用pump开盘绑定买入功能，你可以参考下面这篇文章
 
-{% content-ref url="../../solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md" %}
-[pump-kai-pan-he-bing-mai-ru.md](../../solana-gong-ju/pump-kai-pan-he-bing-mai-ru.md)
+{% content-ref url="./pump-kai-pan-he-bing-mai-ru.md" %}
+[pump-kai-pan-he-bing-mai-ru.md](./pump-kai-pan-he-bing-mai-ru.md)
 {% endcontent-ref %}
 
 ***
@@ -52,8 +52,8 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 
 当然光画饼是不行的，你还得时不时的给社区发一下代币的空投。如果你不知道怎么给你社群的幸运用户**发送空投**，你可以参考下面这篇文章。
 
-{% content-ref url="../../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md" %}
-[meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md](../../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
+{% content-ref url="../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md" %}
+[meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md](../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
 {% endcontent-ref %}
 
 ***
