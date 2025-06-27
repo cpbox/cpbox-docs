@@ -29,7 +29,6 @@ sui基金会每年都会对sui生态上的一些项目进行补贴。这也导�
 **注意**：此步骤为非必要操作。也可以直接点击执行。交易前也会显示预估数量。
 
 
-<figure><img src="../../.gitbook/assets/sui-swap3.PNG" alt=""><figcaption></figcaption></figure>
 
 
 框选需要兑换的代币后
