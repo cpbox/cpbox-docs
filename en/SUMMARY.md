@@ -35,6 +35,7 @@
   * [Modify Token Permissions](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
   * [Add Liquidity to Pools](sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md)
   * [Bulk Transfers & Airdrops](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
+  * [Bulk Swap](sui-lian-gong-ju/sui-pi-liang-dui-huan.md)
 * [Ton Tools](ton-lian-gong-ju/README.md)
   * [Create Tokens with One Click](ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
   * [Token Management Dashboard](ton-lian-gong-ju/ton-dai-bi-guan-li.md)
