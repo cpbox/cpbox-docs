@@ -49,6 +49,7 @@
   * [Bulk Distribution](pi-liang-gong-ju/pi-liang-fa-song.md)
   * [Bulk Query](pi-liang-gong-ju/pi-liang-cha-xun.md)
   * [Bulk Collection](pi-liang-gong-ju/pi-liang-gui-ji.md)
+  * [Bulk Collection](pi-liang-gong-ju/pi-liang-gui-ji-7702.md)
   * [Bulk NFT Distribution](pi-liang-gong-ju/nft-pi-liang-fa-song.md)
   * [Bulk NFT Collection](pi-liang-gong-ju/nft-pi-liang-gui-ji.md)
   * [Bulk Contract Interactions](pi-liang-gong-ju/pi-liang-he-yue-diao-yong.md)
