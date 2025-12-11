@@ -11,7 +11,7 @@
 为了能更好的理解7702协议，今天CPBOX 趁着7702批量归集功能上线，用批量归集的例子来讲讲EIP-7702，能给用户带来哪些好处。我们先来看看普通的批量归集和EIP-7702归集的过程。
 
 
-<figure><img src="../../.gitbook/assets/7702guiji-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7702guiji-2.PNG" alt=""><figcaption></figcaption></figure>
 
 ### 7702归集
 
@@ -19,7 +19,7 @@
 
 如果大家还觉得有点抽象，可以直接看下面的这个图。如果大家对合约授权的内容不理解，可以去看看之前的文章。
 
-<figure><img src="../../.gitbook/assets/7702guiji-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7702guiji-1.PNG" alt=""><figcaption></figcaption></figure>
 
 ## 7702相比传统归集的优势
 
