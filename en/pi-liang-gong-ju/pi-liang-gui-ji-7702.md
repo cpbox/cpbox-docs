@@ -11,7 +11,7 @@ In previous articles CPBOX explained what the EIP-7702 protocol is; often when a
 To better understand the 7702 protocol, and since the 7702 batch collection feature is now live, CPBOX will use the batch collection example to explain EIP-7702 and the benefits it brings to users. First, let's look at the process of traditional batch collection and EIP-7702 collection.
 
 
-<figure><img src="../../.gitbook/assets/7702guiji-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7702guiji-22.png" alt=""><figcaption></figcaption></figure>
 
 ### 7702 Collection
 
@@ -19,7 +19,7 @@ When using the 7702 protocol, you only need to perform contract approvals across
 
 If this still sounds abstract, see the diagram below. If you’re not familiar with contract approvals, please refer to our previous articles.
 
-<figure><img src="../../.gitbook/assets/7702guiji-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7702guiji-11.png" alt=""><figcaption></figcaption></figure>
 
 ## Advantages of 7702 Compared to Traditional Collection
 
