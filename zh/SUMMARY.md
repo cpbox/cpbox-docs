@@ -50,7 +50,6 @@
   * [批量发送](pi-liang-gong-ju/pi-liang-fa-song.md)
   * [批量查询](pi-liang-gong-ju/pi-liang-cha-xun.md)
   * [批量归集](pi-liang-gong-ju/pi-liang-gui-ji.md)
-  * [聚合归集](pi-liang-gong-ju/ju-he-gui-ji.md)
   * [NFT 批量发送](pi-liang-gong-ju/nft-pi-liang-fa-song.md)
   * [NFT 批量归集](pi-liang-gong-ju/nft-pi-liang-gui-ji.md)
   * [批量合约调用](pi-liang-gong-ju/pi-liang-he-yue-diao-yong.md)

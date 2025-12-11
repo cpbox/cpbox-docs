@@ -1,18 +1,12 @@
 ***
 
-## description: One-click safely consolidate tokens and assets scattered across multiple wallets to your main address
 
-# Batch Collection
 
-### Feature Overview
+# Overview
 
-This feature helps you transfer tokens from multiple wallets to a single designated wallet in one batch operation. We support all EVM chains as well as [Solana](https://www.cpbox.io/cn/solana/batch/collection), [SUI](https://www.cpbox.io/cn/sui/batch-collection-token), [TRON](https://www.cpbox.io/cn/tron/batch-collection-token), [TON](https://www.cpbox.io/cn/ton/batch-collection-token), APTOS, BTC, DOGE, Cosmos and other non-EVM architecture chains.
+Aggregated Collection is an upgraded version of batch collection. This feature leverages the EIP-7702 protocol to help you transfer tokens from multiple wallets to a single designated wallet all at once. This feature currently supports BSC and Polygon. Other EVM-related public chains will be gradually opened in the future.
 
-### Aggregated Collection
-
-Aggregated Collection is an upgraded version of batch collection. This feature leverages the EIP-7702 protocol to help you transfer tokens from multiple wallets to a single designated wallet in one batch operation. This feature currently supports **BSC and Polygon only**. Other EVM-related public chains will be gradually opened in the future.
-
-## Advantages of Aggregated Collection
+## Advantages of Aggregated Collection Compared to Traditional Collection
 
 * **No need to store gas fees in wallets** - Only the main wallet needs to pay gas fees uniformly.
 
@@ -24,16 +18,16 @@ Because transfers typically require wallets to reserve extra gas fees to ensure 
 
 * **Faster collection speed**
 
-Only the main wallet needs to pay gas fees uniformly, making the entire process more efficient.
+No need to store gas fees in wallets - only the main wallet needs to pay gas fees uniformly.
 
-### Operating Steps
+## Operating Steps
 
 #### Step 1: Enter the Feature Page
 
 1. Log in to the CPBox platform (<https://www.cpbox.io>)
 2. Find the "[Token Batch Collection](https://www.cpbox.io/cn/batch/collection)" feature in the "Utility Tools" section on the homepage
-
-<figure><img src="../../.gitbook/assets/piliangguiji-0.png" alt=""><figcaption></figcaption></figure>
+3. Select the mainnet for collection, such as BSC
+4. Enter the private key that will pay the gas fees
 
 #### Step 2: Import Wallet Private Keys
 
@@ -41,9 +35,7 @@ Only the main wallet needs to pay gas fees uniformly, making the entire process 
 * You can also batch add wallets by importing files
 * Supports adding multiple source wallets for collection operations
 
-Note: CPBox does not store user private key information. Please properly safeguard your private keys and be cautious when copying and pasting.
-
-<figure><img src="../../.gitbook/assets/piliangguiji-2.png" alt=""><figcaption></figcaption></figure>
+**Note:** CPBox does not store user private key information. Please properly safeguard your private keys and be cautious when copying and pasting.
 
 #### Step 3: Set Transfer Parameters
 
@@ -53,8 +45,6 @@ Choose one of the following transfer methods:
 
 * Set the transfer amount range (minimum and maximum amounts)
 * Set decimal places (e.g., set to 2 to keep 2 decimal places)
-
-<figure><img src="../../.gitbook/assets/piliangguiji-3.png" alt=""><figcaption></figcaption></figure>
 
 **Fixed Amount Transfer**
 

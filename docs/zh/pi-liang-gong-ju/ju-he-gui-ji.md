@@ -1,30 +1,27 @@
 ***
 
-## description: 一键将分散在多个钱包的代币和资产安全归集到主地址
 
-# 批量归集
 
-### 功能概述
+# 概述
 
-本功能可帮助您将多个钱包的代币一次性批量转移至指定的单个钱包中。我们支持所有的EVM链同时还支持[Solana](https://www.cpbox.io/cn/solana/batch/collection), [SUI](https://www.cpbox.io/cn/sui/batch-collection-token), [TRON](https://www.cpbox.io/cn/tron/batch-collection-token), [TON](https://www.cpbox.io/cn/ton/batch-collection-token), APTOS, BTC, DOGE，Cosmos 等非EVM架构链
+&#x20;聚合归集为批量归集的升级版，本功能通过利用EIP-7702协议，帮助您将多个钱包的代币一次性批量转移至指定的单个钱包中。此功能目前仅支持BSC和Polygon。其他EVM相关公链后续会陆续开放。
 
 
 
-### 聚合归集
 
-聚合归集为批量归集的升级版，本功能通过利用EIP-7702协议，帮助您将多个钱包的代币一次性批量转移至指定的单个钱包中。此功能目前仅支持**BSC和Polygon**。其他EVM相关公链后续会陆续开放。
-
-
-
-## 聚合归集优势
+## 聚合归集相比传统归集的优势
 
 * 钱包中无需存放Gas费用，仅需要主钱包统一支付。
 
 对于用户来说，如果不是某条公链的原生代币，可以省去分发gas的这一步骤。这样能够大大的减少了再Gas上的磨损费用。传统归集在归集完代币后，还要把gas也归集回原来的钱包
 
+
+
 * 归集更整洁
 
 因为转账时，为保证交易成功通常钱包会多预留一部分Gas费用，导致传统归集不能保证钱包里的所有代币全部都清空。可能会留存一些代币，导致浪费。 使用聚合归集，大部分代币都可以完全归集。
+
+
 
 * 归集速度更快
 
@@ -32,14 +29,14 @@
 
 
 
-### 操作步骤
+## 操作步骤
 
 #### 第一步：进入功能页面
 
-1. 登录CPBox平台(<https://www.cpbox.io>)
+1. 登录CPBox平台([https://www.cpbox.io](https://www.cpbox.io/))
 2. 在首页的"实用工具"区域找到"[Token批量归集](https://www.cpbox.io/cn/batch/collection)"功能
-
-<figure><img src="../../.gitbook/assets/piliangguiji-0.png" alt=""><figcaption></figcaption></figure>
+3. 选择归集的主网，如BSC
+4. 填写支付gas费用的私钥
 
 #### 第二步：导入钱包私钥
 
@@ -49,8 +46,6 @@
 
 注意：CPBox不会存储用户的私钥信息，请务必妥善保管您的私钥，谨慎进行复制粘贴操作。
 
-<figure><img src="../../.gitbook/assets/piliangguiji-2.png" alt=""><figcaption></figcaption></figure>
-
 #### 第三步：设置转账参数
 
 选择以下转账方式之一：
@@ -59,8 +54,6 @@
 
 * 设置转账金额范围（最低金额和最高金额）
 * 设置小数位数（例：设置为2，则保留2位小数）
-
-<figure><img src="../../.gitbook/assets/piliangguiji-3.png" alt=""><figcaption></figcaption></figure>
 
 **固定金额发送**
 
