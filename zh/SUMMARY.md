@@ -54,6 +54,7 @@
   * [NFT 批量归集](pi-liang-gong-ju/nft-pi-liang-gui-ji.md)
   * [批量合约调用](pi-liang-gong-ju/pi-liang-he-yue-diao-yong.md)
   * [Token 批量授权](pi-liang-gong-ju/token-pi-liang-shou-quan.md)
+  * [IPFS文件上传](pi-liang-gong-ju/ipfs-upload.md)
   * [交易所批量提币](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
   * [Twitter 监控](shi-yong-gong-ju/twitter-jian-kong.md)
   * [余额监控](shi-yong-gong-ju/yuejian-kong.md)
