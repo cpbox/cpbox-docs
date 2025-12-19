@@ -1,10 +1,66 @@
-## 什么是IPFS？
+# IPFS File Upload Feature
 
-IPFS（InterPlanetary File System，星际文件系统）是一种点对点的分布式文件系统，旨在连接所有计算设备，形成一个统一的文件系统。它由Protocol Labs开发，是传统HTTP协议的潜在替代方案。
+## What is IPFS?
 
-说技术一点，它是一个基于分布式哈希表DHT进行内容寻址的，基于git模型版本管理的，基于默克尔对象关联的，基于点对点技术的，基于全球化命名空间IPNS的，基于各种技术的，一种分布式文件系统。
+IPFS (InterPlanetary File System) is a peer-to-peer distributed file system designed to connect all computing devices into a unified file system. It was developed by Protocol Labs and is a potential alternative to the traditional HTTP protocol.
 
-说直白一点，你可以把它认为成去中心化的公开网盘。只要知道路径，你就可以直接访问。
+Technically speaking, it is a distributed file system based on Distributed Hash Table (DHT) for content addressing, Git model for version management, Merkle object associations, peer-to-peer technology, global namespace IPNS, and various other technologies.
 
-## 如何使用
+In simpler terms, you can think of it as a decentralized public cloud drive. As long as you know the path, you can access it directly.
 
+## How to Use
+
+#### Access the IPFS File Upload Tool: [www.cpbox.io/cn/ipfs](http://www.cpbox.io/cn/ipfs)
+
+1. Log in to your CPBox account
+2. Navigate to the "Utilities" menu on the homepage
+3. Select the "IPFS File Upload" feature
+
+#### Upload Files
+
+1. Select the file you want to upload
+2. After uploading the file, click "Upload to Folder"
+
+<figure><img src="../../.gitbook/assets/ipfs-1.png" alt=""><figcaption><p>IPFS Upload</p></figcaption></figure>
+
+#### Get File Path
+
+After successful upload, users can see the file access path after uploading to IPFS. Enter this link into the browser address to access the file normally.
+
+<figure><img src="../../.gitbook/assets/ipfs-2.png" alt=""><figcaption><p>IPFS Upload</p></figcaption></figure>
+
+## IPFS Application Scenarios
+
+* Distributed website hosting
+* Blockchain data storage
+* Large dataset sharing
+* Content permanent archiving
+* Decentralized application (DApps) development
+
+Having said all that, for ordinary players like us, in what scenarios would IPFS be used?
+
+NFT players are definitely the first to know. Because the images for minting NFTs must have data stored on-chain, some tools require you to provide the IPFS access path instead of uploading the image directly. At this time, we need to store the mint images on-chain first.
+
+Secondly, as on-chain players, we can store some data we want to preserve in IPFS. This way, during access, it won't be like traditional centralized servers where if something goes wrong, the original path becomes inaccessible.
+
+### Contact Us
+
+If you want to learn more about other uses and features of CPBOX products
+
+You can click <https://docs.cpbox.io/> to view
+
+Or if you have good suggestions or want to help with development needs
+
+You can find us through the contact information at the bottom of the homepage <https://www.cpbox.io/cn/>
+
+You can also contact us through the social media below
+
+***
+
+### Other Social Media
+
+TG Group: <https://t.me/cpboxio>
+
+Twitter: <https://twitter.com/Web3CryptoBox> | <https://x.com/cpboxio>
+
+Youtube: <https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA>
