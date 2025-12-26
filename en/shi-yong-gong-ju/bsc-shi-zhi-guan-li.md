@@ -1,4 +1,4 @@
-## Forefront
+## Foreword
 
 With the popularity of the BSC chain, more and more meme players are heading to Four.meme to launch coins. If you want to create a startup project, you will definitely need some related tools for substantial management. To address this issue, CPBOX has newly launched the Four.meme Market Cap Management Tool.
 
