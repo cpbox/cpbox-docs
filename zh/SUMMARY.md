@@ -59,6 +59,7 @@
   * [Twitter 监控](shi-yong-gong-ju/twitter-jian-kong.md)
   * [余额监控](shi-yong-gong-ju/yuejian-kong.md)
   * [BSC 批量交易](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
+  * [BSC 市值管理](shi-yong-gong-ju/bsc-shi-zhi-guan-li.md)
   * [Ethereum 交易加速取消](shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.md)
 
 ## 教程与案例
