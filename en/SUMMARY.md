@@ -58,6 +58,7 @@
   * [Twitter Activity Monitor](shi-yong-gong-ju/twitter-jian-kong.md)
   * [Balance Tracker](shi-yong-gong-ju/yuejian-kong.md)
   * [BSC Bulk Trading](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
+  * [BSC Market Cap Management](shi-yong-gong-ju/bsc-shi-zhi-guan-li.md)
   * [Ethereum Transaction Management](shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.md)
 
 ## Tutorials & Case Studies
