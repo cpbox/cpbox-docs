@@ -5,6 +5,7 @@
 ## Getting Started
 
 * [Quick Start](cpbox-dao-hang.md)
+* [service fee ](fu-wu-fei-yong.md)
 * [Beginner's Guide](qi-bu-yin-dao/xiao-bai-ru-men/README.md)
   * [Generate Vanity Addresses](xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.md)
   * [MetaMask Setup Guide for Beginners](xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)

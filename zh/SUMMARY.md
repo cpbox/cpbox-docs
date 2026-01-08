@@ -6,6 +6,7 @@
 ## 起步引导
 
 * [快速开始](cpbox-dao-hang.md)
+* [服务费用](fu-wu-fei-yong.md)
 * [小白入门](qi-bu-yin-dao/xiao-bai-ru-men/README.md)
   * [靓号地址生成](xiao-bai-bi-kan-xi-lie/liang-hao-di-zhi-sheng-cheng.md)
   * [MetaMask小白快速配置](xiao-bai-bi-kan-xi-lie/metamask-xiao-hu-li-zhu-shou.md)
