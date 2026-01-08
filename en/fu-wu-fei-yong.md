@@ -4,6 +4,7 @@
 * BSC Chain: 0.005 BNB per transaction
 * Sui Chain: Within 100 addresses: 1 SUI; Over 100 addresses: additional 0.1 SUI per address
 * SOL Chain: 0.008 SOL per transaction (**New addresses that have never received SOL need an additional ~0.001 SOL for rent exemption**)
+* Ton Chain: 0.5 Ton per transaction
 * Base Chain: 0.005 Base_ETH per transaction
 * Arbitrum Chain: 0.005 Arb_ETH per transaction
 * Zora Chain: 0.005 Zora per transaction
@@ -22,6 +23,7 @@
 * EVM Chain: Free
 * BSC Chain: 0.005 BNB per transaction (this fee is for aggregated collection)
 * Polygon: 15 POL per transaction (this fee is for aggregated collection)
+* Ton: Free
 
 ## EVM Chain Token Issuance
 
@@ -54,9 +56,17 @@
 
 * Create Token: 10 SUI
 * Permission Modification: 5 SUI
-* Batch Collection:
-* Batch Sending: Free 0.01 SUI per address
+* Batch Collection: Free
+* Batch Sending: Within 100 addresses: 1 SUI; Over 100 addresses: additional 0.1 SUI per address
 * Batch Exchange Tokens: 0.15 SUI + 0.03*n SUI (if the number of token types exchanged is 8, n is 8-5=3)
+
+## Ton Chain
+
+* Create Token: 5 Ton
+* Permission Modification: 1 Ton
+* Token Mint: 1 Ton
+* Token Burn: 1 Ton
+* Permission Discard: 1 Ton
 
 ## Membership Services
 
