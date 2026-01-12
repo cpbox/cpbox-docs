@@ -32,6 +32,9 @@
   * [Pump 市值管理](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
   * [Raydium添加流动性——稳定池创建](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
+* [Bsc 工具](bsc-gong-ju/README.md)
+  * [BSC 批量交易](bsc-gong-ju/bsc-pi-liang-jiao-yi.md)
+  * [BSC 市值管理](bsc-gong-ju/bsc-shi-zhi-guan-li.md)
 * [Sui 工具](sui-lian-gong-ju/README.md)
   * [Sui 一键发币](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
   * [Sui 代币权限修改](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
@@ -58,9 +61,7 @@
   * [IPFS文件上传](shi-yong-gong-ju/ipfs-upload.md)
   * [交易所批量提币](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
   * [Twitter 监控](shi-yong-gong-ju/twitter-jian-kong.md)
-  * [余额监控](shi-yong-gong-ju/yuejian-kong.md)
-  * [BSC 批量交易](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
-  * [BSC 市值管理](shi-yong-gong-ju/bsc-shi-zhi-guan-li.md)
+  * [余额监控](shi-yong-gong-ju/yuejian-kong.md)  
   * [Ethereum 交易加速取消](shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.md)
 
 ## 教程与案例

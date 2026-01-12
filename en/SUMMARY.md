@@ -31,6 +31,9 @@
   * [Pump Market Cap Management](solana-gong-ju/pump-shi-zhi-guan-li.md)
   * [Add Liquidity to PumpSwap](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
   * [Create Stable Pools on Raydium](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
+* [BSC Tools](bsc-gong-ju/README.md)
+  * [BSC Bulk Trading](bsc-gong-ju/bsc-pi-liang-jiao-yi.md)
+  * [BSC Market Cap Management](bsc-gong-ju/bsc-shi-zhi-guan-li.md)
 * [Sui Tools](sui-lian-gong-ju/README.md)
   * [Create Tokens with One Click](sui-lian-gong-ju/sui-yi-jian-fa-bi.md)
   * [Modify Token Permissions](sui-lian-gong-ju/sui-dai-bi-quan-xian-xiu-gai.md)
@@ -58,8 +61,6 @@
   * [Bulk Exchange Withdrawals](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
   * [Twitter Activity Monitor](shi-yong-gong-ju/twitter-jian-kong.md)
   * [Balance Tracker](shi-yong-gong-ju/yuejian-kong.md)
-  * [BSC Bulk Trading](shi-yong-gong-ju/bsc-pi-liang-jiao-yi.md)
-  * [BSC Market Cap Management](shi-yong-gong-ju/bsc-shi-zhi-guan-li.md)
   * [Ethereum Transaction Management](shi-yong-gong-ju/ethereum-jiao-yi-jia-su-qu-xiao.md)
 
 ## Tutorials & Case Studies
