@@ -4,7 +4,7 @@ description: 支持FourMeme平台，支持上千钱包一键拉盘砸盘
 
 # BSC 批量交易
 
-### 固定功能概述
+### 功能概述
 
 CPBOX.io为您带来强大的[BSC(币安智能链)批量交易](https://www.cpbox.io/cn/bsc/batch/trade)功能，让您的加密资产管理更加高效、便捷。
 
