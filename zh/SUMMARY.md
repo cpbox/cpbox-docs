@@ -33,6 +33,7 @@
   * [PumpSwap流动性添加](lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
   * [Raydium添加流动性——稳定池创建](lian-gong-ju/solana-gong-ju/raydium-tian-jia-liu-dong-xing-wen-ding-chi-chuang-jian.md)
 * [Bsc 工具](bsc-gong-ju/README.md)
+  * [Fourmeme 开盘合并买入](bsc-gong-ju/fourmeme-kun-bang-fa-bi.md)
   * [BSC 批量交易](bsc-gong-ju/bsc-pi-liang-jiao-yi.md)
   * [BSC 市值管理](bsc-gong-ju/bsc-shi-zhi-guan-li.md)
 * [Sui 工具](sui-lian-gong-ju/README.md)
