@@ -1,4 +1,4 @@
-## https前言
+## 前言
 
 随着一级市场行情回暖，再加上何一和CZ不断的在奶Fourmeme。中文meme代币成为了Bsc链的主流玩法。越来越多的DEV都在Fourmeme上发射MEME代币。但很多新手都不知道怎么样才能在Fourmeme开盘成功，CPBOX将通过Fourmeme捆绑买入及监听卖出功能为例，为大家讲解一下玩法
 
