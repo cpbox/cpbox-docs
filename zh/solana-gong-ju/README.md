@@ -8,7 +8,7 @@ description: Solana玩法须知
 
 如果你还没有发过Token代币，可以先阅读这边文章&#x20;
 
-{% content-ref url="../../zh/qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
 发币从入门到跑路——全网最真诚的区块链发币指南
 {% endcontent-ref %}
 
