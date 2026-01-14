@@ -8,8 +8,8 @@ description: Solana玩法须知
 
 如果你还没有发过Token代币，可以先阅读这边文章&#x20;
 
-{% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
-[fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+{% content-ref url="../../zh/qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+发币从入门到跑路——全网最真诚的区块链发币指南
 {% endcontent-ref %}
 
 **发币后应该要做什么**
@@ -23,7 +23,7 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 如果你不会写代码，想在SOL链上发币，可以参考这篇文章
 
 {% content-ref url="./solana-yi-jian-fa-bi.md" %}
-[solana-yi-jian-fa-bi.md](./solana-yi-jian-fa-bi.md)
+Solana 一键发币
 {% endcontent-ref %}
 
 如果你不会添加流动性，可以参考这篇文章
@@ -41,7 +41,7 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 如果你不知道怎么使用pump开盘绑定买入功能，你可以参考下面这篇文章
 
 {% content-ref url="./pump-kai-pan-he-bing-mai-ru.md" %}
-[pump-kai-pan-he-bing-mai-ru.md](./pump-kai-pan-he-bing-mai-ru.md)
+Pump 开盘合并买入
 {% endcontent-ref %}
 
 ***
@@ -53,7 +53,7 @@ Solana上发币就像开奶茶店——门槛低，但竞争激烈。你要么�
 当然光画饼是不行的，你还得时不时的给社区发一下代币的空投。如果你不知道怎么给你社群的幸运用户**发送空投**，你可以参考下面这篇文章。
 
 {% content-ref url="../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md" %}
-[meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md](../shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
+Meme 社区空投案例
 {% endcontent-ref %}
 
 ***
