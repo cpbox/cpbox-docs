@@ -67,7 +67,7 @@ _通过CPBox的Solana一键发币工具，您可以在几分钟内完成代币�
 如果你不会再Dex上添加流动性，可以阅读这篇文章：
 
 {% content-ref url="../lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md" %}
-[pumpswap-liu-dong-xing-tian-jia.md](../lian-gong-ju/solana-gong-ju/pumpswap-liu-dong-xing-tian-jia.md)
+pumpswap流动性添加教程
 {% endcontent-ref %}
 
 ***
