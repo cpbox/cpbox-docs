@@ -66,7 +66,7 @@ description: 发送空投，使用CPBOX的批量发送功能，省时又省力
 
 如果想要更多的了解CPBOX这个产品的其他用途和功能
 
-可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/cn/?_s=docs)
+可以点击[ https://docs.cpbox.io/](https://docs.cpbox.io/zh/?_s=docs)
 
 或者你有一些好的建议或者想要帮助开发的需求
 

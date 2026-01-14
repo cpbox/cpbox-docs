@@ -10,16 +10,16 @@ description: Ton相关工具
 
 可以阅读这篇文章
 
-{% content-ref url="../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
-[fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md](../../qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md)
+{% content-ref url="../../zh/qi-bu-yin-dao/xiao-bai-ru-men/fa-bi-cong-ru-men-dao-pao-lu-quan-wang-zui-zhen-cheng-de-qu-kuai-lian-fa-bi-zhi-nan.md" %}
+发币入门——全网最真诚的区块链发币指南
 {% endcontent-ref %}
 
 如果你想通过CPBox来创建属于自己的Ton链代币
 
 可以阅读下方教程
 
-{% content-ref url="../../ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md" %}
-[ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md](../../ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md)
+{% content-ref url="../../zh/ton-lian-gong-ju/ton-lian-yi-jian-fa-bi-0-dai-ma-fa-bi.md" %}
+Ton 一键发币
 {% endcontent-ref %}
 
 ***

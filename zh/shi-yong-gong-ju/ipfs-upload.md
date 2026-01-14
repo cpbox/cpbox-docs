@@ -10,7 +10,7 @@ IPFS（InterPlanetary File System，星际文件系统）是一种点对点的�
 
 ## 如何使用
 
-#### 访问IPFS文件上传工具：[www.cpbox.io/cn/ipfs](http://www.cpbox.io/cn/ipfs)
+#### 访问IPFS文件上传工具：[www.cpbox.io/cn/ipfs](https://www.cpbox.io/cn/ipfs)
 
 1. 登录您的CPBox账户
 2. 在首页导航至"实用工具"菜单

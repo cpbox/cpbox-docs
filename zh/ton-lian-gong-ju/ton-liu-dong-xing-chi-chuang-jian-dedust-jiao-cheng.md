@@ -95,8 +95,8 @@ ok，DeDust的教程到这里就结束了，大家也可以通过LP来进行一�
 
 如果大家不清楚流动性池的原理可以查看这篇文章
 
-{% content-ref url="../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
-[shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md](../../en/qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md)
+{% content-ref url="../qi-bu-yin-dao/xiao-bai-ru-men/shen-me-shi-liu-dong-xing-zi-jin-chi-amm-liu-dong-xing-wa-kuang.md" %}
+什么是流动性资金池、AMM、流动性挖矿
 {% endcontent-ref %}
 
 ***

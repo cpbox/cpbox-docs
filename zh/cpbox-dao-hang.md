@@ -38,7 +38,7 @@ description: cpbox工具大全导航
 
 ### SOLANA一键发币
 
-[Solana一键发币](https://docs.cpbox.io/solana-gong-ju/solana-yi-jian-fa-bi.html)：全网最丝滑的Solana一键发币平台｜[查看教程](solana-gong-ju/solana-yi-jian-fa-bi.md)
+[Solana一键发币](https://docs.cpbox.io/zh/solana-gong-ju/solana-yi-jian-fa-bi.html)：全网最丝滑的Solana一键发币平台｜[查看教程](solana-gong-ju/solana-yi-jian-fa-bi.md)
 
 [Solana批量转账](https://www.cpbox.io/cn/solana/batch/send)：Solana批量转账/空投代币、以及Sol本币｜[查看教程](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
