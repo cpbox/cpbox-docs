@@ -73,7 +73,8 @@ deposit就是质押的意思，进来后我们能看到中间有三个选项
 如果你觉的本篇的加池子不是很清楚，可以参考Sui链或者Ton链的加池子教程。
 
 {% content-ref url="../../sui-lian-gong-ju/sui-liu-dong-xing-chi-tian-jia.md" %}
-Sui 流动性池添加
+
+Sui流动性添加教程-cetus加池子教程
 {% endcontent-ref %}
 
 ***
