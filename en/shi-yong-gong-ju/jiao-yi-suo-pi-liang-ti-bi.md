@@ -1,89 +1,114 @@
----
-description: >-
-  Securely and conveniently withdraw your digital assets to any blockchain
-  wallet address
----
+***
 
-# Bulk Exchange Withdrawals
+## description: Securely and conveniently withdraw your digital assets to any blockchain wallet address
 
-### Functional Overview
+# Exchange Batch Withdrawal
 
-In the cryptocurrency ecosystem, exchange wallet addresses are often whitelisted by project teams, making bulk withdrawals from exchanges to multiple wallets a critical step in airdrop strategies. Traditional withdrawal processes require repeated verification code inputs, which are time-consuming and tedious. CPBOX's \[Batch Exchange Withdrawals] feature is specifically designed to solve this problem, currently supporting five major exchanges: Binance, OKEx, Bitget, Gate.io, and Bybit, enabling you to efficiently withdraw funds to on-chain addresses in bulk. If you need support for other exchanges, please contact our customer service for customization.
+### Feature Overview
+
+In the cryptocurrency ecosystem, exchange wallet addresses are often whitelisted by project parties, making batch withdrawal from exchanges to multiple wallets a key part of airdrop strategies. The traditional withdrawal process requires repeatedly entering verification codes, which is time-consuming and cumbersome. CPBOX's [Exchange Batch Withdrawal](https://www.cpbox.io/cn/exchange/withdraw?_s=docs) feature is designed to solve this problem, currently supporting five major exchanges: Binance, OKEx, Bitget, Gate.io, and Bybit, allowing you to efficiently batch withdraw to on-chain addresses. If you have needs for other exchanges, you can also contact customer service for customization.
 
 ### Supported Exchanges
 
-CPBOX currently supports batch withdrawals for the following five exchanges:
+CPBOX currently supports batch withdrawal for the following five major exchanges:
 
-1. [**Binance（币安）**](https://binance.com/)
-2. [**OKEx**](https://okx.com/)
-3. [**Bitget**](https://www.bitget.com/)
-4. [**Gate.io**](https://www.gate.io/)
-5. [**Bybit**](https://www.bybit.com/)
+1. **[Binance](https://binance.com/)**
+2. **[OKEx](https://okx.com/)**
+3. **[Bitget](https://www.bitget.com/)**
+4. **[Gate.io](https://www.gate.io/)**
+5. **[Bybit](https://www.bybit.com/)**
 
-### General Workflow
+### General Operation Process
 
-Regardless of which exchange you use, the batch withdrawal process consists of two main parts:
+Regardless of which exchange you use, the basic process for batch withdrawal includes two main parts:
 
-1. Creating an API key with withdrawal permissions on the respective exchange
-2. Configuring batch withdrawal parameters and executing operations on the CPBOX platform
+1. Create an API key in the respective exchange and set withdrawal permissions
+2. Configure batch withdrawal parameters on the CPBOX platform and execute the operation
 
-### Example: OKEx
+### Example with OKEx
 
-#### **Part 1: Creating an API Key**
+#### Part One: Creating an API Key
 
-1. Log in to the OKEx website
-2. Navigate to "My Account" > "API Management"
-3. Click "Create API"
-4. Set an API name and permissions (ensure withdrawal permissions are enabled)
-5. Add IP whitelist (obtained from CPBOX)
-6. Complete verification and save the API Key and Secret Key
+1. Log in to the OKEx official website
+2. Go to "My Account" > "API Management"
+3. Click "Create New API"
+4. Set the API name and permissions (ensure withdrawal permissions are included)
+5. Add IP whitelist (obtain from CPBOX)
 
-<figure><img src="../../.gitbook/assets/cex-withdraw.jpg" alt=""><figcaption><p>你的IP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cex-withdraw.jpg" alt=""><figcaption><p>Your IP</p></figcaption></figure>
 
-#### **Part 2: CPBOX Batch Withdrawal Setup**
+1. Complete verification and save the API Key and Secret Key
 
-1. Log in to CPBOX and select "[Batch Exchange Withdrawals](https://www.cpbox.io/en/exchange/withdraw?_s=docs)"
-2. Choose "OKEx" as the exchange
+#### Part Two: CPBOX Batch Withdrawal Settings
+
+1. Log in to CPBOX, select "[Exchange Batch Withdrawal](https://www.cpbox.io/cn/exchange/withdraw?_s=docs)"
+2. Select "OKEx" exchange
 3. Enter API key information
-4. Fetch and select the asset and network
-5. Import recipient addresses
+4. Obtain and select assets and networks
+5. Import receiving addresses
 6. Set withdrawal parameters
 7. Confirm and submit
 
-### Batch Withdrawal Tips
+### General Tips for Batch Withdrawal
 
-* **API Key Security**: Create dedicated API keys with only necessary withdrawal permissions, and delete them after use
-* **Batch Processing**: For large withdrawals, split into smaller batches to mitigate risks
-* **Address Verification**: Double-check address formats before submitting withdrawals
-* **Network Selection**: Ensure the correct blockchain network is selected to avoid asset loss
-* **Time Intervals**: Set reasonable intervals based on exchange limits
-* **Withdrawal Limits**: Be aware of daily withdrawal limits and plan accordingly
+1. **API Key Security**: Create a dedicated API with only necessary withdrawal permissions, delete it promptly after use
+2. **Batch Operations**: For large withdrawals, it is recommended to proceed in batches to reduce risk
+3. **Address Verification**: Carefully check the address format before withdrawal
+4. **Network Selection**: Ensure the correct blockchain network is selected to avoid asset loss
+5. **Time Intervals**: Set withdrawal intervals reasonably according to exchange restrictions
+6. **Withdrawal Limits**: Understand each exchange's daily withdrawal limits and plan accordingly
 
-With CPBOX's batch withdrawal feature, you can focus on crypto asset strategy rather than tedious withdrawal processes.
+## Custom IP Feature
 
-### Key Advantages
+Major exchanges, to ensure account and fund security, usually set an **IP Whitelist** for **API Withdrawal**: Only requests from specified IPs are accepted.
 
-CPBOX's Batch Exchange Withdrawals feature provides significant convenience for multi-wallet management, offering:
+CPBOX's Exchange Batch Withdrawal accesses exchanges through custom IPs, and you will see the **Current Withdrawal Exit IP** on the page (used to configure the whitelist in the exchange backend). By default, the exit IP is bound to the **Data Center**; different users have different needs for **Compliance, Latency, Exchange Policies**, and a single region may not satisfy everyone, hence the need for custom IPs.
 
-* **Multi-Exchange Support**: Covers five major exchanges to meet diverse needs
-* **Efficiency**: Saves substantial time compared to manual withdrawals
-* **Flexible Configuration**: Customize withdrawal amounts, intervals, and other parameters
-* **Bulk Management**: Supports batch address imports for large-scale operations
-* **User-Friendly**: Intuitive interface with clear workflows
+| Scenario | Description |
+| :------- | :---------- |
+| Exchange Policies and Regional Restrictions | Some exchanges have different API or withdrawal policies for specific regions, requiring the exit IP to fall within acceptable areas. |
+| Compliance and Risk Control Requirements | Teams or institutions have clear requirements for data egress and access sources, needing consistency with business locations or agreed regions. |
+| Network and Stability | Desire for the exit to be closer to the target exchange or common routes to reduce anomalies or latency (subject to actual support). |
+| Multi-Account / Multi-Strategy Isolation | Different sub-businesses want to use different IP exits for easier IP management in exchanges. |
+
+* The custom entry **is only displayed for users with Exchange Batch Withdrawal VIP permissions** (account needs to activate corresponding VIP capabilities).
+* For non-VIP users, the "Custom IP" button **is not displayed** in the interface; if needed, please learn about VIP activation methods first.
+
+<figure><img src="../../.gitbook/assets/piliangtibi_1.jpg" alt=""><figcaption><p>Batch Withdrawal</p></figcaption></figure>
+
+### How to Use Custom IP
+
+1. **Enter** the in-site **Exchange Batch Withdrawal** page.
+2. In the exchange selection area **top right** (on mobile, it may be below the title line), click the **"Custom IP"** button to open the **"Custom Withdrawal IP"** popup.
+3. Fill in and submit according to the form:
+4. After clicking the "Submit" button, the system will instantly rely on intelligent algorithms and efficient underlying systems for dynamic IP address allocation. Most custom needs will be automatically completed by the system for IP configuration and adaptation, without manual intervention, efficient and worry-free;
+5. If your needs involve special complex scenarios (such as high-security dedicated IP pools, fine-grained deployments across multiple regions, etc.), our dedicated technical consultants will proactively contact you through your provided contact information to confirm details and provide customized configuration support;
+
+<figure><img src="../../.gitbook/assets/piliangtibi_2.jpg" alt=""><figcaption><p>Custom IP</p></figcaption></figure>
+
+### Advantages Summary
+
+CPBOX's Exchange Batch Withdrawal feature provides great convenience for multi-wallet users, with main advantages including:
+
+1. **Multi-Exchange Support**: Covers five major exchanges to meet different user needs
+2. **Efficient and Convenient**: Greatly saves time and effort compared to traditional withdrawal methods
+3. **Flexible Configuration**: Customizable withdrawal amounts, time intervals, etc.
+4. **Batch Management**: Supports batch import of addresses, suitable for large-scale withdrawal needs
+5. **User-Friendly**: Simple and clear interface, easy-to-understand process
+
+Through CPBOX's batch withdrawal feature, you can focus more on cryptocurrency strategy deployment without wasting time on cumbersome withdrawal operations.
 
 ***
 
-### **Contact Us**
-
-Contact Us
+### Contact Us
 
 If you want to learn more about other uses and features of CPBOX products
 
-You can visit [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs) to learn more
+You can click [https://docs.cpbox.io/](https://docs.cpbox.io/?_s=docs) to view
 
-Or if you have good suggestions or development needs
+Or if you have good suggestions or want to help with development needs
 
-You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/en/?_s=docs)
+You can find us through the contact information at the bottom of the homepage [https://www.cpbox.io/](https://www.cpbox.io/cn/?_s=docs)
 
 You can also contact us through the social media below
 
@@ -91,8 +116,8 @@ You can also contact us through the social media below
 
 ### Other Social Media
 
-TG Group: [https://t.me/cpboxio](https://t.me/cpboxio)
+TG Group: <https://t.me/cpboxio>
 
-Twitter: [https://twitter.com/Web3CryptoBox](https://twitter.com/Web3CryptoBox) | [https://x.com/cpboxio](https://x.com/cpboxio)
+Twitter: <https://twitter.com/Web3CryptoBox> | <https://x.com/cpboxio>
 
-Youtube: [https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA](https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA)
+Youtube: <https://youtube.com/channel/UCDcg1zMH4CHTfuwUpGSU-wA>
