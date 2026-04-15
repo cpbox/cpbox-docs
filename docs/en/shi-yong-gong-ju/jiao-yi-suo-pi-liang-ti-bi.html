@@ -6,7 +6,7 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>Bulk Exchange Withdrawals · CPBox.io</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Securely and conveniently withdraw your digital assets to any blockchain wallet address">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -1201,72 +1201,120 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="bulk-exchange-withdrawals">Bulk Exchange Withdrawals</h1>
-<h3 id="functional-overview">Functional Overview</h3>
-<p>In the cryptocurrency ecosystem, exchange wallet addresses are often whitelisted by project teams, making bulk withdrawals from exchanges to multiple wallets a critical step in airdrop strategies. Traditional withdrawal processes require repeated verification code inputs, which are time-consuming and tedious. CPBOX&apos;s [Batch Exchange Withdrawals] feature is specifically designed to solve this problem, currently supporting five major exchanges: Binance, OKEx, Bitget, Gate.io, and Bybit, enabling you to efficiently withdraw funds to on-chain addresses in bulk. If you need support for other exchanges, please contact our customer service for customization.</p>
+                                <hr>
+<h2 id="description-securely-and-conveniently-withdraw-your-digital-assets-to-any-blockchain-wallet-address">description: Securely and conveniently withdraw your digital assets to any blockchain wallet address</h2>
+<h1 id="exchange-batch-withdrawal">Exchange Batch Withdrawal</h1>
+<h3 id="feature-overview">Feature Overview</h3>
+<p>In the cryptocurrency ecosystem, exchange wallet addresses are often whitelisted by project parties, making batch withdrawal from exchanges to multiple wallets a key part of airdrop strategies. The traditional withdrawal process requires repeatedly entering verification codes, which is time-consuming and cumbersome. CPBOX&apos;s <a href="https://www.cpbox.io/cn/exchange/withdraw?_s=docs" target="_blank">Exchange Batch Withdrawal</a> feature is designed to solve this problem, currently supporting five major exchanges: Binance, OKEx, Bitget, Gate.io, and Bybit, allowing you to efficiently batch withdraw to on-chain addresses. If you have needs for other exchanges, you can also contact customer service for customization.</p>
 <h3 id="supported-exchanges">Supported Exchanges</h3>
-<p>CPBOX currently supports batch withdrawals for the following five exchanges:</p>
+<p>CPBOX currently supports batch withdrawal for the following five major exchanges:</p>
 <ol>
-<li><a href="https://binance.com/" target="_blank"><strong>Binance&#xFF08;&#x5E01;&#x5B89;&#xFF09;</strong></a></li>
-<li><a href="https://okx.com/" target="_blank"><strong>OKEx</strong></a></li>
-<li><a href="https://www.bitget.com/" target="_blank"><strong>Bitget</strong></a></li>
-<li><a href="https://www.gate.io/" target="_blank"><strong>Gate.io</strong></a></li>
-<li><a href="https://www.bybit.com/" target="_blank"><strong>Bybit</strong></a></li>
+<li><strong><a href="https://binance.com/" target="_blank">Binance</a></strong></li>
+<li><strong><a href="https://okx.com/" target="_blank">OKEx</a></strong></li>
+<li><strong><a href="https://www.bitget.com/" target="_blank">Bitget</a></strong></li>
+<li><strong><a href="https://www.gate.io/" target="_blank">Gate.io</a></strong></li>
+<li><strong><a href="https://www.bybit.com/" target="_blank">Bybit</a></strong></li>
 </ol>
-<h3 id="general-workflow">General Workflow</h3>
-<p>Regardless of which exchange you use, the batch withdrawal process consists of two main parts:</p>
+<h3 id="general-operation-process">General Operation Process</h3>
+<p>Regardless of which exchange you use, the basic process for batch withdrawal includes two main parts:</p>
 <ol>
-<li>Creating an API key with withdrawal permissions on the respective exchange</li>
-<li>Configuring batch withdrawal parameters and executing operations on the CPBOX platform</li>
+<li>Create an API key in the respective exchange and set withdrawal permissions</li>
+<li>Configure batch withdrawal parameters on the CPBOX platform and execute the operation</li>
 </ol>
-<h3 id="example-okex">Example: OKEx</h3>
-<h4 id="part-1-creating-an-api-key"><strong>Part 1: Creating an API Key</strong></h4>
+<h3 id="example-with-okex">Example with OKEx</h3>
+<h4 id="part-one-creating-an-api-key">Part One: Creating an API Key</h4>
 <ol>
-<li>Log in to the OKEx website</li>
-<li>Navigate to &quot;My Account&quot; &gt; &quot;API Management&quot;</li>
-<li>Click &quot;Create API&quot;</li>
-<li>Set an API name and permissions (ensure withdrawal permissions are enabled)</li>
-<li>Add IP whitelist (obtained from CPBOX)</li>
+<li>Log in to the OKEx official website</li>
+<li>Go to &quot;My Account&quot; &gt; &quot;API Management&quot;</li>
+<li>Click &quot;Create New API&quot;</li>
+<li>Set the API name and permissions (ensure withdrawal permissions are included)</li>
+<li>Add IP whitelist (obtain from CPBOX)</li>
+</ol>
+<figure><img src="../../gitbook/assets/cex-withdraw.jpg" alt=""><figcaption><p>Your IP</p></figcaption></figure>
+
+<ol>
 <li>Complete verification and save the API Key and Secret Key</li>
 </ol>
-<figure><img src="../../gitbook/assets/cex-withdraw.jpg" alt=""><figcaption><p>&#x4F60;&#x7684;IP</p></figcaption></figure>
-
-<h4 id="part-2-cpbox-batch-withdrawal-setup"><strong>Part 2: CPBOX Batch Withdrawal Setup</strong></h4>
+<h4 id="part-two-cpbox-batch-withdrawal-settings">Part Two: CPBOX Batch Withdrawal Settings</h4>
 <ol>
-<li>Log in to CPBOX and select &quot;<a href="https://www.cpbox.io/en/exchange/withdraw?_s=docs" target="_blank">Batch Exchange Withdrawals</a>&quot;</li>
-<li>Choose &quot;OKEx&quot; as the exchange</li>
+<li>Log in to CPBOX, select &quot;<a href="https://www.cpbox.io/cn/exchange/withdraw?_s=docs" target="_blank">Exchange Batch Withdrawal</a>&quot;</li>
+<li>Select &quot;OKEx&quot; exchange</li>
 <li>Enter API key information</li>
-<li>Fetch and select the asset and network</li>
-<li>Import recipient addresses</li>
+<li>Obtain and select assets and networks</li>
+<li>Import receiving addresses</li>
 <li>Set withdrawal parameters</li>
 <li>Confirm and submit</li>
 </ol>
-<h3 id="batch-withdrawal-tips">Batch Withdrawal Tips</h3>
-<ul>
-<li><strong>API Key Security</strong>: Create dedicated API keys with only necessary withdrawal permissions, and delete them after use</li>
-<li><strong>Batch Processing</strong>: For large withdrawals, split into smaller batches to mitigate risks</li>
-<li><strong>Address Verification</strong>: Double-check address formats before submitting withdrawals</li>
+<h3 id="general-tips-for-batch-withdrawal">General Tips for Batch Withdrawal</h3>
+<ol>
+<li><strong>API Key Security</strong>: Create a dedicated API with only necessary withdrawal permissions, delete it promptly after use</li>
+<li><strong>Batch Operations</strong>: For large withdrawals, it is recommended to proceed in batches to reduce risk</li>
+<li><strong>Address Verification</strong>: Carefully check the address format before withdrawal</li>
 <li><strong>Network Selection</strong>: Ensure the correct blockchain network is selected to avoid asset loss</li>
-<li><strong>Time Intervals</strong>: Set reasonable intervals based on exchange limits</li>
-<li><strong>Withdrawal Limits</strong>: Be aware of daily withdrawal limits and plan accordingly</li>
-</ul>
-<p>With CPBOX&apos;s batch withdrawal feature, you can focus on crypto asset strategy rather than tedious withdrawal processes.</p>
-<h3 id="key-advantages">Key Advantages</h3>
-<p>CPBOX&apos;s Batch Exchange Withdrawals feature provides significant convenience for multi-wallet management, offering:</p>
+<li><strong>Time Intervals</strong>: Set withdrawal intervals reasonably according to exchange restrictions</li>
+<li><strong>Withdrawal Limits</strong>: Understand each exchange&apos;s daily withdrawal limits and plan accordingly</li>
+</ol>
+<h2 id="custom-ip-feature">Custom IP Feature</h2>
+<p>Major exchanges, to ensure account and fund security, usually set an <strong>IP Whitelist</strong> for <strong>API Withdrawal</strong>: Only requests from specified IPs are accepted.</p>
+<p>CPBOX&apos;s Exchange Batch Withdrawal accesses exchanges through custom IPs, and you will see the <strong>Current Withdrawal Exit IP</strong> on the page (used to configure the whitelist in the exchange backend). By default, the exit IP is bound to the <strong>Data Center</strong>; different users have different needs for <strong>Compliance, Latency, Exchange Policies</strong>, and a single region may not satisfy everyone, hence the need for custom IPs.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Scenario</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Exchange Policies and Regional Restrictions</td>
+<td style="text-align:left">Some exchanges have different API or withdrawal policies for specific regions, requiring the exit IP to fall within acceptable areas.</td>
+</tr>
+<tr>
+<td style="text-align:left">Compliance and Risk Control Requirements</td>
+<td style="text-align:left">Teams or institutions have clear requirements for data egress and access sources, needing consistency with business locations or agreed regions.</td>
+</tr>
+<tr>
+<td style="text-align:left">Network and Stability</td>
+<td style="text-align:left">Desire for the exit to be closer to the target exchange or common routes to reduce anomalies or latency (subject to actual support).</td>
+</tr>
+<tr>
+<td style="text-align:left">Multi-Account / Multi-Strategy Isolation</td>
+<td style="text-align:left">Different sub-businesses want to use different IP exits for easier IP management in exchanges.</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li><strong>Multi-Exchange Support</strong>: Covers five major exchanges to meet diverse needs</li>
-<li><strong>Efficiency</strong>: Saves substantial time compared to manual withdrawals</li>
-<li><strong>Flexible Configuration</strong>: Customize withdrawal amounts, intervals, and other parameters</li>
-<li><strong>Bulk Management</strong>: Supports batch address imports for large-scale operations</li>
-<li><strong>User-Friendly</strong>: Intuitive interface with clear workflows</li>
+<li>The custom entry <strong>is only displayed for users with Exchange Batch Withdrawal VIP permissions</strong> (account needs to activate corresponding VIP capabilities).</li>
+<li>For non-VIP users, the &quot;Custom IP&quot; button <strong>is not displayed</strong> in the interface; if needed, please learn about VIP activation methods first.</li>
 </ul>
+<figure><img src="../../gitbook/assets/piliangtibi_1.jpg" alt=""><figcaption><p>Batch Withdrawal</p></figcaption></figure>
+
+<h3 id="how-to-use-custom-ip">How to Use Custom IP</h3>
+<ol>
+<li><strong>Enter</strong> the in-site <strong>Exchange Batch Withdrawal</strong> page.</li>
+<li>In the exchange selection area <strong>top right</strong> (on mobile, it may be below the title line), click the <strong>&quot;Custom IP&quot;</strong> button to open the <strong>&quot;Custom Withdrawal IP&quot;</strong> popup.</li>
+<li>Fill in and submit according to the form:</li>
+<li>After clicking the &quot;Submit&quot; button, the system will instantly rely on intelligent algorithms and efficient underlying systems for dynamic IP address allocation. Most custom needs will be automatically completed by the system for IP configuration and adaptation, without manual intervention, efficient and worry-free;</li>
+<li>If your needs involve special complex scenarios (such as high-security dedicated IP pools, fine-grained deployments across multiple regions, etc.), our dedicated technical consultants will proactively contact you through your provided contact information to confirm details and provide customized configuration support;</li>
+</ol>
+<figure><img src="../../gitbook/assets/piliangtibi_2.jpg" alt=""><figcaption><p>Custom IP</p></figcaption></figure>
+
+<h3 id="advantages-summary">Advantages Summary</h3>
+<p>CPBOX&apos;s Exchange Batch Withdrawal feature provides great convenience for multi-wallet users, with main advantages including:</p>
+<ol>
+<li><strong>Multi-Exchange Support</strong>: Covers five major exchanges to meet different user needs</li>
+<li><strong>Efficient and Convenient</strong>: Greatly saves time and effort compared to traditional withdrawal methods</li>
+<li><strong>Flexible Configuration</strong>: Customizable withdrawal amounts, time intervals, etc.</li>
+<li><strong>Batch Management</strong>: Supports batch import of addresses, suitable for large-scale withdrawal needs</li>
+<li><strong>User-Friendly</strong>: Simple and clear interface, easy-to-understand process</li>
+</ol>
+<p>Through CPBOX&apos;s batch withdrawal feature, you can focus more on cryptocurrency strategy deployment without wasting time on cumbersome withdrawal operations.</p>
 <hr>
-<h3 id="contact-us"><strong>Contact Us</strong></h3>
-<p>Contact Us</p>
+<h3 id="contact-us">Contact Us</h3>
 <p>If you want to learn more about other uses and features of CPBOX products</p>
-<p>You can visit <a href="https://docs.cpbox.io/?_s=docs" target="_blank">https://docs.cpbox.io/</a> to learn more</p>
-<p>Or if you have good suggestions or development needs</p>
-<p>You can find us through the contact information at the bottom of the homepage <a href="https://www.cpbox.io/en/?_s=docs" target="_blank">https://www.cpbox.io/</a></p>
+<p>You can click <a href="https://docs.cpbox.io/?_s=docs" target="_blank">https://docs.cpbox.io/</a> to view</p>
+<p>Or if you have good suggestions or want to help with development needs</p>
+<p>You can find us through the contact information at the bottom of the homepage <a href="https://www.cpbox.io/cn/?_s=docs" target="_blank">https://www.cpbox.io/</a></p>
 <p>You can also contact us through the social media below</p>
 <hr>
 <h3 id="other-social-media">Other Social Media</h3>
@@ -1316,7 +1364,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"Securely and conveniently withdraw your digital assets to any blockchain wallet address","title":"Bulk Exchange Withdrawals","level":"4.1.9","depth":2,"next":{"title":"Twitter Activity Monitor","level":"4.1.10","depth":2,"path":"shi-yong-gong-ju/twitter-jian-kong.md","ref":"shi-yong-gong-ju/twitter-jian-kong.md","articles":[]},"previous":{"title":"IPFS File Upload","level":"4.1.8","depth":2,"path":"shi-yong-gong-ju/ipfs-upload.md","ref":"shi-yong-gong-ju/ipfs-upload.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md","mtime":"2025-06-03T13:27:54.185Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-01-16T02:10:10.702Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Bulk Exchange Withdrawals","level":"4.1.9","depth":2,"next":{"title":"Twitter Activity Monitor","level":"4.1.10","depth":2,"path":"shi-yong-gong-ju/twitter-jian-kong.md","ref":"shi-yong-gong-ju/twitter-jian-kong.md","articles":[]},"previous":{"title":"IPFS File Upload","level":"4.1.8","depth":2,"path":"shi-yong-gong-ju/ipfs-upload.md","ref":"shi-yong-gong-ju/ipfs-upload.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flexible-alerts","favicon-absolute","sitemap","video-embed","reflinks","github","chart","todo","graph","puml","katex","mermaid-gb3","expandable-chapters","toggle-chapters","chapter-fold","theme-comscore","theme-default","highlight","search","sharing","fontsettings","language-selector"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://gitub.com/cpbox"},"puml":{},"todo":{},"reflinks":{"title":"Reference"},"video-embed":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"favicon-absolute":{"adsense":"ca-pub-7787441319194104","appleTouchIconMore":{},"appleTouchIconPrecomposed152":"./favicon.ico","appleTouchIconPrecomposedMore":{},"favicon":"/favicon.ico"},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"showLevel":false,"showGoTop":true},"language-selector":{"languages":[{"code":"en","name":"English"},{"code":"zh","name":"中文"}],"defaultLanguage":"en","label":{"en":"语言","zh":"Language"}},"sitemap":{"hostname":"https://docs.cpbox.io"},"theme-comscore":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"showSummary":true},"chart":{"type":"c3"},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CPBox.io","language":"en","gitbook":"*"},"file":{"path":"shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md","mtime":"2026-04-15T11:01:20.636Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-04-15T11:01:55.440Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
