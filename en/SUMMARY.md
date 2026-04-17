@@ -59,6 +59,7 @@
   * [Bulk Contract Interactions](pi-liang-gong-ju/pi-liang-he-yue-diao-yong.md)
   * [Bulk Token Approvals](pi-liang-gong-ju/token-pi-liang-shou-quan.md)
   * [IPFS File Upload](shi-yong-gong-ju/ipfs-upload.md)
+  * [Vanity Address Buy](shi-yong-gong-ju/liang-hao-he-yue.md)
   * [Bulk Exchange Withdrawals](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
   * [Twitter Activity Monitor](shi-yong-gong-ju/twitter-jian-kong.md)
   * [Balance Tracker](shi-yong-gong-ju/yuejian-kong.md)
