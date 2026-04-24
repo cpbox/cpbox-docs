@@ -73,12 +73,13 @@
   * [Meme 社区空投案例](shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
   * [合约代码开源](jiao-cheng-yu-an-li/shi-yong-xin-xi/he-yue-dai-ma-kai-yuan.md)
   * [EVM一键发币案例](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/README.md)
-    * [ERC20 代币部署教程](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md)
-    * [LP挖矿推荐奖励的营销代币部署](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
-    * [创建可以Mint,以及燃烧LP的代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md)
-    * [创建分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md)
-    * [创建LP分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.md)
-    * [创建持币分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.md)
+  * [ERC20 代币部署教程](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md)
+  * [LP挖矿推荐奖励的营销代币部署](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
+  * [创建可以Mint,以及燃烧LP的代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md)
+  * [创建分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md)
+  * [创建LP分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.md)
+  * [创建持币分红代币](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.md)
+  * [上传代币头像](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/shang-chuan-dai-bi-tou-xiang.md)
 
 ## 📞 联系我们
 
