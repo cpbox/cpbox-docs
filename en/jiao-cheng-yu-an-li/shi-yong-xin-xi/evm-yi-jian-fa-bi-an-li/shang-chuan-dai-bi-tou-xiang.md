@@ -1,6 +1,6 @@
 ***
 
-### Token Avatar Upload
+# Token Avatar Upload
 
 ## Preface
 
