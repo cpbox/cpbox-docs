@@ -72,12 +72,13 @@
   * [Meme Community Airdrop Success Story](shi-yong-xin-xi/meme-she-qu-jian-she-huo-dong-ru-he-fa-song-kong-tou-fu-li-pi-liang-fa-song-gong-ju.md)
   * [Open Source Contract Code](jiao-cheng-yu-an-li/shi-yong-xin-xi/he-yue-dai-ma-kai-yuan.md)
   * [EVM Token Creation Guide](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/README.md)
-    * [Deploy Standard ERC20 Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md)
-    * [Deploy LP Mining Referral Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
-    * [Create Mintable Tokens with LP Burning](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md)
-    * [Create Dividend-Paying Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md)
-    * [Create LP Dividend Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.md)
-    * [Create Holder Dividend Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.md)
+  * [Deploy Standard ERC20 Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/biao-zhun-erc20-dai-bi-bu-shu.md)
+  * [Deploy LP Mining Referral Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/lp-wa-kuang-tui-jian-jiang-li-de-ying-xiao-dai-bi-bu-shu.md)
+  * [Create Mintable Tokens with LP Burning](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-ke-yi-mint-yi-ji-ran-shao-lp-de-dai-bi.md)
+  * [Create Dividend-Paying Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-fen-hong-dai-bi.md)
+  * [Create LP Dividend Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-lp-fen-hong-dai-bi.md)
+  * [Create Holder Dividend Tokens](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/chuang-jian-chi-bi-fen-hong-dai-bi.md)
+  * [Upload token avatar](jiao-cheng-yu-an-li/shi-yong-xin-xi/evm-yi-jian-fa-bi-an-li/shang-chuan-dai-bi-tou-xiang.md)
 
 ## 📞 Contact Us
 
