@@ -4,51 +4,51 @@
 
 ## Preface
 
-Many people create a standard token on BSC or ETH chain and find that the token has no avatar. They've been searching online for how to upload an avatar for a standard token. Today, I'll explain how to upload one.
+Tokens created on BSC, ETH, or other EVM chains are essentially smart contracts with no predefined "avatar" or "logo" fields in the contract code. Therefore, all the various token icons we see in wallets and decentralized exchanges (DEXs) are independently added and displayed by different platforms (such as blockchain explorers, wallets, CoinMarketCap, etc.) for user experience. This means that to give your token a unique avatar, you need to actively and individually submit applications to these platforms.
 
-The essence of tokens on ETH and other EVM chains is a contract, and there is no logo. All the token logos we see are added by various platforms themselves for convenience in display, improving token credibility, etc.
+It is important to note that token avatars cannot be synchronized to all platforms with a single contract modification—you need to apply for updates on mainstream platforms.
 
-Therefore, if you want your token to display an avatar, you need to apply on the blockchain explorer yourself.
+## Upload Methods
 
-## Note
+* Method One: Upload via mainstream blockchain explorers (Official/Free)
+* Method Two: Upload via DEX aggregation platforms like Dexscreener (Third-party/Paid - Efficient and Affordable)
+* Method Three: Upload via wallet platforms (Higher fees/Complex process)
 
-Many articles suggest applying for avatars on various platforms, but this method is incorrect. Most wallets or DEX token information comes from blockchain explorers and major DEXes. Often, people pretend to help upload token avatars and charge high fees to scam people, so please be cautious!!
-
-Below, I'll explain the specific operation methods.
+Below we introduce the avatar upload methods for several platforms.
 
 ## ETH Chain Token Avatar Upload
 
-1. [Please log in here](https://etherscan.io/myaccount) to your Etherscan account. If you don't have an account, register [here](https://etherscan.io/register) first.
+1. [Please log in here](https://etherscan.io/myaccount) to your Etherscan account. If you don't have an account, [register here](https://etherscan.io/register) first.
 2. After logging in, copy and paste your token contract address into the search bar.
 3. Click on the token you created.
 
 <figure><img src="../../../../.gitbook/assets/upload avatar-1.png" alt=""><figcaption><p>Etherscan upload avatar</p></figcaption></figure>
 
-After entering the token page, select the more button on the right, click "Update Token Info" to update token information.
+After entering the token page, select the "More" button on the right and click "Update Token Info" to update the token information.
 
 <figure><img src="../../../../.gitbook/assets/upload avatar-2.png" alt=""><figcaption><p>Etherscan upload avatar</p></figcaption></figure>
 
 ## Tron Token Avatar Upload
 
-Enter Tronscan, input the token's contract address, and navigate to the token information page.
+Go to Tronscan, enter the token's contract address, and navigate to the token information page.
 
 <figure><img src="../../../../.gitbook/assets/upload avatar-3.png" alt=""><figcaption><p>Tronscan upload avatar</p></figcaption></figure>
 
 ### **Connect the corresponding wallet address**
 
-Connect the wallet address associated with the token issuer. Choose your preferred connection method, then click "Connect".
+Connect the wallet address associated with the token issuer. Select your preferred connection method, then click "Connect".
 
-Note: The linked address needs to be the admin address you used to create the token.
+Note: The connected address must be the admin address you used to create the token.
 
 ### Update Token Information
 
 <figure><img src="../../../../.gitbook/assets/upload avatar-4.png" alt=""><figcaption><p>Tronscan upload avatar</p></figcaption></figure>
 
-After filling in the relevant information, wait for review.
+After filling in the relevant information, wait for approval.
 
 ## DEX Screener Token Avatar Upload - Fastest
 
-DEX Screener token avatar upload applies to most MEME tokens and multi-chain tokens. After updating on DEX Screener, major DEXes will gradually sync the token information.
+DEX Screener token avatar upload is suitable for most MEME tokens and also applies to multi-chain tokens. After updating on DEX Screener, major DEXes will gradually sync the token information.
 
 Note: DEX Screener token information update is paid, requiring a fee of $299.
 
@@ -60,17 +60,38 @@ Click "Order Now" to enter the update token information interface.
 
 <figure><img src="../../../../.gitbook/assets/upload avatar-6.png" alt=""><figcaption><p>DEX Screener upload avatar</p></figcaption></figure>
 
-If you want to learn more about other uses and features of CPBOX products,
 
-You can click <https://docs.cpbox.io/>
 
-Or if you have good suggestions or want to help with development needs,
+## TokenPocket Wallet Upload
 
-You can find us through the contact information at the bottom of the homepage <https://www.cpbox.io/cn/>
+Go to the TokenPocket wallet submission page: https://www.tokenpocket.pro/en/submit/token
+
+Fill in the relevant information and click "Apply".
+
+**Note:** TokenPocket requires a donation of 1000 USDT or USDC to submit a token logo.
+
+For the specific donation process, please refer to the official documentation: https://help.tokenpocket.pro/en/developer/submit-logo
+
+<figure><img src="../../../../.gitbook/assets/upload avatar-7.png" alt=""><figcaption><p>TokenPocket upload avatar</p></figcaption></figure>
+
+
+## Other Platforms
+
+In addition to the above methods, there are other platforms such as imToken wallet or AVE platform. If you need to upload an avatar, please contact their official customer service.
+
+**Caution: Most third-party methods for uploading avatars are likely scams! Please be careful!**
+
+For more information about CPBOX and its features,
+
+You can visit <https://docs.cpbox.io/>
+
+Or if you have suggestions or development needs,
+
+You can find us through the contact information at the bottom of the homepage <https://www.cpbox.io/>
 
 ***
 
-【Other Social Media】&#x20;
+【Other Social Media】
 
 TG Group: [https://t.me/cpboxio](chuang-jian-chi-bi-fen-hong-dai-bi.md#shen-me-shi-fen-hong-dai-bi)
 
