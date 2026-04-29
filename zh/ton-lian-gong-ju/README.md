@@ -1,5 +1,5 @@
 ---
-description: Ton相关工具
+description: 使用CPBOX实现Ton链发币
 ---
 
 # Ton 工具

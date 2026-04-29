@@ -1,5 +1,5 @@
 ---
-description: 无需编写复杂的智能合约代码，在Solana上一键创建需要的代币
+description: 无需编写复杂的智能合约代码，使用CPBOX一键创建Solana代币
 ---
 
 # Solana 一键发币

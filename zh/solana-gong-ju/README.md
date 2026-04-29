@@ -4,6 +4,8 @@ description: Solana玩法须知
 
 # Solana 工具
 
+不会写代码，如何使用CPBOX实现Solana链一键发币？
+
 本篇涵盖Sol链的多个批量工具和发币工具教程
 
 如果你还没有发过Token代币，可以先阅读这边文章&#x20;

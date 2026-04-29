@@ -1,3 +1,7 @@
+---
+description: 使用CPBOX快速批量创建solana钱包地址｜快速创建sol操盘地址
+---
+
 # Solana钱包批量创建
 
 ### 前言

@@ -52,8 +52,8 @@
 ## 批量与监控工具
 
 * [工具总览](pi-liang-yu-jian-kong-gong-ju/gong-ju-zong-lan/README.md)
-  * [批量发送](pi-liang-gong-ju/pi-liang-fa-song.md)
-  * [批量查询](pi-liang-gong-ju/pi-liang-cha-xun.md)
+  * [批量发送代币](pi-liang-gong-ju/pi-liang-fa-song.md)
+  * [批量查询代币余额](pi-liang-gong-ju/pi-liang-cha-xun.md)
   * [批量归集](pi-liang-gong-ju/pi-liang-gui-ji.md)
   * [NFT 批量发送](pi-liang-gong-ju/nft-pi-liang-fa-song.md)
   * [NFT 批量归集](pi-liang-gong-ju/nft-pi-liang-gui-ji.md)

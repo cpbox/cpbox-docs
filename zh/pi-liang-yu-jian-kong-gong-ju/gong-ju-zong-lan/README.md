@@ -1,5 +1,5 @@
 ---
-description: 批量工具总览
+description: CPBOX批量工具总览
 ---
 
 # 工具总览

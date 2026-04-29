@@ -1,5 +1,5 @@
 ---
-description: 专业优化您的DEX流动性池和BMM做市策略
+description: 使用CPBOX优化您的DEX流动性池和BMM做市策略
 ---
 
 # Pump 市值管理
