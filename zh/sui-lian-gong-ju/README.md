@@ -1,5 +1,5 @@
 ---
-description: Sui相关工具
+description: 使用CPBOX创建Sui链代币
 ---
 
 # Sui 工具

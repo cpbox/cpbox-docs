@@ -1,5 +1,5 @@
 ---
-description: 专业web3批量工具、发币平台
+description: CPBOX一键发币，最专业web3批量工具
 cover: https://gitbookio.github.io/onboarding-template-images/header.png
 coverY: 0
 layout:
@@ -20,7 +20,7 @@ layout:
 
 # 🏠 CPBOX介绍
 
-### 平台概述
+### CPBOX是什么
 
 CPBOX是业内领先的Web3.0多链工具平台，致力于通过全可视化界面简化区块链操作，让用户无需编程即可安全、轻松地完成发币、流动性管理等复杂过程。我们目前已支持Ethereum、BSC、Solana、TRON、BASE、SUI、TON等数十个主流区块链网络，为Web3生态用户提供全方位的实用工具。
 
@@ -28,8 +28,8 @@ CPBOX是业内领先的Web3.0多链工具平台，致力于通过全可视化界
 
 ### 核心功能
 
-* **代币创建与管理**：一键发币、代币更新、燃烧与回收，支持多种token标准
-* **批量操作工具**：批量转账、批量归集、批量查询，提升资产管理效率
+* **代币创建与管理**：CPBOX一键发币、代币更新、燃烧与回收，支持多种token标准
+* **批量操作工具**：代币批量转账、代币批量归集、代币余额批量查询，提升资产管理效率
 * **市值管理**：基于DEX的流动性管理与交易优化，智能监控与自动化交易策略
 * **链特定功能**：如Solana链特有的租金回收、Ethereum的ERC系列代币管理、BSC的BEP系列代币操作等专业功能
 

@@ -16,7 +16,7 @@ description: cpbox工具大全导航
 
 [交易所批量提币](https://www.cpbox.io/cn/exchange/withdraw)：批零提币，防女巫检测 ｜[查看教程](shi-yong-gong-ju/jiao-yi-suo-pi-liang-ti-bi.md)
 
-[批量归集](https://www.cpbox.io/cn/batch/collection)：快速整理钱包余额｜[查看教程](pi-liang-gong-ju/pi-liang-gui-ji.md)
+[钱包批量归集](https://www.cpbox.io/cn/batch/collection)：快速整理钱包余额｜[查看教程](pi-liang-gong-ju/pi-liang-gui-ji.md)
 
 [批量地址余额查询](https://www.cpbox.io/cn/batch/check-balance)：快速查询，确认钱包收获｜[查看教程](pi-liang-gong-ju/pi-liang-cha-xun.md)
 
@@ -28,13 +28,13 @@ description: cpbox工具大全导航
 
 ### 批量转账（空投）
 
-[EVM链批量发送教程](https://www.cpbox.io/cn/batch/send-token)：批量发送，快速实现多钱包买入卖出｜[查看教程](pi-liang-gong-ju/pi-liang-fa-song.md)
+[EVM链发送空投教程](https://www.cpbox.io/cn/batch/send-token)：代币批量发送，代币批量转账，快速实现多钱包买入卖出｜[查看教程](pi-liang-gong-ju/pi-liang-fa-song.md)
 
-[Solana链批量发送教程](https://www.cpbox.io/cn/solana/batch/send)：实现Sol链快速转账或发送MEME空投｜[查看教程](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+[Solana链批量转账教程](https://www.cpbox.io/cn/solana/batch/send)：实现Sol链快速转账或发送MEME空投｜[查看教程](lian-gong-ju/solana-gong-ju/solana-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[Ton链批量发送教程](https://www.cpbox.io/cn/ton/batch-send-token)：实现Tonl链快速转账或发送代币空投｜[查看教程](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
+[Ton链批量转账教程](https://www.cpbox.io/cn/ton/batch-send-token)：实现Tonl链快速转账或发送代币空投｜[查看教程](lian-gong-ju/ton-gong-ju/ton-pi-liang-zhuan-zhang-kong-tou-fa-song.md)
 
-[Sui链批量发送教程](https://www.cpbox.io/cn/sui/batch-send-token)：实现Sui链快速转账或发送代币空投｜[查看教程](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
+[Sui链批量转账教程](https://www.cpbox.io/cn/sui/batch-send-token)：实现Sui链快速转账或发送代币空投｜[查看教程](lian-gong-ju/sui-gong-ju/sui-pi-liang-fa-song-kong-tou-fa-song.md)
 
 ### SOLANA一键发币
 

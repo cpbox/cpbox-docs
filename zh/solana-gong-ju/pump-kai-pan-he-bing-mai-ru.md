@@ -1,5 +1,5 @@
 ---
-description: 便捷创建和管理您的Solana代币Pump交易策略，消除pump狙击烦恼
+description: 使用CPBOX创建和管理您的Solana代币Pump交易策略，消除pump狙击烦恼
 ---
 
 # Pump 开盘合并买入

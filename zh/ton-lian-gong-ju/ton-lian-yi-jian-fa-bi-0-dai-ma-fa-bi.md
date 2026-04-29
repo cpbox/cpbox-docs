@@ -1,5 +1,5 @@
 ---
-description: 一键创建Ton链token
+description: CPBOX一键创建Ton链token｜TON链发币教程
 ---
 
 # Ton 一键发币

@@ -1,5 +1,5 @@
 ---
-description: 0代码sui公链发币，小白也可以。Sui一键发币教程
+description: CPBOX0一键sui链发币，小白也可以。Sui一键发币教程
 ---
 
 # Sui 一键发币

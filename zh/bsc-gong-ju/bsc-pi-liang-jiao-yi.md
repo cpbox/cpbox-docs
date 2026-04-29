@@ -1,5 +1,5 @@
 ---
-description: 支持FourMeme平台，支持上千钱包一键拉盘砸盘
+description: 使用CPBOX快速买入卖出BSC代币，轻松实现代币操盘
 ---
 
 # BSC 批量交易
